@@ -41,20 +41,20 @@ $(document)
 
         //convert below to use spreadsheets
 
-        var urlalgoexplorerunused00 = 'https://github.com/algotables/algotables.github.io/ajax/data/arrays.txt';
+        var urlalgoexplorerunused00 = 'https://algotables.github.io/ajax/data/arrays.txt';
 
         getJSON(urlalgoexplorerunused00, /*async*/ async function(err, dataunused0) {
             if (err !== null) {
                 return $.getJSON(urlalgoexplorerunused00);
             } else {                
 
-                //const response8888 = await fetch('https://github.com/algotables/algotables.github.io/ajax/data/arrays.txt');
+                //const response8888 = await fetch('https://algotables.github.io/ajax/data/arrays.txt');
                 //const data88888 = await response8888.json();
 
                 var exampleTable8 = $('#example8')
                 .DataTable({
                     /*data: jsObj7,*/
-                    "ajax": 'https://github.com/algotables/algotables.github.io/data/arrays2.txt',
+                    "ajax": 'https://algotables.github.io/ajax/data/arrays2.txt',
                     //data: data88888,
                     //data: data,
                     stateSave: true,
