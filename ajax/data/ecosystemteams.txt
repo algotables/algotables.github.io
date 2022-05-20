@@ -1,0 +1,209 @@
+{
+  "data": 
+        [
+            [
+              "Pax","Somnius","Algoneer","Team","TBD","https://github.com/paxsomnius","https://twitter.com/PSomnius","TBD" ],
+            [
+              "Ivica","Paleka","ASA Stats","Core Developer & Website Administrator","TBD","https://github.com/ipaleka","https://stackoverflow.com/users/11703358/ipaleka","TBD" ],
+            [
+              "John","Clarke","Algofi","Co-Founder","https://www.linkedin.com/in/jaclarke1/","https://github.com/johnclarke96","https://twitter.com/jaclarke__","TBD" ],
+            [
+              "Owen","Colegrove","Algofi","Co-Founder","https://www.linkedin.com/in/owencolegrove/","TBD","https://twitter.com/stblbuild","https://owen-colegrove.medium.com/" ],
+            [
+              "ibu","Karel","Algofi","Community Manager","https://www.linkedin.com/in/ibukarel/","TBD","TBD","TBD" ],
+            [
+              "Paul","Colella","Algofi","Founding Engineer","https://www.linkedin.com/in/paul-colella-b4bb6284/","TBD","TBD","TBD" ],
+            [
+              "Matthew","Lam","Algofi","Product Manager","https://www.linkedin.com/in/matthewlam175/","TBD","TBD","TBD" ],
+            [
+              "Maksim","Ivanov","Algofi","Software Engineer","https://www.linkedin.com/in/maksivanov/","TBD","https://medium.com/@maks.ivanov","TBD" ],
+            [
+              "Brian","Haney","Choice Coin","Co-Founder","TBD","https://github.com/Bhaney44","https://scholar.google.com/citations?user=6_XhYkQAAAAJ&hl=en","TBD" ],
+            [
+              "Scott","Novell","AlgoStake","CEO/Dev/Product","https://www.linkedin.com/in/scottnovell/","TBD","TBD","TBD" ],
+            [
+              "Kodiswaran Babu","Janardhanan","Zone","CTO","https://www.linkedin.com/in/kodis/","TBD","TBD","TBD" ],
+            [
+              "Adi","Mishra","Zone","Founder & CEO","https://www.linkedin.com/in/adi-k-mishra-95004254/","TBD","TBD","TBD" ],
+            [
+              "Dikshit","Salian","Zone","Graphic Designer","https://www.linkedin.com/in/dikshit-salian-a8736b1b7/","TBD","TBD","TBD" ],
+            [
+              "Milap","Pathak","Zone","Head Of Operations","https://www.linkedin.com/in/milappathak/","TBD","TBD","TBD" ],
+            [
+              "Mannu","Verma","Zone","Lead Operations Head","https://www.linkedin.com/in/imannu/","TBD","TBD","TBD" ],
+            [
+              "Vishvam","Vyas","Zone","Lead Operations Manager","https://www.linkedin.com/in/vishvam-vyas-b481aa181/","TBD","TBD","TBD" ],
+            [
+              "Pradeep","Singh","Zone","Technical Writer","https://www.linkedin.com/in/pradeep-singh-942705194/","TBD","TBD","TBD" ],
+            [
+              "Aslam","K.","Zone","UX/UI Designer","https://www.linkedin.com/in/aslam009/","TBD","TBD","TBD" ],
+            [
+              "Sebastian","Quinn","Yieldly","Co-Founder | CEO","https://www.linkedin.com/in/sebastian-quinn-645457b3/","TBD","TBD","TBD" ],
+            [
+              "Kristy","Bayley","Yieldly","COO","https://www.linkedin.com/in/kristybayley/","TBD","TBD","TBD" ],
+            [
+              "Timothy","Han","Yieldly","Head Of Communications","https://www.linkedin.com/in/timothyhan-sg/","TBD","TBD","TBD" ],
+            [
+              "Dimitris","Farmakis","Yieldly","Head Of Esports","https://www.linkedin.com/in/dimfarmakis/","TBD","TBD","TBD" ],
+            [
+              "Benjamin","Le Roux","Yieldly","Head of Marketing","https://www.linkedin.com/in/benleroux/","TBD","TBD","TBD" ],
+            [
+              "Nina","Stammbach","Yieldly","Operations Manager","https://www.linkedin.com/in/ninastammbach/","TBD","TBD","TBD" ],
+            [
+              "Emily","Conway","Yieldly","Social Media Manager","https://www.linkedin.com/in/emily-conway-a38a6a224/","TBD","TBD","TBD" ],
+            [
+              "Khalid","Hassan","Glitter Finance","COO","https://www.linkedin.com/in/khalid-mamoun-ibrahim-hassan-1a8b611/","TBD","TBD","TBD" ],
+            [
+              "Gelena","Dobrovitsky","Glitter Finance","CSO","https://www.linkedin.com/in/gelena-dobrovitsky/","TBD","TBD","TBD" ],
+            [
+              "João","Loureiro","Glitter Finance","Executive Assistant","https://www.linkedin.com/in/jo%C3%A3o-bernardo-loureiro/","TBD","TBD","TBD" ],
+            [
+              "David","Dobrovitsky","Glitter Finance","Founder and CEO","https://www.linkedin.com/in/ilya-dobrovitsky/","TBD","TBD","TBD" ],
+            [
+              "Inês","Veiga","Glitter Finance","Management Director","https://www.linkedin.com/in/in%C3%AAs-veiga-570091157/","TBD","TBD","TBD" ],
+            [
+              "Pradyumn","Singh","Glitter Finance","Marketing Manager","https://www.linkedin.com/in/pradyumn-singh-15020812a/","TBD","TBD","TBD" ],
+            [
+              "Farhad","Shabani","Glitter Finance","Software Engineer","https://www.linkedin.com/in/farhad-shabani/","TBD","TBD","TBD" ],
+            [
+              "Titus","Adenugba","Glitter Finance","Product Manager & Head of Tokenomics","https://www.linkedin.com/in/titusadenugba/","TBD","TBD","TBD" ],
+            [
+              "Mukul","Jain","Xfinite","Blockchain Architect","https://www.linkedin.com/in/mukul-jain-ab94504a/","TBD","TBD","TBD" ],
+            [
+              "Vasireddy","Prakash","Xfinite","Blockchain Engineer","https://www.linkedin.com/in/vasireddy-denny-sai-prakash-769b4711b/","TBD","TBD","TBD" ],
+            [
+              "Santosh","Yellajosula","Xfinite","Chief Ecosystem Officer","https://www.linkedin.com/in/santoshyellajosula/","TBD","TBD","TBD" ],
+            [
+              "S","Singh","Xfinite","CEO","https://www.linkedin.com/in/swaneet/","TBD","TBD","TBD" ],
+            [
+              "Gokul","Kumaravelu","Xfinite","Head Of Communications","https://www.linkedin.com/in/gokul-kumaravelu/","TBD","TBD","TBD" ],
+            [
+              "Chetan","Saxena","Xfinite","Head of Product","https://www.linkedin.com/in/chetan-saxena-09a7649/","TBD","TBD","TBD" ],
+            [
+              "Shantanu","Chandra","Xfinite","Lead Blockchain Architect","https://www.linkedin.com/in/chandshantanu/","TBD","TBD","TBD" ],
+            [
+              "Deepak","Dhanavade","Xfinite","Manager UI UX","https://www.linkedin.com/in/deepak-dhanavade-1aa4398b/","TBD","TBD","TBD" ],
+            [
+              "Kai","S.","Webblen","Co-Founder/CEO","https://www.linkedin.com/in/kaiss/","TBD","TBD","TBD" ],
+            [
+              "Carter","Razink","Webblen","CTO, Co-Founder","https://www.linkedin.com/in/carter-razink-5ab926139/","TBD","TBD","TBD" ],
+            [
+              "Nathaniel","Thoreson","Webblen","Director of Marketing & Co-Founder","https://www.linkedin.com/in/nathaniel-j-thoreson-617501120/","TBD","TBD","TBD" ],
+            [
+              "Qomoo","A.","Webblen","CRO","https://www.linkedin.com/in/qomooatomsa/","TBD","TBD","TBD" ],
+            [
+              "Jack","Maring","Webblen","Flutter Mobile Developer","https://www.linkedin.com/in/jack-maring-556aa9175/","TBD","TBD","TBD" ],
+            [
+              "Tyler","Odenthal","Webblen","Founder","https://www.linkedin.com/in/tyler-odenthal/","TBD","TBD","TBD" ],
+            [
+              "Cathal","Gallagher","Chips","Founder","https://www.linkedin.com/in/Cathal-Gallagher/","TBD","TBD","TBD" ],
+            [
+              "Ali","El-Assy","Smile","Co-Founder","https://www.linkedin.com/in/alielassy/","TBD","TBD","TBD" ],
+            [
+              "Ali","El-Assy","Smile","Co-Founder","https://www.linkedin.com/in/alielassy/","TBD","TBD","TBD" ],
+            [
+              "Nick","Bucheleres","Smile","CEO/CTO, Co-Founder","https://www.linkedin.com/in/nickeleres/","TBD","TBD","TBD" ],
+            [
+              "Sergio","Treviño","Smile","Co-Founder","https://www.linkedin.com/in/sergiotrevino/","TBD","TBD","TBD" ],
+            [
+              "Eric","Franka","Smile","Head Of Partnerships","https://www.linkedin.com/in/eric-franka-bb65048a/","TBD","TBD","TBD" ],
+            [
+              "Greg","Raczek","TinyChart","Founder","https://www.linkedin.com/in/grzracz/","TBD","TBD","TBD" ],
+            [
+              "Gabriella","Motta","Planet","Air Quality Specialist","https://www.linkedin.com/in/gabriella-motta-4855333/","TBD","TBD","TBD" ],
+            [
+              "Claudio","Parrinello","Planet","CEO","https://www.linkedin.com/in/claudio-parrinello-077384/","TBD","TBD","TBD" ],
+            [
+              "Sara","Di Civita","Planet","Customer Service Manager","https://www.linkedin.com/in/sara-di-civita-220811130/","TBD","TBD","TBD" ],
+            [
+              "Ivan","D'Ettorr","Planet","CITO","https://www.linkedin.com/in/ivan-d-ettorre-12137058/","TBD","TBD","TBD" ],
+            [
+              "Davide","Caiulo","Planet","Data Scientist","https://www.linkedin.com/in/dcaiulo/","TBD","TBD","TBD" ],
+            [
+              "Roberto","Falzone","Planet","Senior Software Engineer Team Lead","https://www.linkedin.com/in/roberto-falzone-2619531b6/","TBD","TBD","TBD" ],
+            [
+              "Jessica","Gardner","Centre","Business Operations Manager","https://www.linkedin.com/in/jgardner1/","TBD","TBD","TBD" ],
+            [
+              "David","Puth","Centre","CEO","https://www.linkedin.com/in/david-puth/","TBD","TBD","TBD" ],
+            [
+              "John","Shipman","Centre","Chief Commercial Officer","https://www.linkedin.com/in/john-shipman-196a93/","TBD","TBD","TBD" ],
+            [
+              "Mark","duBose","Centre","Chief Risk and Compliance Officer","https://www.linkedin.com/in/mark-dubose/","TBD","TBD","TBD" ],
+            [
+              "Danielle","Harold","Centre","COO","https://www.linkedin.com/in/danielleharold/","TBD","TBD","TBD" ],
+            [
+              "Kim","Duffy","Centre","Director of Identity and Standards","https://www.linkedin.com/in/kimdhamilton/","TBD","TBD","TBD" ],
+            [
+              "Mihir","C.","Centre","Director, Alliance Development","https://www.linkedin.com/in/mihirchokshi/","TBD","TBD","TBD" ],
+            [
+              "Jeff","Handler","Centre","Solutions Architect","https://www.linkedin.com/in/jeffreyhandler/","TBD","TBD","TBD" ],
+            [
+              "Kevin","Mills","Centre","Graduate Project Manager","https://www.linkedin.com/in/kfmills/","TBD","TBD","TBD" ],
+            [
+              "Shannon","Hughes","Centre","Head Of Business Development","https://www.linkedin.com/in/shannonappleby/","TBD","TBD","TBD" ],
+            [
+              "Juan","Caballero","Centre","Standards Coordinator","https://www.linkedin.com/in/juan-caballero/","TBD","TBD","TBD" ],
+            [
+              "Michael","Cotton","Algomint","Co-Founder","https://www.linkedin.com/in/michael-cotton-aus/","TBD","TBD","TBD" ],
+            [
+              "AJ","Milne","Algomint","Co-Founder","https://www.linkedin.com/in/astleymilne/","TBD","TBD","TBD" ],
+            [
+              "Herry","Xu","Algomint","CTO","https://www.linkedin.com/in/herry-xu/","TBD","TBD","TBD" ],
+            [
+              "Nissan","Dookeran","Algomint","CTO","https://www.linkedin.com/in/nissandookeran/","TBD","TBD","TBD" ],
+            [
+              "Misa","Z.","Algomint","Interim CEO","https://www.linkedin.com/in/misazhangsydney/","TBD","TBD","TBD" ],
+            [
+              "Kumar","Gaurav","Algomint","Software Engineer","https://www.linkedin.com/in/arkhaminferno/","TBD","TBD","TBD" ],
+            [
+              "Wilder","Stubbs","Algogems","CMO","https://www.linkedin.com/in/wilder-stubbs-536498229/","TBD","TBD","TBD" ],
+            [
+              "Otto","Kreidl","Blockshake","CEO","https://www.linkedin.com/in/otto-kreidl-962841148/","TBD","TBD","TBD" ],
+            [
+              "Kevin","Wellenzohn","Blockshake","TBD","TBD","TBD","https://www.ifi.uzh.ch/en/dbtg/Staff/wellenzohn.html","TBD" ],
+            [
+              "Stefan","Hechenberger","Blockshake","TBD","TBD","TBD","https://en.wikipedia.org/wiki/Stefan_Hechenberger","TBD" ],
+            [
+              "Hannes","Mitterer","Blockshake","Co-Founder","https://www.linkedin.com/in/hannes-mitterer-656722211/","TBD","TBD","TBD" ],
+            [
+              "Rylie","Rueda","GARD","Founder & CEO","https://www.linkedin.com/in/rylierueda/","TBD","TBD","TBD" ],
+            [
+              "David","McCabe","GARD","Blockchain Development Lead","https://www.linkedin.com/in/david-p-mccabe/","TBD","TBD","TBD" ],
+            [
+              "Ryan","Soscia","GARD","Co-Founder & COO","https://www.linkedin.com/in/ryanmsoscia/","TBD","TBD","TBD" ],
+            [
+              "Aaron","Martinez","HEADLINE","CEO","https://www.linkedin.com/in/ussaaron/","TBD","TBD","TBD" ],
+            [
+              "Brian","Scherlen","HEADLINE","Senior Project Manager","https://www.linkedin.com/in/brian-scherlen-2091b0209/","TBD","TBD","TBD" ],
+            [
+              "Lee","Parsons","Opulous","CEO","https://www.linkedin.com/in/leparsons/","TBD","TBD","TBD" ],
+            [
+              "Miles","Carroll","Opulous","Co-Founder & COO","https://www.linkedin.com/in/carrollmiles/","TBD","TBD","TBD" ],
+            [
+              "Fernando","Cruz","Opulous","Chief Marketing Officer","https://www.linkedin.com/in/frcrz/","TBD","TBD","TBD" ],
+            [
+              "Marc","Aché","Opulous","CTO","https://www.linkedin.com/in/marcache/","TBD","TBD","TBD" ],
+            [
+              "Jay","Moore","Opulous","Chief Investment Officer","https://www.linkedin.com/in/jayrmoore/","TBD","TBD","TBD" ],
+            [
+              "Clara","Lo","Opulous","Head Of Operations","https://www.linkedin.com/in/clara-lo-876136173/","TBD","TBD","TBD" ],
+            [
+              "Joe","Mason","Opulous","Head of Artist Services","https://www.linkedin.com/in/joe-mason-48501876/","TBD","TBD","TBD" ],
+            [
+              "Tom","Napper","Opulous","Head of Social Media","https://www.linkedin.com/in/tom-p-napper/","TBD","TBD","TBD" ],
+            [
+              "Jenny","Wong","Opulous","Head Of Legal","https://www.linkedin.com/in/jenny-wong-3ab0063/","TBD","TBD","TBD" ],
+            [
+              "Isabelle","Korman","Opulous","Head Of Content","https://www.linkedin.com/in/isabelle-korman/","TBD","TBD","TBD" ],
+            [
+              "Shirlyn","Tan","Opulous","Office Manager","https://www.linkedin.com/in/shirlyntanvox/","TBD","TBD","TBD" ],
+            [
+              "Ivam","Costa","Opulous","Community Manager","https://www.linkedin.com/in/ivam-c%C3%A9sar-costa-a7a133149/","TBD","TBD","TBD" ],
+            [
+              "Jesse","Hof","Opulous","Graphic & Motion Designer","https://www.linkedin.com/in/jesse-hof-a0a882219/","TBD","TBD","TBD" ],
+            [
+              "Tejas","Kothari","UpsideFinance","Co-Founder","https://www.linkedin.com/in/tetek/","TBD","TBD","TBD" ],
+            [
+              "Nishant","Pandav","UpsideFinance","Co-Founder","https://www.linkedin.com/in/npanium/","TBD","TBD","TBD" ]
+        ]
+}

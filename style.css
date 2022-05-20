@@ -1,0 +1,347 @@
+/* Put your css in here */
+
+h1 {
+    color: red;
+  }
+
+/*#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}*/
+
+/*img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  }*/
+  
+  /*table#example0.dataTable tbody tr:hover,table#example1.dataTable tbody tr:hover,table#example2.dataTable tbody tr:hover,
+  table#example3.dataTable tbody tr:hover,table#example4.dataTable tbody tr:hover,table#example5.dataTable tbody tr:hover {
+    background-color: #ddf2ff8d;
+  }*/ /*doesn't work properly*/
+
+  .footer, .header {
+    padding: 40px 0;
+    background-color: #ffffff;
+  }
+  
+  .footer .social, .header .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+  }
+  
+  .footer .social a, .header .social .a {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+  }
+  
+  .footer .social a:hover, .header .social a:hover {
+    opacity: 0.9;
+  }
+  
+  .footer ul, .header ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  
+  .footer ul a, .header ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .footer ul li, .header ul li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  
+  .footer ul a:hover, .header ul a:hover {
+    opacity: 1;
+  }
+  
+  .footer .copyright, .header .tiny {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+  }
+  
+  .footer .normal, .header .normal {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+  }
+
+  table.dataTable thead .sorting:after,
+  table.dataTable thead .sorting_asc:after,
+  table.dataTable thead .sorting_desc:after {
+      display: none;
+  }
+
+  .dt-button {
+    margin-top: 4px;
+    display:block;
+    float:left;
+    border:0;
+    /*padding: 10px 1px 10px 1px !important*/
+  }
+
+  .input-sm {
+    margin-top: 7px;
+    display:block;
+    float:left;
+    border:0;
+    /*padding: 10px 1px 10px 1px !important*/
+  }  
+
+  .chart {
+    width: 100%; 
+    min-height: 450px;
+  }
+  .row {
+    margin:0 !important;
+  }
+
+.info_div_name {
+    /*width:50%;
+    height:auto;
+    padding: 5px 0px 5px 10px;
+    float:left;*/
+    display:block;
+}
+
+.info_div_time {
+    /*width:50%;
+    height:auto;
+    padding: 5px 10px 5px 0px;
+    float:right;*/
+    display:block;
+}
+
+.info_div_note {
+  /*clear: both;
+  width: inherit;
+  height: auto;
+  position: static;
+  padding: 0px 10px 5px 10px;*/
+  display:block;
+  } 
+
+  tfoot input {
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+/* Slider */
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.logo-carousel {
+  overflow: inherit;
+  border-top: 1px solid #353535;
+  border-bottom: 1px solid #353535;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-track::before,
+.slick-track::after {
+  display: table;
+  content: '';
+}
+
+.slick-track::after {
+  clear: both;
+}
+
+.slick-track {
+  padding: 1rem 0;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  background: url(https://raw.githubusercontent.com/solodev/infinite-logo-carousel/master/images/arrow.svg?sanitize=true) center no-repeat;
+  color: #fff;
+  filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%);
+  border: none;
+  width: 2rem;
+  height: 1.5rem;
+  text-indent: -10000px;
+  margin-top: -16px;
+  z-index: 99;
+}
+
+.slick-arrow.slick-next {
+  right: -40px;
+  transform: rotate(180deg);
+}
+
+.slick-arrow.slick-prev {
+  left: -40px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .slick-arrow {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+/*body {
+    background-color: #010101;
+  }
+  
+.row {
+  overflow: hidden;
+}*/  
+
+/* JsFiddle Example only/don't use */
+.logo-carousel {
+  margin-top: 32px;
+}
+
+@media (max-width: 720px) {
+  .container { display: none; }
+}
+
+#example0_info {
+  visibility: hidden;
+  display: none;
+}
+#example8_info {
+  visibility: hidden;
+  display: none;
+}
+#example9_info {
+  visibility: hidden;
+  display: none;
+}
+
+#table-csv0-table_info {
+  visibility: hidden;
+  display: none;
+}
+
+#table-csv1-table_info {
+  visibility: hidden;
+  display: none;
+}
+
+#table-csv2-table_info {
+  visibility: hidden;
+  display: none;
+}
+
+#table-csv3-table_info {
+  visibility: hidden;
+  display: none;
+}
+
+#table-csv4-table_info {
+  visibility: hidden;
+  display: none;
+}
+
+#table-csv5-table_info {
+  visibility: hidden;
+  display: none;
+}
+
+#table-csv0-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv1-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv2-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv3-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv4-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv5-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+
+#example0_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#example8_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#example9_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+
+
+/*#example8 {
+  padding-left: 50px;
+  padding-right: 50px;
+}*/ 
+  
+
+/*
+    table.dataTable th {
+      font-size: 0.75em;
+    }
+    table.dataTable td {
+      font-size: 0.5em;
+      font-weight: bold;
+    }
+    */
