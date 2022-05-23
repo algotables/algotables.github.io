@@ -64,8 +64,9 @@
             <ul class="list">
                 <li>
                     <a href='index.html' class="logo">ALGO Tables</a>
-                    <p class="normal">Tables for Algorand</p>       
+                    <p class="normal">Tables for Algorand</p>                           
                     <p class="normal">CMC ALGO Vote Score : % | CMC ALGO Monthly Median Price Pred. : $ | CMC ALGO Monthly Avg Price Pred. :</p>  
+                    <p class="normal">ALGO USD Price : $ | ALGO % Change 1h : # | ALGO % Change 24h : #| ALGO % Change 7d : #</p>  
                     <!--<div class="row">
                         <div class="container">
                           <section class="logo-carousel slider" data-arrows="false">
@@ -2276,6 +2277,47 @@
                 }
             feesh12345679();
 
+            async function feesh12345680() { 
+                
+                const response99990 = await fetch('https://api.alternative.me/v2/ticker/algorand/'); 
+                const data888880 = await response99990.json();
+
+                var willthiswork0 = (data888880.data[0].quotes.USD.price).toFixed(2);
+
+                var willthiswork1 = (data888880.data[0].quotes.USD.percent_change_1h).toFixed(2);
+                var willthisstylingwork1 = '';
+                if (willthiswork1 < 0) {
+                    willthisstylingwork1 = "red";
+                }
+                if (willthiswork1 > 0) {
+                    willthisstylingwork1 = "green";
+                }
+
+                var willthiswork2 = (data888880.data[0].quotes.USD.percent_change_24h).toFixed(2);
+                var willthisstylingwork2 = '';
+                if (willthiswork2 < 0) {
+                    willthisstylingwork2 = "red";
+                }
+                if (willthiswork2 > 0) {
+                    willthisstylingwork2 = "green";
+                }
+
+                var willthiswork3 = (data888880.data[0].quotes.USD.percent_change_7d).toFixed(2);
+                var willthisstylingwork3 = '';
+                if (willthiswork3 < 0) {
+                    willthisstylingwork3 = "red";
+                }
+                if (willthiswork3 > 0) {
+                    willthisstylingwork3 = "green";
+                }     
+
+                document.querySelector("body > div > section.header > ul > li > p:nth-child(4)").innerHTML = 'ALGO USD Price : $' + 
+                willthiswork0 + ' | ALGO % Change 1h : ' + willthiswork1.fontcolor(willthisstylingwork1) + '%' + ' | ALGO % Change 24h : ' + 
+                willthiswork2.fontcolor(willthisstylingwork2) + '%' + ' | ALGO % Change 7d :  ' + willthiswork3.fontcolor(willthisstylingwork3) + '%' ;
+
+                }
+            feesh12345680();
+
             CsvToHtmlTable.init({
             csv_path: "https://algotables.github.io/data/testsheet1.csv",
             element: "table-csv0",                       
@@ -3159,46 +3201,83 @@
 
                 var feeshname8880 = 'Score';
                 var feesh8881 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
+                                var meesh8881 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(1) > td.sorting_1").innerHTML;
                 var feesh8882 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(2) > td.dtr-control").innerHTML;
+                                var meesh8882 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(2) > td.sorting_1").innerHTML;
                 var feesh8883 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(3) > td.dtr-control").innerHTML;
+                                var meesh8883 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(3) > td.sorting_1").innerHTML;
                 var feesh8884 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(4) > td.dtr-control").innerHTML;
+                                var meesh8884 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(4) > td.sorting_1").innerHTML;
                 var feesh8885 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(5) > td.dtr-control").innerHTML;
+                                var meesh8885 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(5) > td.sorting_1").innerHTML;
                 var feesh8886 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(6) > td.dtr-control").innerHTML;
+                                var meesh8886 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(6) > td.sorting_1").innerHTML;
                 var feesh8887 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(7) > td.dtr-control").innerHTML;
+                                var meesh8887 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(7) > td.sorting_1").innerHTML;
                 var feesh8888 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(8) > td.dtr-control").innerHTML;
+                                var meesh8888 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(8) > td.sorting_1").innerHTML;
                 var feesh8889 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(9) > td.dtr-control").innerHTML;
+                                var meesh8889 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(9) > td.sorting_1").innerHTML;
                 var feesh88810 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(10) > td.dtr-control").innerHTML;
+                                var meesh88810 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(10) > td.sorting_1").innerHTML;
                 var feesh88811 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(11) > td.dtr-control").innerHTML;
+                                var meesh88811 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(11) > td.sorting_1").innerHTML;
                 var feesh88812 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(12) > td.dtr-control").innerHTML;
+                                var meesh88812 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(12) > td.sorting_1").innerHTML;
                 var feesh88813 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(13) > td.dtr-control").innerHTML;
+                                var meesh88813 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(13) > td.sorting_1").innerHTML;
                 var feesh88814 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(14) > td.dtr-control").innerHTML;
+                                var meesh88814 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(14) > td.sorting_1").innerHTML;
                 var feesh88815 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(15) > td.dtr-control").innerHTML;
+                                var meesh88815 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(15) > td.sorting_1").innerHTML;
                 var feesh88816 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(16) > td.dtr-control").innerHTML;
+                                var meesh88816 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(16) > td.sorting_1").innerHTML;
                 var feesh88817 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(17) > td.dtr-control").innerHTML;
+                                var meesh88817 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(17) > td.sorting_1").innerHTML;
                 var feesh88818 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(18) > td.dtr-control").innerHTML;
+                                var meesh88818 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(18) > td.sorting_1").innerHTML;
                 var feesh88819 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(19) > td.dtr-control").innerHTML;
+                                var meesh88819 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(19) > td.sorting_1").innerHTML;
                 var feesh88820 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(20) > td.dtr-control").innerHTML;
+                                var meesh88820 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(20) > td.sorting_1").innerHTML;
                 var feesh88821 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(21) > td.dtr-control").innerHTML;
+                                var meesh88821 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(21) > td.sorting_1").innerHTML;
                 var feesh88822 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(22) > td.dtr-control").innerHTML;
+                                var meesh88822 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(22) > td.sorting_1").innerHTML;
                 var feesh88823 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(23) > td.dtr-control").innerHTML;
+                                var meesh88823 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(23) > td.sorting_1").innerHTML;
                 var feesh88824 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(24) > td.dtr-control").innerHTML;
+                                var meesh88824 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(24) > td.sorting_1").innerHTML;
                 var feesh88825 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(25) > td.dtr-control").innerHTML;
+                                var meesh88825 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(25) > td.sorting_1").innerHTML;
                 var feesh88826 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(26) > td.dtr-control").innerHTML;
+                                var meesh88826 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(26) > td.sorting_1").innerHTML;
                 var feesh88827 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(27) > td.dtr-control").innerHTML;
+                                var meesh88827 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(27) > td.sorting_1").innerHTML;
                 var feesh88828 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(28) > td.dtr-control").innerHTML;
+                                var meesh88828 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(28) > td.sorting_1").innerHTML;
                 var feesh88829 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(29) > td.dtr-control").innerHTML;
-                var feesh88830 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(30) > td.dtr-control").innerHTML;
+                                var meesh88829 = document.querySelector("#table-csv5-table > tbody > tr:nth-child(29) > td.sorting_1").innerHTML;
+
+
                 
                 var data = new google.visualization.DataTable();
-                data.addColumn('number', 'X');
+                data.addColumn('string', 'X');
                 data.addColumn('number', 'Value');
 
                 data.addRows([
-                    [29, parseInt(feesh88830)],   [28, parseInt(feesh88829)],  [27, parseInt(feesh88828)],  [26, parseInt(feesh88827)],  [25, parseInt(feesh88826)],  [24, parseInt(feesh88825)],
-                    [23, parseInt(feesh88824)],  [22, parseInt(feesh88823)],  [21, parseInt(feesh88822)],  [20,parseInt(feesh88821)],  [19, parseInt(feesh88820)], [18, parseInt(feesh88819)],
-                    [17, parseInt(feesh88818)], [16, parseInt(feesh88817)], [15, parseInt(feesh88816)], [14, parseInt(feesh88815)], [13, parseInt(feesh88814)], [12, parseInt(feesh88813)],
-                    [11, parseInt(feesh88812)], [11, parseInt(feesh88811)], [10, parseInt(feesh88810)], [9, parseInt(feesh8889)], [8, parseInt(feesh8888)], [7, parseInt(feesh8887)],
-                    [6, parseInt(feesh8886)], [5, parseInt(feesh8885)], [4, parseInt(feesh8884)], [3, parseInt(feesh8883)], [2, parseInt(feesh8882)], [1, parseInt(feesh8881)]
+
+                [String(meesh88829), parseInt(feesh88829)],[String(meesh88828), parseInt(feesh88828)],[String(meesh88827), parseInt(feesh88827)],
+                [String(meesh88826), parseInt(feesh88826)],[String(meesh88825), parseInt(feesh88825)],[String(meesh88824), parseInt(feesh88824)],
+                [String(meesh88823), parseInt(feesh88823)],[String(meesh88822), parseInt(feesh88822)],[String(meesh88821), parseInt(feesh88821)],
+                [String(meesh88820), parseInt(feesh88820)],[String(meesh88819), parseInt(feesh88819)],[String(meesh88818), parseInt(feesh88818)],
+                [String(meesh88817), parseInt(feesh88817)],[String(meesh88816), parseInt(feesh88816)],[String(meesh88815), parseInt(feesh88815)],
+                [String(meesh88814), parseInt(feesh88814)],[String(meesh88813), parseInt(feesh88813)],[String(meesh88812), parseInt(feesh88812)],
+                [String(meesh88811), parseInt(feesh88811)],[String(meesh88810), parseInt(feesh88810)],[String(meesh8889), parseInt(feesh8889)],
+                [String(meesh8888), parseInt(feesh8888)],[String(meesh8887), parseInt(feesh8887)],[String(meesh8886), parseInt(feesh8886)],
+                [String(meesh8885), parseInt(feesh8885)],[String(meesh8884), parseInt(feesh8884)],[String(meesh8883), parseInt(feesh8883)],
+                [String(meesh8882), parseInt(feesh8882)],[String(meesh8881), parseInt(feesh8881)]
+
                 ]);
 
                 /*var data = google.visualization.arrayToDataTable([                
@@ -3216,7 +3295,7 @@
 
                 var options = {
                     hAxis: {
-                    title: 'Days Ago'
+                    title: 'Date'
                     },
                     vAxis: {
                     title: 'Fear & Greed'
