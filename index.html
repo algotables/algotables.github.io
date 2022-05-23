@@ -3156,13 +3156,13 @@
                 //console.log(feeshcategory7770);
 
                 var data = google.visualization.arrayToDataTable([
-                    ['% Change', 'Time'],
-                    [parseInt(feesh7770), 1], [parseInt(feesh7771), 24], [parseInt(feesh7772), 168]]);
+                    ['Time', '% Change'],
+                    [-168, parseInt(feesh7772)], [-24, parseInt(feesh7771)], [-1, parseInt(feesh7770)]]);
 
                 var options = {
-                    title: 'Hours vs. % Change to ' + feeshname7770,
-                    hAxis: {title: '% Change'},
-                    vAxis: {title: 'Hours'},
+                    title: '% Change vs ' + feeshname7770,
+                    hAxis: {title: 'Hours'},
+                    vAxis: {title: '% Change'},
                     animation: {
                         duration: 1000
                     },
