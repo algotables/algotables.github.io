@@ -338,6 +338,27 @@ h1 {
   display: none;
 }
 
+.container {
+  width: 80%;
+  height: 200px;
+  /*background: aqua;*/
+  margin: auto;
+  padding: 10px;
+}
+
+.one {
+  width: 50%;
+  height: 200px;
+  /*background: red;*/
+  float: left;
+}
+
+.two {
+  margin-left: 50%;
+  height: 200px;
+  /*background: black;*/
+}
+
 
 /*#example8 {
   padding-left: 50px;

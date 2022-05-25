@@ -114,7 +114,7 @@
                 <a href="#tab-table15" data-toggle="tab">Fear & Greed Index</a>
             </li>
             <li>
-                <a href="#tab-table16" data-toggle="tab">Liq. Pools APR</a>
+                <a href="#tab-table16" data-toggle="tab">Liquidity Pools</a>
             </li>
         </ul>
         <div class="tab-content">     
@@ -2063,9 +2063,10 @@
                 </div>
             </div>
             <div class="tab-pane" id="tab-table16">
-                <div>
-                    <!--<div id="chart_divtrend42888" class="info_div_name3"></div>-->
-                    </div>
+                <section class="container">
+                    <div id="chart_divtrend42444" class="one"></div>
+                    <div id="chart_divtrend42222" class="two"></div>
+                </section>
                 <div id="table-csv6">
                     <thead>
                         <tr>
@@ -3473,6 +3474,130 @@
                     });
 
             }            
+
+            google.charts.setOnLoadCallback(drawChart444);
+            
+            async function drawChart444() {
+
+                const response0 = await fetch('https://algotables.github.io/index.html#tab-table16'); 
+                const response1 = await fetch('https://algotables.github.io/index.html#tab-table16'); 
+
+                var feesh4441 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
+                var feesh4442 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(1) > td:nth-child(2)").innerHTML;
+                var feesh4443 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(1) > td:nth-child(4)").innerHTML);
+
+                var feesh4444 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(2) > td.dtr-control").innerHTML;
+                var feesh4445 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(2) > td:nth-child(2)").innerHTML;
+                var feesh4446 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(2) > td:nth-child(4)").innerHTML);
+
+                var feesh4447 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(3) > td.dtr-control").innerHTML;
+                var feesh4448 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(3) > td:nth-child(2)").innerHTML;
+                var feesh4449 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(3) > td:nth-child(4)").innerHTML);
+
+                var feesh44410 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(4) > td.dtr-control").innerHTML;
+                var feesh44411 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(4) > td:nth-child(2)").innerHTML;
+                var feesh44412 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(4) > td:nth-child(4)").innerHTML);
+
+                var feesh44413 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(5) > td.dtr-control").innerHTML;
+                var feesh44414 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(5) > td:nth-child(2)").innerHTML;
+                var feesh44415 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(5) > td:nth-child(4)").innerHTML);
+
+                var data = google.visualization.arrayToDataTable([
+                ['Pool', 'Volume'],
+                [feesh4441 + '-' + feesh4442,     feesh4443],
+                [feesh4444 + '-' + feesh4445,     feesh4446],
+                [feesh4447 + '-' + feesh4448,     feesh4449],
+                [feesh44410 + '-' + feesh44411,     feesh44412],
+                [feesh44413 + '-' + feesh44414,     feesh44415]
+                ]);
+
+                var options = {
+                title: 'Daily Volume'/*,
+                pieHole: 0.4,*/
+                };
+
+                var chart = new google.visualization.PieChart(document.getElementById('chart_divtrend42444'));
+                chart.draw(data, options);
+
+                $(window).resize(function() {
+                    chart.draw(data, options);
+                });
+
+                $('body').on('click', 'a[data-toggle=\'tab\']', function (e) {
+                    e.preventDefault()
+                    var tab_name = this.getAttribute('href');
+                    if (history.pushState) {
+                        //trash code
+                        if (tab_name === "#tab-table16") {                                                    
+                        chart.draw(data, options);
+                        }
+                        //trash code
+                    }
+                    });
+
+            }     
+            
+            google.charts.setOnLoadCallback(drawChart222);
+            
+            async function drawChart222() {
+
+            const response0 = await fetch('https://algotables.github.io/index.html#tab-table16'); 
+            const response1 = await fetch('https://algotables.github.io/index.html#tab-table16'); 
+
+            var feesh2221 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
+            var feesh2222 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(1) > td:nth-child(2)").innerHTML;
+            var feesh2223 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(1) > td:nth-child(5)").innerHTML);
+
+            var feesh2224 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(2) > td.dtr-control").innerHTML;
+            var feesh2225 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(2) > td:nth-child(2)").innerHTML;
+            var feesh2226 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(2) > td:nth-child(5)").innerHTML);
+
+            var feesh2227 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(3) > td.dtr-control").innerHTML;
+            var feesh2228 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(3) > td:nth-child(2)").innerHTML;
+            var feesh2229 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(3) > td:nth-child(5)").innerHTML);
+
+            var feesh22210 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(4) > td.dtr-control").innerHTML;
+            var feesh22211 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(4) > td:nth-child(2)").innerHTML;
+            var feesh22212 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(4) > td:nth-child(5)").innerHTML);
+
+            var feesh22213 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(5) > td.dtr-control").innerHTML;
+            var feesh22214 = document.querySelector("#table-csv6-table > tbody > tr:nth-child(5) > td:nth-child(2)").innerHTML;
+            var feesh22215 = parseFloat(document.querySelector("#table-csv6-table > tbody > tr:nth-child(5) > td:nth-child(5)").innerHTML);
+
+            var data = google.visualization.arrayToDataTable([
+            ['Pool', 'Volume'],
+            [feesh2221 + '-' + feesh2222,     feesh2223],
+            [feesh2224 + '-' + feesh2225,     feesh2226],
+            [feesh2227 + '-' + feesh2228,     feesh2229],
+            [feesh22210 + '-' + feesh22211,     feesh22212],
+            [feesh22213 + '-' + feesh22214,     feesh22215]
+            ]);
+
+            var options = {
+            title: 'Weekly Volume'/*,
+            pieHole: 0.4,*/
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('chart_divtrend42222'));
+            chart.draw(data, options);
+
+            $(window).resize(function() {
+                chart.draw(data, options);
+            });
+
+            $('body').on('click', 'a[data-toggle=\'tab\']', function (e) {
+                e.preventDefault()
+                var tab_name = this.getAttribute('href');
+                if (history.pushState) {
+                    //trash code
+                    if (tab_name === "#tab-table16") {                                                    
+                    chart.draw(data, options);
+                    }
+                    //trash code
+                }
+                });
+
+            }    
 
             google.charts.setOnLoadCallback(drawChart999);
 
