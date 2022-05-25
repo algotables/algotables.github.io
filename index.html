@@ -3314,29 +3314,60 @@
 
             }    
 
+            google.charts.load('current', {'packages':['line']});
             google.charts.setOnLoadCallback(drawChart777);
 
             async function drawChart777() {
 
                 const response0 = await fetch('https://algotables.github.io/index.html#tab-table11'); 
                 const response1 = await fetch('https://algotables.github.io/index.html#tab-table11'); 
-                //sleep(400); //hacky... but it works?
+
+                //var feesh7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(3) > span").innerHTML;
+                //var feesh7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(4) > span").innerHTML;
+                //var feesh7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(5) > span").innerHTML;
+                //console.log(feesh0);
+
+                var data = new google.visualization.DataTable();
+
+                var feeshname7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
+                var feeshname7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td.dtr-control").innerHTML;
+                var feeshname7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td.dtr-control").innerHTML;
+
+                data.addColumn('number', 'Hours Ago');
+                data.addColumn('number', feeshname7770);
+                data.addColumn('number', feeshname7771);
+                data.addColumn('number', feeshname7772);
 
                 var feesh7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(3) > span").innerHTML;
                 var feesh7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(4) > span").innerHTML;
                 var feesh7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(5) > span").innerHTML;
-                //console.log(feesh0);
 
-                //document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(3) > span")
+                var feesh7773 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(3) > span").innerHTML;
+                var feesh7774 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(4) > span").innerHTML;
+                var feesh7775 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(5) > span").innerHTML;
 
-                var feeshname7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
-                //var feeshname7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(1)").innerHTML;
-                //var feeshname7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(1)").innerHTML;
-                //console.log(feeshname0);
+                var feesh7776 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(3) > span").innerHTML;
+                var feesh7777 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(4) > span").innerHTML;
+                var feesh7778 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(5) > span").innerHTML;
 
-                //var feeshcategory7770 = document.querySelector("#table-csv1-table > thead > tr > th:nth-child(8)").innerHTML;
-                //console.log(feeshcategory7770);
+                data.addRows([
+                    [-168,  parseFloat(feesh7772), parseFloat(feesh7773), parseFloat(feesh7776)],
+                    [-24,  parseFloat(feesh7771), parseFloat(feesh7774), parseFloat(feesh7777)],
+                    [0,  parseFloat(feesh7770), parseFloat(feesh7775), parseFloat(feesh7778)]
+                ]);
 
+                var options = {
+                    chart: {
+                    title: '% Change in Prices to Digital Assets Over the Last Week (7 days, 24 hours, Now)',
+                    animation: {
+                        duration: 1000
+                    },
+                    subtitle: 'in Algorand (ALGO)'
+                    },
+                    height: 250
+                };
+
+               /* var feeshname7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
                 var data = google.visualization.arrayToDataTable([
                     ['Time', '% Change'],
                     [-168, parseInt(feesh7772)], [-24, parseInt(feesh7771)], [-1, parseInt(feesh7770)]]);
@@ -3350,13 +3381,13 @@
                     },
                     legend: 'none',
                     trendlines: { 0: {} }    // Draw a trendline for data series 0.
-                };
+                };*/
 
-                var chart = new google.visualization.ScatterChart(document.getElementById('chart_divtrend42777'));
-                chart.draw(data, options);
+                var chart = new google.charts.Line(document.getElementById('chart_divtrend42777'));
+                chart.draw(data, google.charts.Line.convertOptions(options));
 
                 $(window).resize(function() {
-                    chart.draw(data, options);
+                    chart.draw(data, google.charts.Line.convertOptions(options));
                 });
 
                 $('body').on('click', 'a[data-toggle=\'tab\']', function (e) {
@@ -3529,6 +3560,7 @@
                 ]);
 
                 var options = {
+                pieSliceText: 'none',
                 title: 'Daily Volume'/*,
                 pieHole: 0.4,*/
                 };
@@ -3591,6 +3623,7 @@
             ]);
 
             var options = {
+            pieSliceText: 'none',
             title: 'Weekly Volume'/*,
             pieHole: 0.4,*/
             };
