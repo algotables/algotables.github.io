@@ -3333,7 +3333,7 @@
                 var feeshname7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td.dtr-control").innerHTML;
                 var feeshname7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td.dtr-control").innerHTML;
 
-                data.addColumn('number', 'Hours Ago');
+                data.addColumn('number', 'Hours');
                 data.addColumn('number', feeshname7770);
                 data.addColumn('number', feeshname7771);
                 data.addColumn('number', feeshname7772);
@@ -3353,12 +3353,12 @@
                 data.addRows([
                     [-168,  parseFloat(feesh7772), parseFloat(feesh7773), parseFloat(feesh7776)],
                     [-24,  parseFloat(feesh7771), parseFloat(feesh7774), parseFloat(feesh7777)],
-                    [0,  parseFloat(feesh7770), parseFloat(feesh7775), parseFloat(feesh7778)]
+                    [-1,  parseFloat(feesh7770), parseFloat(feesh7775), parseFloat(feesh7778)]
                 ]);
 
                 var options = {
                     chart: {
-                    title: '% Change in Prices to Digital Assets Over the Last Week (7 days, 24 hours, now)',
+                    title: '% Change in Prices to Digital Assets Over the Last Week (7 days, 24 hours, 1 hours)',
                     animation: {
                         duration: 1000
                     },
