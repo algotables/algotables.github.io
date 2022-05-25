@@ -59,11 +59,11 @@ Check out the atomic transfer docs here: <a href...","https://forum.algorand.org
 "Ben","Algorand Inc",2022-05-09,"In the goal app call you’re specifying str: as the encoding,...","https://forum.algorand.org/t/pyteal-app-localput-does-not-work-as-i-expected/6815/2"
 "Ben","Algorand Inc",2022-05-07,"You should pass the address as the 32 byte version not the 5...","https://forum.algorand.org/t/passing-address-through-note-field/6768/2"
 "Ben","Algorand Inc",2022-05-06,"<a href=""https://github.com/algorand/algorand-sdk-testing/is...","https://forum.algorand.org/t/is-it-possible-to-decompile-application-approval-program/6756/6"
+"JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
 "JasonW","Algorand Inc",2022-04-12,"Currently, that is not in the indexer API, but you could go ...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/4"
 "JasonW","Algorand Inc",2022-04-11,"This is the way the indexer is currently designed. Filtering...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/2"
 "JasonW","Algorand Inc",2022-03-16,"So every account on Algorand has to have a min balance of .1...","https://forum.algorand.org/t/hard-user-onboarding-for-asa-project-s/6280/2"
 "JasonW","Algorand Inc",2022-03-14,"You should be able to do this....","https://forum.algorand.org/t/subroutine-for-security-checks-rekeyto-assetcloseto-etc/6197/6"
-"JasonW","Algorand Inc",2022-02-22,"I think it uses this contract. <a href=""https://developer.al...","https://forum.algorand.org/t/smart-contract-and-front-end-app-communcation-questions/6095/6"
 "ian","Algorand Inc",2021-11-03,"Hey there, 
 Have you specifically started with “Forgetting” ...","https://forum.algorand.org/t/cant-cast-my-vote/4916/11"
 "ian","Algorand Inc",2021-10-27,"Thanks for providing additional details. We’ll use this in o...","https://forum.algorand.org/t/help-why-cant-i-send-crypto-after-reinstalling-algorand-official-wallet-and-recovering-account-issues-with-ledger-firmware-2-0-0-and-algorand-wallet/4850/21"
