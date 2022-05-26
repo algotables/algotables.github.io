@@ -135,6 +135,15 @@ h1 {
     display:block;
 }
 
+.info_div_name123456 {
+  /*width:50%;
+  height:auto;
+  padding: 5px 0px 5px 10px;
+  float:left;*/
+  margin-bottom: 100px;
+  display:block;
+}
+
 .info_div_time {
     /*width:50%;
     height:auto;
@@ -357,6 +366,10 @@ h1 {
   margin-left: 50%;
   height: 200px;
   /*background: black;*/
+}
+
+.myDiv {
+  text-align: left;
 }
 
 
