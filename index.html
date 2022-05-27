@@ -2333,7 +2333,7 @@
                 var willthiswork0 = (data888880.data[0].quotes.USD.price).toFixed(2);
 
                 var willthiswork1 = (data888880.data[0].quotes.USD.percent_change_1h).toFixed(2);
-                var willthisstylingwork1 = '';
+                var willthisstylingwork1 = 'black';
                 if (willthiswork1 < 0) {
                     willthisstylingwork1 = "red";
                 }
@@ -2342,7 +2342,7 @@
                 }
 
                 var willthiswork2 = (data888880.data[0].quotes.USD.percent_change_24h).toFixed(2);
-                var willthisstylingwork2 = '';
+                var willthisstylingwork2 = 'black';
                 if (willthiswork2 < 0) {
                     willthisstylingwork2 = "red";
                 }
@@ -2351,7 +2351,7 @@
                 }
 
                 var willthiswork3 = (data888880.data[0].quotes.USD.percent_change_7d).toFixed(2);
-                var willthisstylingwork3 = '';
+                var willthisstylingwork3 = 'black';
                 if (willthiswork3 < 0) {
                     willthisstylingwork3 = "red";
                 }
@@ -2375,6 +2375,7 @@
                 var willthiswork1 = (data888880.data[0].value_classification);
                 var willthiswork2 = new Date((data888880.data[0].timestamp)* 1000)
                 var willthiswork3 = ((data888880.data[0].value) - (data888880.data[1].value));
+                var willthisstylingwork1 = "black";
                 if (willthiswork3 < 0) {
                     willthisstylingwork1 = "red";
                 }
