@@ -187,7 +187,7 @@ $(document)
                         }
                 
                     ],
-                    rowReorder: true
+                    rowReorder: false
                     })
                 
                 ;    
@@ -322,7 +322,7 @@ $(document)
                         }
                 
                     ],
-                    rowReorder: true
+                    rowReorder: false
                     })
                 
                 ;    
