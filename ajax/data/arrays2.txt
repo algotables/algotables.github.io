@@ -191,6 +191,14 @@
             [
               "Zenny","317670428","ZENI","TBD","TBD","TBD","TBD" ],
             [
-              "Zone","444035862","ZONE","TBD","https://www.crunchbase.com/organization/zone-af6d","https://docsend.com/view/j22evyxhdhc78d3w","https://docs.zone.game/roadmap" ]
+              "Zone","444035862","ZONE","TBD","https://www.crunchbase.com/organization/zone-af6d","https://docsend.com/view/j22evyxhdhc78d3w","https://docs.zone.game/roadmap" ],
+            [
+              "RDinitiativ","467134640","RDINI","TBD","TBD","https://drive.google.com/file/d/1zwUb7WxF0SheQrpkd0UTgu-BTf3LcT11/view","TBD" ],
+            [
+              "GARD","692432647","GARDIAN","TBD","https://www.crunchbase.com/organization/tapera-inc","https://www.algogard.com/white-paper.pdf","https://www.algogard.com/#roadmap" ],
+            [
+              "DeafCoin","367029007","DEAF","TBD","TBD","https://www.deafcore.com/_files/ugd/2bc464_277c2a82d1ba4665852f3d98b71f51c6.pdf","https://www.deafcore.com/road-map" ],
+            [
+              "DeCHO Loyalty Token ASA","722955559","DeLTA","TBD","TBD","TBD","https://decho.finance/roadmap" ]
           ]
 }
