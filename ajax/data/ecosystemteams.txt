@@ -210,6 +210,22 @@
             [
               "Victor","Aderibigbe","DeCHO","Backend Engineer","https://www.linkedin.com/in/victor-aderibigbe-ad/","TBD","TBD","TBD" ],
             [
-              "Joshua","Agbomeikhe","DeCHO","CEO & Founder","https://www.linkedin.com/in/joshua-agbomeikhe-b41114193/","TBD","TBD","TBD" ]
+              "Joshua","Agbomeikhe","DeCHO","CEO & Founder","https://www.linkedin.com/in/joshua-agbomeikhe-b41114193/","TBD","TBD","TBD" ],
+            [
+              "Thomas","Arul","Bleumi, Inc.","CEO & Co-founder","https://www.linkedin.com/in/thomasarul/","TBD","TBD","TBD" ],
+            [
+              "John","Susai","Bleumi, Inc.","COO & Co-Founder","https://www.linkedin.com/in/johnmelvinsusai/","TBD","TBD","TBD" ],
+            [
+              "Ahobilesan","Gurumurthy","Bleumi, Inc.","Software Engineer","https://www.linkedin.com/in/ahobilesan/","TBD","TBD","TBD" ],
+            [
+              "Gopinath","R","Bleumi, Inc.","Business Analyst","https://www.linkedin.com/in/gopinath-r-2a311b40/","TBD","TBD","TBD" ],
+            [
+              "Balaji","Saravanapavan","Bleumi, Inc.","Marketing Consultant","https://www.linkedin.com/in/balaji-saravanapavan-91a067162/","TBD","TBD","TBD" ],
+            [
+              "Gokula","Krishnan","Bleumi, Inc.","Associate Consultant","https://www.linkedin.com/in/gokulakrishnan-sethuraja/","TBD","TBD","TBD" ],
+            [
+              "Bharani","Velu","Bleumi, Inc.","Front-end Developer","https://www.linkedin.com/in/bharani-velu-a187971a0","TBD","TBD","TBD" ],
+            [
+              "Gopinath","Rajasekaran","Bleumi, Inc.","Marketing Consultant","https://www.linkedin.com/in/550b64169/","TBD","TBD","TBD" ]
         ]
 }
