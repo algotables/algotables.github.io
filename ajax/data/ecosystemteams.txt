@@ -226,6 +226,29 @@
             [
               "Bharani","Velu","Bleumi, Inc.","Front-end Developer","https://www.linkedin.com/in/bharani-velu-a187971a0","TBD","TBD","TBD" ],
             [
-              "Gopinath","Rajasekaran","Bleumi, Inc.","Marketing Consultant","https://www.linkedin.com/in/550b64169/","TBD","TBD","TBD" ]
+              "Gopinath","Rajasekaran","Bleumi, Inc.","Marketing Consultant","https://www.linkedin.com/in/550b64169/","TBD","TBD","TBD" ],
+            [
+              "Matthew","Sullivan","Bleumi, Inc.","Founder, CEO","https://www.linkedin.com/in/mattsullivanco/","TBD","TBD","TBD" ],
+            [
+              "Roy","Ramnarine","Alty","Account Manager","https://www.linkedin.com/in/roydoobayramnarine/","TBD","TBD","TBD" ],
+            [
+              "Samir","Bandali","Alty","CBDO","https://www.linkedin.com/in/samirjafferbandali/","TBD","TBD","TBD" ],
+            [
+              "Myroslava","Klymenko","Alty","Product Delivery Manager","https://www.linkedin.com/in/mira-klimenko/","TBD","TBD","TBD" ],
+            [
+              "Marsiya","Issah","Alty","Production Operations Exec.","https://www.linkedin.com/in/marsiya-issah/","TBD","TBD","TBD" ],
+            [
+              "Patrick","Moufarrige","Alty","Chief Operating Officer","https://www.linkedin.com/in/patrickmoufarrige/","TBD","TBD","TBD" ],
+            [
+              "Shakib","Small","Alty","Developer","https://www.linkedin.com/in/shakib-small-0b0290187/","TBD","TBD","TBD" ],
+            [
+              "Keatly","Haldeman","Dequency","CEO","https://www.linkedin.com/in/keatly-haldeman-7b55803/","TBD","TBD","TBD" ],
+            [
+              "Liam","Hathaway","Dequency","Operations","https://www.linkedin.com/in/liam-hathaway-72b510b5/","TBD","TBD","TBD" ],
+            [
+              "Margaret","Link","Dequency","Vice President Operations","https://www.linkedin.com/in/margaretlink/","TBD","TBD","TBD" ],
+            [
+              "Carla","Brown","Dequency","Community Manager","https://www.linkedin.com/in/carla-brown-935a341a3/","TBD","TBD","TBD" ]
+              
         ]
 }
