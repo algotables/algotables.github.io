@@ -199,6 +199,10 @@
             [
               "DeafCoin","367029007","DEAF","TBD","TBD","https://www.deafcore.com/_files/ugd/2bc464_277c2a82d1ba4665852f3d98b71f51c6.pdf","https://www.deafcore.com/road-map" ],
             [
-              "DeCHO Loyalty Token ASA","722955559","DeLTA","TBD","TBD","TBD","https://decho.finance/roadmap" ]
+              "DeCHO Loyalty Token ASA","722955559","DeLTA","TBD","TBD","TBD","https://decho.finance/roadmap" ],
+            [
+              "xBacked","TBD","TBD","TBD","TBD","TBD","https://www.xbacked.io/#roadmap" ],
+            [
+              "XP Network","TBD","TBD","TBD","https://www.crunchbase.com/organization/xp-networks","https://xp.network/whitepaper","https://docs.xp.network/docs/roadmap/" ]
           ]
 }
