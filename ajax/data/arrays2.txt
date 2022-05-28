@@ -12,4 +12,5 @@
               "80Acres","555540865","ACRES","TBD","TBD","TBD","TBD" ],
             [
               "Adventure Coin","426526699","ADVENTUR","TBD","TBD","TBD","TBD" ]
+          ]
 }
