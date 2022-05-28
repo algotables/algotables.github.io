@@ -204,6 +204,12 @@
             [
               "Tejas","Kothari","UpsideFinance","Co-Founder","https://www.linkedin.com/in/tetek/","TBD","TBD","TBD" ],
             [
-              "Nishant","Pandav","UpsideFinance","Co-Founder","https://www.linkedin.com/in/npanium/","TBD","TBD","TBD" ]
+              "Nishant","Pandav","UpsideFinance","Co-Founder","https://www.linkedin.com/in/npanium/","TBD","TBD","TBD" ],
+            [
+              "Obafunmilayo","Lijadu","DeCHO","Technical Project Manager","https://www.linkedin.com/in/obafunmilayo-lijadu/","TBD","TBD","TBD" ],
+            [
+              "Victor","Aderibigbe","DeCHO","Backend Engineer","https://www.linkedin.com/in/victor-aderibigbe-ad/","TBD","TBD","TBD" ],
+            [
+              "Joshua","Agbomeikhe","DeCHO","CEO & Founder","https://www.linkedin.com/in/joshua-agbomeikhe-b41114193/","TBD","TBD","TBD" ]
         ]
 }
