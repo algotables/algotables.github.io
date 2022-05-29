@@ -211,6 +211,10 @@
             [
               "Alty","TBD","TBD","TBD","https://www.crunchbase.com/organization/alty-34ec","TBD","TBD" ],
             [
-              "Dequency","TBD","TBD","TBD","https://www.crunchbase.com/organization/dequency","TBD","https://dequency.io/roadmap/" ]
+              "Dequency","TBD","TBD","TBD","https://www.crunchbase.com/organization/dequency","TBD","https://dequency.io/roadmap/" ],
+            [
+              "Sign.net","TBD","TBD","TBD","https://www.crunchbase.com/organization/sign-net","TBD","TBD" ],
+            [
+              "Meadow Labs","TBD","TBD","TBD","TBD","TBD","TBD" ]
           ]
 }

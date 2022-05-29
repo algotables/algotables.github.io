@@ -248,7 +248,29 @@
             [
               "Margaret","Link","Dequency","Vice President Operations","https://www.linkedin.com/in/margaretlink/","TBD","TBD","TBD" ],
             [
-              "Carla","Brown","Dequency","Community Manager","https://www.linkedin.com/in/carla-brown-935a341a3/","TBD","TBD","TBD" ]
+              "Carla","Brown","Dequency","Community Manager","https://www.linkedin.com/in/carla-brown-935a341a3/","TBD","TBD","TBD" ],
+            [
+              "Ray","Lee","Sign.net","Software Developer","https://www.linkedin.com/in/rayleeyz","TBD","TBD","TBD" ],
+            [
+              "Caleb","K.","Sign.net","Founder","https://www.linkedin.com/in/calebkow/","TBD","TBD","TBD" ],
+            [
+              "Ruoling","Wang","Sign.net","Operations Manager","https://www.linkedin.com/in/ruoling-wang-77922752/","TBD","TBD","TBD" ],
+            [
+              "Toby","Seah","Sign.net","Sales Manager","https://www.linkedin.com/in/toby-seah-412921214","TBD","TBD","TBD" ],
+            [
+              "Allison","Matthews","Sign.net","CEO","https://www.linkedin.com/in/allison-herbert-matthews-105667234","TBD","TBD","TBD" ],
+            [
+              "Ryo","Seah","Sign.net","Product Development Intern","https://www.linkedin.com/in/ryo-seah-13b991221","TBD","TBD","TBD" ],
+            [
+              "Ambrose","Hill","Meadow Labs","Senior Software Engineer","https://www.linkedin.com/in/ambrose-hill","TBD","TBD","TBD" ],
+            [
+              "Mariella","Mejia","Meadow Labs","Chief Marketing Officer","https://www.linkedin.com/in/mariellamejia","TBD","TBD","TBD" ],
+            [
+              "Martin","Kelly","Meadow Labs","Co-Founder & CEO","https://www.linkedin.com/in/mkaus/","TBD","TBD","TBD" ],
+            [
+              "Sarah","O'Leary","Meadow Labs","Product Manager","https://www.linkedin.com/in/sarah-may-o-leary/","TBD","TBD","TBD" ],
+            [
+              "Chris","Smith","Meadow Labs","COO - Head of Transformation","https://www.linkedin.com/in/chris-smith-buytasker/","TBD","TBD","TBD" ]              
               
         ]
 }
