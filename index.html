@@ -1978,6 +1978,22 @@
                             </td>
                         </tr>
 
+                        <tr>
+                            <td>Al Goanna</td>
+                            <td>
+                                TBD
+                            </td>
+                            <td>
+                                <a href="https://discord.gg/NzpWHu4nsz" target="_blank" rel="noopener noreferrer">Discord</a>,
+                                <a href="https://ecosystem.algorand.com/project/al-goanna" target="_blank" rel="noopener noreferrer">Ecosystem</a>,
+                                <a href="https://www.instagram.com/al_goanna/" target="_blank" rel="noopener noreferrer">Instagram</a>,
+                                <br>
+                                <a href="https://t.me/algoanna" target="_blank" rel="noopener noreferrer">Telegram</a>,
+                                <a href="https://twitter.com/al_goanna" target="_blank" rel="noopener noreferrer">Twitter</a>,    
+                                <a href="https://algoanna.com/" target="_blank" rel="noopener noreferrer">Website</a>
+                            </td>
+                        </tr>
+
                     </tbody>
 
                     <tfoot>
@@ -2692,6 +2708,16 @@
                 colReorder: true,
                 rowReorder: false,  
                 columnDefs: [{
+                            /*targets: [1],
+                            render: function(data, type) {
+
+                                                var number2 = $.fn.dataTable.render.number( ',', '.', 2). display(data);
+                                                
+                                                var cheeseburger420 = number2.toFixed(2);                                               
+                                                    
+                                                return cheeseburger420;
+
+                                            },*/ //thinking the issue lies in the .js file itself for CsvToHtmlTable2 that or hmm...
                             targets: [2,3,4],
                             render: function(data, type) {
                                                 var number = $.fn.dataTable.render.number( ',', '.', 2). display(data);
