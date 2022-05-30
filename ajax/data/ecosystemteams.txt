@@ -239,6 +239,56 @@
             [
               "Patrick","Moufarrige","Alty","Chief Operating Officer","https://www.linkedin.com/in/patrickmoufarrige/","TBD","TBD","TBD" ],
             [
-              "Shakib","Small","Alty","Developer","https://www.linkedin.com/in/shakib-small-0b0290187/","TBD","TBD","TBD" ]
+              "Shakib","Small","Alty","Developer","https://www.linkedin.com/in/shakib-small-0b0290187/","TBD","TBD","TBD" ],
+            [
+              "Keatly","Haldeman","Dequency","CEO","https://www.linkedin.com/in/keatly-haldeman-7b55803/","TBD","TBD","TBD" ],
+            [
+              "Liam","Hathaway","Dequency","Operations","https://www.linkedin.com/in/liam-hathaway-72b510b5/","TBD","TBD","TBD" ],
+            [
+              "Margaret","Link","Dequency","Vice President Operations","https://www.linkedin.com/in/margaretlink/","TBD","TBD","TBD" ],
+            [
+              "Carla","Brown","Dequency","Community Manager","https://www.linkedin.com/in/carla-brown-935a341a3/","TBD","TBD","TBD" ],
+            [
+              "Ray","Lee","Sign.net","Software Developer","https://www.linkedin.com/in/rayleeyz","TBD","TBD","TBD" ],
+            [
+              "Caleb","K.","Sign.net","Founder","https://www.linkedin.com/in/calebkow/","TBD","TBD","TBD" ],
+            [
+              "Ruoling","Wang","Sign.net","Operations Manager","https://www.linkedin.com/in/ruoling-wang-77922752/","TBD","TBD","TBD" ],
+            [
+              "Toby","Seah","Sign.net","Sales Manager","https://www.linkedin.com/in/toby-seah-412921214","TBD","TBD","TBD" ],
+            [
+              "Allison","Matthews","Sign.net","CEO","https://www.linkedin.com/in/allison-herbert-matthews-105667234","TBD","TBD","TBD" ],
+            [
+              "Ryo","Seah","Sign.net","Product Development Intern","https://www.linkedin.com/in/ryo-seah-13b991221","TBD","TBD","TBD" ],
+            [
+              "Ambrose","Hill","Meadow Labs","Senior Software Engineer","https://www.linkedin.com/in/ambrose-hill","TBD","TBD","TBD" ],
+            [
+              "Mariella","Mejia","Meadow Labs","Chief Marketing Officer","https://www.linkedin.com/in/mariellamejia","TBD","TBD","TBD" ],
+            [
+              "Martin","Kelly","Meadow Labs","Co-Founder & CEO","https://www.linkedin.com/in/mkaus/","TBD","TBD","TBD" ],
+            [
+              "Sarah","O'Leary","Meadow Labs","Product Manager","https://www.linkedin.com/in/sarah-may-o-leary/","TBD","TBD","TBD" ],
+            [
+              "Chris","Smith","Meadow Labs","COO - Head of Transformation","https://www.linkedin.com/in/chris-smith-buytasker/","TBD","TBD","TBD" ],
+            [
+              "Nick","Haasnoot","Quantoz Blockchain Technology","CEO","https://www.linkedin.com/in/nickhaasnoot/","TBD","TBD","TBD" ],
+            [
+              "Suzanne","Robért","Quantoz Blockchain Technology","Software Engineer","https://www.linkedin.com/in/the-suzanne-robert/","TBD","TBD","TBD" ],
+            [
+              "Elie","Naba","Quantoz Blockchain Technology","Technical Consultant","https://www.linkedin.com/in/elie-naba/","TBD","TBD","TBD" ],
+            [
+              "Alessandro","Capra","Quantoz Blockchain Technology","Frontend Engineer","https://www.linkedin.com/in/alessandrocapradesign/","TBD","TBD","TBD" ],
+            [
+              "Martijn","Van Eijk","Quantoz Blockchain Technology","Lead SE & ISO"s,"https://www.linkedin.com/in/martijnvaneijk/","TBD","TBD","TBD" ],
+            [
+              "Raymen","Scholten","Quantoz Blockchain Technology","Software Engineer","https://www.linkedin.com/in/raymenscholten/","TBD","TBD","TBD" ],
+            [
+              "Neha","Agarwal","Quantoz Blockchain Technology","Developer","https://www.linkedin.com/in/neha-agarwal-bb022553/","TBD","TBD","TBD" ],
+            [
+              "Roberta","Gaddoni","Quantoz Blockchain Technology","AML Compliance Officer","https://www.linkedin.com/in/robertagaddoni/","TBD","TBD","TBD" ],
+            [
+              "Ron","Berndsen","Quantoz Blockchain Technology","Chairman Of The Supervisory Board","https://www.linkedin.com/in/ron-berndsen-b5720a14/","TBD","TBD","TBD" ],
+            [
+              "Peter","Dekker","Quantoz Blockchain Technology","Operations Manager","https://www.linkedin.com/in/peterwillemdekker/","TBD","TBD","TBD" ]  
           ]
 }
