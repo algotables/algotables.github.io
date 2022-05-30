@@ -243,6 +243,24 @@
             [
               "Keatly","Haldeman","Dequency","CEO","https://www.linkedin.com/in/keatly-haldeman-7b55803/","TBD","TBD","TBD" ],
             [
+              "Liam","Hathaway","Dequency","Operations","https://www.linkedin.com/in/liam-hathaway-72b510b5/","TBD","TBD","TBD" ],
+            [
+              "Margaret","Link","Dequency","Vice President Operations","https://www.linkedin.com/in/margaretlink/","TBD","TBD","TBD" ],
+            [
+              "Carla","Brown","Dequency","Community Manager","https://www.linkedin.com/in/carla-brown-935a341a3/","TBD","TBD","TBD" ],
+            [
+              "Ray","Lee","Sign.net","Software Developer","https://www.linkedin.com/in/rayleeyz","TBD","TBD","TBD" ],
+            [
+              "Caleb","K.","Sign.net","Founder","https://www.linkedin.com/in/calebkow/","TBD","TBD","TBD" ],
+            [
+              "Ruoling","Wang","Sign.net","Operations Manager","https://www.linkedin.com/in/ruoling-wang-77922752/","TBD","TBD","TBD" ],
+            [
+              "Toby","Seah","Sign.net","Sales Manager","https://www.linkedin.com/in/toby-seah-412921214","TBD","TBD","TBD" ],
+            [
+              "Allison","Matthews","Sign.net","CEO","https://www.linkedin.com/in/allison-herbert-matthews-105667234","TBD","TBD","TBD" ],
+            [
+              "Ryo","Seah","Sign.net","Product Development Intern","https://www.linkedin.com/in/ryo-seah-13b991221","TBD","TBD","TBD" ],
+            [
               "Gaston","Hendriks","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/hendriksgaston/","TBD","TBD","TBD" ],
             [
               "Bjorn","Wamelink","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/bjornwamelink/","TBD","TBD","TBD" ],
