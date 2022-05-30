@@ -261,6 +261,22 @@
             [
               "Ryo","Seah","Sign.net","Product Development Intern","https://www.linkedin.com/in/ryo-seah-13b991221","TBD","TBD","TBD" ],
             [
+              "Ambrose","Hill","Meadow Labs","Senior Software Engineer","https://www.linkedin.com/in/ambrose-hill","TBD","TBD","TBD" ],
+            [
+              "Mariella","Mejia","Meadow Labs","Chief Marketing Officer","https://www.linkedin.com/in/mariellamejia","TBD","TBD","TBD" ],
+            [
+              "Martin","Kelly","Meadow Labs","Co-Founder & CEO","https://www.linkedin.com/in/mkaus/","TBD","TBD","TBD" ],
+            [
+              "Sarah","O'Leary","Meadow Labs","Product Manager","https://www.linkedin.com/in/sarah-may-o-leary/","TBD","TBD","TBD" ],
+            [
+              "Chris","Smith","Meadow Labs","COO - Head of Transformation","https://www.linkedin.com/in/chris-smith-buytasker/","TBD","TBD","TBD" ],
+            [
+              "Nick","Haasnoot","Quantoz Blockchain Technology","CEO","https://www.linkedin.com/in/nickhaasnoot/","TBD","TBD","TBD" ],
+            [
+              "Suzanne","Robért","Quantoz Blockchain Technology","Software Engineer","https://www.linkedin.com/in/the-suzanne-robert/","TBD","TBD","TBD" ],
+            [
+              "Elie","Naba","Quantoz Blockchain Technology","Technical Consultant","https://www.linkedin.com/in/elie-naba/","TBD","TBD","TBD" ],
+            [
               "Gaston","Hendriks","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/hendriksgaston/","TBD","TBD","TBD" ],
             [
               "Bjorn","Wamelink","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/bjornwamelink/","TBD","TBD","TBD" ],
