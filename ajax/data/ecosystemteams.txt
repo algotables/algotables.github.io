@@ -308,5 +308,5 @@
               "Eiko","Dekkers","Quantoz Blockchain Technology","Founding Partner, Advisor","https://www.linkedin.com/in/eiko-dekkers-0145283a/","TBD","TBD","TBD" ],
             [
               "Maximilian","Stoll","Quantoz Blockchain Technology","Softwareingenieur","https://www.linkedin.com/in/maximilian-stoll-547578209/","TBD","TBD","TBD" ]   
-        ]
+          ]
 }
