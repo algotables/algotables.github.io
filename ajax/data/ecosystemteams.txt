@@ -277,16 +277,6 @@
             [
               "Elie","Naba","Quantoz Blockchain Technology","Technical Consultant","https://www.linkedin.com/in/elie-naba/","TBD","TBD","TBD" ],
             [
-              "Alessandro","Capra","Quantoz Blockchain Technology","Frontend Engineer","https://www.linkedin.com/in/alessandrocapradesign/","TBD","TBD","TBD" ],
-            [
-              "Martijn","Van Eijk","Quantoz Blockchain Technology","Lead SE & ISO"s,"https://www.linkedin.com/in/martijnvaneijk/","TBD","TBD","TBD" ],
-            [
-              "Raymen","Scholten","Quantoz Blockchain Technology","Software Engineer","https://www.linkedin.com/in/raymenscholten/","TBD","TBD","TBD" ],
-            [
-              "Neha","Agarwal","Quantoz Blockchain Technology","Developer","https://www.linkedin.com/in/neha-agarwal-bb022553/","TBD","TBD","TBD" ],
-            [
-              "Roberta","Gaddoni","Quantoz Blockchain Technology","AML Compliance Officer","https://www.linkedin.com/in/robertagaddoni/","TBD","TBD","TBD" ],
-            [
               "Gaston","Hendriks","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/hendriksgaston/","TBD","TBD","TBD" ],
             [
               "Bjorn","Wamelink","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/bjornwamelink/","TBD","TBD","TBD" ],
