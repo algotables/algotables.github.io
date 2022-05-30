@@ -307,6 +307,18 @@
             [
               "Eiko","Dekkers","Quantoz Blockchain Technology","Founding Partner, Advisor","https://www.linkedin.com/in/eiko-dekkers-0145283a/","TBD","TBD","TBD" ],
             [
-              "Maximilian","Stoll","Quantoz Blockchain Technology","Softwareingenieur","https://www.linkedin.com/in/maximilian-stoll-547578209/","TBD","TBD","TBD" ]   
+              "Maximilian","Stoll","Quantoz Blockchain Technology","Softwareingenieur","https://www.linkedin.com/in/maximilian-stoll-547578209/","TBD","TBD","TBD" ],
+            [
+              "Chad","Oda","BirdBot","Advisor","https://www.linkedin.com/in/chadoda/","TBD","TBD","TBD" ],
+            [
+              "Eldar","Mezbur","Defly","Advisor","https://www.linkedin.com/in/eldar-mezbur/","TBD","TBD","TBD" ],
+            [
+              "Federico","Demicheli","PlanetWatch","Advisor","https://www.linkedin.com/in/federico-demicheli-2b882b2/","TBD","TBD","TBD" ],
+            [
+              "Paolo","Spagnolo","PlanetWatch","Advisor","https://www.linkedin.com/in/paolo-spagnolo-577330/","TBD","TBD","TBD" ],
+            [
+              "Federico","Demicheli","PlanetWatch","Advisor","https://www.linkedin.com/in/federico-demicheli-2b882b2/","TBD","TBD","TBD" ],
+            [
+              "Joey","Brander","Zone","Advisor","https://www.linkedin.com/in/joeybrander/","TBD","TBD","TBD" ]                      
           ]
 }
