@@ -215,6 +215,8 @@
             [
               "Sign.net","TBD","TBD","TBD","https://www.crunchbase.com/organization/sign-net","TBD","TBD" ],
             [
-              "Meadow Labs","TBD","TBD","TBD","TBD","TBD","TBD" ]
+              "Meadow Labs","TBD","TBD","TBD","TBD","TBD","TBD" ],
+            [
+              "Vote Coin","452399768","Vote","TBD","TBD","TBD","https://www.vote-coin.com/vote-coin-tokenomics/roadmap" ]
           ]
 }
