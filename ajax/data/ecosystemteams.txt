@@ -1,6 +1,5 @@
 {
-  "data": 
-        [
+  "data": [
             [
               "Pax","Somnius","Algoneer","Team","TBD","https://github.com/paxsomnius","https://twitter.com/PSomnius","TBD" ],
             [
@@ -268,9 +267,46 @@
             [
               "Martin","Kelly","Meadow Labs","Co-Founder & CEO","https://www.linkedin.com/in/mkaus/","TBD","TBD","TBD" ],
             [
-              "Sarah","O'Leary","Meadow Labs","Product Manager","https://www.linkedin.com/in/sarah-may-o-leary/","TBD","TBD","TBD" ]
-                                                            
-                                              
-              
+              "Sarah","O'Leary","Meadow Labs","Product Manager","https://www.linkedin.com/in/sarah-may-o-leary/","TBD","TBD","TBD" ],
+            [
+              "Chris","Smith","Meadow Labs","COO - Head of Transformation","https://www.linkedin.com/in/chris-smith-buytasker/","TBD","TBD","TBD" ],
+            [
+              "Nick","Haasnoot","Quantoz Blockchain Technology","CEO","https://www.linkedin.com/in/nickhaasnoot/","TBD","TBD","TBD" ],
+            [
+              "Suzanne","Robért","Quantoz Blockchain Technology","Software Engineer","https://www.linkedin.com/in/the-suzanne-robert/","TBD","TBD","TBD" ],
+            [
+              "Elie","Naba","Quantoz Blockchain Technology","Technical Consultant","https://www.linkedin.com/in/elie-naba/","TBD","TBD","TBD" ],
+            [
+              "Alessandro","Capra","Quantoz Blockchain Technology","Frontend Engineer","https://www.linkedin.com/in/alessandrocapradesign/","TBD","TBD","TBD" ],
+            [
+              "Martijn","Van Eijk","Quantoz Blockchain Technology","Lead SE & ISO"s,"https://www.linkedin.com/in/martijnvaneijk/","TBD","TBD","TBD" ],
+            [
+              "Raymen","Scholten","Quantoz Blockchain Technology","Software Engineer","https://www.linkedin.com/in/raymenscholten/","TBD","TBD","TBD" ],
+            [
+              "Neha","Agarwal","Quantoz Blockchain Technology","Developer","https://www.linkedin.com/in/neha-agarwal-bb022553/","TBD","TBD","TBD" ],
+            [
+              "Roberta","Gaddoni","Quantoz Blockchain Technology","AML Compliance Officer","https://www.linkedin.com/in/robertagaddoni/","TBD","TBD","TBD" ],
+            [
+              "Ron","Berndsen","Quantoz Blockchain Technology","Chairman Of The Supervisory Board","https://www.linkedin.com/in/ron-berndsen-b5720a14/","TBD","TBD","TBD" ],
+            [
+              "Peter","Dekker","Quantoz Blockchain Technology","Operations Manager","https://www.linkedin.com/in/peterwillemdekker/","TBD","TBD","TBD" ],
+            [
+              "Gaston","Hendriks","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/hendriksgaston/","TBD","TBD","TBD" ],
+            [
+              "Bjorn","Wamelink","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/bjornwamelink/","TBD","TBD","TBD" ],
+            [
+              "Nicholas","Eastham","Quantoz Blockchain Technology","Co-founder","https://www.linkedin.com/in/nicholaseastham/","TBD","TBD","TBD" ],
+            [
+              "Jurgen","Lieverst","Quantoz Blockchain Technology","Asset tokenization","https://www.linkedin.com/in/jurgen-lieverst-b1ba71136/","TBD","TBD","TBD" ],
+            [
+              "Paul","van Grol","Quantoz Blockchain Technology","Software Developer","https://www.linkedin.com/in/paul-van-grol-53b42216b","TBD","TBD","TBD" ],
+            [
+              "Ancy","Thomas","Quantoz Blockchain Technology","Software Engineer","https://www.linkedin.com/in/ancy-thomas-796b3664/","TBD","TBD","TBD" ],
+            [
+              "George","Vasileiadis","Quantoz Blockchain Technology","Software Engineer","https://www.linkedin.com/in/george-vasileiadis-b9279589/","TBD","TBD","TBD" ],
+            [
+              "Eiko","Dekkers","Quantoz Blockchain Technology","Founding Partner, Advisor","https://www.linkedin.com/in/eiko-dekkers-0145283a/","TBD","TBD","TBD" ],
+            [
+              "Maximilian","Stoll","Quantoz Blockchain Technology","Softwareingenieur","https://www.linkedin.com/in/maximilian-stoll-547578209/","TBD","TBD","TBD" ]   
         ]
 }
