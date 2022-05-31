@@ -223,6 +223,8 @@
             [
               "Hivemind Capital","TBD","TBD","TBD","https://www.crunchbase.com/organization/hivemind-capital-partners","TBD","TBD" ],
             [
-              "ZestBloom","TBD","TBD","TBD","https://www.crunchbase.com/organization/zestbloom","TBD","TBD" ]
+              "ZestBloom","TBD","TBD","TBD","https://www.crunchbase.com/organization/zestbloom","TBD","TBD" ],
+            [
+              "Ferrum Network","TBD","TBD","TBD","https://www.crunchbase.com/organization/ferrum-network","TBD","https://roadmap.ferrum.network/" ]
           ]
 }
