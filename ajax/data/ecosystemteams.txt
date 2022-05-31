@@ -373,6 +373,18 @@
             [
               "Jasmine","Farrell","ZestBloom, Inc.","Co-Founder & CEO","https://www.linkedin.com/in/jasmine-i-farrell/","TBD","TBD","TBD" ],
             [
-              "Nicholas","Shellabarger","ZestBloom, Inc.","Co-Founder","https://www.linkedin.com/in/nicholas-shellabarger-121301150/","TBD","TBD","TBD" ]                                                                                 
+              "Nicholas","Shellabarger","ZestBloom, Inc.","Co-Founder","https://www.linkedin.com/in/nicholas-shellabarger-121301150/","TBD","TBD","TBD" ],
+            [
+              "Matt","Zhang","Hivemind","Founder and Managing Partner","https://www.linkedin.com/in/mattzhang/","TBD","TBD","TBD" ],
+            [
+              "Sam","Peurifoy","Hivemind","Partner, Head of Interactive","https://www.linkedin.com/in/sampeurifoy/","TBD","TBD","TBD" ],
+            [
+              "Joanna","Polito","Hivemind","Executive Assistant","https://www.linkedin.com/in/joannapolito/","TBD","TBD","TBD" ],
+            [
+              "Marlon","Bevaun","Hivemind","Director of Finance","https://www.linkedin.com/in/marlinb/","TBD","TBD","TBD" ],
+            [
+              "Lee","Smallwood","Hivemind","Managing Partner and COO","https://www.linkedin.com/in/lee-smallwood/","TBD","TBD","TBD" ],
+            [
+              "Jake","Greenstein","Hivemind","Partner, Head of Infrastructure","https://www.linkedin.com/in/jake-greenstein-29479630/","TBD","TBD","TBD" ]                                                                                               
           ]
 }
