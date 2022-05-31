@@ -217,6 +217,12 @@
             [
               "Meadow Labs","TBD","TBD","TBD","TBD","TBD","TBD" ],
             [
-              "Vote Coin","452399768","Vote","TBD","TBD","TBD","https://www.vote-coin.com/vote-coin-tokenomics/roadmap" ]
+              "Vote Coin","452399768","Vote","TBD","TBD","TBD","https://www.vote-coin.com/vote-coin-tokenomics/roadmap" ],
+            [
+              "ANote Music","TBD","Vote","TBD","https://www.crunchbase.com/organization/anote-music-sound-investments","TBD","TBD" ],
+            [
+              "Hivemind Capital","TBD","TBD","TBD","https://www.crunchbase.com/organization/hivemind-capital-partners","TBD","TBD" ],
+            [
+              "ZestBloom","TBD","TBD","TBD","https://www.crunchbase.com/organization/zestbloom","TBD","TBD" ]
           ]
 }
