@@ -385,6 +385,10 @@
             [
               "Lee","Smallwood","Hivemind","Managing Partner and COO","https://www.linkedin.com/in/lee-smallwood/","TBD","TBD","TBD" ],
             [
-              "Jake","Greenstein","Hivemind","Partner, Head of Infrastructure","https://www.linkedin.com/in/jake-greenstein-29479630/","TBD","TBD","TBD" ]                                                                                               
+              "Jake","Greenstein","Hivemind","Partner, Head of Infrastructure","https://www.linkedin.com/in/jake-greenstein-29479630/","TBD","TBD","TBD" ],
+            [
+              "Nichell","Logue","Ferrum Network","Executive Vice President of OPS","https://www.linkedin.com/in/nichelllogue/","TBD","TBD","TBD" ],
+            [
+              "Taha","Abbasi","Ferrum Network","CSO","https://www.linkedin.com/in/tahaabbasi/","TBD","TBD","TBD" ]                                                                                                    
           ]
 }
