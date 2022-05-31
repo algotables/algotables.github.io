@@ -365,6 +365,14 @@
             [
               "Tolu","Oluwagbemi","ANote Music","Lead Product Developer & Designer","https://www.linkedin.com/in/elia-cardelli-64923b85/","TBD","TBD","TBD" ],
             [
-              "Luigi","Felaco","ANote Music","Back-end Developer","https://www.linkedin.com/in/luigi-felaco-734884158/","TBD","TBD","TBD" ]                                                                            
+              "Luigi","Felaco","ANote Music","Back-end Developer","https://www.linkedin.com/in/luigi-felaco-734884158/","TBD","TBD","TBD" ],
+            [
+              "Evan","Maltz","ZestBloom, Inc.","Co-Founder","https://www.linkedin.com/in/evan-maltz-53b07b100/","TBD","TBD","TBD" ],
+            [
+              "Ryan","Farrell","ZestBloom, Inc.","Co-Founder","https://www.linkedin.com/in/ryan-a-farrell-engineer/","TBD","TBD","TBD" ],
+            [
+              "Jasmine","Farrell","ZestBloom, Inc.","Co-Founder & CEO","https://www.linkedin.com/in/jasmine-i-farrell/","TBD","TBD","TBD" ],
+            [
+              "Nicholas","Shellabarger","ZestBloom, Inc.","Co-Founder","https://www.linkedin.com/in/nicholas-shellabarger-121301150/","TBD","TBD","TBD" ]                                                                                 
           ]
 }
