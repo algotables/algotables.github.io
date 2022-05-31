@@ -319,6 +319,30 @@
             [
               "Federico","Demicheli","PlanetWatch","Advisor","https://www.linkedin.com/in/federico-demicheli-2b882b2/","TBD","TBD","TBD" ],
             [
-              "Joey","Brander","Zone","Advisor","https://www.linkedin.com/in/joeybrander/","TBD","TBD","TBD" ]                      
+              "Joey","Brander","Zone","Advisor","https://www.linkedin.com/in/joeybrander/","TBD","TBD","TBD" ],
+            [
+              "Grégoire","Mathonet","ANote Music","CTO","https://www.linkedin.com/in/gmathonet/","TBD","TBD","TBD" ],
+            [
+              "Athina","Konstantinidou","ANote Music","Marketing Communications Consultant","https://www.linkedin.com/in/konstathi/","TBD","TBD","TBD" ],
+            [
+              "Marco","Borgato","ANote Music","External Product & Marketing Advisor","https://www.linkedin.com/in/marco-borgato-3139337b/","TBD","TBD","TBD" ],
+            [
+              "Claire","Sabatier","ANote Music","Legal Counsel","https://www.linkedin.com/in/claire-sabatier-coaching/","TBD","TBD","TBD" ],
+            [
+              "Matteo","Cernuschi","ANote Music","COO & Co-Founder","https://www.linkedin.com/in/matteo-cernuschi/","TBD","TBD","TBD" ],
+            [
+              "Piotr","Wasaty","ANote Music","Strategic Advisor","https://www.linkedin.com/in/piotr-j-wasaty-b0a587","TBD","TBD","TBD" ],
+            [
+              "Joe","Sapienza","ANote Music","Of Counsel","https://www.linkedin.com/in/joesapienza","TBD","TBD","TBD" ],
+            [
+              "Carlo","Arrigoni","ANote Music","Growth Advisor","https://www.linkedin.com/in/carloarrigoni/","TBD","TBD","TBD" ],
+            [
+              "Bartłomiej","Tworek","ANote Music","Member Of The Management Board","https://www.linkedin.com/in/bartlomiej-tworek/","TBD","TBD","TBD" ],
+            [
+              "Marzio","Schena","ANote Music","CEO","https://www.linkedin.com/in/marzioflavioschena/","TBD","TBD","TBD" ],
+            [
+              "Irene","Ciuci","ANote Music","Digital Marketing Strategist","https://www.linkedin.com/in/ireneciuci/","TBD","TBD","TBD" ],
+            [
+              "Virginia","La Torre","ANote Music","Product Advocate","https://www.linkedin.com/in/virginialatorre/","TBD","TBD","TBD" ]                                                       
           ]
 }
