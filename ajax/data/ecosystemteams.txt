@@ -343,6 +343,14 @@
             [
               "Irene","Ciuci","ANote Music","Digital Marketing Strategist","https://www.linkedin.com/in/ireneciuci/","TBD","TBD","TBD" ],
             [
-              "Virginia","La Torre","ANote Music","Product Advocate","https://www.linkedin.com/in/virginialatorre/","TBD","TBD","TBD" ]                                                       
+              "Virginia","La Torre","ANote Music","Product Advocate","https://www.linkedin.com/in/virginialatorre/","TBD","TBD","TBD" ],
+            [
+              "Ludovico","Pincini","ANote Music","Head of Service Design","https://www.linkedin.com/in/ludovico-pincini/","TBD","TBD","TBD" ],
+            [
+              "Nicola","Meloni","ANote Music","Business and Operations Intern","https://www.linkedin.com/in/nicola-meloni/","TBD","TBD","TBD" ],
+            [
+              "Paloma","Melguizo","ANote Music","UI/API Developer","https://www.linkedin.com/in/paloma-vinaches-melguizo","TBD","TBD","TBD" ],
+            [
+              "Giulio","Fasano","ANote Music","Italian Outreach Partner","https://www.linkedin.com/in/giuliofasano/","TBD","TBD","TBD" ]                                                            
           ]
 }
