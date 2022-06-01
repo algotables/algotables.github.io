@@ -431,6 +431,18 @@
             [
               "Hasnat","Malik","Ferrum Network","Director of Projects","https://www.linkedin.com/in/hasnat-malik/","TBD","TBD","TBD" ],
             [
-              "Ibraheem","kabir","Ferrum Network","Software Engineer","https://www.linkedin.com/in/ibraheem-kabir-3ba663129/","TBD","TBD","TBD" ]                                                                                                                                                                                             
+              "Ibraheem","kabir","Ferrum Network","Software Engineer","https://www.linkedin.com/in/ibraheem-kabir-3ba663129/","TBD","TBD","TBD" ],
+            [
+              "Salman","Haider","Ferrum Network","Senior Blockchain Architect","https://www.linkedin.com/in/raviansalman/","TBD","TBD","TBD" ],
+            [
+              "Dur","Najaf","Ferrum Network","Technical Project Coordinator","https://www.linkedin.com/in/dur-e-najaf-4a67861b0/","TBD","TBD","TBD" ],
+            [
+              "Peter","Anh","Ferrum Network","Community Manager","https://www.linkedin.com/in/peteranh910/","TBD","TBD","TBD" ],
+            [
+              "Kurt","","Ferrum Network","Product and Service Consultant","https://www.linkedin.com/in/kurt-ferrum-network-product-and-service-team-963052210/","TBD","TBD","TBD" ],
+            [
+              "Joel","Kovshoff","Ferrum Network","Advisor","https://www.linkedin.com/in/coachkcrypto/","TBD","TBD","TBD" ],
+            [
+              "Maryam","Arif","Ferrum Network","Software Engineer","https://www.linkedin.com/in/maryam-arif-1317511b0/","TBD","TBD","TBD" ]                                                                                                                                                                                                             
           ]
 }
