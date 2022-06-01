@@ -447,6 +447,12 @@
             [
               "Sole","Gospel","Ferrum Network","Marketing Specialist","https://www.linkedin.com/in/sole-gospel-a2136b210/","TBD","TBD","TBD" ],
             [
-              "Asad","Khalid","Ferrum Network","Financial Controller & Accountant","https://www.linkedin.com/in/asad-khalid-985873a9/","TBD","TBD","TBD" ]                                                                                                                                                                                                                 
+              "Asad","Khalid","Ferrum Network","Financial Controller & Accountant","https://www.linkedin.com/in/asad-khalid-985873a9/","TBD","TBD","TBD" ],
+            [
+              "Volkan","YÜCEL","Ferrum Network","Community Manager","https://www.linkedin.com/in/volkan-y%C3%BCcel-416623164/","TBD","TBD","TBD" ],
+            [
+              "Pokey","Rule","Ferrum Network","Assisting the Engineering Team","https://www.linkedin.com/in/pokey-rule-551130a4/","TBD","TBD","TBD" ],
+            [
+              "Morteza","Eghbalian","Ferrum Network","Head of European Operations","https://www.linkedin.com/in/morteza-eghbalian-a12095191/","TBD","TBD","TBD" ]                                                                                                                                                                                                                        
           ]
 }
