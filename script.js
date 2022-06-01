@@ -296,7 +296,7 @@ $(document)
                                 }
                         },
                     colReorder: true,
-                    "order": [[ 0, "asc" ]],
+                    "order": [[ 2, "asc" ]],
                     paging: false,
                     select: {
                         style: 'multi'
