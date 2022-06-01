@@ -389,6 +389,48 @@
             [
               "Nichell","Logue","Ferrum Network","Executive Vice President of OPS","https://www.linkedin.com/in/nichelllogue/","TBD","TBD","TBD" ],
             [
-              "Taha","Abbasi","Ferrum Network","CSO","https://www.linkedin.com/in/tahaabbasi/","TBD","TBD","TBD" ]                                                                                                    
+              "Taha","Abbasi","Ferrum Network","CSO","https://www.linkedin.com/in/tahaabbasi/","TBD","TBD","TBD" ],
+            [
+              "Nick","Odio","Ferrum Network","Executive VP of Strategic Partnerships & Growth","https://www.linkedin.com/in/nick-odio-176991161/","TBD","TBD","TBD" ],
+            [
+              "Alishba","Tayyab","Ferrum Network","Human Resources Generalist","https://www.linkedin.com/in/alishba-tayyab/","TBD","TBD","TBD" ],
+            [
+              "Jun","Lee","Ferrum Network","Marketing Project Coordinator","https://www.linkedin.com/in/sinori/","TBD","TBD","TBD" ],
+            [
+              "Samuel","L.","Ferrum Network","Research Analyst","https://www.linkedin.com/in/samuel-l-8b6b29168/","TBD","TBD","TBD" ],
+            [
+              "Ryan","Sweet","Ferrum Network","NFT Consultant","https://www.linkedin.com/in/ryan-sweet-b01514142/","TBD","TBD","TBD" ],
+            [
+              "Ian","Friend","Ferrum Network","Co-Founder and COO","https://www.linkedin.com/in/ian-friend-bb949657/","TBD","TBD","TBD" ],
+            [
+              "Hamed","Ahmadi","Ferrum Network","Advisor","https://www.linkedin.com/in/hamedahmadi1/","TBD","TBD","TBD" ],
+            [
+              "John","York","Ferrum Network","Blockchain Solutions Specialist","https://www.linkedin.com/in/johnyork1/","TBD","TBD","TBD" ],
+            [
+              "James","Hermann","Ferrum Network","Tech Support & IT","https://www.linkedin.com/in/james-hermann-956972205/","TBD","TBD","TBD" ],
+            [
+              "Anthony","Trisvane","Ferrum Network","Community Manager","https://www.linkedin.com/in/anthony-trisvane-b0229b211/","TBD","TBD","TBD" ],
+            [
+              "Naiem","Yeganeh","Ferrum Network","Co-Founder and CEO","https://www.linkedin.com/in/naiem-yeganeh-12874712/","TBD","TBD","TBD" ],
+            [
+              "Nathan","Korus","Ferrum Network","FAS Incubation Advisor","https://www.linkedin.com/in/nkorus/","TBD","TBD","TBD" ],
+            [
+              "Germaine","Ifudu.","Ferrum Network","Advisor","https://www.linkedin.com/in/germaine-ifudu-pmp-55958351/","TBD","TBD","TBD" ],
+            [
+              "Bodrul","A.","Ferrum Network","Community Manager","https://www.linkedin.com/in/bodrul-a-3b639b179/","TBD","TBD","TBD" ],
+            [
+              "John","Mangune","Ferrum Network","Philippine Ambassador","https://www.linkedin.com/in/john-michael-mangune-6300651a7","TBD","TBD","TBD" ],
+            [
+              "Emeka","Enu","Ferrum Network","Strategic Advisor","https://www.linkedin.com/in/emeka-enu-mba-a29b37b/","TBD","TBD","TBD" ],
+            [
+              "Syed","Safkath Kadir Dhihan","Ferrum Network","Marketing Specialist","https://www.linkedin.com/in/safkath-dhihan/","TBD","TBD","TBD" ],
+            [
+              "Lance","Seah","Ferrum Network","Presale Project Coordinator","https://www.linkedin.com/in/lance-seah/","TBD","TBD","TBD" ],
+            [
+              "bubbalex","","Ferrum Network","Global Brand Ambassador","https://www.linkedin.com/in/bubbalex/","TBD","TBD","TBD" ],
+            [
+              "Hasnat","Malik","Ferrum Network","Director of Projects","https://www.linkedin.com/in/hasnat-malik/","TBD","TBD","TBD" ],
+            [
+              "Ibraheem","kabir","Ferrum Network","Software Engineer","https://www.linkedin.com/in/ibraheem-kabir-3ba663129/","TBD","TBD","TBD" ]                                                                                                                                                                                             
           ]
 }
