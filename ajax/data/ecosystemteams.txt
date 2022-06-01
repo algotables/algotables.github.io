@@ -443,6 +443,10 @@
             [
               "Joel","Kovshoff","Ferrum Network","Advisor","https://www.linkedin.com/in/coachkcrypto/","TBD","TBD","TBD" ],
             [
-              "Maryam","Arif","Ferrum Network","Software Engineer","https://www.linkedin.com/in/maryam-arif-1317511b0/","TBD","TBD","TBD" ]                                                                                                                                                                                                             
+              "Maryam","Arif","Ferrum Network","Software Engineer","https://www.linkedin.com/in/maryam-arif-1317511b0/","TBD","TBD","TBD" ],
+            [
+              "Sole","Gospel","Ferrum Network","Marketing Specialist","https://www.linkedin.com/in/sole-gospel-a2136b210/","TBD","TBD","TBD" ],
+            [
+              "Asad","Khalid","Ferrum Network","Financial Controller & Accountant","https://www.linkedin.com/in/asad-khalid-985873a9/","TBD","TBD","TBD" ]                                                                                                                                                                                                                 
           ]
 }
