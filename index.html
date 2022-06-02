@@ -78,6 +78,7 @@
                     <p class="normal">CMC ALGO Vote Score : % | CMC ALGO Monthly Median Price Pred. : $ | CMC ALGO Monthly Avg Price Pred. :</p>  
                     <p class="normal">ALGO USD Price : $ | ALGO % Change 1h : # | ALGO % Change 24h : #| ALGO % Change 7d : #</p>  
                     <p class="normal">Crypto F&G Index : # | Crypto F&G Index Classific. : # | Crypto F&G Index Daily % Change : # | Crypto F&G Index Fear Date : #</p>  
+                    <p class="normal">Lunar Crush Galaxy Score : # | L. C. Alt. Rank : # | L. C. Alt. Rank 30d : # | L. C. Social Score 24h Rank : # | L. C. Social Volume 24h Rank : #</p>  
                     <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2965_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"Algorand","geo":"","time":"today 12-m"},{"keyword":"Tezos","geo":"","time":"today 12-m"},{"keyword":"Chainlink","geo":"","time":"today 12-m"},{"keyword":"Harmony One","geo":"","time":"today 12-m"},{"keyword":"CRO Coin","geo":"","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"q=Algorand,Tezos,Chainlink,Harmony%20One,CRO%20Coin&date=today 12-m,today 12-m,today 12-m,today 12-m,today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
                     <script type="text/javascript">
                     document.getElementsByTagName("iframe")[0].addEventListener( "load", function(e) {
@@ -2725,6 +2726,27 @@
 
                 }
             feesh12345681();
+
+            async function feesh1234568891() { 
+                
+                const response9999091 = await fetch('https://api2.lunarcrush.com/v2?data=assets&symbol=algo&data_points=10&change=1w'); 
+                const data88888091 = await response9999091.json();
+
+                var lunarcrushgalaxyscoredata0 = data88888091.data[0].timeSeries[0].galaxy_score;
+                var lunarcrushaltrankdata0 = data88888091.data[0].timeSeries[0].alt_rank;
+                var lunarcrushaltrank30ddata0 = data88888091.data[0].timeSeries[0].alt_rank_30d;
+                //var lunarcrushaveragesentimentdata0 = data88888091.data[0].timeSeries[0].average_sentiment);
+                var lunarcrushsocialscore24hrankdata0 = data88888091.data[0].timeSeries[0].social_score_24h_rank;
+                var lunarcrushsocialvolume24hrankdata0 = data88888091.data[0].timeSeries[0].social_volume_24h_rank;
+
+                document.querySelector("body > div.page > section.header > ul > li > p:nth-child(6)").innerHTML = 'Lunar Crush Galaxy Score : ' + 
+                lunarcrushgalaxyscoredata0 + ' | L. C. Alt. Rank : ' + lunarcrushaltrankdata0 + ' | L. C. Alt. Rank 30d : ' + 
+                lunarcrushaltrank30ddata0 + ' | L. C. Social Score 24h Rank : ' + lunarcrushsocialscore24hrankdata0 + 
+                ' | L. C. Social Volume 24h Rank : ' + lunarcrushsocialvolume24hrankdata0 ;
+
+                }
+
+            feesh1234568891();
 
             CsvToHtmlTable.init({
             csv_path: "https://algotables.github.io/data/testsheet1.csv",
