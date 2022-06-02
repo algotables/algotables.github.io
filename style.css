@@ -31,13 +31,13 @@ h1 {
   }*/ /*doesn't work properly*/
 
   .footer, .header {
-    padding: 40px 0;
+    /*padding: 40px 0;*/
     background-color: #ffffff;
   }
   
   .footer .social, .header .social {
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     color: #4b4c4d;
   }
   
@@ -92,7 +92,7 @@ h1 {
   }
   
   .footer .normal, .header .normal {
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     text-align: center;
     font-size: 13px;
   }
