@@ -95,7 +95,7 @@ h1 {
     /*margin-top: 15px;*/
     text-align: center;
     font-size: 13px;
-  }
+  }  
 
   table.dataTable thead .sorting:after,
   table.dataTable thead .sorting_asc:after,
@@ -126,6 +126,39 @@ h1 {
   .row {
     margin:0 !important;
   }
+
+  /*table, th, td {
+    border:1px solid black;
+  }
+
+  .container2 {
+    height: 125px;
+    margin: auto;
+  }
+  
+  .one2 {
+    height: 125px;
+    display: inline-block;
+    float: left;
+  }
+  
+  .two2 {
+    height: 125px;
+    display: inline-block;
+    float: left;
+  }
+
+  .two3 {
+    height: 125px;
+    display: inline-block;
+    float: left;
+  }
+
+  .two4 {
+    height: 125px;
+    display: inline-block;
+    float: left;
+  }*/
 
 .info_div_name {
     /*width:50%;
