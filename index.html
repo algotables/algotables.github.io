@@ -48,6 +48,7 @@
     <script src="js/csv_to_html_table5.js"></script>
     <!--<script src="js/csv_to_html_table6.js"></script>-->
     <script src="js/csv_to_html_table7.js"></script>
+    <script src="js/csv_to_html_table8.js"></script>
     <script src="js/jquery.csv.min.js"></script>
     <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.js" type="text/javascript"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js" type="text/javascript"></script>
@@ -189,7 +190,10 @@
             </li>                  
             <li>
                 <a href="#tab-table14" data-toggle="tab">ALGO Dev Posts</a>
-            </li>          
+            </li>    
+            <li>
+                <a href="#tab-table17" data-toggle="tab">ALGO Bounties</a>
+            </li>        
             <!--<li>
                 <a href="#tab-table15" data-toggle="tab">Fear & Greed Index</a>
             </li>-->
@@ -2503,6 +2507,34 @@
                     </tfoot>
                 </div>
             </div>
+            <div class="tab-pane" id="tab-table17">
+                <div id="table-csv7">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Created Date</th>
+                            <th>Status</th>
+                            <th>USDT Value</th>
+                            <th>Exp. Level</th>
+                            <th>Interested #</th>
+                            <th>Proj. Type</th>
+                            <th>URL</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Title</th>
+                            <th>Created Date</th>
+                            <th>Status</th>
+                            <th>USDT Value</th>
+                            <th>Exp. Level</th>
+                            <th>Interested #</th>
+                            <th>Proj. Type</th>
+                            <th>URL</th>
+                        </tr>
+                    </tfoot>
+                </div>
+            </div>
         </div>
         <section class="footer">
             <div class="social">
@@ -3682,6 +3714,126 @@
                         ]   
                 },                         
             //custom_formatting: [[2, format_link]]
+            });
+
+            CsvToHtmlTable8.init({
+            csv_path: "https://algotables.github.io/data/testsheet8.csv",
+            element: "table-csv7",                       
+            allow_download: false,            
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },         
+            datatables_options: {
+                paging: false,
+                "order": [[ 1, "desc" ]],
+                colReorder: true,
+                rowReorder: false,  
+                "language": {
+                        "info": "Initial Rows : _TOTAL_",
+                        select: {
+                                    rows: {
+                                        _: "",
+                                        0: "",
+                                        1: ""
+                                    }
+                                }
+                        },
+                select: {
+                    style: 'multi'
+                        },
+                dom: 'Qlfrtip' + 'Bfrtip',
+                stateSave: true,           
+                initComplete: function () {
+                    this.api().columns().every( function () {
+                        var that = this;
+        
+                        $( 'input', this.footer() ).on( 'keyup change clear', function () {
+                            if ( that.search() !== this.value ) {
+                                that
+                                    .search( this.value )
+                                    .draw();
+                            }
+                        } );
+                    } );
+                },                 
+                buttons: [
+                        {
+                            extend: "copy",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        },
+                        {
+                            extend: "csv",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        },
+                        {
+                            extend: "excel",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        },
+                        {
+                            extend: "pdfHtml5",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        },
+                        {
+                            extend: "print",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        }, 
+                        {
+                            extend: 'colvis',
+                            text: 'Columns'
+                        },
+                        {
+                            text: 'Select All',
+                            action: function (e, dt, button, config ) {
+                                dt.rows().select();
+                            }
+                        },
+                        {
+                            text: 'Select None',
+                            action: function (e, dt, button, config ) {
+                                dt.rows().deselect();
+                            }
+                        },
+                        {
+                            text: 'Hide Unselected',
+                            action: function ( e, dt, button, config ) {
+                                dt.rows({ selected: false }).nodes().to$().css({"display":"none"});
+                            }
+                        },
+                        {
+                            text: 'Clear/Reset',
+                            action: function ( e, dt, button, config ) {
+                                // Reset Column filtering
+                                $('#table-csv6 tfoot input').val('').change();
+                                
+                                // Reset column order
+                                dt.colReorder.reset();
+
+                                // Redraw table (and reset main search filter)
+                                dt.search('').draw();
+
+                                dt.rows().deselect();
+                                dt.rows({ selected: false }).nodes().to$().css({"display":"table-row"});
+                            }
+                        }
+                        ]   
+                },                         
+            custom_formatting: [[7, format_link]]
             });
             
             google.charts.load('current', {packages: ['corechart', 'bar']});
