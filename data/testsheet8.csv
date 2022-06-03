@@ -1,7 +1,26 @@
-"Date","Galaxy Score","Alt Rank","Alt Rank 30d","Average Sentiment","Soc. Score 24h Rank","Soc. Vlm 24h Rank"
-"Wed Jun 01 2022 22:23:13 GMT-0700 (Pacific Daylight Time)",47,195,59,3.4,9,32
-"Wed Jun 01 2022 22:23:13 GMT-0700 (Pacific Daylight Time)",46.5,201,60,3.3,10,34
-"Wed Jun 01 2022 22:23:13 GMT-0700 (Pacific Daylight Time)",48,171,78,3.6,9,33
-"Wed Jun 01 2022 22:23:14 GMT-0700 (Pacific Daylight Time)",47.5,163,80,3.5,9,32
-"Wed Jun 01 2022 22:23:14 GMT-0700 (Pacific Daylight Time)",47,164,79,3.4,11,34
-"Wed Jun 01 2022 22:23:14 GMT-0700 (Pacific Daylight Time)",47,138,61,3.4,12,32
+"Title","Created Date","Status","USDT Value","Exp. Level","Interested #","Proj. Type","URL"
+"Algorand Korean Community Managemen...",2022-05-16,"open",1001,"Advanced",4,"cooperative","https://gitcoin.co/issue/28868"
+"Update Ecosystem SDKs to AVM v1.1...",2022-05-09,"open",950.44,"Advanced",2,"contest","https://gitcoin.co/issue/28847"
+"Algorand Ecosystem & Community Buil...",2022-05-05,"open",798.37,"Advanced",6,"cooperative","https://gitcoin.co/issue/28845"
+"Improve Algorand Code or SDK reposi...",2022-05-02,"open",760.35,"Intermediate",6,"cooperative","https://gitcoin.co/issue/28833"
+"Reach Smart Contract Tutorials for ...",2022-05-02,"open",475.22,"Intermediate",2,"cooperative","https://gitcoin.co/issue/28832"
+"PyTeal Smart Contract Tutorials for...",2022-05-02,"open",475.22,"Intermediate",1,"cooperative","https://gitcoin.co/issue/28831"
+"Code Solutions And Tutorials for th...",2022-04-27,"open",209.1,"Intermediate",3,"cooperative","https://gitcoin.co/issue/28807"
+"Design a Student Club Community NFT...",2022-04-16,"open",95.04,"Intermediate",15,"cooperative","https://gitcoin.co/issue/28749"
+"Algorand Community Events...",2022-04-11,"open",19.01,"Intermediate",9,"cooperative","https://gitcoin.co/issue/28716"
+"Create and Operate Algorand Japanes...",2022-03-30,"open",380.18,"Intermediate",2,"traditional","https://gitcoin.co/issue/28671"
+"Write A Blog Post About ""Algorand &...",2022-03-24,"open",76.03,"Intermediate",14,"cooperative","https://gitcoin.co/issue/28657"
+"Design Original Art Depicting 'Algo...",2022-03-24,"open",57.03,"Intermediate",7,"cooperative","https://gitcoin.co/issue/28656"
+"[Australia March Hackathon_Algorand...",2022-03-02,"open",1900.88,"Intermediate",8,"cooperative","https://gitcoin.co/issue/27843"
+"Manage the Korean Algorand Official...",2022-02-21,"open",76.03,"Intermediate",7,"cooperative","https://gitcoin.co/issue/27755"
+"Code Solutions And Tutorials for th...",2022-01-26,"open",209.1,"Beginner",4,"cooperative","https://gitcoin.co/issue/27549"
+"Japanese Youtube Content Creation C...",2022-01-20,"open",190.09,"Advanced",2,"cooperative","https://gitcoin.co/issue/27520"
+"Algorand Challenge: DeFi Apps...",2022-01-19,"open",2851.31,"Intermediate",8,"cooperative","https://gitcoin.co/issue/27514"
+"Algorand Challenge: DAO Templates o...",2022-01-19,"open",2851.31,"Intermediate",5,"cooperative","https://gitcoin.co/issue/27513"
+"Algorand Challenge: Developer Tooli...",2022-01-19,"open",2851.31,"Advanced",7,"cooperative","https://gitcoin.co/issue/27512"
+"Telegram Group Management [Chinese]...",2021-12-10,"open",380.18,"Advanced",6,"cooperative","https://gitcoin.co/issue/27297"
+"[Algorand 2-day Virtual Hackathon] ...",2021-11-17,"open",3801.75,"Intermediate",10,"traditional","https://gitcoin.co/issue/27138"
+"Update Ecosystem SDKs to AVM v1.0...",2021-10-19,"open",247.11,"Intermediate",1,"cooperative","https://gitcoin.co/issue/26901"
+"Index non-Substrate chain data...",2021-10-15,"open",7000,"Advanced",3,"cooperative","https://gitcoin.co/issue/26826"
+"PyTeal Smart Contract Tutorials for...",2021-07-29,"open",285.13,"Intermediate",15,"cooperative","https://gitcoin.co/issue/26182"
+"Reach Smart Contract Tutorials for ...",2021-07-29,"open",285.13,"Intermediate",5,"cooperative","https://gitcoin.co/issue/26181"
