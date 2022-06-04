@@ -225,6 +225,8 @@
             [
               "ZestBloom","TBD","TBD","TBD","https://www.crunchbase.com/organization/zestbloom","TBD","TBD" ],
             [
-              "Ferrum Network","TBD","TBD","TBD","https://www.crunchbase.com/organization/ferrum-network","TBD","https://roadmap.ferrum.network/" ]
+              "Ferrum Network","TBD","TBD","TBD","https://www.crunchbase.com/organization/ferrum-network","TBD","https://roadmap.ferrum.network/" ],
+            [
+              "AlgoNode","TBD","TBD","TBD","TBD","TBD","TBD" ]
           ]
 }
