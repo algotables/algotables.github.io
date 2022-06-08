@@ -4,14 +4,13 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-06-08,"Welcome to Algorand! 
+Can you check in the network view of t...","https://forum.algorand.org/t/get-assets-using-algorands-indexer-rest-api-2-0/7106/3"
 "fabrice","Algorand Foundation",2022-06-06,"The bytes corresponding to the base64 representation E9Iakdt...","https://forum.algorand.org/t/how-i-can-convert-value-of-global-state-to-human-readable/3551/7"
 "fabrice","Algorand Foundation",2022-06-06,"Welcome to Algorand! 
 If you don’t receive an answer here, I...","https://forum.algorand.org/t/developing-decentralized-applications-with-reach-on-ios/7073/2"
 "fabrice","Algorand Foundation",2022-06-04,"The sortition mechanism ensures that at each step only a cou...","https://forum.algorand.org/t/approximately-how-many-nodes-until-theres-network-performance-degradation/7069/2"
 "fabrice","Algorand Foundation",2022-06-02,"It’s installed with the Algorand software, which also instal...","https://forum.algorand.org/t/genesis-hash-error-while-using-testnet-api/6922/5"
-"fabrice","Algorand Foundation",2022-06-02,"A node can be: 
-
-archival or non-archival: archival means th...","https://forum.algorand.org/t/blockchain-persistence/6962/3"
 "devops-service","Algorand Inc",2022-06-08,"In an effort to fix a bug, BetaNet was updated to version 3....","https://forum.algorand.org/t/betanet-update-3-7-1/7108/1"
 "devops-service","Algorand Inc",2022-05-31,"We are planning a go-algorand v3.7.0-beta release on Wednesd...","https://forum.algorand.org/t/betanet-update-3-7-0/7032/1"
 "devops-service","Algorand Inc",2022-05-11,"MainNet and TestNet will be updated to 3.6.2 Wed May 11, 202...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-6-2/6853/1"
