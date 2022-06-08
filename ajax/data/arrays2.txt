@@ -227,6 +227,8 @@
             [
               "Ferrum Network","TBD","TBD","TBD","https://www.crunchbase.com/organization/ferrum-network","TBD","https://roadmap.ferrum.network/" ],
             [
-              "AlgoNode","TBD","TBD","TBD","TBD","TBD","TBD" ]
+              "AlgoNode","TBD","TBD","TBD","TBD","TBD","TBD" ],
+            [
+              "WhereDeFi","TBD","TBD","TBD","TBD","TBD","TBD" ]
           ]
 }
