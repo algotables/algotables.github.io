@@ -107,17 +107,17 @@
             [
               "Greg","Raczek","TinyChart","Founder","https://www.linkedin.com/in/grzracz/","TBD","TBD","TBD" ],
             [
-              "Gabriella","Motta","Planet","Air Quality Specialist","https://www.linkedin.com/in/gabriella-motta-4855333/","TBD","TBD","TBD" ],
+              "Gabriella","Motta","PlanetWatch","Air Quality Specialist","https://www.linkedin.com/in/gabriella-motta-4855333/","TBD","TBD","TBD" ],
             [
-              "Claudio","Parrinello","Planet","CEO","https://www.linkedin.com/in/claudio-parrinello-077384/","TBD","TBD","TBD" ],
+              "Claudio","Parrinello","PlanetWatch","CEO","https://www.linkedin.com/in/claudio-parrinello-077384/","TBD","TBD","TBD" ],
             [
-              "Sara","Di Civita","Planet","Customer Service Manager","https://www.linkedin.com/in/sara-di-civita-220811130/","TBD","TBD","TBD" ],
+              "Sara","Di Civita","PlanetWatch","Customer Service Manager","https://www.linkedin.com/in/sara-di-civita-220811130/","TBD","TBD","TBD" ],
             [
-              "Ivan","D'Ettorr","Planet","CITO","https://www.linkedin.com/in/ivan-d-ettorre-12137058/","TBD","TBD","TBD" ],
+              "Ivan","D'Ettorr","PlanetWatch","CITO","https://www.linkedin.com/in/ivan-d-ettorre-12137058/","TBD","TBD","TBD" ],
             [
-              "Davide","Caiulo","Planet","Data Scientist","https://www.linkedin.com/in/dcaiulo/","TBD","TBD","TBD" ],
+              "Davide","Caiulo","PlanetWatch","Data Scientist","https://www.linkedin.com/in/dcaiulo/","TBD","TBD","TBD" ],
             [
-              "Roberto","Falzone","Planet","Senior Software Engineer Team Lead","https://www.linkedin.com/in/roberto-falzone-2619531b6/","TBD","TBD","TBD" ],
+              "Roberto","Falzone","PlanetWatch","Senior Software Engineer Team Lead","https://www.linkedin.com/in/roberto-falzone-2619531b6/","TBD","TBD","TBD" ],
             [
               "Jessica","Gardner","Centre","Business Operations Manager","https://www.linkedin.com/in/jgardner1/","TBD","TBD","TBD" ],
             [
