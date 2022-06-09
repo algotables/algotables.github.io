@@ -391,6 +391,10 @@ h1 {
   visibility: hidden;
   display: none;
 }
+#table-csv10-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
 
 #example0_wrapper > div:nth-child(5) > label > input {
   visibility: hidden;
