@@ -79,7 +79,7 @@
             [
               "DrinkItWriteIt","402495345","CHEERS","TBD","TBD","TBD","TBD" ],
             [
-              "Algo-Casino","388592191","Chips","Yes","TBD","TBD","Yes" ],
+              "Algo-Casino","388592191","Chips","TBD","TBD","TBD","TBD" ],
             [
               "Choice Coin","297995609","Choice","TBD","TBD","https://github.com/ChoiceCoin/White_Paper/blob/main/Choice_White_Paper.pdf","https://choice-coin.com/pages/about.html" ],
             [
