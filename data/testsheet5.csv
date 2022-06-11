@@ -4,14 +4,12 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
-"fabrice","Algorand Foundation",2022-06-09,"Welcome to Algorand! 
-Actually the team has been working on ...","https://forum.algorand.org/t/teal-badge-and-other-badges/7100/2"
-"fabrice","Algorand Foundation",2022-06-09,"Welcome to Algorand! 
-Algorand and Ethereum manage smart con...","https://forum.algorand.org/t/create2-opcode-in-ethereum-equivalent-in-algorand/7096/2"
-"fabrice","Algorand Foundation",2022-06-08,"See <a href=""https://developer.algorand.org/docs/get-started...","https://forum.algorand.org/t/better-management-needed-for-locked-in-algos-from-opting-in-smart-contracts-on-algorand-network/6413/5"
-"fabrice","Algorand Foundation",2022-06-08,"I agree this is a risk. 
-On the other hand, there are many o...","https://forum.algorand.org/t/assets-and-algos-lost-forever-if-app-deleted-without-closing-out/7075/2"
-"fabrice","Algorand Foundation",2022-06-08,"I guess that if you’ve less than 100kAlgos, that might be fi...","https://forum.algorand.org/t/new-participation-node-hardware-requirements/7109/4"
+"fabrice","Algorand Foundation",2022-06-10,"I guess that by internal SSD, you mean SD card. 
+In that cas...","https://forum.algorand.org/t/algorand-node-does-not-start-in-raspberry-pi-4/7116/4"
+"fabrice","Algorand Foundation",2022-06-10,"You should not include :b32 suffix. This suffix is added by ...","https://forum.algorand.org/t/valid-signatures-fail-node-validation/7118/4"
+"fabrice","Algorand Foundation",2022-06-10,"Why you don’t create the smart contract from the beginning a...","https://forum.algorand.org/t/create2-opcode-in-ethereum-equivalent-in-algorand/7096/4"
+"fabrice","Algorand Foundation",2022-06-10,"Welcome to Algorand <a class=""mention"" href=""/u/erikpaucar47...","https://forum.algorand.org/t/algorand-node-does-not-start-in-raspberry-pi-4/7116/2"
+"fabrice","Algorand Foundation",2022-06-10,"Welcome <a class=""mention"" href=""/u/julia"">@Julia</a> to Alg...","https://forum.algorand.org/t/valid-signatures-fail-node-validation/7118/2"
 "devops-service","Algorand Inc",2022-06-08,"In an effort to fix a bug, BetaNet was updated to version 3....","https://forum.algorand.org/t/betanet-update-3-7-1/7108/1"
 "devops-service","Algorand Inc",2022-05-31,"We are planning a go-algorand v3.7.0-beta release on Wednesd...","https://forum.algorand.org/t/betanet-update-3-7-0/7032/1"
 "devops-service","Algorand Inc",2022-05-11,"MainNet and TestNet will be updated to 3.6.2 Wed May 11, 202...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-6-2/6853/1"
