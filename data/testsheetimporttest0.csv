@@ -1,49 +1,352 @@
-"Name","Index","Verified","TX","% in Circ","Ecosys Votes","Dly Users","Dly Uniq Sndrs","Dly Uniq Rcvrs","Dly Uniq Addrs"
-"AlgoStake",511484048,"Yes",700220,14,47,8407,174,1629,1647
-"Yieldly",226701642,"Yes",5373008,100,230,119534,1585,1502,1798
-"Defly Token",470842789,"Yes",304026,50,26,9903,342,703,731
-"AlgoGems",230946361,"Yes",469720,100,40,96902,216,233,426
-"Xfinite Entertainment Token",283820866,"Yes",800873,100,1625,180390,6600,6470,6694
-"goMINT",441139422,"Yes",39796,9,87,6221,99,73,113
-"Choice Coin",297995609,"Yes",1069656,32,1609,33556,277,768,819
-"ZONE",444035862,"Yes",187213,100,294,37536,376,504,808
-"PLANET",27165954,"Yes",259291650,13,1,132554,2550,17895,18623
-"Vote Coin",452399768,"Yes",178140,0,30,1027,25,60,64
-"USDC",31566704,"Yes",4537540,0,26,1584320,2139,965,2273
-"Tether USDt",312769,"Yes",3453026,0,14,1688000,2148,856,2368
-"Shosha",412056867,"Yes",33845,14,28,2854,29,24,37
-"HEADLINE",137594422,"Yes",586008,100,84,22812,106,185,243
-"Glitter Finance",607591690,"Yes",22001,4,14,6267,54,93,107
-"Webblen",509808838,"Yes",84483,5,12,4815,23,27,33
-"SockHODLER",452047208,"Yes",71496,50,31,9902,29,131,145
-"KryptoNurd",330168845,"Yes",281072,20,12,4631,409,1121,1144
-"Board",342889824,"Yes",244079,47,23,28066,31,236,244
-"Chips",388592191,"Yes",217109,25,55,7046,98,638,655
-"AlgoFund",463554836,"Yes",100904,31,13157,3942,191,193,209
-"Zenny",317670428,"Yes",40971,100,21,6653,27,44,53
-"Kaafila",239444645,"Yes",108995,50,12797,62,0,0,0
-"Octorand",559219992,"Yes",151126,79,81,11244,100,45,116
-"AlgOcean",409604194,"Yes",46598,12,17,3648,14,169,173
-"ASA Portfolio",542132831,"Yes",8908,100,16,914,16,7,20
-"BirdBot",478549868,"Yes",221304,14,21,5233,49,265,274
-"AlgoScout Token",569120128,"Yes",261691,99,10,3903,50,1854,1861
-"NEKOIN",404044168,"Yes",169720,74,9,37086,36,109,126
-"Svansy Coin",388502764,"Yes",167635,68,21,14334,32,50,62
-"Nexus",403499324,"Yes",113794,100,198,11134,41,120,137
-"Loot Box",408898501,"Yes",42880,100,4,5334,58,182,199
-"Smile Coin",300208676,"Yes",1645725,33,43,82662,626,2011,2235
-"Parsec AU",546713076,"Yes",34930,0,3,9936,7,71,76
-"Algoneer",305992851,"Yes",25904,40,3,4069,15,11,19
-"CryptoTrees",444108880,"Yes",308146,21,1159,21239,79,673,695
-"ASA Stats Token",393537671,"Yes",88069,43,19,10048,25,17,29
-"SUPERIO",433379445,"Yes",46437,45,6,1423,20,523,525
-"Aegir",453816186,"Yes",11115,21,13,929,8,17,23
-"LionCoin",372666897,"TBD",28203,99,3,199,11,10,13
-"SeedBomb",523605642,"Yes",24037,85,1,6905,13,65,73
-"ALGO FAM TOKEN",142838028,"Yes",29215,79,9,6156,15,13,18
-"Crescendo",435335235,"Yes",117965,93,32,6450,30,294,297
-"Dark Coin",601894079,"Yes",32554,100,0,583,14,230,236
-"Raptor Coin",426980914,"Yes",44042,100,16,4003,37,132,147
-"Wageroo",575353596,"Yes",19013,27,1,779,38,68,87
-"AKITA INU",523683256,"Yes",421457,100,76,14798,81,1209,1234
-"Opulous",287867876,"Yes",2784607,11,151,1436002,1526,235,1600
+"Name","Wallets","Other Links","Category"
+"80Acres","Creator, Manager, Reserve","Email, Phone, TinyChart,
+Website","TBD"
+"Adventure Coin","Creator, Manager, Reserve","Reddit, TinyChart, Twitter,
+Website","TBD"
+"Aegir Tactics","Creator, Manager, Reserve","Discord, Ecosystem, Email,
+TinyChart, Twitter, Website","NFT Project,
+Play-to-Earn"
+"AIRSHO.io","Creator, Manager, Reserve","Discord, Ecosystem, Reddit,
+TinyChart, Twitter, Website","Launchpad"
+"Akita Inu","Creator, Manager, Reserve","Discord, Instagram, Reddit,
+TinyChart, Twitter, Website","NFT Project"
+"Al Goanna","TBD","Discord, Ecosystem, Instagram,
+Telegram, Twitter, Website","NFT Project"
+"AlcheCoin","Creator, Manager, Reserve","Discord, Telegram, TinyChart,
+Twitter, Website","TBD"
+"ALGO AVOCADO","Creator, Manager, Reserve","TinyChart","TBD"
+"Algo Curator","Creator, Manager, Reserve","Discord, Ecosystem, TinyChart,
+Twitter, Website","Art, Explorer, News Sharing,
+Social Media"
+"Algo Leagues","Creator, Manager, Reserve","Discord, Tinychart, Website","NFT Project"
+"ALGO LITE","Creator, Manager, Reserve","TinyChart, Website","DAO, Governance, MetaVerse,
+NFT Marketplace"
+"AlgoBasics","Clawback, Creator, Freeze,
+Manager, Reserve","TinyChart, Website","TBD"
+"AlgoBasket","Creator, Manager, Reserve","TinyChart, Website","TBD"
+"AlgOcean","Creator, Manager, Reserve","Discord, Email, GitHub,
+Reddit, TinyChart, Twitter,
+Website","NFT Project,
+Play-to-Earn,
+Sports & Gaming"
+"Algofi","Creator, Manager, Reserve","Discord, Ecosystem, Email,
+GitHub, LinkedIn, Medium,
+Reddit, Telegram, Tinychart,
+Tinychart, Twitter, Website","Defi"
+"AlgoFund","Creator, Manager, Reserve","Email, Reddit, Telegram,
+TinyChart, Twitter, Website","Launchpad"
+"AlgoGems","Burn, Creator, Manager,
+Reserve","Ecosystem, GitHub, Instagram,
+Medium, Reddit, Telegram,
+Tinychart, Twitter, Website","Analytics, Art, DAO, Explorer,
+Governance, NFT Artist,
+NFT Marketplace,
+NFT Project, Services Provider"
+"AlgoMint","Creator, Manager, Reserve","Discord, Ecosystem, Gitbook,
+LinkedIn, Medium, Reddit,
+Tinychart, Tinychart, Tinychart,
+Twitter, Website","Infrastructure"
+"Algoneer","Creator, Manager, Reserve","Discord, Ecosystem, GitHub,
+Reddit, TinyChart, Website","Infrastructure,
+Portfolio Management Tools,
+Services Provider"
+"AlgoNode","TBD","Discord, Ecosystem, Email,
+Github, Telegram, Twitter,
+Website","Infrastructure,
+Services Provider"
+"AlgoNuts","Creator, Manager, Reserve","Discord, Email, TinyChart,
+Twitter, Website","TBD"
+"Algorand Casino","CEO, Creator, Developer,
+Faucet, Manager, Reserve,
+Test, Test","Discord, Ecosystem, LinkedIn,
+Reddit, Tinychart, Twitter,
+Website","Sports & Gaming"
+"Algorand Faucet
+Drops","Creator, Reserve","Discord, TinyChart, Twitter,
+Website","Governance,
+Services Provider"
+"AlgorandDoge","Creator, Manager","Discord, Email, Reddit,
+Telegram, Telegram, TinyChart,
+Twitter, Website","TBD"
+"ALGore","Creator, Manager, Reserve","TinyChart","TBD"
+"AlgoScout","Creator, Manager, Reserve","Ecosystem, Telegram, Telegram,
+Tinychart, Twitter, Website","Block Explorer,
+Defi, Explorer"
+"AlgoStake","Creator, Manager, Reserve","Discord, Ecosystem, Reddit,
+Tinychart, Twitter, Website","Defi, Infrastructure"
+"AlgoVegas Casino
+Token","Creator, Reserve","TinyChart, Twitter, Website","Play-to-Earn,
+Sports & Gaming"
+"AlgoWorld Token","Creator, Manager, Reserve","Discord, Ecosystem, Email,
+GitHub, Telegram, TinyChart,
+Twitter, Website","NFT Project"
+"Alty","TBD","Ecosystem, Facebook, LinkedIn,
+Twitter, Website","Services Provider,
+News Sharing, Governance"
+"Angels of Ares","Creator, Manager, Reserve","Discord, Telegram, TinyChart,
+Twitter, Website","TBD"
+"Animal Style","Creator, Reserve","TinyChart, Website","TBD"
+"Anirand","Creator, Manager, Reserve","TinyChart","TBD"
+"ANote Music","TBD","Discord, Ecosystem, Facebook,
+Instagram, LinkedIn, Twitter,
+Website, YouTube","Services Provider,
+DAO, Defi,
+NFT Marketplace"
+"Apple","Creator, Manager, Reserve","TinyChart","TBD"
+"ASA Portfolio","Creator, Manager","Discord, Ecosystem, GitHub,
+Reddit, TinyChart, Twitter,
+Website","DAO,
+Portfolio Management Tools"
+"ASA Stats","Creator, Manager, Reserve","Discord, Discord, GitHub,
+Reddit, TinyChart, Twitter,
+Website","DAO, Developer Tooling,
+Explorer,
+Portfolio Management Tools,
+Services Provider"
+"Asia Reserve
+Currency Coin","Clawback, Creator, Freeze,
+Manager, Reserve","Email, Medium, Telegram,
+TinyChart, Twitter, Website","TBD"
+"Astrocat","Creator, Manager, Reserve","Discord, Instagram, Reddit,
+TinyChart, Twitter, Website","TBD"
+"balgo","Clawback, Creator, Freeze,
+Manager, Reserve","TinyChart","TBD"
+"BANAAN","Creator, Manager, Reserve","Tinychart, Website","TBD"
+"BirdBot","Creator, Developer, Liquidity,
+Manager, Reserve, Team","Discord, Ecosystem, GitHub,
+LinkedIn, Reddit, Tinychart,
+Twitter, Website","DAO, NFT Marketplace,
+Services Provider, Social Media,
+Sustainability Initiative"
+"Blapu","Creator, Manager, Reserve","TinyChart","TBD"
+"Bleumi","TBD","Ecosystem, Facebook, GitHub,
+LinkedIn, Twitter, Website","Defi"
+"Blocks","Clawback, Creator, Freeze,
+Manager, Reserve","Email, TinyChart, Twitter,
+Website","TBD"
+"Board","Creator, Manager, Reserve","Ecosystem, Medium, Telegram,
+TinyChart, Twitter, Website","Art, Investment Fund, Music,
+NFT Project, Social Media,
+Sports & Gaming"
+"Bones ASA","Creator, Manager, Reserve","Reddit, TinyChart, Twitter,
+Website","TBD"
+"BULO Coin","Creator, Reserve","TinyChart, Website","TBD"
+"Buy Token","Clawback, Creator, Freeze,
+Manager, Reserve","Email, LinkedIn, Phone,
+Telegram, TinyChart, Twitter,
+Website","TBD"
+"Candle","Clawback, Creator, Freeze,
+Manager, Reserve","TinyChart","TBD"
+"Choice Coin","Creator, Manager, Reserve","Ecosystem, GitHub, Medium,
+TinyChart, Twitter, Website","DAO, Governance,
+Infrastructure"
+"Clean Ocean","Creator, Manager, Reserve","Discord, Facebook, Instagram,
+Reddit, TinyChart, Twitter,
+Website","TBD"
+"Coffee DAO","Creator, Manager, Reserve","Discord, Tinychart, Twitter,
+Website","NFT Project"
+"Cosmic Gold","Creator","Discord, Medium, LinkedIn,
+Reddit, Telegram, TinyChart,
+Twitter, Website","TBD"
+"Crescendo","Creator, Manager, Reserve","Discord, Ecosystem, Reddit,
+TinyChart, Twitter, Website","Art, Music, NFT Marketplace,
+Services Provider"
+"CryptoTrees","Creator, Manager, Reserve","Discord, Ecosystem, Reddit,
+TinyChart, Twitter, Website","Sustainability Initiative"
+"Cujo Token","Creator, Manager, Reserve","Discord, Reddit, TinyChart,
+Twitter, Website","TBD"
+"Dark Coin","Creator, Manager","TinyChart","DAO, Defi, DEX, Governance,
+Security Token"
+"DeafCoin","Creator, Manager, Reserve","Discord, Facebook, Reddit,
+TinyChart, Twitter, YouTube,
+Website","TBD"
+"DeCHO Loyalty Token ASA","Creator, Manager, Reserve","LinkedIn, TinyChart, Twitter,
+YouTube, Website","Services Provider"
+"Defly","Creator, Manager, Reserve","Discord, Ecosystem, LinkedIn,
+Tinychart, Twitter, Website","Analytics, Defi, Explorer,
+Portfolio Management Tools,
+Wallets"
+"Dequency","TBD","Discord, Ecosystem, Medium,
+LinkedIn, Twitter, Website","Services Provider, MetaVerse,
+NFT Project"
+"Dope Panda","Creator, Manager, Reserve","Discord, Email, Reddit,
+Tinychart, Telegram, Website","TBD"
+"DrinkItWriteIt","Creator, Manager, Reserve","TinyChart","TBD"
+"Duckcoin","Creator, Manager, Reserve","Discord, Email, Instagram,
+Reddit, TinyChart, Twitter,
+Website","TBD"
+"EPOCH","TBD","Discord, Ecosystem, Instagram,
+Twitter, Website","MetaVerse, NFT Artist,
+NFT Project"
+"FairMeme","Creator, Freeze, Manager,
+Reserve","Discord, Ecosystem, GitHub,
+Medium, Telegram, TinyChart,
+Twitter, Website","Services Provider"
+"Ferrum Network","TBD","Discord, Ecosystem, Email,
+Facebook, Instagram, LinkedIn,
+Medium, Podcast, Telegram,
+TikTok, Twitter, Website,
+YouTube","Preferred Partner, AMM,
+Services Provider,
+Defi, Investment Fund,
+Infrastructure"
+"Fight Token","Creator, Manager, Reserve","Discord, TinyChart, Website","TBD"
+"Flamingo Coin","Creator, Manager, Reserve","Discord, Reddit, TinyChart","TBD"
+"GARD","Creator, Reserve","Discord, Ecosystem, GitHub,
+Medium, Reddit, Twitter,
+Website","Preferred Partner,
+Services Provider,
+News Sharing, DAO, Defi,
+Governance, Infrastructure"
+"Glitter Finance","Clawback, Creator, Freeze,
+Manager, Reserve","Discord, Facebook, GitHub,
+Instagram, LinkedIn, Medium,
+Telegram, Tinychart, Twitter,
+Website, YouTube","AMM, Oracle, DAO,
+Defi, Governance,
+NFT Marketplace"
+"Headline","Creator, Manager, Reserve","Ecosystem, Email, GitHub,
+Reddit, Telegram, TinyChart,
+Twitter, Website","Developer Tooling"
+"Hivemind Capital","TBD","Ecosystem, Twitter, Website","Investment Fund"
+"KryptoNurd","Creator, Manager, Reserve","Ecosystem, TinyChart, Twitter,
+YouTube, Website","News Sharing"
+"LegoMyAlgo","Creator","Discord, Telegram, TinyChart,
+Twitter, Website","TBD"
+"LOUDDeFi","Creator, Manager, Reserve","Email, TinyChart, Twitter,
+Website","TBD"
+"Meadow Labs","TBD","Discord, Ecosystem, Email,
+Facebook, LinkedIn, Medium,
+Reddit, Twitter, Website","NFT Marketplace,
+NFT Artist,
+NFT Project"
+"NEKOIN","Creator, Manager, Reserve","Discord, Email, Email,
+Medium, Reddit, TinyChart,
+Twitter, Website","Art, DAO,
+NFT Marketplace,
+Sustainability Initiative"
+"Neutral Token","Creator, Manager, Reserve","Discord, Ecosystem, Email,
+Reddit, Telegram, TinyChart,
+Twitter, Website","NFT Project,
+Sustainability Initiative"
+"Nexus","Creator, Manager","Discord, Discord, Ecosystem,
+Ecosystem, Email, Reddit,
+TinyChart, Twitter, Website","Defi, Services Provider,
+Sports & Gaming"
+"NFT Grocery
+Store Coupon","Clawback, Creator, Freeze,
+Reserve, Manager","Discord, Email, Reddit,
+Telegram, TinyChart, Twitter,
+Website","TBD"
+"NFTrade","Creator, Manager, Reserve,
+Reserve, Vault","Discord, TinyChart, Twitter,
+Website","TBD"
+"Opulous","Creator, Manager, Reserve","Discord, Ecosystem, Email,
+Instagram, Medium, TinyChart,
+Twitter, Website","Exchange, Defi,
+Investment Fund,
+NFT Marketplace,
+NFT Project, Music"
+"Orbital Gnome
+Strikers","Creator, Manager, Reserve","Discord, Reddit, TinyChart,
+Twitter","DAO, Governance,
+Social Media"
+"Pari","Creator, Manager, Reserve","Telegram, TinyChart, Twitter,
+Website","TBD"
+"Parsec","Creator, Manager, Reserve","Discord, Ecosystem, Reddit,
+TinyChart, Twitter, Website","Play-to-Earn"
+"PlanetWatch","Creator, Manager, Reserve","Discord, Instagram, LinkedIn,
+Medium, Telegram, Tinychart,
+Twitter, Website, YouTube","Services Provider,
+Sustainability Initiative"
+"QuantmRE","TBD","Ecosystem, Facebook, LinkedIn,
+Twitter, Website","Real Estate"
+"Quantoz","TBD","Ecosystem, LinkedIn, Twitter,
+YouTube, Website","DAO, Defi"
+"RaptorEYE","Creator, Manager, Reserve","Discord, Ecosystem, TinyChart,
+Twitter, Website","NFT Project"
+"Respectful Development Initiativ","Creator, Manager, Reserve","Discord, Email, Telegram,
+Tinychart, Twitter, Website","TBD"
+"SeedBomb","Creator, Manager, Reserve","Ecosystem, Instagram, Reddit,
+TinyChart, Twitter, Website","Art, Governance, NFT Project,
+Sustainability Initiative"
+"Sign.net","TBD","Discord, Ecosystem, Email,
+GitHub, LinkedIn, Medium,
+Twitter, Website, YouTube","Services Provider,
+NFT Project"
+"Smile Coin","Creator, Freeze, Manager,
+Reserve","Discord, Ecosystem, Medium,
+Reddit, Telegram, Tinychart,
+Twitter, Website","Defi,
+Play-to-Earn,
+SDK"
+"SockHODLER","Creator, Manager, Reserve","Discord, Ecosystem, Email,
+GitHub, Medium, Reddit,
+Tinychart, Twitter, Website","Preferred Partner,
+Services Provider,
+NFT Marketplace, NFT Project"
+"Super Algo
+Arcade","Creator, Manager, Reserve","Discord, Ecosystem, Email,
+Reddit, TinyChart, Twitter,
+Website","Play-to-Earn"
+"Svansy Coin","Creator, Manager, Reserve","Audius, Bandcamp, Discord,
+Ecosystem, Instagram, Reddit,
+SoundCloud, Telegram, TinyChart,
+Twitter, Website YouTube","Art, MetaVerse, Music,
+NFT Artist, NFT Marketplace,
+NFT Project, Services Provider"
+"TacoCoin","Creator, Manager, Reserve","Discord, Reddit, Telegram,
+TinyChart, Twitter, Website","TBD"
+"TinyBots","Creator, Reserve, Manager","TinyChart, Website","TBD"
+"TinyChart","Creator, Manager, Reserve","Discord, Ecosystem, Email,
+GitHub, LinkedIn, Medium,
+Reddit, Tinychart, Twitter,
+Website","Services Provider, Analytics,
+Defi, Developer Tooling"
+"ToolsX","Creator, Manager, Reserve","Discord, Email, Telegram,
+TinyChart, Twitter, Website","TBD"
+"USD Coin","Creator, Freeze, Manager,
+Reserve","LinkedIn, TinyChart, Twitter,
+Website","Stablecoin"
+"Vote Coin","TBD","Discord, Ecosystem, Facebook,
+GitHub, Tinychart, Twitter,
+Website","Services Provider,
+KYC/AML, DAO,
+Infrastructure"
+"Wageroo","Creator, Manager, Reserve","Reddit, Email, TinyChart,
+Website","Sports & Gaming"
+"Webblen","Creator, Manager, Reserve","Discord, Discord, Ecosystem,
+Facebook, Instagram, LinkedIn,
+Medium, Reddit, Telegram,
+Tinychart, Twitter, Website,
+YouTube","Services Provider"
+"WhereDeFi","TBD","Discord, Ecosystem, Twitter,
+Website","Analytics,
+Defi"
+"xBacked","TBD","Discord, Ecosystem, GitHub,
+Medium, Twitter, Website","DAO, Defi,
+Governance"
+"Xfinite","Creator, Manager","Discord, Ecosystem, Facebook,
+Instagram, LinkedIn, Medium,
+Telegram, Tinychart, Twitter,
+Website","Art, MetaVerse, Music,
+NFT Marketplace,
+Play-to-Earn,
+Sports & Gaming"
+"XP Network","TBD","Ecosystem, GitHub, Medium,
+Reddit, Twitter, Website","Infrastructure"
+"Yieldly","Creator, Manager","Discord, Ecosystem, GitHub,
+LinkedIn, Medium, Reddit,
+Tinychart, Twitter, Website","Defi"
+"Zenny","Creator, Manager, Reserve","Discord, TinyChart, Twitter,
+Website","NFT Artist, NFT Project,
+Sports & Gaming"
+"ZestBloom","TBD","Discord, Ecosystem, Email,
+Facebook, Github, Instagram,
+Medium, Reddit, Twitter,
+Website, YouTube","NFT Marketplace"
+"Zone","Creator, Manager","Discord, Ecosystem, LinkedIn,
+Medium, Reddit, Tinychart,
+Twitter, Website","Defi, NFT Project,
+Play-to-Earn,
+Sports & Gaming"
