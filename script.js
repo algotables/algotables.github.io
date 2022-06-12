@@ -408,7 +408,7 @@ $(document)
             },
             // Data display
             colReorder: true,
-            fixedHeader: true,
+            fixedHeader: false,
             ordering: true,
             paging: true,
             pageLength: 10,
