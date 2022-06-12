@@ -165,6 +165,7 @@ $(document)
                         style: 'multi'
                     }, 
                     "columnDefs": [
+                        {type: 'any-number', targets : [1]},
                         {
                             "targets": [1],
                             "render": function ( data, type, row, meta ) {
