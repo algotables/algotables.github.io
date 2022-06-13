@@ -3075,6 +3075,12 @@
             else return "TBD";
             }
 
+            function format_link2(link) {
+            if (link)
+                return "<a href='" + link + "' target='_blank'>" + link.slice(0, 20) + '...' + "</a>";
+            else return "TBD";
+            }
+
             async function feesh12345679() { 
                 const response99990 = await fetch('https://api.coinmarketcap.com/data-api/v3/cryptocurrency/vote?id=4030&votedId=ff75ebb99c174c4cb75ceacd3d58cd29-fe2f1cab14ba6f8358061b83ac67a7b2'); 
                 const data888880 = await response99990.json();
@@ -4417,7 +4423,7 @@
                         }
                         ]   
                 },                         
-            custom_formatting: [[0, format_link]]
+            custom_formatting: [[0, format_link2]]
             });
 
             CsvToHtmlTable11.init({
