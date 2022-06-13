@@ -4,12 +4,14 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
-"fabrice","Algorand Foundation",2022-06-12,"I have looked at your msgpack: the issue is that you used (r...","https://forum.algorand.org/t/valid-signatures-fail-node-validation/7118/6"
-"fabrice","Algorand Foundation",2022-06-10,"I guess that by internal SSD, you mean SD card. 
-In that cas...","https://forum.algorand.org/t/algorand-node-does-not-start-in-raspberry-pi-4/7116/4"
-"fabrice","Algorand Foundation",2022-06-10,"You should not include :b32 suffix. This suffix is added by ...","https://forum.algorand.org/t/valid-signatures-fail-node-validation/7118/4"
-"fabrice","Algorand Foundation",2022-06-10,"Why you don’t create the smart contract from the beginning a...","https://forum.algorand.org/t/create2-opcode-in-ethereum-equivalent-in-algorand/7096/4"
-"fabrice","Algorand Foundation",2022-06-10,"Welcome to Algorand <a class=""mention"" href=""/u/erikpaucar47...","https://forum.algorand.org/t/algorand-node-does-not-start-in-raspberry-pi-4/7116/2"
+"fabrice","Algorand Foundation",2022-06-13,"Indeed, in that case, encode the result of transaction.sign ...","https://forum.algorand.org/t/im-getting-this-error-while-sending-the-logicsignature-transaction-signed-by-backend-python-and-sent-to-frontend-react-js-to-send-the-transaction-to-the-network/7133/6"
+"fabrice","Algorand Foundation",2022-06-13,"Can you print the object r and r.txID just before calling Al...","https://forum.algorand.org/t/send-transaction-created-using-python-sdk-to-algosigner/7010/12"
+"fabrice","Algorand Foundation",2022-06-13,"The argument of a subroutine should by a PyTEAL type. 
+In yo...","https://forum.algorand.org/t/argument-at-index-0-of-subroutine-call-is-not-a-pyteal-expression-my-field/7130/2"
+"fabrice","Algorand Foundation",2022-06-13,"I would recommend that the backend base64-encode the blob an...","https://forum.algorand.org/t/im-getting-this-error-while-sending-the-logicsignature-transaction-signed-by-backend-python-and-sent-to-frontend-react-js-to-send-the-transaction-to-the-network/7133/4"
+"fabrice","Algorand Foundation",2022-06-13,"Welcome to Algorand! 
+
+Most likely the issue comes from the ...","https://forum.algorand.org/t/im-getting-this-error-while-sending-the-logicsignature-transaction-signed-by-backend-python-and-sent-to-frontend-react-js-to-send-the-transaction-to-the-network/7133/2"
 "devops-service","Algorand Inc",2022-06-08,"In an effort to fix a bug, BetaNet was updated to version 3....","https://forum.algorand.org/t/betanet-update-3-7-1/7108/1"
 "devops-service","Algorand Inc",2022-05-31,"We are planning a go-algorand v3.7.0-beta release on Wednesd...","https://forum.algorand.org/t/betanet-update-3-7-0/7032/1"
 "devops-service","Algorand Inc",2022-05-11,"MainNet and TestNet will be updated to 3.6.2 Wed May 11, 202...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-6-2/6853/1"
@@ -53,12 +55,13 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-06-13,"The bytes value is base64 encoded bytes, you can convert it ...","https://forum.algorand.org/t/read-address-from-global-state/7136/2"
+"Ben","Algorand Inc",2022-06-13,"I’ve not seen a cors issue using the sandbox alone. 
+Are you...","https://forum.algorand.org/t/how-to-send-transaction-from-web-application/7126/3"
 "Ben","Algorand Inc",2022-06-06,"Sure, you can iterate over the length of the outer array and...","https://forum.algorand.org/t/how-to-pass-foreign-accounts-to-inner-app-call-in-pyteal/7093/4"
 "Ben","Algorand Inc",2022-06-06,"You can pass it as a python list like TxnField.accounts: [Gt...","https://forum.algorand.org/t/how-to-pass-foreign-accounts-to-inner-app-call-in-pyteal/7093/2"
 "Ben","Algorand Inc",2022-06-02,"Hi Kubot, 
 Please see the docs here for the best way to enco...","https://forum.algorand.org/t/passing-unsigned-transaction-from-server-to-client-for-signing/7054/2"
-"Ben","Algorand Inc",2022-05-11,"Yes, you’ve been able to do this since Teal 6 or AVM 1.1, it...","https://forum.algorand.org/t/can-you-do-inner-app-calls-yet/6856/2"
-"Ben","Algorand Inc",2022-05-09,"You may be interested to read through <a href=""https://githu...","https://forum.algorand.org/t/does-algorand-have-the-capability-to-make-its-nfts-dynamic-like-chainlinks/6808/3"
 "JasonW","Algorand Inc",2022-05-25,"The same transaction type is use to create or change the con...","https://forum.algorand.org/t/unexpected-parameters-in-asset-configuration-tx/6972/2"
 "JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
 "JasonW","Algorand Inc",2022-04-12,"Currently, that is not in the indexer API, but you could go ...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/4"
