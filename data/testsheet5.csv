@@ -56,12 +56,13 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-06-13,"I’ve not seen a cors issue using the sandbox alone. 
+Are you...","https://forum.algorand.org/t/how-to-send-transaction-from-web-application/7126/3"
 "Ben","Algorand Inc",2022-06-06,"Sure, you can iterate over the length of the outer array and...","https://forum.algorand.org/t/how-to-pass-foreign-accounts-to-inner-app-call-in-pyteal/7093/4"
 "Ben","Algorand Inc",2022-06-06,"You can pass it as a python list like TxnField.accounts: [Gt...","https://forum.algorand.org/t/how-to-pass-foreign-accounts-to-inner-app-call-in-pyteal/7093/2"
 "Ben","Algorand Inc",2022-06-02,"Hi Kubot, 
 Please see the docs here for the best way to enco...","https://forum.algorand.org/t/passing-unsigned-transaction-from-server-to-client-for-signing/7054/2"
 "Ben","Algorand Inc",2022-05-11,"Yes, you’ve been able to do this since Teal 6 or AVM 1.1, it...","https://forum.algorand.org/t/can-you-do-inner-app-calls-yet/6856/2"
-"Ben","Algorand Inc",2022-05-09,"You may be interested to read through <a href=""https://githu...","https://forum.algorand.org/t/does-algorand-have-the-capability-to-make-its-nfts-dynamic-like-chainlinks/6808/3"
 "JasonW","Algorand Inc",2022-05-25,"The same transaction type is use to create or change the con...","https://forum.algorand.org/t/unexpected-parameters-in-asset-configuration-tx/6972/2"
 "JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
 "JasonW","Algorand Inc",2022-04-12,"Currently, that is not in the indexer API, but you could go ...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/4"
