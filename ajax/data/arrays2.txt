@@ -141,7 +141,7 @@
             [
               "Pari","461849439","PARI","TBD","TBD","https://www.paritoken.com/static/media/litepaper.7b7bf601.pdf","https://www.paritoken.com/" ],
             [
-              "PlanetWatch","7165954","Planets","https://algorand.foundation/grants-program/grant-awardees","https://www.crunchbase.com/organization/planetwatch","https://www.planetwatch.io/white-paper/index-h5.html?page=1","https://www.planetwatch.io/technical-roadmap/" ],
+              "PlanetWatch","27165954","Planets","https://algorand.foundation/grants-program/grant-awardees","https://www.crunchbase.com/organization/planetwatch","https://www.planetwatch.io/white-paper/index-h5.html?page=1","https://www.planetwatch.io/technical-roadmap/" ],
             [
               "Parsec","415045633","PRSC","TBD","TBD","TBD","https://prsc.app/roadmap/" ],
             [
