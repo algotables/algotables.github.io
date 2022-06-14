@@ -409,7 +409,7 @@ $(document)
             },
             // Data display
             colReorder: true,
-            fixedHeader: false,
+            fixedHeader: true,
             ordering: true,
             paging: true,
             pageLength: 10,
@@ -422,6 +422,10 @@ $(document)
             },
             stateSave: true,
           });        
+
+          $('a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
+            $($.fn.dataTable.tables()).DataTable().fixedHeader.adjust();
+          });
                                      
         if (location.hash) {
             $('a[href=\'' + location.hash + '\']').tab('show');
