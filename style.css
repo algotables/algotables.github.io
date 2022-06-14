@@ -391,12 +391,12 @@ h1 {
         transform: translateX(0);
       }
       100% {
-        transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-156.25px * 7));
       }
     }
     
     .slide-track {
-      animation: scroll 60s linear infinite;
+      animation: scroll 240s linear infinite;
       display: flex;
     }
 
