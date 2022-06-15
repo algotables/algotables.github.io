@@ -2627,22 +2627,28 @@
                 <div id="table-csv6">
                     <thead>
                         <tr>
-                            <th>Pool 1</th>
-                            <th>Pool 2</th>
+                            <th>Unit 1 Name</th>
+                            <th>Unit 2 Name</th>
+                            <th>Unit 1 ID</th>
+                            <th>Unit 2 ID</th>
                             <th>Weekly APR</th>
                             <th>Daily Volume</th>
                             <th>Weekly Volume</th>
                             <th>AMM</th>
+                            <th>URL</th>
                         </tr>
                     </thead>
                     <tfoot>
                         <tr>
-                            <th>Pool 1</th>
-                            <th>Pool 2</th>
+                            <th>Unit 1 Name</th>
+                            <th>Unit 2 Name</th>
+                            <th>Unit 1 ID</th>
+                            <th>Unit 2 ID</th>
                             <th>Weekly APR</th>
                             <th>Daily Volume</th>
                             <th>Weekly Volume</th>
                             <th>AMM</th>
+                            <th>URL</th>
                         </tr>
                     </tfoot>
                 </div>
@@ -3899,6 +3905,7 @@
                 columnDefs: [
                     { type: 'any-number', targets : [0, 1, 2, 3, 4] }
                     ],
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -4003,7 +4010,7 @@
                         }
                         ]   
                 },                         
-            //custom_formatting: [[2, format_link]]
+            custom_formatting: [[8, format_link]]
             });
 
             CsvToHtmlTable8.init({
