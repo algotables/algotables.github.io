@@ -4,16 +4,17 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-06-15,"I see errors with DNSSec in the logs. 
+And now I see that th...","https://forum.algorand.org/t/cant-fectch-data-from-testnet-in-sandbox/7148/10"
+"fabrice","Algorand Foundation",2022-06-15,"It is very strange. 
+Can you upload the full node.log on git...","https://forum.algorand.org/t/cant-fectch-data-from-testnet-in-sandbox/7148/7"
+"fabrice","Algorand Foundation",2022-06-15,"That looks good. Connection to DNS seems to work. 
+Let’s how...","https://forum.algorand.org/t/cant-fectch-data-from-testnet-in-sandbox/7148/4"
 "fabrice","Algorand Foundation",2022-06-15,"Welcome to Algorand! 
 What OS and specs do you have? 
 You ne...","https://forum.algorand.org/t/cant-fectch-data-from-testnet-in-sandbox/7148/2"
 "fabrice","Algorand Foundation",2022-06-14,"Which OS/environment are you running ./build.sh? 
 Can you sh...","https://forum.algorand.org/t/error-during-compilation-of-a-contract/7141/6"
-"fabrice","Algorand Foundation",2022-06-14,"For this error, have you tried: 
-<a href=""https://dev.to/0xb...","https://forum.algorand.org/t/how-to-send-transaction-from-web-application/7126/10"
-"fabrice","Algorand Foundation",2022-06-14,"It looks like the spRes query is working properly, but sendi...","https://forum.algorand.org/t/how-to-send-transaction-from-web-application/7126/9"
-"fabrice","Algorand Foundation",2022-06-14,"Welcome to Algorand! 
-I strongly recommend this series of vi...","https://forum.algorand.org/t/error-during-compilation-of-a-contract/7141/4"
 "devops-service","Algorand Inc",2022-06-14,"MainNet and TestNet will be updated to 3.7.2 Tue Jun 14, 202...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-7-2/7145/1"
 "devops-service","Algorand Inc",2022-06-08,"In an effort to fix a bug, BetaNet was updated to version 3....","https://forum.algorand.org/t/betanet-update-3-7-1/7108/1"
 "devops-service","Algorand Inc",2022-05-31,"We are planning a go-algorand v3.7.0-beta release on Wednesd...","https://forum.algorand.org/t/betanet-update-3-7-0/7032/1"
