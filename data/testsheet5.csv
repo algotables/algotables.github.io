@@ -59,35 +59,3 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
 "Ben","Algorand Inc",2022-06-13,"The bytes value is base64 encoded bytes, you can convert it ...","https://forum.algorand.org/t/read-address-from-global-state/7136/2"
-"Ben","Algorand Inc",2022-06-13,"I’ve not seen a cors issue using the sandbox alone. 
-Are you...","https://forum.algorand.org/t/how-to-send-transaction-from-web-application/7126/3"
-"Ben","Algorand Inc",2022-06-06,"Sure, you can iterate over the length of the outer array and...","https://forum.algorand.org/t/how-to-pass-foreign-accounts-to-inner-app-call-in-pyteal/7093/4"
-"Ben","Algorand Inc",2022-06-06,"You can pass it as a python list like TxnField.accounts: [Gt...","https://forum.algorand.org/t/how-to-pass-foreign-accounts-to-inner-app-call-in-pyteal/7093/2"
-"Ben","Algorand Inc",2022-06-02,"Hi Kubot, 
-Please see the docs here for the best way to enco...","https://forum.algorand.org/t/passing-unsigned-transaction-from-server-to-client-for-signing/7054/2"
-"JasonW","Algorand Inc",2022-05-25,"The same transaction type is use to create or change the con...","https://forum.algorand.org/t/unexpected-parameters-in-asset-configuration-tx/6972/2"
-"JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
-"JasonW","Algorand Inc",2022-04-12,"Currently, that is not in the indexer API, but you could go ...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/4"
-"JasonW","Algorand Inc",2022-04-11,"This is the way the indexer is currently designed. Filtering...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/2"
-"JasonW","Algorand Inc",2022-03-16,"So every account on Algorand has to have a min balance of .1...","https://forum.algorand.org/t/hard-user-onboarding-for-asa-project-s/6280/2"
-"ian","Algorand Inc",2021-11-03,"Hey there, 
-Have you specifically started with “Forgetting” ...","https://forum.algorand.org/t/cant-cast-my-vote/4916/11"
-"ian","Algorand Inc",2021-10-27,"Thanks for providing additional details. We’ll use this in o...","https://forum.algorand.org/t/help-why-cant-i-send-crypto-after-reinstalling-algorand-official-wallet-and-recovering-account-issues-with-ledger-firmware-2-0-0-and-algorand-wallet/4850/21"
-"ian","Algorand Inc",2021-07-23,"This is a dangerous joke with someone who is new to crypto, ...","https://forum.algorand.org/t/25th-word-missing/3800/19"
-"ian","Algorand Inc",2021-07-07,"We’re working on implementing lifetime earned rewards. Stay ...","https://forum.algorand.org/t/total-rewarded-algo-amount-new-feature-pls/3714/3"
-"ian","Algorand Inc",2021-07-06,"Unfortunately you’re finding yourself in this somewhat stick...","https://forum.algorand.org/t/rekey-algo-wallet-funds-now-stuck-in-yieldly/3670/6"
-"shaih","Algorand Foundation",2022-05-19,"Thank you all for the well thought of replies, expressing a ...","https://forum.algorand.org/t/evolving-algorand-governance/6646/162"
-"shaih","Algorand Foundation",2022-05-03,"As we <a href=""https://algorand.foundation/news/governance-v...","https://forum.algorand.org/t/evolving-algorand-governance/6646/1"
-"shaih","Algorand Foundation",2022-02-25,"Thank you for this well thought-of opinion, this is exactly ...","https://forum.algorand.org/t/counterproposal-to-xgov/6035/2"
-"shaih","Algorand Foundation",2022-02-07,"Algos that were sent by mistake to that address will be retu...","https://forum.algorand.org/t/how-do-i-contact-a-wallet-holder-i-accidentally-transferred-algo-too/5980/4"
-"shaih","Algorand Foundation",2021-10-01,"One more minor detail: this rewards amount will be reduced b...","https://forum.algorand.org/t/clarification-on-governance-faq62/4425/3"
-"trekianov","Algorand Foundation",2022-04-06,"Thanks Fabrice! very helpful, as usual :smiley:...","https://forum.algorand.org/t/fast-catchup-keep-on-restarting/6401/6"
-"trekianov","Algorand Foundation",2022-04-04,"I managed to use properly the fast catchup procedure after s...","https://forum.algorand.org/t/fast-catchup-keep-on-restarting/6401/4"
-"trekianov","Algorand Foundation",2022-04-03,"Thanks Fabrice, I fear is the HDD, because I have checked th...","https://forum.algorand.org/t/fast-catchup-keep-on-restarting/6401/3"
-"trekianov","Algorand Foundation",2022-04-02,"I am trying to perform a fast catchup but after some million...","https://forum.algorand.org/t/fast-catchup-keep-on-restarting/6401/1"
-"trekianov","Algorand Foundation",2021-04-16,"I am located in Italy with Vodafone as ISP, maybe is related...","https://forum.algorand.org/t/dns-problem-with-algorand-server-on-ubuntu-20-04/2947/18"
-"breeron","Algorand Foundation",2022-04-07,"The dates for signup opening, closing along with voting open...","https://forum.algorand.org/t/no-rewards-paid-for-last-quarter-governance-anyone-know-why/6426/4"
-"breeron","Algorand Foundation",2021-07-29,"Hi Yujun, 
-You can use the block explorer AlgoExplorer (<a h...","https://forum.algorand.org/t/i-was-tricked-into-a-fake-algorand-site-and-i-was-scammed/3874/6"
-"breeron","Algorand Foundation",2021-07-28,"Hi Yujun, 
-Thank you for reaching out to let us know about t...","https://forum.algorand.org/t/i-was-tricked-into-a-fake-algorand-site-and-i-was-scammed/3874/2"
