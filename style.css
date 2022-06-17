@@ -400,10 +400,11 @@ h1 {
       display: flex;
     }
 
-    /*.slide-track:hover  {
+    .slide-track:hover  {
+      animation-play-state: paused;
       /*animation: none;*/
       /*animation-name: tonext, snap;
       animation-duration: 4s;
       animation-timing-function: ease;
-      animation-iteration-count: infinite;
-    }*/
+      animation-iteration-count: infinite;*/
+    }
