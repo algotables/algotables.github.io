@@ -408,3 +408,7 @@ h1 {
       animation-timing-function: ease;
       animation-iteration-count: infinite;*/
     }
+
+    .fe-line-chart.embed-container {
+        background-color: rgb(24, 26, 27);
+    }
