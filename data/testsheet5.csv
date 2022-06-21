@@ -4,12 +4,12 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-06-21,"Welcome to Algorand! 
+Are you sure your Pera Wallet is set u...","https://forum.algorand.org/t/asa-asest-id-not-found-in-my-pera-wallet-collectibles-testnet/7234/2"
+"fabrice","Algorand Foundation",2022-06-21,"Applications can only return 0 to reject the transaction or ...","https://forum.algorand.org/t/return-specific-value/7232/2"
 "fabrice","Algorand Foundation",2022-06-21,"Another solution is to query the indexer rather than the alg...","https://forum.algorand.org/t/transaction-hashes-and-block-hash-missing-in-json-response/7229/3"
 "fabrice","Algorand Foundation",2022-06-21,"Dear <a class=""mention"" href=""/u/angelsofares"">@AngelsOfAres...","https://forum.algorand.org/t/choice-coin-smart-contracts/6798/19"
 "fabrice","Algorand Foundation",2022-06-20,"You can look at the sync time (it should be 0.0s) or at the ...","https://forum.algorand.org/t/checking-the-timestamp-of-a-node/7204/2"
-"fabrice","Algorand Foundation",2022-06-20,"What do you mean by “signing contracts”? 
-Do you mean signin...","https://forum.algorand.org/t/how-can-i-create-simple-contracts-and-sign-them-in-c-or-arduino/7201/2"
-"fabrice","Algorand Foundation",2022-06-20,"At a high-level (there are a few exceptions), everything on ...","https://forum.algorand.org/t/how-to-add-a-layer-of-authorization-for-protected-content/7206/2"
 "devops-service","Algorand Inc",2022-06-14,"MainNet and TestNet will be updated to 3.7.2 Tue Jun 14, 202...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-7-2/7145/1"
 "devops-service","Algorand Inc",2022-06-08,"In an effort to fix a bug, BetaNet was updated to version 3....","https://forum.algorand.org/t/betanet-update-3-7-1/7108/1"
 "devops-service","Algorand Inc",2022-05-31,"We are planning a go-algorand v3.7.0-beta release on Wednesd...","https://forum.algorand.org/t/betanet-update-3-7-0/7032/1"
