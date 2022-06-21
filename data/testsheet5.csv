@@ -53,14 +53,14 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-06-21,"Hi Sanderr2, 
+I don’t expect the URL parameter will allow fo...","https://forum.algorand.org/t/any-plans-to-allow-the-url-contained-in-an-asa-to-be-updated/7233/2"
 "Ben","Algorand Inc",2022-06-21,"I take it back, the misspelled Accounts field would not make...","https://forum.algorand.org/t/txnfield-accounts-in-innertxn-encountering-runtime-error-pyteal/7210/3"
 "Ben","Algorand Inc",2022-06-20,"Hi tcduqk, 
 Can you look at the teal source file? I’m guessi...","https://forum.algorand.org/t/txnfield-accounts-in-innertxn-encountering-runtime-error-pyteal/7210/2"
 "Ben","Algorand Inc",2022-06-20,"This is an effect of a uint64 underflow. 
 The latest go-algo...","https://forum.algorand.org/t/group-tx-failed-in-dryrun-costs-insane/7221/2"
 "Ben","Algorand Inc",2022-06-13,"The bytes value is base64 encoded bytes, you can convert it ...","https://forum.algorand.org/t/read-address-from-global-state/7136/2"
-"Ben","Algorand Inc",2022-06-13,"I’ve not seen a cors issue using the sandbox alone. 
-Are you...","https://forum.algorand.org/t/how-to-send-transaction-from-web-application/7126/3"
 "JasonW","Algorand Inc",2022-05-25,"The same transaction type is use to create or change the con...","https://forum.algorand.org/t/unexpected-parameters-in-asset-configuration-tx/6972/2"
 "JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
 "JasonW","Algorand Inc",2022-04-12,"Currently, that is not in the indexer API, but you could go ...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/4"
