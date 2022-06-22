@@ -1,4 +1,4 @@
-"Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM/Farm","URL"
+"Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","Platform","URL"
 "USDC","STBL",31566704,465865291,2,166152,2544430,"AlgoFi","https://info.algofi.org/pool-info/658337046"
 "ALGO","STBL",1,465865291,15,175982,2163428,"AlgoFi","https://info.algofi.org/pool-info/607645439"
 "ALGO","USDC",1,31566704,30,229863,2635340,"AlgoFi","https://info.algofi.org/pool-info/605929989"
