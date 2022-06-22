@@ -4,15 +4,12 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
-"fabrice","Algorand Foundation",2022-06-17,"I see. 
-Algorand Inc/Foundation itself does not provide such...","https://forum.algorand.org/t/how-big-can-the-algorand-blockchain-get-before-problems-start-occurring/7167/6"
-"fabrice","Algorand Foundation",2022-06-17,"What do you mean by “main Algorand servers”? 
-You need a nod...","https://forum.algorand.org/t/how-big-can-the-algorand-blockchain-get-before-problems-start-occurring/7167/4"
-"fabrice","Algorand Foundation",2022-06-16,"Welcome to Algorand! 
-Here are some explanations for the dis...","https://forum.algorand.org/t/how-big-can-the-algorand-blockchain-get-before-problems-start-occurring/7167/2"
-"fabrice","Algorand Foundation",2022-06-16,"I would recommend reading about smart signatures there: <a h...","https://forum.algorand.org/t/possible-to-change-receive-address-in-signed-txn/7157/4"
-"fabrice","Algorand Foundation",2022-06-15,"It depends. 
-For normal signature or multisig signatures, ch...","https://forum.algorand.org/t/possible-to-change-receive-address-in-signed-txn/7157/2"
+"fabrice","Algorand Foundation",2022-06-21,"Welcome to Algorand! 
+Are you sure your Pera Wallet is set u...","https://forum.algorand.org/t/asa-asest-id-not-found-in-my-pera-wallet-collectibles-testnet/7234/2"
+"fabrice","Algorand Foundation",2022-06-21,"Applications can only return 0 to reject the transaction or ...","https://forum.algorand.org/t/return-specific-value/7232/2"
+"fabrice","Algorand Foundation",2022-06-21,"Another solution is to query the indexer rather than the alg...","https://forum.algorand.org/t/transaction-hashes-and-block-hash-missing-in-json-response/7229/3"
+"fabrice","Algorand Foundation",2022-06-21,"Dear <a class=""mention"" href=""/u/angelsofares"">@AngelsOfAres...","https://forum.algorand.org/t/choice-coin-smart-contracts/6798/19"
+"fabrice","Algorand Foundation",2022-06-20,"You can look at the sync time (it should be 0.0s) or at the ...","https://forum.algorand.org/t/checking-the-timestamp-of-a-node/7204/2"
 "devops-service","Algorand Inc",2022-06-14,"MainNet and TestNet will be updated to 3.7.2 Tue Jun 14, 202...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-7-2/7145/1"
 "devops-service","Algorand Inc",2022-06-08,"In an effort to fix a bug, BetaNet was updated to version 3....","https://forum.algorand.org/t/betanet-update-3-7-1/7108/1"
 "devops-service","Algorand Inc",2022-05-31,"We are planning a go-algorand v3.7.0-beta release on Wednesd...","https://forum.algorand.org/t/betanet-update-3-7-0/7032/1"
@@ -56,13 +53,14 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-06-21,"Hi Sanderr2, 
+I don’t expect the URL parameter will allow fo...","https://forum.algorand.org/t/any-plans-to-allow-the-url-contained-in-an-asa-to-be-updated/7233/2"
+"Ben","Algorand Inc",2022-06-21,"I take it back, the misspelled Accounts field would not make...","https://forum.algorand.org/t/txnfield-accounts-in-innertxn-encountering-runtime-error-pyteal/7210/3"
+"Ben","Algorand Inc",2022-06-20,"Hi tcduqk, 
+Can you look at the teal source file? I’m guessi...","https://forum.algorand.org/t/txnfield-accounts-in-innertxn-encountering-runtime-error-pyteal/7210/2"
+"Ben","Algorand Inc",2022-06-20,"This is an effect of a uint64 underflow. 
+The latest go-algo...","https://forum.algorand.org/t/group-tx-failed-in-dryrun-costs-insane/7221/2"
 "Ben","Algorand Inc",2022-06-13,"The bytes value is base64 encoded bytes, you can convert it ...","https://forum.algorand.org/t/read-address-from-global-state/7136/2"
-"Ben","Algorand Inc",2022-06-13,"I’ve not seen a cors issue using the sandbox alone. 
-Are you...","https://forum.algorand.org/t/how-to-send-transaction-from-web-application/7126/3"
-"Ben","Algorand Inc",2022-06-06,"Sure, you can iterate over the length of the outer array and...","https://forum.algorand.org/t/how-to-pass-foreign-accounts-to-inner-app-call-in-pyteal/7093/4"
-"Ben","Algorand Inc",2022-06-06,"You can pass it as a python list like TxnField.accounts: [Gt...","https://forum.algorand.org/t/how-to-pass-foreign-accounts-to-inner-app-call-in-pyteal/7093/2"
-"Ben","Algorand Inc",2022-06-02,"Hi Kubot, 
-Please see the docs here for the best way to enco...","https://forum.algorand.org/t/passing-unsigned-transaction-from-server-to-client-for-signing/7054/2"
 "JasonW","Algorand Inc",2022-05-25,"The same transaction type is use to create or change the con...","https://forum.algorand.org/t/unexpected-parameters-in-asset-configuration-tx/6972/2"
 "JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
 "JasonW","Algorand Inc",2022-04-12,"Currently, that is not in the indexer API, but you could go ...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/4"
