@@ -412,3 +412,10 @@ h1 {
     .fe-line-chart.embed-container {
         background-color: rgb(24, 26, 27);
     }
+
+    .truncate {
+      max-width:100px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
