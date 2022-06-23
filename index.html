@@ -3063,7 +3063,7 @@ filter: invert(90%);">
                 var willthiswork0 = (data888880.data[0].quotes.USD.price).toFixed(2);
 
                 var willthiswork1 = (data888880.data[0].quotes.USD.percent_change_1h).toFixed(2);
-                var willthisstylingwork1 = 'white';
+                var willthisstylingwork1 = '#c8c3bc';
                 if (willthiswork1 < 0) {
                     willthisstylingwork1 = "red";
                 }
@@ -3072,7 +3072,7 @@ filter: invert(90%);">
                 }
 
                 var willthiswork2 = (data888880.data[0].quotes.USD.percent_change_24h).toFixed(2);
-                var willthisstylingwork2 = 'white';
+                var willthisstylingwork2 = '#c8c3bc';
                 if (willthiswork2 < 0) {
                     willthisstylingwork2 = "red";
                 }
@@ -3081,7 +3081,7 @@ filter: invert(90%);">
                 }
 
                 var willthiswork3 = (data888880.data[0].quotes.USD.percent_change_7d).toFixed(2);
-                var willthisstylingwork3 = 'white';
+                var willthisstylingwork3 = '#c8c3bc';
                 if (willthiswork3 < 0) {
                     willthisstylingwork3 = "red";
                 }
@@ -3105,7 +3105,7 @@ filter: invert(90%);">
                 var willthiswork1 = (data888880.data[0].value_classification);
                 var willthiswork2 = new Date((data888880.data[0].timestamp)* 1000)
                 var willthiswork3 = ((data888880.data[0].value) - (data888880.data[1].value));
-                var willthisstylingwork1 = "white";
+                var willthisstylingwork1 = '#c8c3bc';
                 if (willthiswork3 < 0) {
                     willthisstylingwork1 = "red";
                 }
@@ -3289,7 +3289,7 @@ filter: invert(90%);">
                                                 var number = $.fn.dataTable.render.number( ',', '.', 2). display(data);
                                 
                                                 if (type === 'display') {
-                                                    let color = 'white';
+                                                    let color = '#c8c3bc';
                                                     if (data < 0) {
                                                         color = 'red';
                                                     }
