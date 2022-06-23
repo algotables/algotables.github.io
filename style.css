@@ -419,3 +419,10 @@ h1 {
       overflow: hidden;
       text-overflow: ellipsis;
     }
+
+    .truncate2 {
+      max-width:1400px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
