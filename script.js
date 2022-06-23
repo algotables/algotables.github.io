@@ -148,6 +148,7 @@ $(document)
                         }
                     }
                     ],
+                    responsive:false,
                     "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -164,6 +165,7 @@ $(document)
                     select: {
                         style: 'multi'
                     }, 
+                    fixedColumns: true,
                     "columnDefs": [
                         {type: 'any-number', targets : [1]},
                         {
@@ -286,6 +288,7 @@ $(document)
                         }
                     }
                     ],
+                    responsive:false,
                     "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -302,6 +305,7 @@ $(document)
                     select: {
                         style: 'multi'
                     }, 
+                    fixedColumns: true,
                     "columnDefs": [
                         /*{
                             "targets": [3],

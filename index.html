@@ -2988,6 +2988,7 @@ filter: invert(90%);">
                         }
                     }
                     ],
+                    responsive:false,
                     "language": {
                     "info": "Initial Rows : _TOTAL_",
                     select: {
@@ -3160,6 +3161,7 @@ filter: invert(90%);">
                 "order": [[ 1, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -3280,6 +3282,7 @@ filter: invert(90%);">
                 "order": [[ 1, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                fixedColumns: true,
                 columnDefs: [
                     { type: 'any-number', targets : [1, 2, 3, 4] }
                     ],
@@ -3303,6 +3306,7 @@ filter: invert(90%);">
                                                 return number;
                                             }
                                 }],*/
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -3423,9 +3427,11 @@ filter: invert(90%);">
                 "order": [[ 1, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                fixedColumns: true,
                 columnDefs: [
                     { type: 'any-number', targets : [1] }
                     ],
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -3546,9 +3552,11 @@ filter: invert(90%);">
                 "order": [[ 8, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                fixedColumns: true,
                 columnDefs: [
                     { type: 'any-number', targets : [1, 3, 4, 5, 6, 7, 8, 9] }
                     ],
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -3669,6 +3677,7 @@ filter: invert(90%);">
                 "order": [[ 2, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -3908,7 +3917,8 @@ filter: invert(90%);">
                 paging: false,
                 "order": [[ 6, "desc" ]],
                 colReorder: true,
-                rowReorder: false,                  
+                rowReorder: false,   
+                fixedColumns: true,               
                 columnDefs: [
                     { type: 'any-number', targets : [2, 3, 4, 5, 6] }
                     ],
@@ -4033,9 +4043,11 @@ filter: invert(90%);">
                 "order": [[ 1, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                fixedColumns: true,
                 columnDefs: [
                             { type: 'any-number', targets : [2, 4] }
                             ],
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -4156,6 +4168,7 @@ filter: invert(90%);">
                 "order": [[ 1, "asc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -4276,9 +4289,11 @@ filter: invert(90%);">
                 "order": [[ 2, "asc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                fixedColumns: true,
                 columnDefs: [
                     { type: 'any-number', targets : [2] }
                     ],
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -4399,6 +4414,7 @@ filter: invert(90%);">
                 "order": [[ 1, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -4519,6 +4535,7 @@ filter: invert(90%);">
                 "order": [[ 1, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -4639,6 +4656,7 @@ filter: invert(90%);">
                 "order": [[ 3, "desc" ]],
                 colReorder: true,
                 rowReorder: false,  
+                responsive:false,
                 "language": {
                         "info": "Initial Rows : _TOTAL_",
                         select: {
@@ -4658,7 +4676,6 @@ filter: invert(90%);">
                 columnDefs: [
                             { type: 'any-number', targets : [1, 3, 4, 5, 6, 7, 8, 9] }
                             ],
-                responsive:false,
                 select: {
                     style: 'multi'
                         },
@@ -4846,9 +4863,9 @@ filter: invert(90%);">
 
                 var data = new google.visualization.DataTable();
 
-                var feeshname7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
-                var feeshname7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td.dtr-control").innerHTML;
-                var feeshname7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td.dtr-control").innerHTML;
+                var feeshname7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td.dtfc-fixed-left").innerHTML;
+                var feeshname7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td.dtfc-fixed-left").innerHTML;
+                var feeshname7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td.dtfc-fixed-left").innerHTML;
 
                 data.addColumn('number', 'Hours');
                 data.addColumn('number', feeshname7770);
@@ -5179,10 +5196,10 @@ filter: invert(90%);">
                 var feesh9993 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(4) > td.sorting_1").innerHTML;
                 //console.log(feesh9990);
 
-                var feeshname9990 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
-                var feeshname9991 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(2) > td.dtr-control").innerHTML;
-                var feeshname9992 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(3) > td.dtr-control").innerHTML;
-                var feeshname9993 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(4) > td.dtr-control").innerHTML;
+                var feeshname9990 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(1) > td.dtfc-fixed-left").innerHTML;
+                var feeshname9991 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(2) > td.dtfc-fixed-left").innerHTML;
+                var feeshname9992 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(3) > td.dtfc-fixed-left").innerHTML;
+                var feeshname9993 = document.querySelector("#table-csv2-table > tbody > tr:nth-child(4) > td.dtfc-fixed-left").innerHTML;
                 //console.log(feeshname9990);
 
                 var data = google.visualization.arrayToDataTable([
