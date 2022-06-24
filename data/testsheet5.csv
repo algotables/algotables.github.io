@@ -52,14 +52,13 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-06-24,"That error message isn’t great but it usually means that whe...","https://forum.algorand.org/t/error-need-to-check-the-asset-balance-of-smartcontract/7268/2"
 "Ben","Algorand Inc",2022-06-23,"This would be an AssetTransferTransaction 
 Please see these ...","https://forum.algorand.org/t/how-to-make-transactions-with-other-tokens-not-microalgo/7255/2"
 "Ben","Algorand Inc",2022-06-22,"I expect it is to provide certainty about the assets underly...","https://forum.algorand.org/t/any-plans-to-allow-the-url-contained-in-an-asa-to-be-updated/7233/4"
 "Ben","Algorand Inc",2022-06-21,"Hi Sanderr2, 
 I don’t expect the URL parameter will allow fo...","https://forum.algorand.org/t/any-plans-to-allow-the-url-contained-in-an-asa-to-be-updated/7233/2"
 "Ben","Algorand Inc",2022-06-21,"I take it back, the misspelled Accounts field would not make...","https://forum.algorand.org/t/txnfield-accounts-in-innertxn-encountering-runtime-error-pyteal/7210/3"
-"Ben","Algorand Inc",2022-06-20,"Hi tcduqk, 
-Can you look at the teal source file? I’m guessi...","https://forum.algorand.org/t/txnfield-accounts-in-innertxn-encountering-runtime-error-pyteal/7210/2"
 "JasonW","Algorand Inc",2022-05-25,"The same transaction type is use to create or change the con...","https://forum.algorand.org/t/unexpected-parameters-in-asset-configuration-tx/6972/2"
 "JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
 "JasonW","Algorand Inc",2022-04-12,"Currently, that is not in the indexer API, but you could go ...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/4"
