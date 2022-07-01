@@ -4,7 +4,7 @@ h1 {
     color: red;
   }
 
-/*#loading {
+#loading {
   display: block;
   position: absolute;
   top: 0;
@@ -13,10 +13,10 @@ h1 {
   width: 100vw;
   height: 100vh;
   background-color: rgba(192, 192, 192, 0.5);
-  background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+  background-image: url("https://raw.githubusercontent.com/algotables/algotables.github.io/main/loading.gif");
   background-repeat: no-repeat;
   background-position: center;
-}*/
+}
 
 /*img {
   display: block;
