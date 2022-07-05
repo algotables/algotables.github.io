@@ -413,12 +413,12 @@ h1 {
         background-color: rgb(24, 26, 27);
     }
 
-    .truncate {
+    /*.truncate {
       max-width:100px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-    }
+    }*/
 
     .truncate2 {
       max-width:1400px;

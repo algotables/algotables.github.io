@@ -167,7 +167,7 @@ $(document)
                     }, 
                     fixedColumns: true,
                     "columnDefs": [
-                        {targets:[0],className:"truncate"},
+                        /*{targets:[0],className:"truncate"},*/
                         {type: 'any-number', targets : [1]},
                         {
                             "targets": [1],
@@ -191,11 +191,11 @@ $(document)
                         }
                 
                     ],
-                    createdRow: function(row){
+                    /*createdRow: function(row){
                         $(row).find(".truncate").each(function(){
                             $(this).attr("title", this.innerText);
                         });
-                    },
+                    },*/
                     rowReorder: false
                     })
                 
@@ -322,7 +322,7 @@ $(document)
                                 {return '<a target="_blank" rel="noopener noreferrer" href="https://algoexplorer.io/asset/' + data + '">' + data + '</a>';}
                             }
                         },*/
-                        {targets:[0],className:"truncate"},
+                        /*{targets:[0],className:"truncate"},*/
                         {
                            "targets": [4, 5, 6, 7],
                             "render": function ( data, type, row, meta ) {
@@ -334,11 +334,11 @@ $(document)
                         }
                 
                     ],
-                    createdRow: function(row){
+                    /*createdRow: function(row){
                         $(row).find(".truncate").each(function(){
                             $(this).attr("title", this.innerText);
                         });
-                    },
+                    },*/
                     rowReorder: false
                     })
                 
