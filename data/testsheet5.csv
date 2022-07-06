@@ -11,11 +11,11 @@
 "fabrice","Algorand Foundation",2022-07-05,"How did you change the data directory? 
 Did you change it in...","https://forum.algorand.org/t/data-directory-for-mainnet-data-loading-changes-out-of-control/7343/2"
 "fabrice","Algorand Foundation",2022-07-05,"I would recommend using sandbox (<a href=""https://github.com...","https://forum.algorand.org/t/connectionrefusederror-testnet/7346/3"
+"devops-service","Algorand Inc",2022-07-06,"Mainnet and Testnet were updated to version 3.8.0 on Wednesd...","https://forum.algorand.org/t/mainnet-and-testnet-update-to-version-3-8-0/7349/1"
 "devops-service","Algorand Inc",2022-07-01,"<a class=""lightbox"" href=""https://aws1.discourse-cdn.com/bus...","https://forum.algorand.org/t/algorand-indexer-2-12-3-re-enable-support-for-ubuntu-18-04/7315/1"
 "devops-service","Algorand Inc",2022-06-29,"<a class=""lightbox"" href=""https://aws1.discourse-cdn.com/bus...","https://forum.algorand.org/t/algorand-indexer-2-12-2/7299/1"
 "devops-service","Algorand Inc",2022-06-24,"<a class=""lightbox"" href=""https://aws1.discourse-cdn.com/bus...","https://forum.algorand.org/t/algorand-indexer-hotfix-2-12-1-release/7267/1"
 "devops-service","Algorand Inc",2022-06-23,"BetaNet is planned to be updated to version 3.8.0 on Thu Jun...","https://forum.algorand.org/t/betanet-update-3-8-0/7263/1"
-"devops-service","Algorand Inc",2022-06-22,"<a class=""lightbox"" href=""https://aws1.discourse-cdn.com/bus...","https://forum.algorand.org/t/algorand-indexer-update-2-12-0-new-required-parameter/7254/1"
 "johnlee","Algorand Inc",2022-05-19,"The archival node is necessary for normal indexer operation,...","https://forum.algorand.org/t/upgrade-algorand-indexer-2-10-0-along-with-algorand-3-5-1/6451/5"
 "johnlee","Algorand Inc",2022-05-02,"This release is delayed; will update soon....","https://forum.algorand.org/t/betanet-update-3-6-0/6626/2"
 "johnlee","Algorand Inc",2022-04-26,"Hmm, unfortunately I think this is broken, because the datab...","https://forum.algorand.org/t/indexer-error-overflowed-subtracting-rewards-for-block/6559/6"
