@@ -78,6 +78,7 @@
     <script src="js/csv_to_html_table11.js"></script>
     <script src="js/csv_to_html_table12.js"></script>
     <script src="js/csv_to_html_table13.js"></script>
+    <script src="js/csv_to_html_table14.js"></script>
     <script src="js/jquery.csv.min.js"></script>
     <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.js" type="text/javascript"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js" type="text/javascript"></script>
@@ -171,9 +172,12 @@
             <li>
                 <a href="#tab-table8" data-toggle="tab">Ecosystem Framework</a>
             </li>-->                 
-            <li>
+            <!--<li>
                 <a href="#tab-table9" data-toggle="tab">Ecosystem Teams</a>
-            </li> 
+            </li>-->
+            <li>
+                <a href="#tab-table23" data-toggle="tab">Ecosystem Teams</a>
+            </li>
             <!--<li>
                 <a href="#tab-table0" data-toggle="tab">Ecosystem General</a>
             </li>-->
@@ -2854,6 +2858,34 @@ filter: invert(90%);">
                     </tfoot>
                 </div>
             </div>
+            <div class="tab-pane" id="tab-table23">
+                <div id="table-csv13">
+                    <thead>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Organization</th>
+                            <th>Title</th>
+                            <th>LinkedIn</th>
+                            <th>Github</th>
+                            <th>Other #1</th>
+                            <th>Other #2</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Organization</th>
+                            <th>Title</th>
+                            <th>LinkedIn</th>
+                            <th>Github</th>
+                            <th>Other #1</th>
+                            <th>Other #2</th>
+                        </tr>
+                    </tfoot>
+                </div>
+            </div>
         </div>
         <section class="footer">
             <div class="social">
@@ -4909,6 +4941,141 @@ filter: invert(90%);">
             custom_formatting: [[0, format_text], [10, format_link], [11, format_link2], [12, format_link2], [14, format_link], [15, format_link], [16, format_link], [17, format_link], [18, format_link],
             [19, format_link], [20, format_link], [21, format_link], [22, format_link], [23, format_link2], [24, format_link], [25, format_link], [26, format_link], [27, format_link], 
             [28, format_link], [29, format_link], [30, format_link], [31, format_link2]]});
+
+            CsvToHtmlTable14.init({
+            csv_path: "https://algotables.github.io/data/testsheet19.csv",
+            element: "table-csv13",                       
+            allow_download: false,            
+            csv_options: {
+                separator: ",",
+                delimiter: '"'
+            },         
+            datatables_options: {
+                paging: false,
+                "order": [[ 2, "desc" ]],
+                colReorder: true,
+                rowReorder: false,  
+                responsive:false,
+                "language": {
+                        "info": "Initial Rows : _TOTAL_",
+                        select: {
+                                    rows: {
+                                        _: "",
+                                        0: "",
+                                        1: ""
+                                    }
+                                }
+                        },
+                /*fixedHeader : {
+                    header : true,
+                    footer : false,
+                    headerOffset: 0
+                    },*/
+                fixedColumns: true,
+                columnDefs: [
+                            /*{targets:[0],className:"truncate"}*/
+                            ],
+                /*createdRow: function(row){
+                    $(row).find(".truncate").each(function(){
+                        $(this).attr("title", this.innerText);
+                    });
+                },*/
+                select: {
+                    style: 'multi'
+                        },
+                dom: 'Qlfrtip' + 'Bfrtip',
+                stateSave: true,           
+                initComplete: function () {
+                    this.api().columns().every( function () {
+                        var that = this;
+        
+                        $( 'input', this.footer() ).on( 'keyup change clear', function () {
+                            if ( that.search() !== this.value ) {
+                                that
+                                    .search( this.value )
+                                    .draw();
+                            }
+                        } );
+                    } );
+                },                 
+                buttons: [
+                        {
+                            extend: "copy",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        },
+                        {
+                            extend: "csv",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        },
+                        {
+                            extend: "excel",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        },
+                        {
+                            extend: "pdfHtml5",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        },
+                        {
+                            extend: "print",
+                            exportOptions: {
+                            modifier: { search: 'none', selected: true},
+                            columns: [ ':visible' ]
+                            }
+                        }, 
+                        {
+                            extend: 'colvis',
+                            text: 'Columns'
+                        },
+                        {
+                            text: 'Select All',
+                            action: function (e, dt, button, config ) {
+                                dt.rows().select();
+                            }
+                        },
+                        {
+                            text: 'Select None',
+                            action: function (e, dt, button, config ) {
+                                dt.rows().deselect();
+                            }
+                        },
+                        {
+                            text: 'Hide Unselected',
+                            action: function ( e, dt, button, config ) {
+                                dt.rows({ selected: false }).nodes().to$().css({"display":"none"});
+                            }
+                        },
+                        {
+                            text: 'Clear/Reset',
+                            action: function ( e, dt, button, config ) {
+                                // Reset Column filtering
+                                $('#table-csv13 tfoot input').val('').change();
+                                
+                                // Reset column order
+                                dt.colReorder.reset();
+
+                                // Redraw table (and reset main search filter)
+                                dt.search('').draw();
+
+                                dt.rows().deselect();
+                                dt.rows({ selected: false }).nodes().to$().css({"display":"table-row"});
+                            }
+                        }
+                        ]   
+                },                         
+            custom_formatting: [[4, format_link], [5, format_link], [6, format_link], [7, format_link]]
+            });
             
             google.charts.load('current', {packages: ['corechart', 'bar']});
 

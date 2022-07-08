@@ -277,6 +277,10 @@ h1 {
   visibility: hidden;
   display: none;
 }
+#table-csv13-table_info {
+  visibility: hidden;
+  display: none;
+}
 
 #table-csv0-table_wrapper > div:nth-child(5) > label > input {
   visibility: hidden;
@@ -327,6 +331,10 @@ h1 {
   display: none;
 }
 #table-csv12-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv13-table_wrapper > div:nth-child(5) > label > input {
   visibility: hidden;
   display: none;
 }
