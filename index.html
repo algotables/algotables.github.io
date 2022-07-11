@@ -2889,7 +2889,7 @@ filter: invert(90%);">
         </div>
         <section class="footer">
             <div class="social">
-                The information given is not guaranteed to be correct (but I tried!) - Source code last updated : July 1, 2022
+                The information given is not guaranteed to be correct (but I tried!) - Source code last updated : July 11, 2022
             </div>
 
             <ul class="list">
@@ -3081,19 +3081,19 @@ filter: invert(90%);">
             } );
 
             function format_text(link) {
-              return link.slice(0, 20);
+              return link.slice(0, 15);
             }
 
             function format_link(link) {
             const matchpattern = /^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/gm;
             if (matchpattern.test(link))
-                return "<a href='" + link + "' target='_blank'>" + link.slice(0, 20) /*+ '...' */+ "</a>";
+                return "<a href='" + link + "' target='_blank'>" + link.slice(0, 15) /*+ '...' */+ "</a>";
             else return "TBD";
             }
 
             function format_link2(link) {
             if (link)
-                return "<a href='" + link + "' target='_blank'>" + link.slice(0, 20) /*+ '...' */+ "</a>";
+                return "<a href='" + link + "' target='_blank'>" + link.slice(0, 15) /*+ '...' */+ "</a>";
             else return "TBD";
             }
 
