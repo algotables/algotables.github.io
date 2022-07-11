@@ -54,12 +54,11 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-07-11,"I’m not sure what conditions you’re calling this function un...","https://forum.algorand.org/t/how-to-return-only-asa-amount-and-not-seq/7390/2"
 "Ben","Algorand Inc",2022-07-06,"The bitwise operations in pyteal are detailed here: <a href=...","https://forum.algorand.org/t/keccak256-hash-creation/7300/21"
 "Ben","Algorand Inc",2022-07-01,"This is described in the docs linked above...","https://forum.algorand.org/t/keccak256-hash-creation/7300/7"
 "Ben","Algorand Inc",2022-07-01,"Stateful and stateless contracts were renamed to just “Smart...","https://forum.algorand.org/t/algorand-smart-contracts/7304/2"
 "Ben","Algorand Inc",2022-07-01,"That looks approximately correct based on the description of...","https://forum.algorand.org/t/keccak256-hash-creation/7300/4"
-"Ben","Algorand Inc",2022-06-30,"Hi Anoushka, 
-You can use something like <a href=""https://gi...","https://forum.algorand.org/t/modifying-my-metadata-after-storing-it/7301/2"
 "JasonW","Algorand Inc",2022-05-25,"The same transaction type is use to create or change the con...","https://forum.algorand.org/t/unexpected-parameters-in-asset-configuration-tx/6972/2"
 "JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
 "JasonW","Algorand Inc",2022-04-12,"Currently, that is not in the indexer API, but you could go ...","https://forum.algorand.org/t/indexer-searchfortransactions-limit-10-do-is-returning-older-transactions/6443/4"
