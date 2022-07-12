@@ -347,19 +347,6 @@ table.dataTable thead .sorting_desc_disabled {
   display: none;
 }
 
-#example0_wrapper > div:nth-child(5) > label > input {
-  visibility: hidden;
-  display: none;
-}
-#example8_wrapper > div:nth-child(5) > label > input {
-  visibility: hidden;
-  display: none;
-}
-#example9_wrapper > div:nth-child(5) > label > input {
-  visibility: hidden;
-  display: none;
-}
-
 .container {
   width: 80%;
   height: 200px;
