@@ -109,7 +109,7 @@
                 <li>
                     <a href='index.html' class="logo">ALGO Tables</a>
                     <p class="normal">Tables for Algorand</p>                           
-                    <p class="normal">CMC ALGO Vote Score : % | CMC ALGO Monthly Median Price Pred. : $ | CMC ALGO Monthly Avg Price Pred. :</p>  
+                    <!--<p class="normal">CMC ALGO Vote Score : % | CMC ALGO Monthly Median Price Pred. : $ | CMC ALGO Monthly Avg Price Pred. :</p>-->  
                     <p class="normal">ALGO USD Price : $ | ALGO % Change 1h : # | ALGO % Change 24h : #| ALGO % Change 7d : #</p>  
                     <p class="normal">Crypto F&G Index : # | Crypto F&G Index Classific. : # | Crypto F&G Index Daily % Change : # | Crypto F&G Index Fear Date : #</p>  
                     <p class="normal">Lunar Crush Galaxy Score : # | L. C. Alt. Rank : # | L. C. Alt. Rank 30d : # | L. C. Social Score 24h Rank : # | L. C. Social Volume 24h Rank : #</p>                      
@@ -607,7 +607,7 @@ filter: invert(90%);">
             else return "TBD";
             }
 
-            async function feesh12345679() { 
+            /*async function feesh12345679() { 
                 const response99990 = await fetch('https://api.coinmarketcap.com/data-api/v3/cryptocurrency/vote?id=4030&votedId=ff75ebb99c174c4cb75ceacd3d58cd29-fe2f1cab14ba6f8358061b83ac67a7b2'); 
                 const data888880 = await response99990.json();
                 var willthiswork = ((data888880.data.cryptoVoted.goodPercent * 100).toFixed(2) + '%');
@@ -617,7 +617,7 @@ filter: invert(90%);">
                 var willthiswork3 = ('$' + (data888881.data.predictions[0].avgPrice).toFixed(4));
                 document.querySelector("body > div > section.header > ul > li > p:nth-child(3)").innerHTML = 'CMC ALGO Vote Score : ' + willthiswork + ' | CMC ALGO Monthly Median Price Pred. : ' + willthiswork2 + ' | CMC ALGO Monthly Avg Price Pred. : ' + willthiswork3;
                 }
-            feesh12345679();
+            feesh12345679();*/
 
             async function feesh12345680() { 
                 
@@ -653,7 +653,7 @@ filter: invert(90%);">
                     willthisstylingwork3 = "#72ff72";
                 }     
 
-                document.querySelector("body > div > section.header > ul > li > p:nth-child(4)").innerHTML = 'ALGO USD Price : $' + 
+                document.querySelector("body > div.page > section.header > ul > li > p:nth-child(3)").innerHTML = 'ALGO USD Price : $' + 
                 willthiswork0 + ' | ALGO % Change 1h : ' + willthiswork1.fontcolor(willthisstylingwork1) + '%' + ' | ALGO % Change 24h : ' + 
                 willthiswork2.fontcolor(willthisstylingwork2) + '%' + ' | ALGO % Change 7d :  ' + willthiswork3.fontcolor(willthisstylingwork3) + '%' ;
 
@@ -683,7 +683,7 @@ filter: invert(90%);">
                 var toyear=new Date(timestamp).getFullYear();
                 var original_date=tomonth+'/'+todate+'/'+toyear;
 
-                document.querySelector("body > div > section.header > ul > li > p:nth-child(5)").innerHTML = 'Crypto F&G Index : ' + 
+                document.querySelector("body > div.page > section.header > ul > li > p:nth-child(4)").innerHTML = 'Crypto F&G Index : ' + 
                 willthiswork0 + ' | Crypto F&G Index Classific. : ' + willthiswork1 + ' | Crypto F&G Index Daily Change : ' + 
                 String(willthiswork3).fontcolor(willthisstylingwork1) + ' | Crypto F&G Index Date : ' + willthiswork2.toLocaleDateString("en-US") ;
 
@@ -702,7 +702,7 @@ filter: invert(90%);">
                 var lunarcrushsocialscore24hrankdata0 = data88888091.data[0].timeSeries[0].social_score_24h_rank;
                 var lunarcrushsocialvolume24hrankdata0 = data88888091.data[0].timeSeries[0].social_volume_24h_rank;
 
-                document.querySelector("body > div.page > section.header > ul > li > p:nth-child(6)").innerHTML = 'Lunar Crush Galaxy Score : ' + 
+                document.querySelector("body > div.page > section.header > ul > li > p:nth-child(5)").innerHTML = 'Lunar Crush Galaxy Score : ' + 
                 lunarcrushgalaxyscoredata0 + ' | L. C. Alt. Rank : ' + lunarcrushaltrankdata0 + ' | L. C. Alt. Rank 30d : ' + 
                 lunarcrushaltrank30ddata0 + ' | L. C. Social Score 24h Rank : ' + lunarcrushsocialscore24hrankdata0 + 
                 ' | L. C. Social Volume 24h Rank : ' + lunarcrushsocialvolume24hrankdata0 ;
