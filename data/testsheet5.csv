@@ -1,6 +1,6 @@
 "Username","User Title","Date","Excerpt","Topic"
 "tsachi","Algorand Inc",2022-03-14,"It’s required in order to ensure the callee would be designe...","https://forum.algorand.org/t/contract-to-contract-calls-only-possible-between-v6-contracts-not-backwards-compatible/6260/3"
-"tsachi","Algorand Inc",2022-03-12,"Yes. A delayed transaction can cause that - but please note ...","https://forum.algorand.org/t/what-causes-this-error/6235/4"
+"tsachi","Algorand Inc","2022-03-12","Yes. A delayed transaction can cause that - but please note ...","https://forum.algorand.org/t/what-causes-this-error/6235/4"
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
