@@ -63,7 +63,7 @@ Signing
 Ver...","https://forum.algorand.org/t/unable-to-use-ed25519verify-with-pyteal-and-python-algorand-sdk/7400/2"
 "Ben","Algorand Inc",2022-07-12,"you can call the method you’ve defined and it essentially co...","https://forum.algorand.org/t/how-to-return-only-asa-amount-and-not-seq/7390/4"
 "Ben","Algorand Inc",2022-07-11,"I’m not sure what conditions you’re calling this function un...","https://forum.algorand.org/t/how-to-return-only-asa-amount-and-not-seq/7390/2"
-"JasonW","Algorand Inc",2022-07-19,"Edited the post to remove your secret key. I strongly sugges...","https://forum.algorand.org/t/developer-portal-first-challenge-genesis-hash/7433/4"
+"JasonW","Algorand Inc",2022-07-19,"Edited the post to remove your secret key....","https://forum.algorand.org/t/developer-portal-first-challenge-genesis-hash/7433/4"
 "JasonW","Algorand Inc",2022-07-14,"There are no plans to add this functionality currently....","https://forum.algorand.org/t/statefull-vs-stateless-smart-contracts/7398/8"
 "JasonW","Algorand Inc",2022-05-25,"The same transaction type is use to create or change the con...","https://forum.algorand.org/t/unexpected-parameters-in-asset-configuration-tx/6972/2"
 "JasonW","Algorand Inc",2022-05-25,"Does this data need to be private? You could enter contacts ...","https://forum.algorand.org/t/phone-directory-program-algorand-blockchain-as-a-replacement-for-a-sql-table/6982/2"
