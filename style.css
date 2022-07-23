@@ -478,6 +478,10 @@ table.dataTable thead .sorting_desc_disabled {
     a.active {
       background: #242424;
     }
+    .slide:hover {
+      /*opacity: 0.9;*/
+      background-color: #4e4d4d28;
+    }
 
     .slide-track:hover  {
       animation-play-state: paused;
