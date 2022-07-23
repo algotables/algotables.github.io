@@ -82,6 +82,7 @@ h1 {
   
   .footer ul a:hover, .header ul a:hover {
     opacity: 1;
+    color: rgb(105, 166, 213);
   }
   
   .footer .copyright, .header .tiny {
@@ -230,8 +231,20 @@ table.dataTable thead .sorting_desc_disabled {
   visibility: hidden;
   display: none;
 }
+#table-csv0-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+#table-csv0-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
 
 #table-csv1-table_info {
+  visibility: hidden;
+  display: none;
+}
+#table-csv1-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
   visibility: hidden;
   display: none;
 }
@@ -240,8 +253,16 @@ table.dataTable thead .sorting_desc_disabled {
   visibility: hidden;
   display: none;
 }
+#table-csv2-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
 
 #table-csv3-table_info {
+  visibility: hidden;
+  display: none;
+}
+#table-csv3-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
   visibility: hidden;
   display: none;
 }
@@ -250,8 +271,16 @@ table.dataTable thead .sorting_desc_disabled {
   visibility: hidden;
   display: none;
 }
+#table-csv4-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
 
 #table-csv5-table_info {
+  visibility: hidden;
+  display: none;
+}
+#table-csv5-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
   visibility: hidden;
   display: none;
 }
@@ -260,32 +289,70 @@ table.dataTable thead .sorting_desc_disabled {
   visibility: hidden;
   display: none;
 }
+#table-csv6-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
 
 #table-csv7-table_info {
   visibility: hidden;
   display: none;
 }
+#table-csv7-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
 #table-csv8-table_info {
   visibility: hidden;
   display: none;
 }
+#table-csv8-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
 #table-csv9-table_info {
   visibility: hidden;
   display: none;
 }
+#table-csv9-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
 #table-csv10-table_info {
   visibility: hidden;
   display: none;
 }
+#table-csv10-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
 #table-csv11-table_info {
   visibility: hidden;
   display: none;
 }
+#table-csv11-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
 #table-csv12-table_info {
   visibility: hidden;
   display: none;
 }
+#table-csv12-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
 #table-csv13-table_info {
+  visibility: hidden;
+  display: none;
+}
+#table-csv13-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
   visibility: hidden;
   display: none;
 }
@@ -372,7 +439,6 @@ table.dataTable thead .sorting_desc_disabled {
   text-align: left;
 }
 
-
 /*#example8 {
   padding-left: 50px;
   padding-right: 50px;
@@ -402,6 +468,16 @@ table.dataTable thead .sorting_desc_disabled {
       animation: scroll 240s linear infinite;
       display: flex;
     }
+    .slide-track2 {
+      animation: scroll 480s linear infinite;
+      display: flex;
+    }
+    .slide {
+      background: #191c1d;
+    }
+    a.active {
+      background: #242424;
+    }
 
     .slide-track:hover  {
       animation-play-state: paused;
@@ -425,7 +501,22 @@ table.dataTable thead .sorting_desc_disabled {
 
     .truncate2 {
       max-width:1400px;
+      margin-top: 7px;
+      margin-bottom: 7px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
+    }
+
+    .truncate3 {
+      max-width:500px;
+      margin-left: 10px;
+      margin-top: 0px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .left {
+      float: left;
     }

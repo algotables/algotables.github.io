@@ -104,64 +104,83 @@
 <div class='page'>
 
     <body>
-        <section class="header">
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            * {box-sizing: border-box;}
+            
+            body { 
+              margin: 0;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .header {
+              overflow: hidden;
+              background-color: rgb(24, 26, 27);
+              padding: 0px 15px;
+              border: 1px solid rgb(57, 57, 57);
+              text-align: center;
+            }
+            
+            .header a {
+              /*float: left;*/
+              color: #aaa;
+              text-align: center;
+              padding: 2px;
+              text-decoration: none;
+              font-size: 12px; 
+              line-height: 25px;
+              border-radius: 4px;
+            }
+            
+            .header a.logo {
+              font-size: 15px;
+              color: #aaa;
+            }
+            
+            .header a:hover {
+                background: #222527;
+                color: rgb(105, 166, 213);
+            }            
+            
+            .header-right {
+              float: right;
+            }
+            
+            @media screen and (max-width: 500px) {
+              .header a {
+                float: none;
+                display: block;
+                text-align: center;
+              }
+              
+              .header-right {
+                float: none;
+              }
+            }
+            </style>
+            </head>
+            <body>
+            
+            <div class="header">
+                <a href="https://coinmarketcap.com/currencies/algorand/" target="_blank" rel="noopener noreferrer" class="logo">ALGO USD Price : $</a>
+                <a href="https://alternative.me/crypto/fear-and-greed-index/" target="_blank" rel="noopener noreferrer" class="logo">Crypto F&G Index : #</a>
+                <a href="https://lunarcrush.com/coins/algo/algorand" target="_blank" rel="noopener noreferrer" class="logo">LC Alt Rank : #</a>
+            </div>
+            
+            </body>
+        <!--<section class="header">            
             <ul class="list">
                 <li>
                     <a href='index.html' class="logo">ALGO Tables</a>
                     <p class="normal">Tables for Algorand</p>                           
-                    <!--<p class="normal">CMC ALGO Vote Score : % | CMC ALGO Monthly Median Price Pred. : $ | CMC ALGO Monthly Avg Price Pred. :</p>-->  
+                    <p class="normal">CMC ALGO Vote Score : % | CMC ALGO Monthly Median Price Pred. : $ | CMC ALGO Monthly Avg Price Pred. :</p>  
                     <p class="normal">ALGO USD Price : $ | ALGO % Change 1h : # | ALGO % Change 24h : #| ALGO % Change 7d : #</p>  
                     <p class="normal">Crypto F&G Index : # | Crypto F&G Index Classific. : # | Crypto F&G Index Daily % Change : # | Crypto F&G Index Fear Date : #</p>  
                     <p class="normal">Lunar Crush Galaxy Score : # | L. C. Alt. Rank : # | L. C. Alt. Rank 30d : # | L. C. Social Score 24h Rank : # | L. C. Social Volume 24h Rank : #</p>                      
-                </li>
-                <div class="slider truncate2">
-                    <div class="slide-track">
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-1.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-2.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-3.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-4.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-6.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-8.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-9.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-1.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-2.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-3.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-4.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-6.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-8.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                      <div class="slide">
-                        <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-9.svg" height="62.5" width="156.25" alt="" /></a>
-                      </div>
-                    </div>
-                  </div>
+                </li>                
             </ul>
-        </section>
+        </section>-->
         <ul class="nav nav-tabs" role="tablist">   
             <li>
                 <a href="#tab-table22" data-toggle="tab">Ecosystem Main</a>
@@ -200,6 +219,52 @@
                 <a href="#tab-table19" data-toggle="tab">SimilarWeb</a>
             </li>          
         </ul>
+        <div class="slider truncate2">
+            <div class="slide-track">
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-1.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-2.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-3.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-4.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-6.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-8.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-9.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-1.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-2.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-3.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-4.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-6.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-8.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+              <div class="slide">
+                <a href="https://www.reddit.com/r/AlgorandOfficial" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/algotables/algotables.github.io/main/logoipsum-logo-9.svg" height="62.5" width="156.25" alt="" /></a>
+              </div>
+            </div>
+          </div>
         <div class="tab-content">         
             <div class="tab-pane" id="tab-table10">         
                 <div style="
@@ -653,9 +718,11 @@ filter: invert(90%);">
                     willthisstylingwork3 = "#72ff72";
                 }     
 
-                document.querySelector("body > div.page > section.header > ul > li > p:nth-child(3)").innerHTML = 'ALGO USD Price : $' + 
+                /*document.querySelector("body > div.page > section.header > ul > li > p:nth-child(3)").innerHTML = 'ALGO USD Price : $' + 
                 willthiswork0 + ' | ALGO % Change 1h : ' + willthiswork1.fontcolor(willthisstylingwork1) + '%' + ' | ALGO % Change 24h : ' + 
-                willthiswork2.fontcolor(willthisstylingwork2) + '%' + ' | ALGO % Change 7d :  ' + willthiswork3.fontcolor(willthisstylingwork3) + '%' ;
+                willthiswork2.fontcolor(willthisstylingwork2) + '%' + ' | ALGO % Change 7d :  ' + willthiswork3.fontcolor(willthisstylingwork3) + '%' ;*/
+
+                document.querySelector("body > div.page > div.header > a:nth-child(1)").innerHTML = 'ALGO USD Price : $' + willthiswork0;
 
                 }
             feesh12345680();
@@ -683,9 +750,11 @@ filter: invert(90%);">
                 var toyear=new Date(timestamp).getFullYear();
                 var original_date=tomonth+'/'+todate+'/'+toyear;
 
-                document.querySelector("body > div.page > section.header > ul > li > p:nth-child(4)").innerHTML = 'Crypto F&G Index : ' + 
+                /*document.querySelector("body > div.page > section.header > ul > li > p:nth-child(4)").innerHTML = 'Crypto F&G Index : ' + 
                 willthiswork0 + ' | Crypto F&G Index Classific. : ' + willthiswork1 + ' | Crypto F&G Index Daily Change : ' + 
-                String(willthiswork3).fontcolor(willthisstylingwork1) + ' | Crypto F&G Index Date : ' + willthiswork2.toLocaleDateString("en-US") ;
+                String(willthiswork3).fontcolor(willthisstylingwork1) + ' | Crypto F&G Index Date : ' + willthiswork2.toLocaleDateString("en-US") ;*/
+
+                document.querySelector("body > div.page > div.header > a:nth-child(2)").innerHTML = 'Crypto F&G Index : ' + willthiswork0;
 
                 }
             feesh12345681();
@@ -702,10 +771,12 @@ filter: invert(90%);">
                 var lunarcrushsocialscore24hrankdata0 = data88888091.data[0].timeSeries[0].social_score_24h_rank;
                 var lunarcrushsocialvolume24hrankdata0 = data88888091.data[0].timeSeries[0].social_volume_24h_rank;
 
-                document.querySelector("body > div.page > section.header > ul > li > p:nth-child(5)").innerHTML = 'Lunar Crush Galaxy Score : ' + 
+                /*document.querySelector("body > div.page > section.header > ul > li > p:nth-child(5)").innerHTML = 'Lunar Crush Galaxy Score : ' + 
                 lunarcrushgalaxyscoredata0 + ' | L. C. Alt. Rank : ' + lunarcrushaltrankdata0 + ' | L. C. Alt. Rank 30d : ' + 
                 lunarcrushaltrank30ddata0 + ' | L. C. Social Score 24h Rank : ' + lunarcrushsocialscore24hrankdata0 + 
-                ' | L. C. Social Volume 24h Rank : ' + lunarcrushsocialvolume24hrankdata0 ;
+                ' | L. C. Social Volume 24h Rank : ' + lunarcrushsocialvolume24hrankdata0 ;*/
+
+                document.querySelector("body > div.page > div.header > a:nth-child(3)").innerHTML = 'L. C. Alt. Rank : ' + lunarcrushaltrankdata0;
 
                 }
 
