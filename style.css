@@ -465,15 +465,18 @@ table.dataTable thead .sorting_desc_disabled {
     }
     
     .slide-track {
-      animation: scroll 240s linear infinite;
+      animation: scroll 285s linear infinite;
       display: flex;
     }
     .slide-track2 {
-      animation: scroll 480s linear infinite;
+      animation: scroll 180s linear infinite;
       display: flex;
     }
     .slide {
       background: #191c1d;
+      border: 1px solid rgba(204, 204, 204, 0.2);
+      margin-left: 1px;
+      text-align: center;
     }
     a.active {
       background: #242424;
@@ -481,9 +484,10 @@ table.dataTable thead .sorting_desc_disabled {
     .slide:hover {
       /*opacity: 0.9;*/
       background-color: #4e4d4d28;
+      /*border: 1px solid rgba(204, 204, 204, 0.127);*/
     }
-
-    .slide-track:hover  {
+    
+    .slide-track:hover, .slide-track2:hover  {
       animation-play-state: paused;
       /*animation: none;*/
       /*animation-name: tonext, snap;
@@ -505,7 +509,7 @@ table.dataTable thead .sorting_desc_disabled {
 
     .truncate2 {
       max-width:1400px;
-      margin-top: 7px;
+      margin-top: 0px;
       margin-bottom: 7px;
       white-space: nowrap;
       overflow: hidden;
@@ -513,9 +517,9 @@ table.dataTable thead .sorting_desc_disabled {
     }
 
     .truncate3 {
-      max-width:500px;
-      margin-left: 10px;
-      margin-top: 0px;
+      max-width:1400px;
+      margin-top: 1px;
+      margin-bottom: 1px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -523,4 +527,48 @@ table.dataTable thead .sorting_desc_disabled {
 
     .left {
       float: left;
+    }
+
+    * {box-sizing: border-box;}
+    nav {
+    overflow: hidden;
+    background-color: #330b7c;
+    padding: 10px;
+    }
+    .links {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+    nav .logo {
+    font-size: 25px;
+    font-weight: bold;
+    }
+    nav .links:hover {
+    background-color: rgb(214, 238, 77);
+    color: rgb(42, 10, 94);
+    }
+    nav .selected {
+    background-color: dodgerblue;
+    color: white;
+    }
+    .rightSection {
+    float: right;
+    }
+    @media screen and (max-width: 870px) {
+    nav .links {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+    .rightSection {
+    float: none;
+    }
     }
