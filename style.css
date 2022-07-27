@@ -357,6 +357,24 @@ table.dataTable thead .sorting_desc_disabled {
   display: none;
 }
 
+#table-csv14-table_info {
+  visibility: hidden;
+  display: none;
+}
+#table-csv14-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
+#table-csv15-table_info {
+  visibility: hidden;
+  display: none;
+}
+#table-csv15-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
 #table-csv0-table_wrapper > div:nth-child(5) > label > input {
   visibility: hidden;
   display: none;
@@ -410,6 +428,14 @@ table.dataTable thead .sorting_desc_disabled {
   display: none;
 }
 #table-csv13-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv14-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv15-table_wrapper > div:nth-child(5) > label > input {
   visibility: hidden;
   display: none;
 }
