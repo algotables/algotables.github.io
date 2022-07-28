@@ -375,6 +375,15 @@ table.dataTable thead .sorting_desc_disabled {
   display: none;
 }
 
+#table-csv16-table_info {
+  visibility: hidden;
+  display: none;
+}
+#table-csv16-table_wrapper > div.dtsb-searchBuilder > div.dtsb-titleRow {
+  visibility: hidden;
+  display: none;
+}
+
 #table-csv0-table_wrapper > div:nth-child(5) > label > input {
   visibility: hidden;
   display: none;
@@ -436,6 +445,10 @@ table.dataTable thead .sorting_desc_disabled {
   display: none;
 }
 #table-csv15-table_wrapper > div:nth-child(5) > label > input {
+  visibility: hidden;
+  display: none;
+}
+#table-csv16-table_wrapper > div:nth-child(5) > label > input {
   visibility: hidden;
   display: none;
 }
