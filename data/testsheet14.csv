@@ -1,7 +1,7 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
 "USDC","STBL",31566704,465865291,1,135674,883402,"Algofi","https://info.algofi.org/pool-info/658337046"
 "ALGO","STBL",1,465865291,7,147332,985188,"Algofi","https://info.algofi.org/pool-info/607645439"
-"ALGO","USDC",1,31566704,16,217200,1516777,"Algofi","https://info.algofi.org/pool-info/605929989"
+"ALGO","USDC",1,31566704,16,217172,1516286,"Algofi","https://info.algofi.org/pool-info/605929989"
 "goBTC","STBL",386192725,465865291,4,12054,180664,"Algofi","https://info.algofi.org/pool-info/635846127"
 "goETH","STBL",386195940,465865291,8,51660,352416,"Algofi","https://info.algofi.org/pool-info/635853824"
 "USDt","STBL",312769,465865291,2,44862,176610,"Algofi","https://info.algofi.org/pool-info/659677335"
