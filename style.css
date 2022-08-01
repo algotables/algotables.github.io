@@ -503,7 +503,7 @@ table.dataTable thead .sorting_desc_disabled {
         transform: translateX(0);
       }
       100% {
-        transform: translateX(calc(-156.25px * 5));
+        transform: translateX(calc(-180px * 5));
       }
     }
     
@@ -514,12 +514,15 @@ table.dataTable thead .sorting_desc_disabled {
     .slide-track2 {
       animation: scroll 40s linear infinite;
       display: flex;
+      width: calc(180px * 15);
     }
     .slide {
       background: #191c1d;
       border: 1px solid rgba(204, 204, 204, 0.2);
       /*margin-left: 1px;*/
       text-align: center;
+      /*height: 100px;*/
+		  width: 180px;
     }
     a.active {
       background: #242424;
