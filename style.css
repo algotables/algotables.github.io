@@ -503,7 +503,7 @@ table.dataTable thead .sorting_desc_disabled {
         transform: translateX(0);
       }
       100% {
-        transform: translateX(calc(-156.25px * 7));
+        transform: translateX(calc(-156.25px * 5));
       }
     }
     
@@ -512,7 +512,7 @@ table.dataTable thead .sorting_desc_disabled {
       display: flex;
     }
     .slide-track2 {
-      animation: scroll 180s linear infinite;
+      animation: scroll 40s linear infinite;
       display: flex;
     }
     .slide {
@@ -702,4 +702,19 @@ body {
   /*margin-top: 32px;*/
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.cr-currency {
+  text-align: center;
+  font-size: 8pt;
+}
+
+.cr-price {
+  text-align: center;
+  font-size: 8pt;
+}
+
+.vol {
+  text-align: center;
+  font-size: 8pt;
 }
