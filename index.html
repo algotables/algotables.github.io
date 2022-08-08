@@ -1277,7 +1277,19 @@ filter: invert(90%);">
                 fixedColumns: true,
                 columnDefs: [
                     /*{targets:[0],className:"truncate"},*/
-                    { type: 'any-number', targets : [1, 2, 3, 4] }
+                    {targets: [2,3,4],
+                            render: function ( data, type, row ) {
+                            var color = '#c8c3bc';
+                            if (data > 0) {
+                                color = '#72ff72';
+                            }
+                            if (data < 0) {
+                                color = 'red';
+                            }
+                            return '<span style="color:' + color + '">' + data + '</span>';
+                            }
+                    },
+                    { type: 'any-number', targets : [1, 2, 3, 4] }                    
                     ],
                     /*createdRow: function(row){
                         $(row).find(".truncate").each(function(){
@@ -3181,17 +3193,17 @@ filter: invert(90%);">
                 data.addColumn('number', feeshname7771);
                 data.addColumn('number', feeshname7772);
 
-                var feesh7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(3)").innerHTML;
-                var feesh7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(4)").innerHTML;
-                var feesh7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(5)").innerHTML;
+                var feesh7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(3) > span").innerHTML;
+                var feesh7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(4) > span").innerHTML;
+                var feesh7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(5) > span").innerHTML;
 
-                var feesh7773 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(3)").innerHTML;
-                var feesh7774 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(4)").innerHTML;
-                var feesh7775 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(5)").innerHTML;
+                var feesh7773 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(3) > span").innerHTML;
+                var feesh7774 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(4) > span").innerHTML;
+                var feesh7775 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(2) > td:nth-child(5) > span").innerHTML;
 
-                var feesh7776 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(3)").innerHTML;
-                var feesh7777 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(4)").innerHTML;
-                var feesh7778 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(5)").innerHTML;
+                var feesh7776 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(3) > span").innerHTML;
+                var feesh7777 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(4) > span").innerHTML;
+                var feesh7778 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(3) > td:nth-child(5) > span").innerHTML;
 
                 data.addRows([
                     [-168,  parseFloat(feesh7772), parseFloat(feesh7775), parseFloat(feesh7778)],
