@@ -1,10 +1,10 @@
 "Name (20 Char Max)","Index","Verified","TX","% in Circ","Dly Uniq Users","Dly Uniq Sndrs","Dly Uniq Rcvrs","Dly Actv Addrs","Ecosys Votes"
-"tinyhorse","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
+"tinyhorse","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "Algo Curator","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",19
 "The Algonautz","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
 "Space Pilots","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "Algoracle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",23
-"Algo Gaming Gui","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
+"Algo Gaming Gui","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
 "Wayru","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",15
 "Algorand Name","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",33
 "EXTREMELY BULLI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",45
@@ -33,7 +33,7 @@
 "Neomoon","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "QuickNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "genpyteal","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Pact","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",348
+"Pact","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",349
 "KissBits","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
 "Mailchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "AlgoCats","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
@@ -43,7 +43,7 @@
 "Coffee DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
 "Neutral Token","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",66
 "AlgoWeirdo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"ALGO LITE",447852812,"TBD",18430,100,1,5305,1,1,2
+"ALGO LITE",447852812,"TBD",18432,100,1,5305,1,1,2
 "G-raffe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",14
 "AXELSTAKE","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Algonauts Offic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
@@ -69,7 +69,7 @@
 "AssetOne","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
 "TechTree","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "ZolAlgo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
-"Fracctal Monsters","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Fracctal Monsters","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
 "Flemish Giants","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
 "Backers","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "AlgoPatties","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
@@ -79,13 +79,13 @@
 "BrightNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Vendible","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",56
 "Asalytic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
-"LC Blitz Ranking",127746157,"TBD",37646938,0,12,1,1,1,"TBD"
+"LC Blitz Ranking",127746157,"TBD",37830159,0,12,1,1,1,"TBD"
 "LC Bullet Ranking",127745593,"TBD",6069133,0,3,0,0,0,"TBD"
-"LC Rapid Ranking",127746786,"TBD",66485910,0,16,1,1,1,"TBD"
-"FIDE Online Arena Ra",2254149,"TBD",76062,100,3,1,1,1,"TBD"
+"LC Rapid Ranking",127746786,"TBD",66486000,0,16,1,1,1,"TBD"
+"FIDE Online Arena Ra",2254149,"TBD",76064,100,3,1,1,1,"TBD"
 "Dead Putin Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Sim Companies","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"CC Token",657291910,"Yes",59475,3,13,57798,126,9,127
+"CC Token",657291910,"Yes",59643,3,13,57905,111,3,113
 "AlgoPixels","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "AlgoLaunch","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6735
 "Wyre","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
@@ -99,13 +99,13 @@
 "Orbital Gnome Strike","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",34
 "Runtime Verification","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Cables Finance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Alammex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Alammex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Galaxy Art Project","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Algomond","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "PARSIQ","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Tellor","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
 "Taurus","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Alvatars","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",23
+"Alvatars","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",24
 "Metabrand.tech","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Ill Beans Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Vybe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
@@ -117,9 +117,9 @@
 "Trust Wallet","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Guarda","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Daffi.me","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Trantorian","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",17
+"Trantorian","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",18
 "DAO Made Easy","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"AlgoSeas","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"AlgoSeas","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Daf Governance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "BlockchainID.me","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Blockchain.com","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
@@ -171,7 +171,7 @@
 "London Bridge","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",25
 "Silent Data","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",23
 "Applied Blockchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",20
-"zCircuit","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"zCircuit","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "Darshana","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "PureStake","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "COMETA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
@@ -192,10 +192,10 @@
 "VALIDITA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Payscript","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Algobots","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
-"DeFi-nite",400593267,"TBD",71094,95,3,1192,10,11,13
+"DeFi-nite",400593267,"TBD",71189,95,3,1192,13,10,16
 "Rats DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "SIKI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Notifi Network","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Soufuru","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
-"PeliCoin",758090502,"Yes",1997,1,0,718,1,13,14
+"PeliCoin",758090502,"Yes",1997,1,0,719,6,3,7
 "Certyclick","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
