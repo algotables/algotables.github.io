@@ -18,7 +18,7 @@
 "Emali","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Intellecteu","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Looptribe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Reach","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Reach","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Blockchain Australia","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "EMGS Group","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Euranet","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
@@ -73,9 +73,9 @@
 "NovAu","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Tatum","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",275
 "SubQuery","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"GushiLand","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",19
+"GushiLand","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",20
 "AlgoExplorer","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",18
-"Algofi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",667
+"Algofi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",668
 "AlgoPatties","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
 "AlgoWhales","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",10
 "MAGMA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1724
@@ -86,7 +86,7 @@
 "Vesta Equity","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "QMG.finance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "C3 Protocol","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",10
-"Doubloon",689171215,"Yes",94743,0,1,2028,377,396,426
+"Doubloon",689171215,"Yes",94900,0,2,2028,377,396,426
 "AlgoAdoption","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "PlanDail","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Artquare.io","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",19
@@ -122,8 +122,8 @@
 "USAlgo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "M.N.G.O.","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
 "Captain Squishy","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
-"Vestige",700965019,"Yes",38071,31,107,1676,113,145,163
-"STBL",465865291,"Yes",1141674,0,667,32245,408,287,431
+"Vestige",700965019,"Yes",38145,31,107,1676,113,145,163
+"STBL",465865291,"Yes",1142061,0,668,32245,408,287,431
 "asalp","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Hallar","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "Blockrank","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
