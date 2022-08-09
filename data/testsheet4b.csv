@@ -1,10 +1,10 @@
 "Name (20 Char Max)","Index","Verified","TX","% in Circ","Dly Uniq Users","Dly Uniq Sndrs","Dly Uniq Rcvrs","Dly Actv Addrs","Ecosys Votes"
-"tinyhorse","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
+"tinyhorse","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "Algo Curator","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",19
 "The Algonautz","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
 "Space Pilots","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "Algoracle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",23
-"Algo Gaming Gui","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
+"Algo Gaming Gui","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
 "Wayru","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",15
 "Algorand Name","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",33
 "EXTREMELY BULLI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",45
@@ -33,7 +33,7 @@
 "Neomoon","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "QuickNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "genpyteal","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Pact","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",348
+"Pact","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",349
 "KissBits","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
 "Mailchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "AlgoCats","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
@@ -85,7 +85,7 @@
 "FIDE Online Arena Ra",2254149,"TBD",76064,100,3,1,1,1,"TBD"
 "Dead Putin Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Sim Companies","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"CC Token",657291910,"Yes",59605,3,13,57905,111,3,113
+"CC Token",657291910,"Yes",59627,3,13,57905,111,3,113
 "AlgoPixels","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "AlgoLaunch","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6735
 "Wyre","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
@@ -192,7 +192,7 @@
 "VALIDITA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Payscript","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Algobots","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
-"DeFi-nite",400593267,"TBD",71162,95,3,1192,13,10,16
+"DeFi-nite",400593267,"TBD",71165,95,3,1192,13,10,16
 "Rats DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "SIKI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Notifi Network","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
