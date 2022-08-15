@@ -3178,11 +3178,6 @@ filter: invert(90%);">
                 const response0 = await fetch('https://algotables.github.io/index.html#tab-table11'); 
                 const response1 = await fetch('https://algotables.github.io/index.html#tab-table11'); 
 
-                //var feesh7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(3) > span").innerHTML;
-                //var feesh7771 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(4) > span").innerHTML;
-                //var feesh7772 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td:nth-child(5) > span").innerHTML;
-                //console.log(feesh0);
-
                 var data = new google.visualization.DataTable();
 
                 var feeshname7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td.dtfc-fixed-left").innerHTML;
@@ -3222,22 +3217,6 @@ filter: invert(90%);">
                     },
                     height: 250
                 };
-
-               /* var feeshname7770 = document.querySelector("#table-csv1-table > tbody > tr:nth-child(1) > td.dtr-control").innerHTML;
-                var data = google.visualization.arrayToDataTable([
-                    ['Time', '% Change'],
-                    [-168, parseInt(feesh7772)], [-24, parseInt(feesh7771)], [-1, parseInt(feesh7770)]]);
-
-                var options = {
-                    title: '% Change vs ' + feeshname7770,
-                    hAxis: {title: 'Hours'},
-                    vAxis: {title: '% Change'},
-                    animation: {
-                        duration: 1000
-                    },
-                    legend: 'none',
-                    trendlines: { 0: {} }    // Draw a trendline for data series 0.
-                };*/
 
                 var chart = new google.charts.Line(document.getElementById('chart_divtrend42777'));
                 chart.draw(data, google.charts.Line.convertOptions(options));
