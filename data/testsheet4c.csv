@@ -1,4 +1,4 @@
-"Name (20 Char Max)","Index","Verified","TX","% in Circ","Dly Uniq Users","Dly Uniq Sndrs","Dly Uniq Rcvrs","Dly Actv Addrs","Ecosys Votes"
+"Name (20 Char Max)","Index","Verified","TX","Total in Circ","Dly Uniq Users","Dly Uniq Sndrs","Dly Uniq Rcvrs","Dly Actv Addrs","Ecosys Votes"
 "Trilem.art","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Delchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Circle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
@@ -86,7 +86,7 @@
 "Vesta Equity","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "QMG.finance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "C3 Protocol","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",10
-"Doubloon",689171215,"Yes",101820,0,3,2132,445,480,512
+"Doubloon",689171215,"Yes",101852,2523383145000000,3,2132,445,480,512
 "AlgoAdoption","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "PlanDail","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Artquare.io","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",19
@@ -122,8 +122,8 @@
 "USAlgo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "M.N.G.O.","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
 "Captain Squishy","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
-"Vestige",700965019,"Yes",41160,31,107,1752,96,113,133
-"STBL",465865291,"Yes",1162587,0,671,33311,304,256,332
+"Vestige",700965019,"Yes",41166,31499999999993,107,1752,96,113,133
+"STBL",465865291,"Yes",1162634,7024943032760,671,33311,304,256,332
 "asalp","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Hallar","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "Blockrank","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
@@ -136,7 +136,7 @@
 "AlgoExplorer","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",18
 "TinyWhales","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
 "AlgoWhales","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",10
-"Spindle Yarn",544217506,"Yes",4050,100,7,528,1,1,2
+"Spindle Yarn",544217506,"Yes",4050,100000000000000,7,528,1,1,2
 "Alkemint","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "TruYou","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",16
 "Capi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
