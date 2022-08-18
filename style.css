@@ -514,7 +514,7 @@ table.dataTable thead .sorting_desc_disabled {
     .slide-track2 {
       animation: scroll 40s linear infinite;
       display: flex;
-      width: calc(180px * 27);
+      width: calc(180px * 18);
     }
     .slide {
       background: #191c1d;
