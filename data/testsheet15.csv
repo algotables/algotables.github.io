@@ -85,6 +85,7 @@
 "USDC","goBTC",31566704,386192725,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/748350502"
 "USDC","pBTC",31566704,744665252,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/785894817"
 "USDt","goBTC",312769,386192725,0.2,0,0,"PactFi","https://app.pact.fi/add-liquidity/662099331"
+"ALGO","AFD",0,393495312,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/843035593"
 "KFL","TEAR",239444645,807691608,11.4,1,5,"PactFi","https://app.pact.fi/add-liquidity/831490330"
 "ALGO","AKTA",0,523683256,10.4,0,1,"PactFi","https://app.pact.fi/add-liquidity/723769037"
 "ALGO","SMILE",0,300208676,6.8,0,1,"PactFi","https://app.pact.fi/add-liquidity/687328206"
@@ -184,4 +185,3 @@
 "ALGO","AGLD",0,472528156,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/695728283"
 "Finite","STBL",400593267,465865291,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/697754787"
 "goBTC","Algonaut",386192725,552011975,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/703023492"
-"ALGO","PIGL",0,401749740,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/710088780"
