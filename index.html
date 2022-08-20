@@ -1028,44 +1028,47 @@ filter: invert(90%);">
             feesh12345680();            
 
             async function feesh12345688912345() { 
-
-                const response1bc = await fetch('https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/cryptoquant.csv'); 
                 
                 Papa.parse("https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/cryptoquant.csv", {
                     download: true,
                     complete: function(results) {
-                        
-                        //console.log(results.data[0][0]);
 
-                        var lunarcrushgalaxyscoredata022 = results.data[8][1];
-                        var lunarcrushaltrankdata022 = results.data[9][1];
-                        var lunarcrushsocialvolume24hrankdata022 = results.data[10][1];
-
-                        var willthisstylingwork122 = '#c8c3bc';
-                        if (lunarcrushaltrankdata022 < 0) {
-                            willthisstylingwork122 = "red";
+                        var rowCount = results.data.length;
+                        if (rowCount < 31) {
+                            //console.log("parser fail")
+                            feesh12345688912345();
                         }
-                        if (lunarcrushaltrankdata022 > 0) {
-                            willthisstylingwork122 = "#72ff72";
-                        }
+                        else {
+                                var lunarcrushgalaxyscoredata022 = results.data[8][1];
+                                var lunarcrushaltrankdata022 = results.data[9][1];
+                                var lunarcrushsocialvolume24hrankdata022 = results.data[10][1];
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(2) > a > div.cr-currency").innerHTML = 'ALGO ATH : $' + lunarcrushgalaxyscoredata022;
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(2) > a > div.cr-price").innerHTML = 'ALGO ATH Change : ' + String(lunarcrushaltrankdata022).fontcolor(willthisstylingwork122) + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(2) > a > div.vol").innerHTML = 'ALGO ATL : $' + lunarcrushsocialvolume24hrankdata022;
+                                var willthisstylingwork122 = '#c8c3bc';
+                                if (lunarcrushaltrankdata022 < 0) {
+                                    willthisstylingwork122 = "red";
+                                }
+                                if (lunarcrushaltrankdata022 > 0) {
+                                    willthisstylingwork122 = "#72ff72";
+                                }
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(15) > a > div.cr-currency").innerHTML = 'ALGO ATH : $' + lunarcrushgalaxyscoredata022;
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(15) > a > div.cr-price").innerHTML = 'ALGO ATH Change : ' + String(lunarcrushaltrankdata022).fontcolor(willthisstylingwork122) + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(15) > a > div.vol").innerHTML = 'ALGO ATL : $' + lunarcrushsocialvolume24hrankdata022;
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(2) > a > div.cr-currency").innerHTML = 'ALGO ATH : $' + lunarcrushgalaxyscoredata022;
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(2) > a > div.cr-price").innerHTML = 'ALGO ATH Change : ' + String(lunarcrushaltrankdata022).fontcolor(willthisstylingwork122) + '%';
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(2) > a > div.vol").innerHTML = 'ALGO ATL : $' + lunarcrushsocialvolume24hrankdata022;
 
-                        var lunarcrushgalaxyscoredata022bc = results.data[28][1];
-                        var lunarcrushaltrankdata022bc = results.data[29][1];
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(15) > a > div.cr-currency").innerHTML = 'ALGO ATH : $' + lunarcrushgalaxyscoredata022;
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(15) > a > div.cr-price").innerHTML = 'ALGO ATH Change : ' + String(lunarcrushaltrankdata022).fontcolor(willthisstylingwork122) + '%';
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(15) > a > div.vol").innerHTML = 'ALGO ATL : $' + lunarcrushsocialvolume24hrankdata022;
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(4) > a > div.cr-price").innerHTML = 'Market Cap : $' + lunarcrushgalaxyscoredata022bc;
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(4) > a > div.vol").innerHTML = 'Fully Dil. Mark. Cap : $' + lunarcrushaltrankdata022bc;
-                        
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(17) > a > div.cr-price").innerHTML = 'Market Cap : $' + lunarcrushgalaxyscoredata022bc;
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(17) > a > div.vol").innerHTML = 'Fully Dil. Mark. Cap : $' + lunarcrushaltrankdata022bc;
+                                var lunarcrushgalaxyscoredata022bc = results.data[28][1];
+                                var lunarcrushaltrankdata022bc = results.data[29][1];
 
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(4) > a > div.cr-price").innerHTML = 'Market Cap : $' + lunarcrushgalaxyscoredata022bc;
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(4) > a > div.vol").innerHTML = 'Fully Dil. Mark. Cap : $' + lunarcrushaltrankdata022bc;
+                                
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(17) > a > div.cr-price").innerHTML = 'Market Cap : $' + lunarcrushgalaxyscoredata022bc;
+                                document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(17) > a > div.vol").innerHTML = 'Fully Dil. Mark. Cap : $' + lunarcrushaltrankdata022bc;
+
+                            }
                     }
 
                 });
@@ -1098,82 +1101,86 @@ filter: invert(90%);">
 
             feesh12345680555();
 
-            async function feesh12345688912345c() { 
+            async function feesh12345688912345c() {                
 
-                const response1bcd = await fetch('https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/intotheblocksignals.csv'); 
-                
                 Papa.parse("https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/intotheblocksignals.csv", {
                     download: true,
                     complete: function(results) {
-                        
-                        //console.log(results.data[0][0]);
 
-                        var lunarcrushgalaxyscoredata0221t = results.data[13][1];                  
+                        var rowCount2 = results.data.length;
+                        if (rowCount2 < 13) {
+                            //console.log("parser fail")
+                            feesh12345688912345c();
+                        }
+                        else {
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(4) > a > div.cr-currency").innerHTML = 'TX > $100k for 7 Days : $' + lunarcrushgalaxyscoredata0221t;
-                        
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(17) > a > div.cr-currency").innerHTML = 'TX > $100k for 7 Days : $' + lunarcrushgalaxyscoredata0221t;
-  
-                        var lunarcrushgalaxyscoredata0221 = results.data[4][1];
-                        var lunarcrushaltrankdata0221 = results.data[5][1];
-                        var lunarcrushsocialvolume24hrankdata0221 = results.data[6][1];
+                            var lunarcrushgalaxyscoredata0221t = results.data[13][1];        
 
-                        var willthisstylingwork1221 = '#72ff72';                        
-                        var willthisstylingwork1231 = "c8c3bc";      
-                        var willthisstylingwork1241 = "red";                        
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(4) > a > div.cr-currency").innerHTML = 'TX > $100k for 7 Days : $' + lunarcrushgalaxyscoredata0221t;
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(5) > a > div.cr-currency").innerHTML = 'ALGO Hodlers in Profit : ' + String(lunarcrushgalaxyscoredata0221).fontcolor(willthisstylingwork1221) + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(5) > a > div.cr-price").innerHTML = 'ALGO Hodlers in Between : ' + lunarcrushaltrankdata0221 + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(5) > a > div.vol").innerHTML = 'ALGO Hodlers in Loss : ' + String(lunarcrushsocialvolume24hrankdata0221).fontcolor(willthisstylingwork1241) + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(17) > a > div.cr-currency").innerHTML = 'TX > $100k for 7 Days : $' + lunarcrushgalaxyscoredata0221t;
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(18) > a > div.cr-currency").innerHTML = 'ALGO Hodlers in Profit : ' + String(lunarcrushgalaxyscoredata0221).fontcolor(willthisstylingwork1221) + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(18) > a > div.cr-price").innerHTML = 'ALGO Hodlers in Between : ' + lunarcrushaltrankdata0221 + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(18) > a > div.vol").innerHTML = 'ALGO Hodlers in Loss : ' + String(lunarcrushsocialvolume24hrankdata0221).fontcolor(willthisstylingwork1241) + '%';
+                            var lunarcrushgalaxyscoredata0221 = results.data[4][1];
+                            var lunarcrushaltrankdata0221 = results.data[5][1];
+                            var lunarcrushsocialvolume24hrankdata0221 = results.data[6][1];
 
-                        var lunarcrushgalaxyscoredata0221r = results.data[7][1];
-                        var lunarcrushaltrankdata0221r = results.data[8][1];
-                        var lunarcrushsocialvolume24hrankdata0221r = results.data[9][1];
+                            var willthisstylingwork1221 = '#72ff72';                        
+                            var willthisstylingwork1231 = "c8c3bc";      
+                            var willthisstylingwork1241 = "red";                        
 
-                        var willthisstylingwork1221r = '#72ff72';                        
-                        var willthisstylingwork1231r = "c8c3bc";      
-                        var willthisstylingwork1241r = "red";                        
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(5) > a > div.cr-currency").innerHTML = 'ALGO Hodlers in Profit : ' + String(lunarcrushgalaxyscoredata0221).fontcolor(willthisstylingwork1221) + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(5) > a > div.cr-price").innerHTML = 'ALGO Hodlers in Between : ' + lunarcrushaltrankdata0221 + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(5) > a > div.vol").innerHTML = 'ALGO Hodlers in Loss : ' + String(lunarcrushsocialvolume24hrankdata0221).fontcolor(willthisstylingwork1241) + '%';
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(6) > a > div.cr-currency").innerHTML = 'ALGO Hodler 1y + : ' + String(lunarcrushgalaxyscoredata0221r).fontcolor(willthisstylingwork1221r) + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(6) > a > div.cr-price").innerHTML = 'ALGO Hodler 1 - 12m : ' + lunarcrushaltrankdata0221r + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(6) > a > div.vol").innerHTML = 'ALGO Hodler &#60; 1m : ' + String(lunarcrushsocialvolume24hrankdata0221r).fontcolor(willthisstylingwork1241r) + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(18) > a > div.cr-currency").innerHTML = 'ALGO Hodlers in Profit : ' + String(lunarcrushgalaxyscoredata0221).fontcolor(willthisstylingwork1221) + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(18) > a > div.cr-price").innerHTML = 'ALGO Hodlers in Between : ' + lunarcrushaltrankdata0221 + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(18) > a > div.vol").innerHTML = 'ALGO Hodlers in Loss : ' + String(lunarcrushsocialvolume24hrankdata0221).fontcolor(willthisstylingwork1241) + '%';
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(19) > a > div.cr-currency").innerHTML = 'ALGO Hodler 1y + : ' + String(lunarcrushgalaxyscoredata0221r).fontcolor(willthisstylingwork1221r) + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(19) > a > div.cr-price").innerHTML = 'ALGO Hodler 1 - 12m : ' + lunarcrushaltrankdata0221r + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(19) > a > div.vol").innerHTML = 'ALGO Hodler &#60; 1m : ' + String(lunarcrushsocialvolume24hrankdata0221r).fontcolor(willthisstylingwork1241r) + '%';
-                        
-                        var lunarcrushgalaxyscoredata0223 = results.data[1][1];
-                        var lunarcrushaltrankdata0223 = results.data[2][1];
-                        var lunarcrushsocialvolume24hrankdata0223 = results.data[3][1];
+                            var lunarcrushgalaxyscoredata0221r = results.data[7][1];
+                            var lunarcrushaltrankdata0221r = results.data[8][1];
+                            var lunarcrushsocialvolume24hrankdata0221r = results.data[9][1];
 
-                        var willthisstylingwork1223 = '#c8c3bc';                        
-                        var willthisstylingwork1233 = "red";      
-                        var willthisstylingwork1243 = "#72ff72";                        
+                            var willthisstylingwork1221r = '#72ff72';                        
+                            var willthisstylingwork1231r = "c8c3bc";      
+                            var willthisstylingwork1241r = "red";                        
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(7) > a > div.cr-currency").innerHTML = 'Bearish ALGO Signals : ' + String(lunarcrushgalaxyscoredata0223).fontcolor(willthisstylingwork1233);
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(7) > a > div.cr-price").innerHTML = 'Neutral ALGO Signals : ' + lunarcrushaltrankdata0223;
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(7) > a > div.vol").innerHTML = 'Bullish ALGO Signals : ' + String(lunarcrushsocialvolume24hrankdata0223).fontcolor(willthisstylingwork1243);
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(6) > a > div.cr-currency").innerHTML = 'ALGO Hodler 1y + : ' + String(lunarcrushgalaxyscoredata0221r).fontcolor(willthisstylingwork1221r) + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(6) > a > div.cr-price").innerHTML = 'ALGO Hodler 1 - 12m : ' + lunarcrushaltrankdata0221r + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(6) > a > div.vol").innerHTML = 'ALGO Hodler &#60; 1m : ' + String(lunarcrushsocialvolume24hrankdata0221r).fontcolor(willthisstylingwork1241r) + '%';
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(20) > a > div.cr-currency").innerHTML = 'Bearish ALGO Signals : ' + String(lunarcrushgalaxyscoredata0223).fontcolor(willthisstylingwork1233);
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(20) > a > div.cr-price").innerHTML = 'Neutral ALGO Signals : ' + lunarcrushaltrankdata0223;
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(20) > a > div.vol").innerHTML = 'Bullish ALGO Signals : ' + String(lunarcrushsocialvolume24hrankdata0223).fontcolor(willthisstylingwork1243);
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(19) > a > div.cr-currency").innerHTML = 'ALGO Hodler 1y + : ' + String(lunarcrushgalaxyscoredata0221r).fontcolor(willthisstylingwork1221r) + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(19) > a > div.cr-price").innerHTML = 'ALGO Hodler 1 - 12m : ' + lunarcrushaltrankdata0221r + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(19) > a > div.vol").innerHTML = 'ALGO Hodler &#60; 1m : ' + String(lunarcrushsocialvolume24hrankdata0221r).fontcolor(willthisstylingwork1241r) + '%';
 
-                        var lunarcrushgalaxyscoredata0223c = results.data[10][1];
-                        var lunarcrushaltrankdata0223c = results.data[11][1];
-                        var lunarcrushsocialvolume24hrankdata0223c = results.data[12][1];                  
+                            var lunarcrushgalaxyscoredata0223 = results.data[1][1];
+                            var lunarcrushaltrankdata0223 = results.data[2][1];
+                            var lunarcrushsocialvolume24hrankdata0223 = results.data[3][1];
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(8) > a > div.cr-currency").innerHTML = 'West TX 14 Days : ' + lunarcrushgalaxyscoredata0223c + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(8) > a > div.cr-price").innerHTML = 'East TX 14 Days : ' + lunarcrushaltrankdata0223c + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(8) > a > div.vol").innerHTML = 'BTC Correlation : ' + lunarcrushsocialvolume24hrankdata0223c;
+                            var willthisstylingwork1223 = '#c8c3bc';                        
+                            var willthisstylingwork1233 = "red";      
+                            var willthisstylingwork1243 = "#72ff72";                        
 
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(21) > a > div.cr-currency").innerHTML = 'West TX 14 Days : ' + lunarcrushgalaxyscoredata0223c + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(21) > a > div.cr-price").innerHTML = 'East TX 14 days : ' + lunarcrushaltrankdata0223c + '%';
-                        document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(21) > a > div.vol").innerHTML = 'BTC Correlation : ' + lunarcrushsocialvolume24hrankdata0223c;
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(7) > a > div.cr-currency").innerHTML = 'Bearish ALGO Signals : ' + String(lunarcrushgalaxyscoredata0223).fontcolor(willthisstylingwork1233);
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(7) > a > div.cr-price").innerHTML = 'Neutral ALGO Signals : ' + lunarcrushaltrankdata0223;
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(7) > a > div.vol").innerHTML = 'Bullish ALGO Signals : ' + String(lunarcrushsocialvolume24hrankdata0223).fontcolor(willthisstylingwork1243);
 
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(20) > a > div.cr-currency").innerHTML = 'Bearish ALGO Signals : ' + String(lunarcrushgalaxyscoredata0223).fontcolor(willthisstylingwork1233);
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(20) > a > div.cr-price").innerHTML = 'Neutral ALGO Signals : ' + lunarcrushaltrankdata0223;
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(20) > a > div.vol").innerHTML = 'Bullish ALGO Signals : ' + String(lunarcrushsocialvolume24hrankdata0223).fontcolor(willthisstylingwork1243);
+
+                            var lunarcrushgalaxyscoredata0223c = results.data[10][1];
+                            var lunarcrushaltrankdata0223c = results.data[11][1];
+                            var lunarcrushsocialvolume24hrankdata0223c = results.data[12][1];                  
+
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(8) > a > div.cr-currency").innerHTML = 'West TX 14 Days : ' + lunarcrushgalaxyscoredata0223c + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(8) > a > div.cr-price").innerHTML = 'East TX 14 Days : ' + lunarcrushaltrankdata0223c + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(8) > a > div.vol").innerHTML = 'BTC Correlation : ' + lunarcrushsocialvolume24hrankdata0223c;
+
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(21) > a > div.cr-currency").innerHTML = 'West TX 14 Days : ' + lunarcrushgalaxyscoredata0223c + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(21) > a > div.cr-price").innerHTML = 'East TX 14 days : ' + lunarcrushaltrankdata0223c + '%';
+                            document.querySelector("body > div.page > div.slider.truncate3 > div > div:nth-child(21) > a > div.vol").innerHTML = 'BTC Correlation : ' + lunarcrushsocialvolume24hrankdata0223c;
+
+                        }         
 
                     }
 
