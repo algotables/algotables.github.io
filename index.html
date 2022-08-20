@@ -1029,12 +1029,15 @@ filter: invert(90%);">
 
             async function feesh12345688912345() { 
 
+                //const response0y = await fetch('https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/cryptoquant.csv'); 
+                //const data888880y = await response0y.csv();
+
                 await fetch("https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/cryptoquant.csv")
                     .then(response => response.text())
                     .then(text => {
-                        PlayerMatchData = text;
+                        PlayerMatchData2 = text;
                         // console.log(text)
-                        Papa.parse(text, {
+                        Papa.parse(PlayerMatchData2, {
                             //download: true,
                             complete: function(results) {
 
@@ -1102,13 +1105,15 @@ filter: invert(90%);">
             feesh12345680555();
 
             async function feesh12345688912345c() {       
+
+                //const response0x = await fetch('https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/intotheblocksignals.csv'); 
                 
                 await fetch("https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/intotheblocksignals.csv")
                     .then(response => response.text())
                     .then(text => {
-                        PlayerMatchData = text;
+                        PlayerMatchData1 = text;
                         //console.log(text)
-                        Papa.parse(text, {
+                        Papa.parse(PlayerMatchData1, {
                             //download: true,
                             complete: function(results) {
 
