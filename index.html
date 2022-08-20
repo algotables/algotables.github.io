@@ -1034,7 +1034,7 @@ filter: invert(90%);">
                     complete: function(results) {
 
                         var rowCount = results.data.length;
-                        if (rowCount < 31) {
+                        if (rowCount < 29 || results.data[29] === undefined) {
                             //console.log("parser fail")
                             feesh12345688912345();
                         }
@@ -1108,7 +1108,7 @@ filter: invert(90%);">
                     complete: function(results) {
 
                         var rowCount2 = results.data.length;
-                        if (rowCount2 < 13) {
+                        if (rowCount2 < 13  || results.data[12] === undefined) {
                             //console.log("parser fail")
                             feesh12345688912345c();
                         }
