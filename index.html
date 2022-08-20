@@ -1025,7 +1025,32 @@ filter: invert(90%);">
 
                 }
 
-            feesh12345680();            
+            feesh12345680();   
+            
+            function toJson (filepath) {
+            const file = fs.createReadStream(filepath)
+            return new Promise((resolve, reject) => {
+                Papa.parse(file, {
+                header: true,
+                complete (results, file) {
+                    resolve(results.data)
+                },
+                error (err, file) {
+                    reject(err)
+                }
+                })
+            })
+            }
+
+            async function feesh12345688912345() { 
+
+            toJson('https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/cryptoquant.csv')
+            .then(feesh12345688912345())
+            .catch(console.log)
+
+            }
+
+            feesh12345688912345();
 
             async function feesh12345688912345() { 
                 
@@ -1075,7 +1100,7 @@ filter: invert(90%);">
 
                 }
                 
-            feesh12345688912345();
+            //feesh12345688912345();
 
             async function feesh12345680555() { 
                 
@@ -1100,6 +1125,16 @@ filter: invert(90%);">
                 }
 
             feesh12345680555();
+
+            async function feesh12345688912345c() { 
+
+            toJson('https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/cryptoquant.csv')
+            .then(feesh12345688912345c())
+            .catch(console.log)
+
+            }
+
+            feesh12345688912345c();
 
             async function feesh12345688912345c() {                
 
@@ -1187,8 +1222,6 @@ filter: invert(90%);">
                 });
 
                 }
-                
-            feesh12345688912345c();
 
             async function feesh1234568891() { 
                 
