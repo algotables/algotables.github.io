@@ -1034,8 +1034,8 @@ filter: invert(90%);">
                     .then(text => {
                         PlayerMatchData = text;
                         // console.log(text)
-                        Papa.parse("https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/cryptoquant.csv", {
-                            download: true,
+                        Papa.parse(text, {
+                            //download: true,
                             complete: function(results) {
 
                                 var lunarcrushgalaxyscoredata022 = results.data[8][1];
@@ -1107,9 +1107,9 @@ filter: invert(90%);">
                     .then(response => response.text())
                     .then(text => {
                         PlayerMatchData = text;
-                        // console.log(text)
-                        Papa.parse("https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/intotheblocksignals.csv", {
-                            download: true,
+                        //console.log(text)
+                        Papa.parse(text, {
+                            //download: true,
                             complete: function(results) {
 
                                 var lunarcrushgalaxyscoredata0221t = results.data[13][1];        
