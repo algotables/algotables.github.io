@@ -1,5 +1,7 @@
 # algotables.github.io
 
+<img src="https://github.com/algotables/algotables.github.io/blob/main/loading3.gif" width="40" height="40" /> <img src="https://github.com/algotables/algotables.github.io/blob/main/loading3.gif" width="40" height="40" /> <img src="https://github.com/algotables/algotables.github.io/blob/main/loading3.gif" width="40" height="40" />
+
 ALGO Tables Repository
 
 Website: https://algotables.github.io
