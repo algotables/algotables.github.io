@@ -75,7 +75,7 @@
 "SubQuery","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "GushiLand","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",20
 "AlgoExplorer","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",18
-"Algofi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",671
+"Algofi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",672
 "AlgoPatties","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
 "AlgoWhales","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",10
 "MAGMA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1724
@@ -86,7 +86,7 @@
 "Vesta Equity","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "QMG.finance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "C3 Protocol","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",10
-"Doubloon",689171215,"Yes",108149,2655791534000000,3,2193,288,331,351
+"Doubloon",689171215,"Yes",108358,2641056486000000,3,2200,333,362,390
 "AlgoAdoption","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "PlanDail","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Artquare.io","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",19
@@ -122,8 +122,8 @@
 "USAlgo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "M.N.G.O.","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
 "Captain Squishy","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
-"Vestige",700965019,"Yes",43623,31499999999994,107,1783,98,126,141
-"STBL",465865291,"Yes",1187538,6471416376258,671,34172,363,308,394
+"Vestige",700965019,"Yes",43668,31499999999994,107,1787,115,186,197
+"STBL",465865291,"Yes",1187873,6471194133178,672,34289,336,227,360
 "asalp","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Hallar","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "Blockrank","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
@@ -136,7 +136,7 @@
 "AlgoExplorer","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",18
 "TinyWhales","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
 "AlgoWhales","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",10
-"Spindle Yarn",544217506,"Yes",4132,100000000000000,7,531,2,2,4
+"Spindle Yarn",544217506,"Yes",4134,100000000000000,7,531,0,0,0
 "Alkemint","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "TruYou","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",16
 "Capi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
