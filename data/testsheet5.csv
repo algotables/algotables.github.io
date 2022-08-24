@@ -54,6 +54,7 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-08-24,"In the AVM ints are uint64 or with Itob(val) 8 bytes big end...","https://forum.algorand.org/t/how-to-i-split-int-in-teal/7700/2"
 "Ben","Algorand Inc",2022-07-25,"Hi NineTwo, 
 Its possible they’re using an alternate or no s...","https://forum.algorand.org/t/can-anyone-help-with-metadata-hash/7460/2"
 "Ben","Algorand Inc",2022-07-18,"The error message about transaction ids being empty is proba...","https://forum.algorand.org/t/developer-portal-first-challenge-genesis-hash/7433/2"
@@ -63,7 +64,6 @@ You can see an example for this here:
 Signing 
 
 Ver...","https://forum.algorand.org/t/unable-to-use-ed25519verify-with-pyteal-and-python-algorand-sdk/7400/2"
-"Ben","Algorand Inc",2022-07-12,"you can call the method you’ve defined and it essentially co...","https://forum.algorand.org/t/how-to-return-only-asa-amount-and-not-seq/7390/4"
 "JasonW","Algorand Inc",2022-08-09,"We should be posting some state proof initial docs later thi...","https://forum.algorand.org/t/state-proofs-current-status/7558/2"
 "JasonW","Algorand Inc",2022-07-20,"This code should be something like 
 let signed = ptxn.signTx...","https://forum.algorand.org/t/developer-portal-first-challenge-genesis-hash/7433/10"
