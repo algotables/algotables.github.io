@@ -503,7 +503,7 @@ table.dataTable thead .sorting_desc_disabled {
         transform: translateX(0);
       }
       100% {
-        transform: translateX(calc(-180px * 13));
+        transform: translateX(calc(-200px * 13));
       }
     }
     
@@ -512,9 +512,9 @@ table.dataTable thead .sorting_desc_disabled {
       display: flex;
     }
     .slide-track2 {
-      animation: scroll 60s linear infinite;
+      animation: scroll 52s linear infinite;
       display: flex;
-      width: calc(180px * 26);
+      width: calc(200px * 26);
     }
     .slide {
       background: #191c1d;
@@ -522,7 +522,7 @@ table.dataTable thead .sorting_desc_disabled {
       /*margin-left: 1px;*/
       text-align: center;
       /*height: 100px;*/
-		  width: 180px;
+		  width: 200px;
     }
     a.active {
       background: #242424;
