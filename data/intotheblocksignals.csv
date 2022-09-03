@@ -1,13 +1,13 @@
 "query","answer"
-"bearish",3
+"bearish",2
 "neutral",2
-"bullish",0
+"bullish",1
 "inPercentage",2.56
 "betweenPercentage",8.97
 "outPercentage",88.48
-"hodler",12.79
-"cruiser",84.27
-"trader",2.94
+"hodler",12.83
+"cruiser",84.26
+"trader",2.91
 "West TX 14 Days",55.41
 "East TX 14 Days",44.59
 "BTC Correlation",0.95
