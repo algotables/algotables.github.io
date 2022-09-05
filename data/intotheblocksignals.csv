@@ -1,10 +1,10 @@
 "query","answer"
-"bearish",3
-"neutral",2
-"bullish",0
-"inPercentage",0
-"betweenPercentage",2.55
-"outPercentage",97.45
+"bearish",1
+"neutral",3
+"bullish",1
+"inPercentage",2.55
+"betweenPercentage",1.19
+"outPercentage",96.26
 "hodler",12.88
 "cruiser",84.27
 "trader",2.85
