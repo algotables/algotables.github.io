@@ -16,3 +16,16 @@
 "maxSupply",10000000000
 "totalSupply",7338304002.64104
 "exchangeReserve",
+"dexVolume",
+"dexVolumeChangePercent",
+"numOfDexTrade",
+"numOfDexTradePercent",
+"tokenTransferred",
+"tokenTransferredChangePercent",
+"transactionCount",
+"transactionCountChangePercent",
+"activeAddressesCount",
+"totalValueLockedUsd",
+"marketCap",2054011335
+"fullyDilutedMarketCap",2968214346
+"nvt",
