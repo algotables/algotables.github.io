@@ -1,6 +1,6 @@
 "query","answer"
 "bearish",1
-"neutral",2
+"neutral",3
 "bullish",1
 "inPercentage",0
 "betweenPercentage",3.82
@@ -8,7 +8,7 @@
 "hodler",13.11
 "cruiser",83.29
 "trader",3.6
-"West TX 14 Days",55.14
-"East TX 14 Days",44.86
-"BTC Correlation",0.86
+"West TX 14 Days",55.12
+"East TX 14 Days",44.88
+"BTC Correlation",0.81
 "TX > $100k for 7 days",53331027
