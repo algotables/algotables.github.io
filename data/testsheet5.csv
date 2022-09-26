@@ -4,6 +4,8 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-09-26,"Indeed, pooling is only for fees. 
+Inner transactions can on...","https://forum.algorand.org/t/overspend-error-on-contracts-inner-tx/7890/2"
 "fabrice","Algorand Foundation",2022-09-26,"It may not be completely satisfying but you can ask the next...","https://forum.algorand.org/t/there-is-no-block-hash-in-get-block-api-response/1904/4"
 "fabrice","Algorand Foundation",2022-09-22,"see code samples for PureStake there: 
 <a href=""https://deve...","https://forum.algorand.org/t/overspend-error-even-though-my-account-has-algos/7859/11"
@@ -11,8 +13,6 @@
 
 I do not know whether Pokt Net...","https://forum.algorand.org/t/overspend-error-even-though-my-account-has-algos/7859/9"
 "fabrice","Algorand Foundation",2022-09-20,"You essentially need to use a MainNet API service or node. A...","https://forum.algorand.org/t/overspend-error-even-though-my-account-has-algos/7859/5"
-"fabrice","Algorand Foundation",2022-09-20,"Why are you interested in running a MainNet relay? 
-There is...","https://forum.algorand.org/t/how-to-register-my-relay-node-address/7853/4"
 "devops-service","Algorand Inc",2022-09-12,"MainNet and TestNet have been updated to 3.9.4 today, Mon Se...","https://forum.algorand.org/t/mainnet-and-testnet-update-3-9-4/7831/1"
 "devops-service","Algorand Inc",2022-09-06,"Indexer 2.14.0 was released today Tue Sep 6th, 2022 at 10:30...","https://forum.algorand.org/t/algorand-indexer-2-14-0/7790/1"
 "devops-service","Algorand Inc",2022-09-06,"<a class=""lightbox"" href=""https://aws1.discourse-cdn.com/bus...","https://forum.algorand.org/t/mainnet-and-testnet-update-3-9-2/7788/1"
