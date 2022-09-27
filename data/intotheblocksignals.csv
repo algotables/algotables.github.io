@@ -1,7 +1,7 @@
 "query","answer"
-"bearish",1
+"bearish",2
 "neutral",3
-"bullish",1
+"bullish",0
 "inPercentage",8.15
 "betweenPercentage",2.1
 "outPercentage",89.75
