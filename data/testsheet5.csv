@@ -4,6 +4,9 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-10-11,"The up to date link is: 
+
+This is currently the best option ...","https://forum.algorand.org/t/overcoming-the-64-key-value-pair-limit-in-global-state/6585/4"
 "fabrice","Algorand Foundation",2022-10-11,"Note that these opcodes may change in the future. 
 But you n...","https://forum.algorand.org/t/is-there-a-way-to-try-experimental-opcodes/8014/2"
 "fabrice","Algorand Foundation",2022-10-11,"Minor note: 
@@ -13,7 +16,6 @@ To my knowledge, there ...","https://forum.algorand.org/t/is-it-true-you-get-pri
 "fabrice","Algorand Foundation",2022-10-02,"This usually means either that: 
 
 your sandbox is not connec...","https://forum.algorand.org/t/go-sdk-account-balance-zero-even-if-the-dispenser-sent-1-300-algos/2376/13"
-"fabrice","Algorand Foundation",2022-10-02,"I’ve moved your post to a new topic as it is a different err...","https://forum.algorand.org/t/transactionpool-remember-transaction-overspend/7958/2"
 "devops-service","Algorand Inc",2022-10-07,"Indexer 2.14.1 was released today Fri Oct 7th, 2022 at 10:30...","https://forum.algorand.org/t/algorand-indexer-2-14-1/8003/1"
 "devops-service","Algorand Inc",2022-10-05,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-10-0/7984/1"
 "devops-service","Algorand Inc",2022-09-30,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-10-0/7936/1"
