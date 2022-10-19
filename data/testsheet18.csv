@@ -1,7 +1,6 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","Platform","URL"
 "TinymanPool1.1 ","Algostake",552690161,511484048,60,"n/a","n/a","AlgoStake","https://app.algostake.org/"
 "Algostake","Algostake",511484048,511484048,40,"n/a","n/a","AlgoStake","https://app.algostake.org/"
-"Choice Coin","Choice Coin",297995609,297995609,"NaN","n/a","n/a","AlgoStake","https://app.algostake.org/"
 "AF-POOL-ALGO-ST","Algostake",607693133,511484048,68,"n/a","n/a","AlgoStake","https://app.algostake.org/"
 "ALGO/STKE PACT ","Algostake",662944042,511484048,69,"n/a","n/a","AlgoStake","https://app.algostake.org/"
 "AlgoStakeNFT #1","Algostake",705370796,511484048,"NaN","n/a","n/a","AlgoStake","https://app.algostake.org/"
@@ -33,3 +32,4 @@
 "Bronze Tier - C","CryptoTrees",708979288,444108880,"NaN","n/a","n/a","AlgoStake","https://app.algostake.org/"
 "Silver Tier - C","CryptoTrees",708983055,444108880,"NaN","n/a","n/a","AlgoStake","https://app.algostake.org/"
 "TinymanPool1.1 ","ASA Portfolio",685623683,542132831,69,"n/a","n/a","AlgoStake","https://app.algostake.org/"
+"ASA Portfolio","ASA Portfolio",542132831,542132831,60,"n/a","n/a","AlgoStake","https://app.algostake.org/"
