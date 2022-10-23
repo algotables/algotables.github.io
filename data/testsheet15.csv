@@ -1,6 +1,6 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
 "ALGO","gALGO",0,793124631,2.7,515,517510,"PactFi","https://app.pact.fi/add-liquidity/794882684"
-"USDt","USDC",312769,31566704,0,10899,157157,"PactFi","https://app.pact.fi/add-liquidity/701273050"
+"USDt","USDC",312769,31566704,0,10911,157180,"PactFi","https://app.pact.fi/add-liquidity/701273050"
 "ALGO","USDC",0,31566704,3.4,17609,457628,"PactFi","https://app.pact.fi/add-liquidity/620995314"
 "ALGO","goETH",0,386195940,2.8,1140,114612,"PactFi","https://app.pact.fi/add-liquidity/645869114"
 "USDC","goUSD",31566704,672913181,0,3011,9081,"PactFi","https://app.pact.fi/add-liquidity/885102197"
