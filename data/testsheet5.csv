@@ -4,13 +4,12 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-10-23,"Connection to a wallet is ok if you just want to show public...","https://forum.algorand.org/t/dapp-authentication/8098/2"
 "fabrice","Algorand Foundation",2022-10-16,"<a class=""mention"" href=""/u/shoaibshebi"">@shoaibshebi</a> We...","https://forum.algorand.org/t/algorand-node-indexer-node-one-or-more-services-failed-to-start/7351/7"
 "fabrice","Algorand Foundation",2022-10-14,"I believe the weight there indicates the performance of the ...","https://forum.algorand.org/t/is-it-true-you-get-priority-in-terms-of-receiving-and-sending-txns-based-on-stake-in-the-gossip-network/8004/4"
 "fabrice","Algorand Foundation",2022-10-13,"You can check whether a structure matches an address. 
 But y...","https://forum.algorand.org/t/convert-multi-sig-address-to-threshold-params/8062/2"
 "fabrice","Algorand Foundation",2022-10-13,"All of this can be fully automated by the developer, as long...","https://forum.algorand.org/t/feedback-requested-for-onboarding-complex-transaction-flow/8043/4"
-"fabrice","Algorand Foundation",2022-10-12,"An account can just be a public/secret key pair. 
-The public...","https://forum.algorand.org/t/feedback-requested-for-onboarding-complex-transaction-flow/8043/2"
 "devops-service","Algorand Inc",2022-10-21,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-11-2/8095/1"
 "devops-service","Algorand Inc",2022-10-14,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-11-0/8066/1"
 "devops-service","Algorand Inc",2022-10-07,"Indexer 2.14.1 was released today Fri Oct 7th, 2022 at 10:30...","https://forum.algorand.org/t/algorand-indexer-2-14-1/8003/1"
