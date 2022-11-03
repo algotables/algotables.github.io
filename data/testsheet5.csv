@@ -4,13 +4,13 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-11-03,"This depends whether you are using the ABI or not. 
+With ABI...","https://forum.algorand.org/t/defining-the-foreignassets-array-in-an-application-call/8128/2"
 "fabrice","Algorand Foundation",2022-11-03,"Have you tried to call directly the child application from t...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/2"
 "fabrice","Algorand Foundation",2022-11-03,"You can in theory do that by having a logicsig allowing paym...","https://forum.algorand.org/t/logcsig-delegated-approval/8147/8"
 "fabrice","Algorand Foundation",2022-11-02,"What is your end goal? 
 Nowadays, most dApps should use appl...","https://forum.algorand.org/t/logcsig-delegated-approval/8147/6"
 "fabrice","Algorand Foundation",2022-10-31,"Are you sure Docker is started? You can check using docker r...","https://forum.algorand.org/t/sandbox-up-issue-algorand-node-indexer-node-one-or-more-services-failed-to-start/8144/2"
-"fabrice","Algorand Foundation",2022-10-28,"It’s impossible in most cases. 
-Hash functions are meant to ...","https://forum.algorand.org/t/retrieve-asset-metadata-from-metadata-hash/8129/2"
 "devops-service","Algorand Inc",2022-11-02,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-12-0/8154/1"
 "devops-service","Algorand Inc",2022-10-24,"Indexer 2.14.2 was released today Mon Oct 24th, 2022 at 12:0...","https://forum.algorand.org/t/algorand-indexer-2-14-2/8105/1"
 "devops-service","Algorand Inc",2022-10-24,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-11-2/8104/1"
