@@ -4,13 +4,13 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-11-08,"Since this recommend back and forth, I would recommend using...","https://forum.algorand.org/t/implementing-lock-functionality/8189/4"
 "fabrice","Algorand Foundation",2022-11-08,"After asking core engineers, the mechanism highlighted above...","https://forum.algorand.org/t/is-it-true-you-get-priority-in-terms-of-receiving-and-sending-txns-based-on-stake-in-the-gossip-network/8004/9"
 "fabrice","Algorand Foundation",2022-11-08,"The error says that txna Assets 0 failed, because invalid As...","https://forum.algorand.org/t/implementing-lock-functionality/8189/2"
 "fabrice","Algorand Foundation",2022-11-07,"I wrote a few comments below. 
 But what is your more detaile...","https://forum.algorand.org/t/submit-transaction-with-verification-of-the-signature-by-the-dapp/8165/3"
 "fabrice","Algorand Foundation",2022-11-07,"You need to decode the base64 into a 32-byte array. 
 I’ve no...","https://forum.algorand.org/t/java-decode-address-from-app-global-state/8183/4"
-"fabrice","Algorand Foundation",2022-11-07,"You need to use the Address class:...","https://forum.algorand.org/t/java-decode-address-from-app-global-state/8183/2"
 "devops-service","Algorand Inc",2022-11-03,"Indexer 2.15.0-rc1 was released today Thu Nov 3rd, 2022. 
  <...","https://forum.algorand.org/t/algorand-indexer-2-15-0-rc1/8160/1"
 "devops-service","Algorand Inc",2022-11-02,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-12-0/8154/1"
