@@ -4,15 +4,13 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-11-14,"Note that a transaction in the message pool may not be commi...","https://forum.algorand.org/t/how-to-get-notification-of-event-of-txgroup-processed-by-the-node/8229/2"
 "fabrice","Algorand Foundation",2022-11-13,"Nowadays, the recommended solution is to create an applicati...","https://forum.algorand.org/t/selling-an-nft-at-an-unknown-future-date/8218/2"
 "fabrice","Algorand Foundation",2022-11-12,"Welcome to Algorand <a class=""mention"" href=""/u/sandeepkrrrr...","https://forum.algorand.org/t/sandbox-having-issues/8210/2"
 "fabrice","Algorand Foundation",2022-11-11,"I like reducing the first and third options together: 
 
 redu...","https://forum.algorand.org/t/brainstorm-on-default-valid-window-length-and-lease/8208/4"
 "fabrice","Algorand Foundation",2022-11-09,"If you only see the Welcome channel, this means that you nee...","https://forum.algorand.org/t/implementing-lock-functionality/8189/8"
-"fabrice","Algorand Foundation",2022-11-09,"This is the Discord server: 
-
-You will need to pass the CAPT...","https://forum.algorand.org/t/implementing-lock-functionality/8189/6"
 "devops-service","Algorand Inc",2022-11-14,"Indexer 2.15.0-rc2 was released today Monday Nov 14th, 2022....","https://forum.algorand.org/t/algorand-indexer-2-15-0-rc2/8232/1"
 "devops-service","Algorand Inc",2022-11-03,"Indexer 2.15.0-rc1 was released today Thu Nov 3rd, 2022. 
  <...","https://forum.algorand.org/t/algorand-indexer-2-15-0-rc1/8160/1"
