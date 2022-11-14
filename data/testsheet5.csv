@@ -30,3 +30,68 @@ You can see this ...","https://forum.algorand.org/t/looking-for-c-developer/4671
 "Haichao","Algorand Foundation",2021-09-01,"Hello Algorand Community, 
 We are launching the Algorand Pro...","https://forum.algorand.org/t/algorand-project-dev-plaza-launched/4145/1"
 "Haichao","Algorand Foundation",2021-08-26,"Check this page for any tracks that you might be interested ...","https://forum.algorand.org/t/looking-for-a-developer-nft-project/4061/7"
+"Haichao","Algorand Foundation",2021-08-24,"No problem 
+Sorry that so far we can only handle these reque...","https://forum.algorand.org/t/looking-for-a-developer-nft-project/4061/4"
+"Haichao","Algorand Foundation",2021-08-23,"Hi there, 
+would you mind send me an email with your project...","https://forum.algorand.org/t/looking-for-a-developer-nft-project/4061/2"
+"garymalouf","Algorand Inc",2022-07-15,"<a name=""algorand-testnet-outage-1"" class=""anchor"" href=""#al...","https://forum.algorand.org/t/testnet-stall-7-8-2022-post-mortem/7416/1"
+"garymalouf","Algorand Inc",2022-02-11,"Hi Javier, 
+This release is not focused on PyTEAL, but we ar...","https://forum.algorand.org/t/algorand-development-challenges/5983/1"
+"garymalouf","Algorand Inc",2022-02-11,"Look for a Betanet release in the next few days including a ...","https://forum.algorand.org/t/algorand-development-challenges/5983/1"
+"chris.kim","Algorand Inc.",2022-11-07,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/best-way-to-implement-an-algorand-nft-marketplace/8166/6"
+"chris.kim","Algorand Inc.",2021-07-22,"<a name=""description-1"" class=""anchor"" href=""#description-1""...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/1"
+"chris.kim","Algorand Inc.",2021-05-26,"I found a working code and made a PR. the rekeying page shou...","https://forum.algorand.org/t/trouble-sending-txn-from-an-account-that-is-rekeyed-to-a-multisig-account/3380/3"
+"chris.kim","Algorand Inc.",2021-05-26,"[Screen Shot 2021-05-26 at 10.53.09 AM] 
+This is the informa...","https://forum.algorand.org/t/trouble-sending-txn-from-an-account-that-is-rekeyed-to-a-multisig-account/3380/2"
+"liz","Algorand Inc",2022-01-27,"Yeah, I understand, that’s a bit confusing. The translation ...","https://forum.algorand.org/t/chinese-docs-contribution/5857/6"
+"liz","Algorand Inc",2022-01-26,"Hi <a class=""mention"" href=""/u/terri"">@terri</a> , 
+For the ...","https://forum.algorand.org/t/chinese-docs-contribution/5857/3"
+"liz","Algorand Inc",2021-08-11,"Hi xonack, 
+These tasks are old and I suspect at least one i...","https://forum.algorand.org/t/task-atomic-transfer-badge/1172/14"
+"liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
+"liz","Algorand Inc",2021-06-21,"Hi Joseph, 
+Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-11-04,"That is exactly right. 
+Please file issues if you come acros...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/9"
+"Ben","Algorand Inc",2022-11-04,"Great! In the latest beaker you can get most of those fields...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/7"
+"Ben","Algorand Inc",2022-11-03,"I’ve submitted a PR to allow MethodCall to be used for an Ap...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/5"
+"Ben","Algorand Inc",2022-11-03,"Updating reply here to include a newer one <a href=""https://...","https://forum.algorand.org/t/walletconnect-myaglo-sdk-abstraction/5818/3"
+"Ben","Algorand Inc",2022-11-03,"The MethodCall function will try to submit an app call to th...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/4"
+"JasonW","Algorand Inc",2022-09-28,"Take a look at this: <a href=""https://developer.algorand.org...","https://forum.algorand.org/t/teal-how-can-i-supply-arguments-to-an-inner-transaction/7901/2"
+"JasonW","Algorand Inc",2022-09-21,"On problem 2, most structs, lists, etc can be converted to b...","https://forum.algorand.org/t/how-can-i-store-structs-arrays-and-mappings-in-pyteal/7866/2"
+"JasonW","Algorand Inc",2022-09-16,"Currently dapps(smart contracts) on Algorand are only writte...","https://forum.algorand.org/t/can-you-create-a-dapp-with-smart-contracts-written-in-multiple-forms-of-code/7842/2"
+"JasonW","Algorand Inc",2022-09-08,"Take a look at receiving an asset here:...","https://forum.algorand.org/t/optin-to-a-token-through-a-wallet-within-the-app/7810/2"
+"JasonW","Algorand Inc",2022-08-31,"You logic in the escrow is rejecting the transaction....","https://forum.algorand.org/t/hi-im-trying-to-do-an-asset-transfer-using-escrow-but-its-showing-me-this-error/7749/2"
+"ian","Algorand Inc",2021-11-03,"Hey there, 
+Have you specifically started with “Forgetting” ...","https://forum.algorand.org/t/cant-cast-my-vote/4916/11"
+"ian","Algorand Inc",2021-10-27,"Thanks for providing additional details. We’ll use this in o...","https://forum.algorand.org/t/help-why-cant-i-send-crypto-after-reinstalling-algorand-official-wallet-and-recovering-account-issues-with-ledger-firmware-2-0-0-and-algorand-wallet/4850/21"
+"ian","Algorand Inc",2021-07-23,"This is a dangerous joke with someone who is new to crypto, ...","https://forum.algorand.org/t/25th-word-missing/3800/19"
+"ian","Algorand Inc",2021-07-07,"We’re working on implementing lifetime earned rewards. Stay ...","https://forum.algorand.org/t/total-rewarded-algo-amount-new-feature-pls/3714/3"
+"ian","Algorand Inc",2021-07-06,"Unfortunately you’re finding yourself in this somewhat stick...","https://forum.algorand.org/t/rekey-algo-wallet-funds-now-stuck-in-yieldly/3670/6"
+"shaih","Algorand Foundation",2022-08-12,"Some more rationale: 
+The reason that we use a single snapsh...","https://forum.algorand.org/t/feedback-requested-on-proposed-q3-2022-governance-measures/7587/8"
+"shaih","Algorand Foundation",2022-07-11,"For the last two period, the notes field of a rewards transa...","https://forum.algorand.org/t/reward-transaction/7373/6"
+"shaih","Algorand Foundation",2022-06-28,"Signup window opens at July 1st, 2022, 00:00:00 SGT (June 30...","https://forum.algorand.org/t/when-is-the-g4-start-date/7291/2"
+"shaih","Algorand Foundation",2022-05-19,"Thank you all for the well thought of replies, expressing a ...","https://forum.algorand.org/t/evolving-algorand-governance/6646/162"
+"shaih","Algorand Foundation",2022-05-03,"As we <a href=""https://algorand.foundation/news/governance-v...","https://forum.algorand.org/t/evolving-algorand-governance/6646/1"
+"trekianov","Algorand Foundation",2022-04-06,"Thanks Fabrice! very helpful, as usual :smiley:...","https://forum.algorand.org/t/fast-catchup-keep-on-restarting/6401/6"
+"trekianov","Algorand Foundation",2022-04-04,"I managed to use properly the fast catchup procedure after s...","https://forum.algorand.org/t/fast-catchup-keep-on-restarting/6401/4"
+"trekianov","Algorand Foundation",2022-04-03,"Thanks Fabrice, I fear is the HDD, because I have checked th...","https://forum.algorand.org/t/fast-catchup-keep-on-restarting/6401/3"
+"trekianov","Algorand Foundation",2022-04-02,"I am trying to perform a fast catchup but after some million...","https://forum.algorand.org/t/fast-catchup-keep-on-restarting/6401/1"
+"trekianov","Algorand Foundation",2021-04-16,"I am located in Italy with Vodafone as ISP, maybe is related...","https://forum.algorand.org/t/dns-problem-with-algorand-server-on-ubuntu-20-04/2947/18"
+"breeron","Algorand Foundation",2022-04-07,"The dates for signup opening, closing along with voting open...","https://forum.algorand.org/t/no-rewards-paid-for-last-quarter-governance-anyone-know-why/6426/4"
+"breeron","Algorand Foundation",2021-07-29,"Hi Yujun, 
+You can use the block explorer AlgoExplorer (<a h...","https://forum.algorand.org/t/i-was-tricked-into-a-fake-algorand-site-and-i-was-scammed/3874/6"
+"breeron","Algorand Foundation",2021-07-28,"Hi Yujun, 
+Thank you for reaching out to let us know about t...","https://forum.algorand.org/t/i-was-tricked-into-a-fake-algorand-site-and-i-was-scammed/3874/2"
+"Massimo","Algorand Foundation",2022-10-14,"Thanks <a class=""mention"" href=""/u/averagezen"">@averagezen</...","https://forum.algorand.org/t/governance-period-5-proposals/8013/6"
+"Massimo","Algorand Foundation",2022-09-09,"Thanks!!! Please also notice one thing: votes of Defi govern...","https://forum.algorand.org/t/analytics-monitor-voting-by-commitment-size-10m-wallets-carrying-1b-so-far/7809/2"
+"Massimo","Algorand Foundation",2022-09-09,"Thanks <a class=""mention"" href=""/u/omniwarp"">@omniwarp</a>. ...","https://forum.algorand.org/t/feedback-requested-on-proposed-q3-2022-governance-measures/7587/206"
+"Massimo","Algorand Foundation",2022-09-08,"<a class=""mention"" href=""/u/anon"">@anon</a> you are not the ...","https://forum.algorand.org/t/feedback-requested-on-proposed-q3-2022-governance-measures/7587/202"
+"Massimo","Algorand Foundation",2022-09-08,"<a class=""mention"" href=""/u/averagezen"">@averagezen</a> than...","https://forum.algorand.org/t/feedback-requested-on-proposed-q3-2022-governance-measures/7587/201"
+"nullun","Algorand Inc",2022-11-10,"Are you using PyTeal, Reach, TEAL, or something else? 
+Assum...","https://forum.algorand.org/t/store-arbitrary-number-of-uint64-in-application/8201/2"
+"nullun","Algorand Inc",2022-10-12,"Did you install pyteal a few months ago? You’ll likely need ...","https://forum.algorand.org/t/innertxnbuilder-is-not-defined/8052/2"
+"nullun","Algorand Inc",2022-10-12,"Here’s an example smart contract which will create a number ...","https://forum.algorand.org/t/using-loops-in-teal/8051/2"
+"nullun","Algorand Inc",2022-10-12,"AlgoExplorer run their own proprietary indexer which include...","https://forum.algorand.org/t/some-keys-are-missing-in-asset-details-when-using-algorand-python-sdk/8041/2"
+"nullun","Algorand Inc",2022-10-10,"I sounds like you’ll want to look into using boxes, as it of...","https://forum.algorand.org/t/can-i-create-an-object-and-list-in-pyteal/8009/2"
