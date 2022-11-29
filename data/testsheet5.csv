@@ -5,7 +5,7 @@
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
 "fabrice","Algorand Foundation",2022-11-28,"There is also a community-curated list of resources:...","https://forum.algorand.org/t/algorand-community/8356/4"
-"fabrice","Algorand Foundation","2022-11-28","I’m guessing you’re using the Go SDK. 
+"fabrice","Algorand Foundation",2022-11-28,"I’m guessing you’re using the Go SDK. 
 MakeApplicationCallTx...","https://forum.algorand.org/t/issue-with-application-call-transaction/8349/2"
 "fabrice","Algorand Foundation",2022-11-28,"Do you mean search all transactions where a given account X ...","https://forum.algorand.org/t/indexer-search-txn-by-sender-and-receiver/8389/2"
 "fabrice","Algorand Foundation",2022-11-27,"#0 2.995 subprocess.CalledProcessError: Command &#39;[&#39;/...","https://forum.algorand.org/t/sandbox-error-under-virtualbox/8364/3"
