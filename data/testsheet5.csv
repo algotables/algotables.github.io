@@ -4,12 +4,12 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-11-30,"Normally, you should see emitted logs in the indexer respons...","https://forum.algorand.org/t/display-emit-logs-in-algorand-smartcontract/8403/2"
 "fabrice","Algorand Foundation",2022-11-28,"There is also a community-curated list of resources:...","https://forum.algorand.org/t/algorand-community/8356/4"
 "fabrice","Algorand Foundation",2022-11-28,"I’m guessing you’re using the Go SDK. 
 MakeApplicationCallTx...","https://forum.algorand.org/t/issue-with-application-call-transaction/8349/2"
 "fabrice","Algorand Foundation",2022-11-28,"Do you mean search all transactions where a given account X ...","https://forum.algorand.org/t/indexer-search-txn-by-sender-and-receiver/8389/2"
 "fabrice","Algorand Foundation",2022-11-27,"#0 2.995 subprocess.CalledProcessError: Command &#39;[&#39;/...","https://forum.algorand.org/t/sandbox-error-under-virtualbox/8364/3"
-"fabrice","Algorand Foundation",2022-11-27,"<a class=""mention"" href=""/u/calebu"">@Calebu</a> I’m sorry fo...","https://forum.algorand.org/t/wrong-transcation/5773/5"
 "devops-service","Algorand Inc",2022-11-28,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/algorand-indexer-2-15-0-rc3/8393/1"
 "devops-service","Algorand Inc",2022-11-23,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-12-2/8342/1"
 "devops-service","Algorand Inc",2022-11-16,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-11-3/8282/1"
@@ -82,3 +82,9 @@ You can use the block explorer AlgoExplorer (<a h...","https://forum.algorand.or
 "breeron","Algorand Foundation",2021-07-28,"Hi Yujun, 
 Thank you for reaching out to let us know about t...","https://forum.algorand.org/t/i-was-tricked-into-a-fake-algorand-site-and-i-was-scammed/3874/2"
 "Massimo","Algorand Foundation",2022-11-15,"<a class=""mention"" href=""/u/adri"">@Adri</a>  has posted our ...","https://forum.algorand.org/t/feedback-requested-on-proposed-q3-2022-governance-measures/7587/210"
+"Massimo","Algorand Foundation",2022-11-15,"<a class=""mention"" href=""/u/averagezen"">@averagezen</a> Adri...","https://forum.algorand.org/t/governance-period-5-proposals/8013/18"
+"Massimo","Algorand Foundation",2022-10-14,"Thanks <a class=""mention"" href=""/u/averagezen"">@averagezen</...","https://forum.algorand.org/t/governance-period-5-proposals/8013/6"
+"Massimo","Algorand Foundation",2022-09-09,"Thanks!!! Please also notice one thing: votes of Defi govern...","https://forum.algorand.org/t/analytics-monitor-voting-by-commitment-size-10m-wallets-carrying-1b-so-far/7809/2"
+"Massimo","Algorand Foundation",2022-09-09,"Thanks <a class=""mention"" href=""/u/omniwarp"">@omniwarp</a>. ...","https://forum.algorand.org/t/feedback-requested-on-proposed-q3-2022-governance-measures/7587/206"
+"nullun","Algorand Inc",2022-11-19,"Having goal installed locally and using sandbox are typicall...","https://forum.algorand.org/t/goal-clerk-issue/8314/2"
+"nullun","Algorand Inc",2022-11-17,"Hey <a class=""mention"" href=""/u/elia"">@elia</a>, my apologie...","https://forum.algorand.org/t/store-arbitrary-number-of-uint64-in-application/8201/4"
