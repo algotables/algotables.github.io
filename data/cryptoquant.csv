@@ -1,4 +1,15 @@
 "query","answer"
+"numOfDexTrade",
+"numOfDexTradePercent",
+"tokenTransferred",
+"tokenTransferredChangePercent",
+"transactionCount",
+"transactionCountChangePercent",
+"activeAddressesCount",
+"totalValueLockedUsd",
+"marketCap",1603702019
+"fullyDilutedMarketCap",2250329137
+"nvt",
 "coin","ALT"
 "token","algo"
 "price",0.224854
