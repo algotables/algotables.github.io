@@ -49,12 +49,13 @@ These tasks are old and I suspect at least one i...","https://forum.algorand.org
 "liz","Algorand Inc",2021-07-26,"Yes, please go ahead and submit it to the July 16 - Aug 15 b...","https://forum.algorand.org/t/community-code-solutions-tutorials-vote-july-2021/3823/3"
 "liz","Algorand Inc",2021-06-21,"Hi Joseph, 
 Check out the atomic transfer docs here: <a href...","https://forum.algorand.org/t/how-to-read-atomic-swap-data-on-the-blockchain/3597/2"
+"Ben","Algorand Inc",2022-12-14,"Hi jeron, 
+Nothing obvious to me from just this, could you f...","https://forum.algorand.org/t/cannot-import-generated-application-client-in-webpack-build-beaker-ts/8502/2"
 "Ben","Algorand Inc",2022-11-04,"That is exactly right. 
 Please file issues if you come acros...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/9"
 "Ben","Algorand Inc",2022-11-04,"Great! In the latest beaker you can get most of those fields...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/7"
 "Ben","Algorand Inc",2022-11-03,"I’ve submitted a PR to allow MethodCall to be used for an Ap...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/5"
 "Ben","Algorand Inc",2022-11-03,"Updating reply here to include a newer one <a href=""https://...","https://forum.algorand.org/t/walletconnect-myaglo-sdk-abstraction/5818/3"
-"Ben","Algorand Inc",2022-11-03,"The MethodCall function will try to submit an app call to th...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/4"
 "JasonW","Algorand Inc",2022-12-07,"I understand the use case. Right now you can set 8 box names...","https://forum.algorand.org/t/boxes-in-inner-transactions/8444/4"
 "JasonW","Algorand Inc",2022-12-06,"Only if local state is used, which is the only reason to opt...","https://forum.algorand.org/t/reserve-smart-contract-opt-in/8442/2"
 "JasonW","Algorand Inc",2022-12-06,"Boxes use the outer tx group for the references. IE you can ...","https://forum.algorand.org/t/boxes-in-inner-transactions/8444/2"
