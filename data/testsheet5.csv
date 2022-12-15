@@ -4,14 +4,14 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2022-12-15,"Please see <a href=""https://forum.algorand.org/t/hi-im-tryin...","https://forum.algorand.org/t/rock-paper-scissor-3-error-assert-failed-pc-284-details-pc-284-opcodes-assert-rejected-transaction/6614/4"
+"fabrice","Algorand Foundation",2022-12-15,"Hi <a class=""mention"" href=""/u/dah_bush"">@Dah_Bush</a>, 
+Thi...","https://forum.algorand.org/t/hi-im-trying-to-do-an-asset-transfer-using-escrow-but-its-showing-me-this-error/7749/4"
 "fabrice","Algorand Foundation",2022-12-12,"Hi <a class=""mention"" href=""/u/zafar"">@zafar</a>, 
 For the c...","https://forum.algorand.org/t/error-in-getting-transaction-params-using-purestack-api-it-shows-a-400-status-error-its-on-testnet/3500/5"
 "fabrice","Algorand Foundation",2022-12-12,"Yes, I strongly recomment only using smart contracts / appli...","https://forum.algorand.org/t/feedback-requested-for-onboarding-complex-transaction-flow/8043/6"
 "fabrice","Algorand Foundation",2022-12-08,"That’s my understanding too. 
 If you observe your relay is u...","https://forum.algorand.org/t/is-it-true-you-get-priority-in-terms-of-receiving-and-sending-txns-based-on-stake-in-the-gossip-network/8004/13"
-"fabrice","Algorand Foundation",2022-12-08,"Welcome to Algorand! 
-The implemented consensus is described...","https://forum.algorand.org/t/looking-for-a-precise-documentation-of-algorand/8474/2"
-"fabrice","Algorand Foundation",2022-12-08,"The documentation on <a href=""http://developer.algorand.org""...","https://forum.algorand.org/t/algorand-indexer-set-up-issue/8472/2"
 "devops-service","Algorand Inc",2022-12-09,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-13-0/8481/1"
 "devops-service","Algorand Inc",2022-11-30,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/algorand-indexer-update-2-15-0/8407/1"
 "devops-service","Algorand Inc",2022-11-30,"MainNet and TestNet have been updated to 3.12.2 today, Wed N...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-12-2/8406/1"
