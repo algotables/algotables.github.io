@@ -4,7 +4,7 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
-"fabrice","Algorand Foundation",2022-12-21,"Did you specify the option --data-dir with a valid data dire...","https://forum.algorand.org/t/algorand-indexer-set-up-issue/8472/4"
+"fabrice","Algorand Foundation","2022-12-21","Did you specify the option --data-dir with a valid data dire...","https://forum.algorand.org/t/algorand-indexer-set-up-issue/8472/4"
 "fabrice","Algorand Foundation",2022-12-21,"It looks like node v14.10 or after should work as this funct...","https://forum.algorand.org/t/encodeuint64-asset-id-doesnt-work/8572/7"
 "fabrice","Algorand Foundation",2022-12-21,"Which version of node JS and algosdk are you using? 
 Are you...","https://forum.algorand.org/t/encodeuint64-asset-id-doesnt-work/8572/4"
