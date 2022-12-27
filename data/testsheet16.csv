@@ -1,4 +1,7 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
+"ALGO","DEFLY",0,470842789,2.8,3304,44337,"HumbleSwap","https://app.humble.sh/pool/add/778031658"
+"ALGO","ADAO",0,692085161,2.7,11,183,"HumbleSwap","https://app.humble.sh/pool/add/780420235"
+"BD","USDC",829992960,31566704,2.6,44,667,"HumbleSwap","https://app.humble.sh/pool/add/830077792"
 "TBD","TBD","TBD","TBD",26.7,899,23867,"HumbleSwap","https://app.humble.sh/pool/add/878359186"
 "TBD","TBD","TBD","TBD",25,56,592,"HumbleSwap","https://app.humble.sh/pool/add/902250674"
 "TBD","TBD","TBD","TBD",22,122,161,"HumbleSwap","https://app.humble.sh/pool/add/945251730"
