@@ -4,12 +4,13 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2023-01-03,"What steps are you taking to try to “resale” the asset? 
+Can...","https://forum.algorand.org/t/how-to-change-asset-manager-from-contract-side/8641/6"
+"fabrice","Algorand Foundation",2023-01-03,"I’m guessing you’re referring to <a href=""https://developer....","https://forum.algorand.org/t/signing-key-registration-transaction-without-goal-node/8671/2"
 "fabrice","Algorand Foundation",2023-01-03,"Welcome to Algorand! 
 We are very sorry this happened to you...","https://forum.algorand.org/t/wallet-secret-key-reset/8657/2"
 "fabrice","Algorand Foundation",2022-12-30,"It depends on the use case. If you need the buyer to become ...","https://forum.algorand.org/t/how-to-change-asset-manager-from-contract-side/8641/4"
 "fabrice","Algorand Foundation",2022-12-29,"Welcome to Algorand <a class=""mention"" href=""/u/olga"">@Olga<...","https://forum.algorand.org/t/process-an-array-of-data-in-the-smart-contract/8645/2"
-"fabrice","Algorand Foundation",2022-12-29,"You need the smart contract to allow withdrawing the fund fr...","https://forum.algorand.org/t/how-can-transfer-escrow-smart-contract-payments-to-other-accounts-using-python-sdk-its-urgent/8635/2"
-"fabrice","Algorand Foundation",2022-12-29,"To change the asset manager, you need to issue an asset conf...","https://forum.algorand.org/t/how-to-change-asset-manager-from-contract-side/8641/2"
 "devops-service","Algorand Inc",2022-12-23,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-testnet-mainnet-update-3-13-2/8597/1"
 "devops-service","Algorand Inc",2022-12-20,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-13-1/8569/1"
 "devops-service","Algorand Inc",2022-12-15,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-13-1/8516/1"
