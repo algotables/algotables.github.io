@@ -4,6 +4,7 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2023-01-13,"That’s a good point! The source of this website is actually ...","https://forum.algorand.org/t/low-voting-and-invalid-api-key-token/8546/4"
 "fabrice","Algorand Foundation",2023-01-10,"This is ok not requiring them depending on your use case. 
 H...","https://forum.algorand.org/t/message-not-found/8736/4"
 "fabrice","Algorand Foundation",2023-01-10,"Regarding the original issue. 
@@ -11,8 +12,6 @@ Indeed the error inappropriat...","https://forum.algorand.org/t/setting-pw-for-w
 "fabrice","Algorand Foundation",2023-01-09,"Nodes keep track of balances at every time. 
 When a node syn...","https://forum.algorand.org/t/verifying-balances-on-the-blockchain/8743/2"
 "fabrice","Algorand Foundation",2023-01-09,"To complement <a class=""mention"" href=""/u/scholtz"">@scholtz<...","https://forum.algorand.org/t/algorand-security/8681/6"
-"fabrice","Algorand Foundation",2023-01-09,"Welcome to Algorand! 
-I’ve just tried it on macOS and it wor...","https://forum.algorand.org/t/setting-pw-for-wallet-error/8730/2"
 "devops-service","Algorand Inc",2023-01-06,"Indexer 2.15.1 was released today Fri Jan 6th, 2023 at 3:30P...","https://forum.algorand.org/t/algorand-indexer-2-15-1/8711/1"
 "devops-service","Algorand Inc",2023-01-04,"Indexer 2.15.1-rc1 was released yesterday Tues Jan 3rd, 2023...","https://forum.algorand.org/t/algorand-indexer-2-15-1-rc1/8685/1"
 "devops-service","Algorand Inc",2022-12-23,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-testnet-mainnet-update-3-13-2/8597/1"
