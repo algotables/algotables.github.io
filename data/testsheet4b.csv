@@ -1,201 +1,455 @@
 "Name (20 Char Max)","Index","Verified","TX","Total in Circ","Dly Uniq Users","Dly Uniq Sndrs","Dly Uniq Rcvrs","Dly Actv Addrs","Ecosys Votes"
-"tinyhorse","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
-"Algo Curator","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",19
-"The Algonautz","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
-"Space Pilots","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
-"Algoracle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",24
-"Algo Gaming Gui","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",14
-"Wayru","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",17
-"Algorand Name","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",33
-"EXTREMELY BULLI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",45
-"Openfabric","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1809
-"AlgoDAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",26
-"Angry Penguins","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
-"Securecerts","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Algopard NFT Co","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",29
-"MASU","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
-"Loozr","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
-"Buzzy Bees","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
-"Lil Slashers","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
-"Pyrenees Pack","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
-"alienprideart","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Algo Sprites","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",18
-"Randy Cones","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
-"Randy Pixels","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
-"123NFT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
-"ELEMENT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",97
-"Soundmart","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Mandalore","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "The GIF Economy","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Citrust","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Randy Cones","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Randy Pixels","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
 "Zest","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"123NFT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
 "CODEX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",15
+"ELEMENT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",97
 "Neomoon","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"Mandalore","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "QuickNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"The GIF Economy","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "genpyteal","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Pact","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",359
+"Citrust","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"tinyhorse","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "KissBits","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
 "Mailchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
-"AlgoCats","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
-"WAGMIswap.io","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"Zest","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"CODEX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",15
+"The Algonautz","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
+"Neomoon","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
 "Mint Engine","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
-"Industrial Punk","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"QuickNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"genpyteal","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Algoracle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",24
 "Coffee DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
+"KissBits","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
+"Algo Gaming Gui","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",14
 "Neutral Token","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",66
+"Mailchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "AlgoWeirdo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"ALGO LITE",447852812,"TBD",18647,99997917229,1,5312,1,2,2
-"G-raffe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",14
+"Algorand Name","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",33
+"AlgoCats","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"EXTREMELY BULLI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",45
+"WAGMIswap.io","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"AlgoDAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",26
+"Angry Penguins","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "AXELSTAKE","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Algonauts Offic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Industrial Punk","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Securecerts","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Coffee DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
+"Algopard NFT Co","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",29
 "Ruffled Feather","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Alex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",8
-"Candy Go","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"MASU","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Loozr","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
+"G-raffe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",14
 "Algo Lite","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
-"Ettle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Land of Alegra","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",13
-"APPs","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",15
+"Lil Slashers","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
+"Algonauts Offic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Pyrenees Pack","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
+"alienprideart","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Ruffled Feather","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"Algo Sprites","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",18
 "Kani World","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"Randy Cones","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Candy Go","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "LimeWire","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
+"Algo Lite","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Algo Portals","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"123NFT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
+"APPs","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",15
 "NeXaoZ Servitor","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"ELEMENT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",97
 "2i2i","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"LimeWire","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
+"Soundmart","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"INNOVATION COIN","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",36
+"2i2i","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Mandalore","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Dahai Art","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "INNOVATION COIN","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",36
 "Dahai Art","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "SuperMeow","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",10
+"Zest","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"CODEX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",15
+"SEA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
 "SEA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
 "CHAINFORCE","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Neomoon","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"CHAINFORCE","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"QuickNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Waivlength","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "The Open Rights","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Waivlength","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "AssetOne","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
 "TechTree","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Pact","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",359
+"AssetOne","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
 "ZolAlgo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"KissBits","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",11
 "Fracctal Monsters","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"ZolAlgo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Flemish Giants","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "Backers","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
-"AlgoPatties","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
+"Fracctal Monsters","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"AlgoCats","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"WAGMIswap.io","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"Flemish Giants","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "Alandia","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",16
-"Bamba Jean’s","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Mint Engine","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Backers","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Industrial Punk","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
 "ORE ID","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
-"BrightNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Coffee DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
+"Bamba Jean’s","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Neutral Token","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",66
 "Vendible","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",69
-"Asalytic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"BrightNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "LC Blitz Ranking",127746157,"TBD",51523401,100000000000,13,0,0,0,"TBD"
+"ALGO LITE",447852812,"TBD",18648,99997917229,1,5312,1,2,2
 "LC Bullet Ranking",127745593,"TBD",14408890,100000000000,4,0,0,0,"TBD"
+"G-raffe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",14
 "LC Rapid Ranking",127746786,"TBD",75372864,100000000000,16,0,0,0,"TBD"
-"FIDE Online Arena Ra",2254149,"TBD",76078,9223371935000000000,3,0,0,0,"TBD"
+"LC Rapid Ranking",127746786,"TBD",75372864,100000000000,16,0,0,0,"TBD"
+"AXELSTAKE","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Algonauts Offic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Dead Putin Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Dead Putin Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Sim Companies","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"CC Token",657291910,"Yes",71607,2160011,13,68371,16,1,17
+"Candy Go","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"CC Token",657291910,"Yes",71611,2160011,13,68371,16,1,17
 "AlgoPixels","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"AlgoPixels","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Ettle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "AlgoLaunch","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6736
 "Wyre","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"APPs","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",15
+"Wyre","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Kani World","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "Replacing Compound I","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Gtag Network","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "SliceSpace","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",13
+"Algo Portals","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"SliceSpace","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",13
+"NeXaoZ Servitor","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"2i2i","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Rebbit Club","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"INNOVATION COIN","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",36
+"Dahai Art","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "Comfortzoon","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",29
+"Dox Directory","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Dox Directory","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "SoulPod","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",8
 "Orbital Gnome Strike","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",35
+"CHAINFORCE","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
 "Runtime Verification","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Runtime Verification","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Waivlength","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Cables Finance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"The Open Rights","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "Alammex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"Alammex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"Algomond","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Galaxy Art Project","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Algomond","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "PARSIQ","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"ZolAlgo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"PARSIQ","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Tellor","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
 "Taurus","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Flemish Giants","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "Alvatars","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",24
+"Backers","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Alvatars","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",24
+"AlgoPatties","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",12
+"Alandia","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",16
 "Metabrand.tech","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Ill Beans Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Bamba Jean’s","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Ill Beans Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Vybe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"ORE ID","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Vybe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"BrightNode","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Vendible","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",69
 "Bitpie","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Cobo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Asalytic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"LC Blitz Ranking",127746157,"TBD",51523401,100000000000,13,0,0,0,"TBD"
 "Exodus","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"LC Bullet Ranking",127745593,"TBD",14408890,100000000000,4,0,0,0,"TBD"
 "Atomic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"LC Rapid Ranking",127746786,"TBD",75372864,100000000000,16,0,0,0,"TBD"
 "Coinomi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"FIDE Online Arena Ra",2254149,"TBD",76078,9223371935000000000,3,0,0,0,"TBD"
 "Trust Wallet","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Coinomi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Dead Putin Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Guarda","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Trust Wallet","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Sim Companies","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Daffi.me","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"CC Token",657291910,"Yes",71611,2160011,13,68371,16,1,17
 "Trantorian","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
+"AlgoPixels","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Trantorian","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
+"AlgoLaunch","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6736
+"Wyre","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "DAO Made Easy","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Replacing Compound I","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Gtag Network","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "AlgoSeas","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
 "Daf Governance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"BlockchainID.me","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Daf Governance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Rebbit Club","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Comfortzoon","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",29
 "Blockchain.com","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"SoulPod","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",8
+"Orbital Gnome Strike","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",35
 "Ledger","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Kraken","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Runtime Verification","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Cables Finance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Coinex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Alammex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
 "Bithumb","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Galaxy Art Project","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Algomond","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bitstamp","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Bitstamp","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Coinegg","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Tellor","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
+"Taurus","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Tokok","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Exmo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Bibox","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Metabrand.tech","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Hotbit","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bibox","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Bittrex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Fameex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Vybe","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Hotbit","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Ill Beans Society","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Bittrex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "StealthEX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Okcoin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Fameex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bitpie","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Fameex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Swapzone","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Okcoin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Cobo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"StealthEX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Crypto.com","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Exodus","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "BTC Markets","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Okcoin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Coinomi","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Atomic","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Woo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Crypto.com","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Swapzone","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Trust Wallet","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Bitfinex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Guarda","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Kriptomat","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Woo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"BTC Markets","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Daffi.me","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "LetsExchange","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Bitbns","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bitfinex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Trantorian","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
 "ProBit Global","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bitbns","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Kriptomat","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"AlgoSeas","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"DAO Made Easy","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Decoin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"LetsExchange","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"BlockchainID.me","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Blockchain.com","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Daf Governance","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Exolix","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"7b","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "NDAX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Uphold","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"7b","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bitbns","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Kraken","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Coinex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Ledger","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"ProBit Global","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Deli Coin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Decoin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "QCAD","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"BiLira","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bithumb","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Exolix","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bitstamp","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "AlgoSigner","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Voyager","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"BiLira","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"7b","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Coinegg","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Algorhythms","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "ALGO Tables","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"Voyager","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Tokok","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"NDAX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Flipping Birds NFT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"Exmo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Uphold","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Heepow","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bibox","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Deli Coin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
 "Algoricans","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
-"Happy Clowns","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Hotbit","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"QCAD","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "GOON SQUAD","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Banxa","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Happy Clowns","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Fameex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"StealthEX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bittrex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"BiLira","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "AL-DRAGON-","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
 "Gekofam","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
-"Deentra","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Banxa","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"AlgoSigner","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Okcoin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Algorhythms","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Voyager","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "LoginID FIDO Vault","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
-"London Bridge","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",25
+"Swapzone","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Deentra","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Crypto.com","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Flipping Birds NFT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"ALGO Tables","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
 "Silent Data","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",23
+"BTC Markets","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"London Bridge","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",25
+"Woo","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Heepow","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Kriptomat","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Bitfinex","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Applied Blockchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
+"Algoricans","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
 "zCircuit","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Bitbns","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"LetsExchange","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Darshana","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"ProBit Global","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "PureStake","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
-"COMETA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",27
+"GOON SQUAD","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Decoin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Happy Clowns","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Exolix","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Africa Blockchain Re","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"SPRIG","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"COMETA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",27
+"7b","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"AL-DRAGON-","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
+"Banxa","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"NDAX","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "RDDAF1 DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"SPRIG","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Gekofam","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
 "Marli: The Global","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Deli Coin","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Uphold","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Deentra","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
 "Guardrail","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
-"Sober","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"QCAD","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"LoginID FIDO Vault","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"BiLira","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"London Bridge","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",25
 "Urban Change","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
 "FYEO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Sober","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"AlgoSigner","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Silent Data","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",23
+"Voyager","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Fidelis Loans","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"zCircuit","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Applied Blockchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
+"ALGO Tables","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
 "Angels Of Ares","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Algorhythms","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Galactic Astros","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Darshana","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Flipping Birds NFT","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"PureStake","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
 "Defactor","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"Algoricans","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",6
+"Heepow","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"COMETA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",27
 "Nettle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Africa Blockchain Re","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Happy Clowns","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"VALIDITA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "GenaDrop","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"SPRIG","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Payscript","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Banxa","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"GOON SQUAD","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"RDDAF1 DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"AL-DRAGON-","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
+"DeFi-nite",400593267,"TBD",99320,1999816151856291,3,1366,23,25,29
+"Algobots","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"Marli: The Global","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Gekofam","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"Rats DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Guardrail","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"SIKI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"LoginID FIDO Vault","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Deentra","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Sober","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"Notifi Network","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"London Bridge","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",25
+"Urban Change","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
+"Silent Data","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",23
+"Soufuru","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
+"Fidelis Loans","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"FYEO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"PeliCoin",758090502,"Yes",45796,2003218705,0,1133,7,76,78
+"zCircuit","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Applied Blockchain","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",21
+"Angels Of Ares","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Certyclick","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"PureStake","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Darshana","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Galactic Astros","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"COMETA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",27
+"Africa Blockchain Re","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Defactor","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"SPRIG","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"RDDAF1 DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"GenaDrop","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Nettle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Marli: The Global","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "VALIDITA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Payscript","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"Sober","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",4
+"Urban Change","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
+"Guardrail","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Algobots","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"FYEO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"DeFi-nite",400593267,"TBD",99320,1999816151856291,3,1366,23,25,29
+"Fidelis Loans","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Rats DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Angels Of Ares","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"SIKI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Galactic Astros","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"Defactor","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",7
+"Notifi Network","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Nettle","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",1
+"GenaDrop","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",3
+"Soufuru","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
+"VALIDITA","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
+"Payscript","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",5
+"PeliCoin",758090502,"Yes",45796,2003218705,0,1133,7,76,78
+"Algobots","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",2
+"Certyclick","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "DeFi-nite",400593267,"TBD",99320,1999816151856291,3,1366,23,25,29
 "Rats DAO","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "SIKI","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Notifi Network","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
 "Soufuru","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",9
-"PeliCoin",758090502,"Yes",45794,2003218705,0,1133,7,76,78
+"PeliCoin",758090502,"Yes",45796,2003218705,0,1133,7,76,78
 "Certyclick","TBD","TBD","TBD","TBD","TBD","TBD","TBD","TBD",0
