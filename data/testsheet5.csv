@@ -4,6 +4,7 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2023-01-23,"Yes, there is a maximum of 255 public keys: <a href=""https:/...","https://forum.algorand.org/t/limit-on-msig-accounts/8819/2"
 "fabrice","Algorand Foundation",2023-01-13,"Welcome to Algorand! 
 MetaMask currently does not support Al...","https://forum.algorand.org/t/how-to-use-fungible-token/8782/2"
 "fabrice","Algorand Foundation",2023-01-13,"That’s a good point! The source of this website is actually ...","https://forum.algorand.org/t/low-voting-and-invalid-api-key-token/8546/4"
@@ -11,8 +12,6 @@ MetaMask currently does not support Al...","https://forum.algorand.org/t/how-to-
 H...","https://forum.algorand.org/t/message-not-found/8736/4"
 "fabrice","Algorand Foundation",2023-01-10,"Regarding the original issue. 
 Indeed the error inappropriat...","https://forum.algorand.org/t/setting-pw-for-wallet-error/8730/4"
-"fabrice","Algorand Foundation",2023-01-09,"Nodes keep track of balances at every time. 
-When a node syn...","https://forum.algorand.org/t/verifying-balances-on-the-blockchain/8743/2"
 "devops-service","Algorand Inc",2023-01-20,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/algorand-indexer-2-15-2/8816/1"
 "devops-service","Algorand Inc",2023-01-20,"Betanet has been updated to 3.13.3 today, Thu Jan 19, 2023. ...","https://forum.algorand.org/t/betanet-update-3-13-3/8814/1"
 "devops-service","Algorand Inc",2023-01-20,"MainNet and TestNet have been updated to 3.13.3 today, Thu J...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-13-3/8813/1"
