@@ -4,13 +4,13 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2023-02-07,"You can look at your local time you sent the API request sub...","https://forum.algorand.org/t/how-to-get-the-timestamp-for-when-the-transaction-has-been-received-on-the-blockchain/8903/4"
 "fabrice","Algorand Foundation",2023-02-07,"The time when a transaction is received by the blockchain is...","https://forum.algorand.org/t/how-to-get-the-timestamp-for-when-the-transaction-has-been-received-on-the-blockchain/8903/2"
 "fabrice","Algorand Foundation",2023-02-07,"The Approve there <a href=""https://github.com/scholtz/stabil...","https://forum.algorand.org/t/innertxnbuilder-second-transaction-is-not-stored-in-the-blockchain/8893/2"
 "fabrice","Algorand Foundation",2023-02-06,"To complement the above response, if you want to see the spe...","https://forum.algorand.org/t/questions-about-the-consensus-mechanism/8892/3"
 "fabrice","Algorand Foundation",2023-02-06,"Answering below to the best of my knowledge: 
 
 I don’t belie...","https://forum.algorand.org/t/questions-about-the-consensus-mechanism/8892/2"
-"fabrice","Algorand Foundation",2023-02-04,"I’ve not checked in detail, but it should be secure at first...","https://forum.algorand.org/t/protecting-funds-in-smart-signature-contract-accounts/8873/8"
 "devops-service","Algorand Inc",2023-02-06,"MainNet and TestNet have been updated to 3.14.2 today, Mon F...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-14-2/8890/1"
 "devops-service","Algorand Inc",2023-02-02,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-14-2/8872/1"
 "devops-service","Algorand Inc",2023-01-25,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-14-1/8837/1"
