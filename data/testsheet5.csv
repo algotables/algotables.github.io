@@ -54,11 +54,11 @@ Please file issues if you come acros...","https://forum.algorand.org/t/child-app
 "Ben","Algorand Inc",2022-11-04,"Great! In the latest beaker you can get most of those fields...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/7"
 "Ben","Algorand Inc",2022-11-03,"I’ve submitted a PR to allow MethodCall to be used for an Ap...","https://forum.algorand.org/t/child-application-deployment-from-parent-application/8132/5"
 "Ben","Algorand Inc",2022-11-03,"Updating reply here to include a newer one <a href=""https://...","https://forum.algorand.org/t/walletconnect-myaglo-sdk-abstraction/5818/3"
+"JasonW","Algorand Inc",2023-02-16,"Also note that you should have closed all assets out and rem...","https://forum.algorand.org/t/sending-all-the-algo-closing-the-account-using-algosdk/8953/3"
+"JasonW","Algorand Inc",2023-02-16,"You just need to make a simple payment transaction with the ...","https://forum.algorand.org/t/sending-all-the-algo-closing-the-account-using-algosdk/8953/2"
 "JasonW","Algorand Inc",2022-12-07,"I understand the use case. Right now you can set 8 box names...","https://forum.algorand.org/t/boxes-in-inner-transactions/8444/4"
 "JasonW","Algorand Inc",2022-12-06,"Only if local state is used, which is the only reason to opt...","https://forum.algorand.org/t/reserve-smart-contract-opt-in/8442/2"
 "JasonW","Algorand Inc",2022-12-06,"Boxes use the outer tx group for the references. IE you can ...","https://forum.algorand.org/t/boxes-in-inner-transactions/8444/2"
-"JasonW","Algorand Inc",2022-12-01,"Why not do something like what is shown in this example: <a ...","https://forum.algorand.org/t/deploy-a-stateful-contract-through-a-stateful-contract/8410/2"
-"JasonW","Algorand Inc",2022-09-28,"Take a look at this: <a href=""https://developer.algorand.org...","https://forum.algorand.org/t/teal-how-can-i-supply-arguments-to-an-inner-transaction/7901/2"
 "ian","Algorand Inc",2021-11-03,"Hey there, 
 Have you specifically started with “Forgetting” ...","https://forum.algorand.org/t/cant-cast-my-vote/4916/11"
 "ian","Algorand Inc",2021-10-27,"Thanks for providing additional details. We’ll use this in o...","https://forum.algorand.org/t/help-why-cant-i-send-crypto-after-reinstalling-algorand-official-wallet-and-recovering-account-issues-with-ledger-firmware-2-0-0-and-algorand-wallet/4850/21"
