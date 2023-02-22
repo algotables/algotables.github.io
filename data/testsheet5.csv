@@ -4,6 +4,8 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2023-02-22,"Welcome to Algorand ! 
+After discussing with the team, it lo...","https://forum.algorand.org/t/global-latesttimestamp-is-0-in-when-debugging-from-dryrun-txn/6117/10"
 "fabrice","Algorand Foundation",2023-02-21,"Welcome to Algorand! 
 The network will only accept 32-byte m...","https://forum.algorand.org/t/size-of-metadatahash/9001/2"
 "fabrice","Algorand Foundation",2023-02-21,"I do not know of detailed tutorials. 
@@ -13,7 +15,6 @@ You may want to also post on Reach Dis...","https://forum.algorand.org/t/reach-r
 "fabrice","Algorand Foundation",2023-02-20,"Can you check the permissions are all correct: 
 who am i
 ls ...","https://forum.algorand.org/t/algorand-indexer/8938/4"
-"fabrice","Algorand Foundation",2023-02-14,"From my understanding, Algorand supports the equivalent of s...","https://forum.algorand.org/t/account-abstraction-on-algorand/8936/2"
 "devops-service","Algorand Inc",2023-02-06,"MainNet and TestNet have been updated to 3.14.2 today, Mon F...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-14-2/8890/1"
 "devops-service","Algorand Inc",2023-02-02,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-14-2/8872/1"
 "devops-service","Algorand Inc",2023-01-25,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-14-1/8837/1"
