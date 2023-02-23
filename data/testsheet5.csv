@@ -4,6 +4,7 @@
 "tsachi","Algorand Inc",2022-03-08,"The reasoning for the tree-directory structure under the “ca...","https://forum.algorand.org/t/algorand-catchpoints/5737/12"
 "tsachi","Algorand Inc",2022-03-08,"No - it won’t expose your node in any way. The only way for ...","https://forum.algorand.org/t/algorand-catchpoints/5737/10"
 "tsachi","Algorand Inc",2022-03-08,"Admittedly, there is a way to catchup from an archival node....","https://forum.algorand.org/t/algorand-catchpoints/5737/8"
+"fabrice","Algorand Foundation",2023-02-23,"I think you need an algod the first time to initialize the d...","https://forum.algorand.org/t/algorand-indexer/8938/6"
 "fabrice","Algorand Foundation",2023-02-22,"Welcome to Algorand ! 
 After discussing with the team, it lo...","https://forum.algorand.org/t/global-latesttimestamp-is-0-in-when-debugging-from-dryrun-txn/6117/10"
 "fabrice","Algorand Foundation",2023-02-21,"Welcome to Algorand! 
@@ -12,9 +13,6 @@ The network will only accept 32-byte m...","https://forum.algorand.org/t/size-of
 However, the 4 officia...","https://forum.algorand.org/t/has-anybody-published-anything-about-using-algorand-from-java-beyond-your-first-transaction/8989/2"
 "fabrice","Algorand Foundation",2023-02-20,"Welcome to Algorand! 
 You may want to also post on Reach Dis...","https://forum.algorand.org/t/reach-run-hangs-when-run-on-example/8969/2"
-"fabrice","Algorand Foundation",2023-02-20,"Can you check the permissions are all correct: 
-who am i
-ls ...","https://forum.algorand.org/t/algorand-indexer/8938/4"
 "devops-service","Algorand Inc",2023-02-06,"MainNet and TestNet have been updated to 3.14.2 today, Mon F...","https://forum.algorand.org/t/testnet-and-mainnet-update-3-14-2/8890/1"
 "devops-service","Algorand Inc",2023-02-02,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-14-2/8872/1"
 "devops-service","Algorand Inc",2023-01-25,"<a class=""lightbox"" href=""https://global.discourse-cdn.com/b...","https://forum.algorand.org/t/betanet-update-3-14-1/8837/1"
