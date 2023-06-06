@@ -58,7 +58,6 @@
 "USDC","COOP",31566704,796425061,219.7,897,3900,"PactFi","https://app.pact.fi/add-liquidity/1104647287"
 "ALGO","GARD",0,684649988,28.7,47,403,"PactFi","https://app.pact.fi/add-liquidity/801613881"
 "USDC","VYBE",31566704,558978094,1.7,50,92,"PactFi","https://app.pact.fi/add-liquidity/1078952614"
-"gALGO","COOP",793124631,796425061,0.9,40,40,"PactFi","https://app.pact.fi/add-liquidity/1117849176"
 "USDC","GLIZZY",31566704,1053260256,2.5,16,31,"PactFi","https://app.pact.fi/add-liquidity/1095426935"
 "goUSD","VEST",672913181,700965019,4.8,21,60,"PactFi","https://app.pact.fi/add-liquidity/1047483457"
 "ALGO","ALGX",0,724480511,27.1,4,289,"PactFi","https://app.pact.fi/add-liquidity/1109207898"
@@ -185,3 +184,4 @@
 "ALGO","AFD",0,393495312,0.3,0,1,"PactFi","https://app.pact.fi/add-liquidity/843035593"
 "USDC","GARD",31566704,684649988,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/701249684"
 "USDC","VYBE",31566704,558978094,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/1112539604"
+"ALGO","USDt",0,312769,18.5,0,1,"PactFi","https://app.pact.fi/add-liquidity/659541613"
