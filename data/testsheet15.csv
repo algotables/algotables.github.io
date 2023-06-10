@@ -69,7 +69,6 @@
 "goETH","gALGO",386195940,793124631,10.5,153,275,"PactFi","https://app.pact.fi/add-liquidity/807804196"
 "ALGO","SICO",0,1116111739,178.3,316,1242,"PactFi","https://app.pact.fi/add-liquidity/1116852053"
 "goBTC","CRSD",386192725,435335235,9.4,35,70,"PactFi","https://app.pact.fi/add-liquidity/1107655435"
-"GOLD$","goBTC",246516580,386192725,5.5,60,148,"PactFi","https://app.pact.fi/add-liquidity/1074906988"
 "ALGO","chip",0,388592191,1.5,4,39,"PactFi","https://app.pact.fi/add-liquidity/1074073287"
 "ALGO","WOOD",0,1114942423,545,459,3810,"PactFi","https://app.pact.fi/add-liquidity/1118067916"
 "GOLD$","SILVER$",246516580,246519683,2,9,12,"PactFi","https://app.pact.fi/add-liquidity/1118650407"
@@ -185,3 +184,4 @@
 "ALGO","NIPS",0,640873368,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/712065656"
 "ALGO","CARE",0,445347483,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/1077314612"
 "USDC","VYBE",31566704,558978094,0,0,0,"PactFi","https://app.pact.fi/add-liquidity/1112539604"
+"ALGO","DEGEN",0,417708610,0.2,0,0,"PactFi","https://app.pact.fi/add-liquidity/637715672"
