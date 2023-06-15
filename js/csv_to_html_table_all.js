@@ -885,77 +885,91 @@ CsvToHtmlTable12 = {
     }
 };
 
-CsvToHtmlTable13 = {
-    init: function (options) {
-        options = options || {};
-        var csv_path = options.csv_path || "";
-        var el = options.element || "table-csv12";
-        var allow_download = options.allow_download || false;
-        var csv_options = options.csv_options || {};
-        var datatables_options = options.datatables_options || {};
-        var custom_formatting = options.custom_formatting || [];
-        var customTemplates = {};
-        $.each(custom_formatting, function (i, v) {
-            var colIdx = v[0];
-            var func = v[1];
-            customTemplates[colIdx] = func;
-        });
+var CsvToHtmlTable13 = {
+init: function(options) {
+    options = options || {};
+    var csv_path = options.csv_path || "";
+    var el = options.element || "table-csv12";
+    var allow_download = options.allow_download || false;
+    var csv_options = options.csv_options || {};
+    var datatables_options = options.datatables_options || {};
+    var custom_formatting = options.custom_formatting || [];
+    var customTemplates = {};
 
-        var $table = $("<table role='table' style='width:100%' class='table table-striped table-bordered hover display nowrap' id='" + el + "-table'></table>");
-        var $containerElement = $("#" + el);
-        $containerElement.empty().append($table);
+    $.each(custom_formatting, function(i, v) {
+    var colIdx = v[0];
+    var func = v[1];
+    customTemplates[colIdx] = func;
+    });
 
-        $.when($.get(csv_path)).then(
-            function (data) {
-                var csvData = $.csv.toArrays(data, csv_options);
-                var $tableHead = $("<thead></thead>");
-                var $tableFoot = $("<tfoot></tfoot>");
-                var csvHeaderRow = csvData[0];
-                var csvFooterRow = csvData[0];
-                var $tableHeadRow = $("<tr></tr>");
-                var $tableFootRow = $("<tr></tr>");
-                for (var headerIdx = 0; headerIdx < csvHeaderRow.length; headerIdx++) {
-                    $tableHeadRow.append($("<th></th>").text(csvHeaderRow[headerIdx]));
-                }
-                $tableHead.append($tableHeadRow);
+    var $table = $("<table role='table' style='width:100%' class='table table-striped table-bordered hover display nowrap' id='" + el + "-table'></table>");
+    var $containerElement = $("#" + el);
+    $containerElement.empty().append($table);
 
-                for (var footerIdx = 0; footerIdx < csvFooterRow.length; footerIdx++) {
-                    $tableFootRow.append($("<th></th>").text(csvFooterRow[footerIdx]));
-                }
-                $tableFoot.append($tableFootRow);
+    var processDataChunk = function(csvData, startRow, endRow) {
+    var $tableBody = $table.find("tbody");
 
-                $table.append($tableHead);
-                $table.append($tableFoot);
-                var $tableBody = $("<tbody></tbody>");
-
-                $('#table-csv12 tfoot th').each(function () {
-                    $(this).html('<input type="text" placeholder="Search " />');
-                });
-
-                for (var rowIdx = 1; rowIdx < csvData.length; rowIdx++) {
-                    var $tableBodyRow = $("<tr></tr>");
-                    for (var colIdx = 0; colIdx < csvData[rowIdx].length; colIdx++) {
-                        var $tableBodyRowTd = $("<td></td>");
-                        var cellTemplateFunc = customTemplates[colIdx];
-                        if (cellTemplateFunc) {
-                            $tableBodyRowTd.html(cellTemplateFunc(csvData[rowIdx][colIdx]));
-                        } else {
-                            $tableBodyRowTd.text(csvData[rowIdx][colIdx]);
-                        }
-                        $tableBodyRow.append($tableBodyRowTd);
-                    }
-                    $tableBody.append($tableBodyRow);
-                }
-                $table.append($tableBody);
-
-                $table.DataTable(datatables_options);
-
-                if (allow_download) {
-                    $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
-                }
-            });
+    for (var rowIdx = startRow; rowIdx <= endRow; rowIdx++) {
+        var $tableBodyRow = $("<tr></tr>");
+        for (var colIdx = 0; colIdx < csvData[rowIdx].length; colIdx++) {
+        var $tableBodyRowTd = $("<td></td>");
+        var cellTemplateFunc = customTemplates[colIdx];
+        if (cellTemplateFunc) {
+            $tableBodyRowTd.html(cellTemplateFunc(csvData[rowIdx][colIdx]));
+        } else {
+            $tableBodyRowTd.text(csvData[rowIdx][colIdx]);
+        }
+        $tableBodyRow.append($tableBodyRowTd);
+        }
+        $tableBody.append($tableBodyRow);
     }
-};
+
+    if (endRow < csvData.length - 1) {
+        // Process next chunk
+        setTimeout(function() {
+        processDataChunk(csvData, endRow + 1, Math.min(endRow + 10, csvData.length - 1));
+        }, 0);
+    } else {
+        // All rows processed
+        $table.DataTable(datatables_options);
+
+        if (allow_download) {
+        $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
+        }
+    }
+    };
+
+    $.get(csv_path).done(function(data) {
+    var csvData = $.csv.toArrays(data, csv_options);
+    var $tableHead = $("<thead></thead>");
+    var $tableFoot = $("<tfoot></tfoot>");
+    var csvHeaderRow = csvData[0];
+    var csvFooterRow = csvData[0];
+    var $tableHeadRow = $("<tr></tr>");
+    var $tableFootRow = $("<tr></tr>");
+
+    $.each(csvHeaderRow, function(headerIdx, header) {
+        $tableHeadRow.append($("<th></th>").text(header));
+    });
+
+    $.each(csvFooterRow, function(footerIdx, footer) {
+        $tableFootRow.append($("<th></th>").text(footer));
+    });
+
+    $tableHead.append($tableHeadRow);
+    $tableFoot.append($tableFootRow);
+    $table.append($tableHead).append($tableFoot);
+
+    $table.append("<tbody></tbody>");
+    $('#' + el + ' tfoot th').each(function() {
+        $(this).html('<input type="text" placeholder="Search " />');
+    });
+
+    // Start processing rows in chunks
+    processDataChunk(csvData, 1, Math.min(10, csvData.length - 1));
+    });
+}
+};  
 
 CsvToHtmlTable14 = {
     init: function (options) {
