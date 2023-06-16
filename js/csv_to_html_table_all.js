@@ -1049,7 +1049,7 @@ var CsvToHtmlTable12 = {
     };  
 
 var CsvToHtmlTable13 = {
-init: function(options) {
+  init: function(options) {
     options = options || {};
     var csv_path = options.csv_path || "";
     var el = options.element || "table-csv12";
@@ -1059,80 +1059,134 @@ init: function(options) {
     var custom_formatting = options.custom_formatting || [];
     var customTemplates = {};
 
-    $.each(custom_formatting, function(i, v) {
-    var colIdx = v[0];
-    var func = v[1];
-    customTemplates[colIdx] = func;
+    custom_formatting.forEach(function(v) {
+      var colIdx = v[0];
+      var func = v[1];
+      customTemplates[colIdx] = func;
     });
 
-    var $table = $("<table role='table' style='width:100%' class='table table-striped table-bordered hover display nowrap' id='" + el + "-table'></table>");
-    var $containerElement = $("#" + el);
-    $containerElement.empty().append($table);
+    var table = document.createElement("table");
+    table.setAttribute("role", "table");
+    table.style.width = "100%";
+    table.className = "table table-striped table-bordered hover display nowrap";
+    table.id = el + "-table";
+
+    var containerElement = document.getElementById(el);
+    containerElement.innerHTML = "";
+    containerElement.appendChild(table);
 
     var processDataChunk = function(csvData, startRow, endRow) {
-    var $tableBody = $table.find("tbody");
+      var tbody = document.createElement("tbody");
 
-    for (var rowIdx = startRow; rowIdx <= endRow; rowIdx++) {
-        var $tableBodyRow = $("<tr></tr>");
+      var rowsHtml = "";
+      for (var rowIdx = startRow; rowIdx <= endRow; rowIdx++) {
+        var rowHtml = "<tr>";
         for (var colIdx = 0; colIdx < csvData[rowIdx].length; colIdx++) {
-        var $tableBodyRowTd = $("<td></td>");
-        var cellTemplateFunc = customTemplates[colIdx];
-        if (cellTemplateFunc) {
-            $tableBodyRowTd.html(cellTemplateFunc(csvData[rowIdx][colIdx]));
-        } else {
-            $tableBodyRowTd.text(csvData[rowIdx][colIdx]);
+          var cellHtml = "<td>";
+          var cellTemplateFunc = customTemplates[colIdx];
+          if (cellTemplateFunc) {
+            cellHtml += cellTemplateFunc(csvData[rowIdx][colIdx]);
+          } else {
+            cellHtml += csvData[rowIdx][colIdx];
+          }
+          cellHtml += "</td>";
+          rowHtml += cellHtml;
         }
-        $tableBodyRow.append($tableBodyRowTd);
-        }
-        $tableBody.append($tableBodyRow);
-    }
+        rowHtml += "</tr>";
+        rowsHtml += rowHtml;
+      }
 
-    if (endRow < csvData.length - 1) {
+      tbody.innerHTML = rowsHtml;
+      table.appendChild(tbody);
+
+      if (endRow < csvData.length - 1) {
         // Process next chunk
         setTimeout(function() {
-        processDataChunk(csvData, endRow + 1, Math.min(endRow + 10, csvData.length - 1));
+          processDataChunk(csvData, endRow + 1, Math.min(endRow + 10, csvData.length - 1));
         }, 0);
-    } else {
+      } else {
         // All rows processed
-        $table.DataTable(datatables_options);
+        $(table).DataTable(datatables_options);
 
         if (allow_download) {
-        $containerElement.append("<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>");
+          containerElement.innerHTML += "<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>";
         }
-    }
+      }
     };
 
     $.get(csv_path).done(function(data) {
-    var csvData = $.csv.toArrays(data, csv_options);
-    var $tableHead = $("<thead></thead>");
-    var $tableFoot = $("<tfoot></tfoot>");
-    var csvHeaderRow = csvData[0];
-    var csvFooterRow = csvData[0];
-    var $tableHeadRow = $("<tr></tr>");
-    var $tableFootRow = $("<tr></tr>");
+      var csvData = $.csv.toArrays(data, csv_options);
+      var thead = document.createElement("thead");
+      var tfoot = document.createElement("tfoot");
+      var csvHeaderRow = csvData[0];
+      var csvFooterRow = csvData[0];
+      var theadRow = document.createElement("tr");
+      var tfootRow = document.createElement("tr");
 
-    $.each(csvHeaderRow, function(headerIdx, header) {
-        $tableHeadRow.append($("<th></th>").text(header));
+      csvHeaderRow.forEach(function(header) {
+        var th = document.createElement("th");
+        th.textContent = header;
+        theadRow.appendChild(th);
+      });
+
+      csvFooterRow.forEach(function(footer) {
+        var th = document.createElement("th");
+        th.textContent = footer;
+        tfootRow.appendChild(th);
+      });
+
+      thead.appendChild(theadRow);
+      tfoot.appendChild(tfootRow);
+      table.appendChild(thead);
+      table.appendChild(tfoot);
+
+      var tbody = document.createElement("tbody");
+      table.appendChild(tbody);
+
+      var tfootThs = table.querySelectorAll("tfoot th");
+      Array.from(tfootThs).forEach(function(th) {
+        th.innerHTML = '<input type="text" placeholder="Search " />';
+      });
+
+      var rowIdx = 1;
+      var chunkSize = 10;
+
+      var processDataChunk = function() {
+        var endRow = Math.min(rowIdx + chunkSize - 1, csvData.length - 1);
+
+        for (; rowIdx <= endRow; rowIdx++) {
+          var row = document.createElement("tr");
+          for (var colIdx = 0; colIdx < csvData[rowIdx].length; colIdx++) {
+            var cell = document.createElement("td");
+            var cellTemplateFunc = customTemplates[colIdx];
+            if (cellTemplateFunc) {
+              cell.innerHTML = cellTemplateFunc(csvData[rowIdx][colIdx]);
+            } else {
+              cell.textContent = csvData[rowIdx][colIdx];
+            }
+            row.appendChild(cell);
+          }
+          tbody.appendChild(row);
+        }
+
+        if (endRow < csvData.length - 1) {
+          // Process next chunk
+          setTimeout(processDataChunk, 0);
+        } else {
+          // All rows processed
+          $(table).DataTable(datatables_options);
+
+          if (allow_download) {
+            containerElement.innerHTML += "<p><a class='btn btn-info' href='" + csv_path + "'><i class='glyphicon glyphicon-download'></i> Download as CSV</a></p>";
+          }
+        }
+      };
+
+      // Start processing rows in chunks
+      processDataChunk();
     });
-
-    $.each(csvFooterRow, function(footerIdx, footer) {
-        $tableFootRow.append($("<th></th>").text(footer));
-    });
-
-    $tableHead.append($tableHeadRow);
-    $tableFoot.append($tableFootRow);
-    $table.append($tableHead).append($tableFoot);
-
-    $table.append("<tbody></tbody>");
-    $('#' + el + ' tfoot th').each(function() {
-        $(this).html('<input type="text" placeholder="Search " />');
-    });
-
-    // Start processing rows in chunks
-    processDataChunk(csvData, 1, Math.min(10, csvData.length - 1));
-    });
-}
-};  
+  }
+};   
 
 var CsvToHtmlTable14 = {
     init: function(options) {
