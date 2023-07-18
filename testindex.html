@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ALGO Tables + ChatGPT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    .container {
+      width: 100%;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .tabs {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; /* Allow tabs to wrap to the next line */
+    }
+
+    .tab {
+      cursor: pointer;
+      padding: 10px 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-bottom: none;
+      border-radius: 5px 5px 0 0;
+      margin: 5px; /* Add some space between tabs */
+      flex-grow: 1; /* Allow tabs to grow and occupy the available space */
+    }
+
+    .tab:hover {
+      background-color: #e0e0e0;
+    }
+
+    .tab.active {
+      background-color: #fff;
+      border-bottom-color: #fff;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #f0f0f0;
+      font-weight: bold;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0066cc;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>ALGO Tables + ChatGPT</h2>
+    <ul class="tabs">
+      <li class="tab active" onclick="switchTab(0)">Ecosystem Main</li>
+      <li class="tab" onclick="switchTab(1)">Ecosystem Teams</li>
+      <li class="tab" onclick="switchTab(2)">Ecosystem Blogs</li>
+      <li class="tab" onclick="switchTab(3)">Ecosystem Jobs</li>
+      <li class="tab" onclick="switchTab(4)">Pools / Farms</li>
+      <li class="tab" onclick="switchTab(5)">ALGO Bounties</li>
+      <li class="tab" onclick="switchTab(6)">ALGO Prices</li>
+      <li class="tab" onclick="switchTab(7)">ALGO Whales</li>
+      <li class="tab" onclick="switchTab(8)">Algorand News</li>
+      <li class="tab" onclick="switchTab(9)">Algorand Dev Posts</li>
+      <li class="tab" onclick="switchTab(10)">Algorand Scholar</li>
+      <li class="tab" onclick="switchTab(11)">Algorand Blogs</li>
+      <li class="tab" onclick="switchTab(12)">Algorand Jobs</li>
+      <li class="tab" onclick="switchTab(13)">Event Calendar</li>
+      <li class="tab" onclick="switchTab(14)">SimilarWeb</li>
+    </ul>
+    <div id="table-container" class="table-container"></div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1"></script>
+  <script src="https://cdn.datatables.net/plug-ins/1.12.1/sorting/any-number.js" type="text/javascript"></script>
+  <script>
+    var urls = [
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheetimporttest0.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet19.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet12.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheetlinkedinecosystem.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet7.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet8.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet2.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet3.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet1.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet5.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet9.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet11.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheetlinkedinalgorand.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheeteventcalendar.csv",
+      "https://raw.githubusercontent.com/algotables/algotables.github.io/main/data/testsheet10.csv"
+    ];
+
+    var columnDefs = [
+      [
+        // Column definitions for Tab 0 (Ecosystem Main)
+        { type: "any-number", targets: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 1 (Ecosystem Teams)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 2 (Ecosystem Blogs)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 3 (Ecosystem Jobs)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 4 (Pools / Farms)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 5 (ALGO Bounties)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 6 (ALGO Prices)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 7 (ALGO Whales)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 8 (Algorand News)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 9 (Algorand Dev Posts)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 10 (Algorand Scholar)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 11 (Algorand Blogs)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 12 (Algorand Jobs)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 13 (Event Calendar)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ],
+      [
+        // Column definitions for Tab 14 (SimilarWeb)
+        //{ targets: 0, visible: true },
+        //{ targets: 1, visible: false },
+        //{ targets: 2, visible: true },
+        // Add or modify column definitions as needed
+      ]
+    ];
+
+    var dataTable = null;
+
+    // Helper function to set the active tab
+    function setActiveTab(tabIndex) {
+      var tabs = document.querySelectorAll('.tabs li.tab');
+      tabs.forEach(function(tab) {
+        tab.classList.remove('active');
+      });
+
+      var activeTab = document.querySelector('.tabs li:nth-child(' + (tabIndex + 1) + ')');
+      activeTab.classList.add('active');
+    }
+
+    function switchTab(tabIndex) {
+      var tableContainer = document.getElementById("table-container");
+      tableContainer.innerHTML = "";
+
+      // Set the active tab
+      setActiveTab(tabIndex);
+
+      if (dataTable !== null) {
+        dataTable.destroy();
+      }
+
+      Papa.parse(urls[tabIndex], {
+        download: true,
+        header: true,
+        complete: function (results) {
+          var data = results.data;
+          var columns = Object.keys(data[0]);
+
+          var table = document.createElement("table");
+          var thead = document.createElement("thead");
+          var tbody = document.createElement("tbody");
+
+          var trHead = document.createElement("tr");
+          columns.forEach(function (column) {
+            var th = document.createElement("th");
+            th.textContent = column;
+            trHead.appendChild(th);
+          });
+
+          thead.appendChild(trHead);
+
+          data.forEach(function (row) {
+            var tr = document.createElement("tr");
+            columns.forEach(function (column) {
+              var td = document.createElement("td");
+              td.textContent = row[column];
+              tr.appendChild(td);
+            });
+            tbody.appendChild(tr);
+          });
+
+          table.appendChild(thead);
+          table.appendChild(tbody);
+
+          tableContainer.appendChild(table);
+
+          // Initialize DataTables plugin
+          dataTable = $(table).DataTable({
+            paging: false,
+            ordering: true,
+            searching: false,
+            info: false,
+            responsive: true,
+            columnDefs: columnDefs[tabIndex] // Set the column definitions for the current table
+          });
+        }
+      });
+
+      // Save the last active tab in localStorage
+      localStorage.setItem('lastActiveTab', tabIndex);
+    }
+
+    // Retrieve the last active tab from localStorage
+    var lastActiveTab = localStorage.getItem('lastActiveTab');
+
+    // Initially load the last active tab or default to the first tab
+    switchTab(lastActiveTab !== null ? parseInt(lastActiveTab) : 0);
+  </script>
+</body>
+</html>
