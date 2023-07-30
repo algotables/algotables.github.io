@@ -11,7 +11,7 @@
 "ALGO","USDC",1,31566704,2.6,152,1549,"Algofi","https://info.algofi.org/pool-info/605929989"
 "goBTC","STBL",386192725,465865291,1.1,24,617,"Algofi","https://info.algofi.org/pool-info/635846127"
 "XET","STBL",283820866,465865291,4.5,1,731,"Algofi","https://info.algofi.org/pool-info/635256627"
-"USDt","USDC",312769,31566704,1,70,1109,"Algofi","https://info.algofi.org/pool-info/659678644"
+"USDt","USDC",312769,31566704,0.6,70,696,"Algofi","https://info.algofi.org/pool-info/659678644"
 "USDt","STBL",312769,465865291,0.1,7,93,"Algofi","https://info.algofi.org/pool-info/659677335"
 "ALGO","VYBE",1,558978094,0.1,2,11,"Algofi","https://info.algofi.org/pool-info/688675907"
 "STBL","DEFLY",465865291,470842789,1.5,6,89,"Algofi","https://info.algofi.org/pool-info/624956175"
