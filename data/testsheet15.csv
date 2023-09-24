@@ -1,6 +1,6 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
 "ALGO","gALGO","NaN","NaN",0.1,17416,76913,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"goBTC","WBTC","NaN","NaN",0,338,1421,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"goBTC","WBTC","NaN","NaN",0,338,1413,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fUSDC","fUSDt","NaN","NaN",0,356,1836,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goETH","WETH","NaN","NaN",0,28,2020,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fgALGO","NaN","NaN",0,590,11022,"PactFi","https://app.pact.fi/add-liquidity/NaN"
