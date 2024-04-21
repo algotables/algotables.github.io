@@ -12,7 +12,7 @@ Twitter: https://twitter.com/algotables
 
 Categories: Analytics, Education, News Sharing
 
-An open source suite of tools designed to make the projects and DApps building on Algorand ($ALGO) more accessible.
+An open source suite of tools designed to make the projects and dApps building on Algorand ($ALGO) more accessible.
 
 Overview of how Algorand is being used :
 
