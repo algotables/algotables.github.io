@@ -44,7 +44,6 @@
 "USDC","Vote","NaN","NaN",0.5,3599,19050,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","COOP","NaN","NaN",3.3,391,5024,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goMINT","goUSD","NaN","NaN",0.6,135,831,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"BASED","TINY","NaN","NaN",1.4,346,871,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDt","goUSD","NaN","NaN",4.5,27101,81826,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","COSG","NaN","NaN",1,271,1317,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goBTC","Finite","NaN","NaN",1,53,355,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -185,3 +184,4 @@
 "AKTA","BASED","NaN","NaN",2.7,2,8,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","COOP","NaN","NaN",1.6,0,4,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Vote","goUSD","NaN","NaN",0,2,9,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"WBTC","BASED","NaN","NaN",2.9,0,8,"PactFi","https://app.pact.fi/add-liquidity/NaN"
