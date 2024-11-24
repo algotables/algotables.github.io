@@ -161,7 +161,6 @@
 "ALGO","THC","NaN","NaN",2.9,16,82,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fGARD","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Peps","NaN","NaN",8.8,2,65,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"goETH","PEIPEI","NaN","NaN",3.4,23,26,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "CRSD","MUSTARD","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ARBZ","IPT","NaN","NaN",3.9,5,28,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "RIO","Finite","NaN","NaN",97.6,248,720,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -185,3 +184,4 @@
 "ALGO","COOP","NaN","NaN",13.8,23,75,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "WBTC","BASED","NaN","NaN",13.4,11,73,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SOL","BASED","NaN","NaN",18.3,11,95,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"goBTC","AGR","NaN","NaN",3.5,3,19,"PactFi","https://app.pact.fi/add-liquidity/NaN"
