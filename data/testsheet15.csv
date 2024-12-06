@@ -42,6 +42,7 @@
 "mALGO","wstETH","NaN","NaN",2.3,2372,7444,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goBTC","Finite","NaN","NaN",14.3,2719,11512,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Vote","NaN","NaN",3,386,2713,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"USDC","TINY","NaN","NaN",33.1,0,1,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","COOP","NaN","NaN",6.4,3413,17590,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","chip","NaN","NaN",0.8,989,2491,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","ARBZ","NaN","NaN",6.6,1349,4441,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "USDC","Choice","NaN","NaN",0.6,90,333,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "WBTC","Max","NaN","NaN",14.9,14,106,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SILVER$","goUSD","NaN","NaN",46.9,11,1165,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"USDC","RUGNINJA","NaN","NaN",75.5,72,542,"PactFi","https://app.pact.fi/add-liquidity/NaN"
