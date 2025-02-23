@@ -138,6 +138,7 @@
 "USDC","ARBZ","NaN","NaN",4.3,3,76,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GOLD$","ARBZ","NaN","NaN",4.2,0,74,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","THC","NaN","NaN",0.8,0,14,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"RIO","Finite","NaN","NaN",141.8,22,877,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Block","NaN","NaN",0.1,0,4,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","ALGX","NaN","NaN",1.5,1,24,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fGOLD$","NaN","NaN",5.8,0,94,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "BLOOM","IPT","NaN","NaN",1.4,3,13,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","BPM","NaN","NaN",2.5,3,16,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "MUSTARD","FBET","NaN","NaN",2.8,2,11,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"Finite","MEEP","NaN","NaN",1.8,0,13,"PactFi","https://app.pact.fi/add-liquidity/NaN"
