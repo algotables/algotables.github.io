@@ -1,6 +1,6 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
-"ALGO","USDt",0,312769,17.8,854,4540,"HumbleSwap","https://app.humble.sh/pool/add/777639704"
-"ALGO","USDC",0,31566704,17.1,6896,41071,"HumbleSwap","https://app.humble.sh/pool/add/777628254"
+"ALGO","USDt",0,312769,17.8,853,4542,"HumbleSwap","https://app.humble.sh/pool/add/777639704"
+"ALGO","USDC",0,31566704,17.1,6862,41062,"HumbleSwap","https://app.humble.sh/pool/add/777628254"
 "ALGO","goUSD",0,672913181,12.4,199,1483,"HumbleSwap","https://app.humble.sh/pool/add/835609896"
 "ALGO","Planets",0,27165954,10.5,8,128,"HumbleSwap","https://app.humble.sh/pool/add/787300124"
 "USDC","USDt",31566704,312769,6.6,65,420,"HumbleSwap","https://app.humble.sh/pool/add/771891102"
