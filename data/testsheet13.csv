@@ -94,7 +94,7 @@
 "OPUL","USDC",287867876,31566704,2.2,25,294,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=287867876&asset_2=31566704"
 "FLAMINGO","ALGO",406383570,0,1.9,7,106,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=406383570&asset_2=0"
 "VEG","ALGO",582025225,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=582025225&asset_2=0"
-"XET","YLDY",283820866,226701642,0.9,3,29,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=283820866&asset_2=226701642"
+"XET","YLDY",283820866,226701642,1,4,30,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=283820866&asset_2=226701642"
 "INLOVE","ALGO",777747959,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=777747959&asset_2=0"
 "Doggo","ALGO",352658929,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=352658929&asset_2=0"
 "STBL","Vote",465865291,452399768,1,6,18,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=465865291&asset_2=452399768"
