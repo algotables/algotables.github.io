@@ -141,6 +141,7 @@
 "CAT","IPT","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","goETH","NaN","NaN",1,2,56,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "EURS","META","NaN","NaN",1.5,5,82,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"RIO","Max","NaN","NaN",16.4,2,60,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","THC","NaN","NaN",8.1,0,109,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goBTC","MIT","NaN","NaN",1.5,6,73,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","NIKO","NaN","NaN",0.3,3,12,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "ALGO","chip","NaN","NaN",0.5,1,11,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "EURS","xUSD","NaN","NaN",0.2,7,39,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","GLIZZY","NaN","NaN",0.2,0,1,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"fALGO","fGARD","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
