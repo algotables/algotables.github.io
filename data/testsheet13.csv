@@ -99,3 +99,4 @@
 "QRC","USDC",769556781,31566704,2,4,46,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=769556781&asset_2=31566704"
 "TREES","ALGO",444108880,0,0.2,0,4,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=444108880&asset_2=0"
 "Finite","ALGO",400593267,0,0.8,6,13,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=400593267&asset_2=0"
+"Ipsum Unit Name 1","Ipsum Unit Name 2","Ipsum Pool ID 1","Ipsum Pool ID 2","Ipsum Week APR","Ipsum Daily Pool Volume","Ipsum Weekly Pool Volume","Ipsum AMM","Ipsum URL"
