@@ -174,7 +174,6 @@
 "Finite","CORN","NaN","NaN",12.4,13,412,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "LINK","MIST","NaN","NaN",32.5,13,920,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fLINK","NaN","NaN",1.8,9,161,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"SCOUT","HOG","NaN","NaN",1.4,35,1096,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "UNIT","HOG","NaN","NaN",1.7,45,1330,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "aVoi","U","NaN","NaN",13.3,28,308,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SILVER$","HOG","NaN","NaN",17.7,127,417,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -185,3 +184,4 @@
 "ALGO","Gold","NaN","NaN",0.2,21,432,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goBTC","CORN","NaN","NaN",11.3,10,321,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fGOLD$","NaN","NaN",21.1,659,1632,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"GOLD$","MIT","NaN","NaN",8.7,67,439,"PactFi","https://app.pact.fi/add-liquidity/NaN"
