@@ -59,7 +59,7 @@
 "CRSD","ALGO",435335235,0,0.1,1,1,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=435335235&asset_2=0"
 "DPANDA","ALGO",391379500,0,6.6,1,85,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=391379500&asset_2=0"
 "Dirty","ALGO",777668262,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=777668262&asset_2=0"
-"RIO","ALGO",2751733,0,3.2,252,2036,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=2751733&asset_2=0"
+"RIO","ALGO",2751733,0,3.2,256,2039,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=2751733&asset_2=0"
 "goETH","ALGO",386195940,0,1.1,25,210,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=386195940&asset_2=0"
 "Butts","ALGO",753137719,0,0.1,0,11,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=753137719&asset_2=0"
 "FLAMINGO","ALGO",406383570,0,1,23,55,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=406383570&asset_2=0"
