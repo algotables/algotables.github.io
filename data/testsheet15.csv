@@ -114,6 +114,7 @@
 "Finite","POW","NaN","NaN",1.7,18,106,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fUSDC","fEURS","NaN","NaN",0.2,40,274,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","CORN","NaN","NaN",3.5,18,203,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"MEEP","HOG","NaN","NaN",1.5,20,406,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","UNIT","NaN","NaN",13.3,180,741,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "MIST","HOG","NaN","NaN",0.7,103,1200,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","HAY","NaN","NaN",13.5,25,764,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "USDC","DOD","NaN","NaN",2.9,4,50,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","MINE","NaN","NaN",0,20,117,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GOLD$","MIT","NaN","NaN",1.6,11,104,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"SOL","HOG","NaN","NaN",0.3,51,640,"PactFi","https://app.pact.fi/add-liquidity/NaN"
