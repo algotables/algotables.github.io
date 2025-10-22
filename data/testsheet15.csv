@@ -177,6 +177,7 @@
 "WBTC","Max","NaN","NaN",5.5,11,128,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","aAlgo","NaN","NaN",1.7,48,286,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","GAIN","NaN","NaN",0,1,4,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"fALGO","fLINK","NaN","NaN",2.1,18,150,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","OPUL","NaN","NaN",8.4,36,561,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","COMPX","NaN","NaN",5.5,34,138,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "COMPX","HOG","NaN","NaN",0.5,87,570,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "ALGO","Gold","NaN","NaN",0.1,18,134,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GEMS","BLAPU","NaN","NaN",2.1,10,42,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","ACORN","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"fALGO","fGOLD$","NaN","NaN",17,144,1072,"PactFi","https://app.pact.fi/add-liquidity/NaN"
