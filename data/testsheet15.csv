@@ -124,6 +124,7 @@
 "ALGO","UNIT","NaN","NaN",9.5,42,397,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","ALPHA","NaN","NaN",20,179,821,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SOL","MIST","NaN","NaN",6.3,219,289,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"DOD","HOG","NaN","NaN",0.8,45,225,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goETH","MIST","NaN","NaN",6.4,201,265,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Vote","TALGO","NaN","NaN",0.2,137,549,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goETH","PEPE","NaN","NaN",4.5,0,208,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "ALGO","MINE","NaN","NaN",0.1,23,149,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Max","NaN","NaN",15.2,81,250,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","ATARD","NaN","NaN",1,2,11,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"COMPX","MOOJ","NaN","NaN",6,4,72,"PactFi","https://app.pact.fi/add-liquidity/NaN"
