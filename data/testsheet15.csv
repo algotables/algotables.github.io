@@ -128,7 +128,6 @@
 "goETH","WETH","NaN","NaN",0.5,27,244,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","UNIT","NaN","NaN",8.9,30,296,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Vote","TALGO","NaN","NaN",0.1,20,402,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"MIST","HOG","NaN","NaN",0.9,35,1166,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "HAY","HOG","NaN","NaN",15.3,9,551,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fWETH","NaN","NaN",1.2,15,131,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ANGRY","HOG","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +183,5 @@
 "META","WETH","NaN","NaN",0.5,2,41,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","OPUL","NaN","NaN",9,86,418,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","ACORN","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"MIST","HOG","NaN","NaN",0.9,35,1166,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Tacos","HOG","NaN","NaN",0.6,12,237,"PactFi","https://app.pact.fi/add-liquidity/NaN"
