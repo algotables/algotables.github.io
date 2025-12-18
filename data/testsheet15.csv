@@ -134,7 +134,6 @@
 "goETH","WETH","NaN","NaN",2.2,82,914,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","UNIT","NaN","NaN",7.7,31,245,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "VEST","HOG","NaN","NaN",8.4,25,270,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"xUSD","HOG","NaN","NaN",0.6,72,1697,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "iGA","HOG","NaN","NaN",0.5,26,510,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "HOG","WAD","NaN","NaN",0.1,22,115,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "iGA","HOG","NaN","NaN",3.1,4,107,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -185,3 +184,4 @@
 "CARD","HOG","NaN","NaN",0.3,11,154,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "POOR","HOG","NaN","NaN",0.2,7,117,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GORA","HOG","NaN","NaN",22.2,5,509,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"ALC","HOG","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
