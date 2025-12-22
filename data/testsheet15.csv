@@ -162,6 +162,7 @@
 "WAVAX","MIST","NaN","NaN",8.3,6,130,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Gold","NaN","NaN",0.1,10,190,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","COO","NaN","NaN",1,0,18,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"META","WETH","NaN","NaN",0.6,2,21,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","$monko","NaN","NaN",35.4,125,616,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALPHA","HOG","NaN","NaN",9.5,20,145,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "MemO","MARCUS","NaN","NaN",1,24,59,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "ALGO","ACORN","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "WETH","Max","NaN","NaN",2.8,2,29,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","OPUL","NaN","NaN",6.6,8,251,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"UNIT","HOG","NaN","NaN",13.6,3,192,"PactFi","https://app.pact.fi/add-liquidity/NaN"
