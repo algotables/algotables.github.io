@@ -2,7 +2,7 @@
 "USDC","ALGO",31566704,0,2.4,3459,16799,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=31566704&asset_2=0"
 "gALGO","USDC",793124631,31566704,1.1,49,239,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=793124631&asset_2=31566704"
 "SEEDS","ALGO",523605642,0,0,0,1,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=523605642&asset_2=0"
-"DEFLY","ALGO",470842789,0,0.4,1,20,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=470842789&asset_2=0"
+"DEFLY","ALGO",470842789,0,0.4,0,20,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=470842789&asset_2=0"
 "OCTO","ALGO",559219992,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=559219992&asset_2=0"
 "ALCH","ALGO",310014962,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=310014962&asset_2=0"
 "TDOG","ALGO",403994368,0,0.1,1,2,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=403994368&asset_2=0"
