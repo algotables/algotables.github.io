@@ -130,6 +130,7 @@
 "fALGO","fWETH","NaN","NaN",1.4,31,137,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","UNIT","NaN","NaN",3.2,4,84,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","CORN","NaN","NaN",0.6,7,15,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"IPT","HOG","NaN","NaN",0.6,24,74,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goUSD","gALGO","NaN","NaN",2.9,29,226,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Vote","NaN","NaN",1.6,29,139,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goMINT","X-NFT","NaN","NaN",0.7,2,10,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "ALGO","POW","NaN","NaN",4.1,26,194,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","HOG","NaN","NaN",6.9,9,88,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "WETH","Max","NaN","NaN",2,2,25,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"xALGO","HOG","NaN","NaN",0.1,22,140,"PactFi","https://app.pact.fi/add-liquidity/NaN"
