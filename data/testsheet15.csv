@@ -161,7 +161,6 @@
 "USDC","MINE","NaN","NaN",0.1,29,206,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "X-NFT","HOG","NaN","NaN",0.2,67,135,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "$monko","HOG","NaN","NaN",0.8,16,468,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"HOOP","HOG","NaN","NaN",0.2,45,148,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SILVER$","HOG","NaN","NaN",0.2,36,483,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Vote","NaN","NaN",0.2,44,323,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GoldDAO","HOG","NaN","NaN",0.1,8,76,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -185,3 +184,4 @@
 "WAVAX","MIST","NaN","NaN",4.6,19,70,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GEMS","HOG","NaN","NaN",0,5,31,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goETH","HOG","NaN","NaN",0.1,8,94,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"ALGO","Gold","NaN","NaN",0,3,45,"PactFi","https://app.pact.fi/add-liquidity/NaN"
