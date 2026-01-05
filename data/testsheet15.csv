@@ -122,6 +122,7 @@
 "goBTC","MIST","NaN","NaN",2.6,19,75,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","UNIT","NaN","NaN",0.1,68,392,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Vote","TALGO","NaN","NaN",0.1,50,236,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"GOON","POW","NaN","NaN",12.6,2,186,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goETH","WETH","NaN","NaN",0.8,2,348,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","UNIT","NaN","NaN",3.6,19,118,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "WBTC","Max","NaN","NaN",1.5,9,49,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "UNIT","HOG","NaN","NaN",1.6,8,26,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SILVER$","U","NaN","NaN",14.3,58,198,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GOLD$","U","NaN","NaN",2.8,8,37,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"ALGO","COMPX","NaN","NaN",5.4,17,84,"PactFi","https://app.pact.fi/add-liquidity/NaN"
