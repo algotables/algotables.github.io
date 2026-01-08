@@ -168,7 +168,6 @@
 "aVoi","HOG","NaN","NaN",0,5,69,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","COO","NaN","NaN",7,30,146,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SILVER$","xUSD","NaN","NaN",4.1,23,316,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"SILVER$","HOG","NaN","NaN",0.1,18,189,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "HOOP","HOG","NaN","NaN",0.2,6,133,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "WAVAX","MIST","NaN","NaN",8.5,2,129,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","aAlgo","NaN","NaN",0.3,0,47,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -185,3 +184,4 @@
 "U","HOG","NaN","NaN",0.1,5,46,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","COO","NaN","NaN",4,19,79,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","IPT","NaN","NaN",17.7,6,103,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"goMINT","X-NFT","NaN","NaN",22.9,26,603,"PactFi","https://app.pact.fi/add-liquidity/NaN"
