@@ -1,6 +1,6 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
-"USDC","ALGO",31566704,0,2.7,1853,19268,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=31566704&asset_2=0"
-"gALGO","USDC",793124631,31566704,1.5,34,330,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=793124631&asset_2=31566704"
+"USDC","ALGO",31566704,0,2.7,1853,19223,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=31566704&asset_2=0"
+"gALGO","USDC",793124631,31566704,1.5,34,328,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=793124631&asset_2=31566704"
 "BIRDS","ALGO",478549868,0,0.5,5,54,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=478549868&asset_2=0"
 "DEGEN","ALGO",417708610,0,9.5,294,543,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=417708610&asset_2=0"
 "VEG","ALGO",582025225,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=582025225&asset_2=0"
