@@ -91,6 +91,7 @@
 "USDC","OPUL","NaN","NaN",7.5,31,387,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fSOL","NaN","NaN",1,18,217,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","xUSD","NaN","NaN",4.9,49,983,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"MEEP","HOG","NaN","NaN",0.9,4,80,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","WAD","NaN","NaN",0.8,1,41,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "CORN","HOG","NaN","NaN",2.2,6,152,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","xUSD","NaN","NaN",0.9,105,2018,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "ALGO","ACORN","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","ALPHA","NaN","NaN",33.2,25,432,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "WETH","Max","NaN","NaN",2.9,0,40,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"xUSD","MOOJ","NaN","NaN",3.3,10,64,"PactFi","https://app.pact.fi/add-liquidity/NaN"
