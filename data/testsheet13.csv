@@ -1,5 +1,5 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
-"USDC","ALGO",31566704,0,9.4,3848,60175,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=31566704&asset_2=0"
+"USDC","ALGO",31566704,0,9.5,3844,60166,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=31566704&asset_2=0"
 "gALGO","USDC",793124631,31566704,4.3,54,840,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=793124631&asset_2=31566704"
 "FACTR","ALGO",984420777,0,2.3,13,216,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=984420777&asset_2=0"
 "TLP","USDt",987374809,312769,1.5,18,78,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=987374809&asset_2=312769"
@@ -97,5 +97,5 @@
 "DCAT","ALGO",408389152,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=408389152&asset_2=0"
 "QRC","USDC",769556781,31566704,2.3,2,35,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=769556781&asset_2=31566704"
 "INLOVE","ALGO",777747959,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=777747959&asset_2=0"
-"BUY","ALGO",137020565,0,3.4,0,29,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=137020565&asset_2=0"
+"BUY","ALGO",137020565,0,3.3,0,29,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=137020565&asset_2=0"
 "BIRDS","CRSD",478549868,435335235,0,0,3,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=478549868&asset_2=435335235"
