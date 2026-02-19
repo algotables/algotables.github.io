@@ -44,6 +44,7 @@
 "Vote","aAlgo","NaN","NaN",0,0,15,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Gold","NaN","NaN",0.1,89,704,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Max","COMPX","NaN","NaN",9.7,190,1322,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"COMPX","MOOJ","NaN","NaN",537.8,215,1690,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","GoldDAO","NaN","NaN",0.6,339,2393,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","BLAPU","NaN","NaN",5.5,8,710,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","ASASTATS","NaN","NaN",1.8,524,840,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "HOG","CORVID","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","SELL","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","DEFLY","NaN","NaN",0.2,0,4,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"NOVA","HOG","NaN","NaN",1,8,219,"PactFi","https://app.pact.fi/add-liquidity/NaN"
