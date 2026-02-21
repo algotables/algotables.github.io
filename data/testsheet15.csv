@@ -124,6 +124,7 @@
 "ALGO","Vote","NaN","NaN",0.4,6,30,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","MINE","NaN","NaN",0.2,21,304,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","POW","NaN","NaN",3.1,0,59,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"$monko","HOG","NaN","NaN",1.2,4,117,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "MIT","HOG","NaN","NaN",0.5,3,10,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "COSG","HOG","NaN","NaN",0.4,0,20,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","COO","NaN","NaN",2.6,2,46,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "ALGO","DEFLY","NaN","NaN",0.3,0,7,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDt","HOG","NaN","NaN",25.6,1,664,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "xUSD","COMPX","NaN","NaN",623.3,806,17534,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"Finite","SELL","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
