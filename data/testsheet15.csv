@@ -57,6 +57,7 @@
 "ALGO","ASASTATS","NaN","NaN",2.1,2,821,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Finite","NaN","NaN",1.2,8,123,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","UNIT","NaN","NaN",6,0,607,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"COMPX","HOG","NaN","NaN",27,248,1295,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fgALGO","NaN","NaN",0.1,22,206,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fSILVER$","NaN","NaN",5.9,87,1669,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "BLAPU","HOG","NaN","NaN",0.6,0,68,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "ALGO","OPUL","NaN","NaN",3.9,7,92,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","DEGEN","NaN","NaN",0,0,1,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Max","SELL","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"BLAPU","COOP","NaN","NaN",0,0,4,"PactFi","https://app.pact.fi/add-liquidity/NaN"
