@@ -1,7 +1,7 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
 "HIVE","AETF","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"ALGO","USDC","NaN","NaN",6.2,28825,142152,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","USDC","NaN","NaN",4.4,30164,150096,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"ALGO","USDC","NaN","NaN",6.2,28825,142152,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "CURATOR","CRSD","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fUSDC","NaN","NaN",5.5,8301,34259,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fUSDC","fSILVER$","NaN","NaN",9.2,23466,40762,"PactFi","https://app.pact.fi/add-liquidity/NaN"
