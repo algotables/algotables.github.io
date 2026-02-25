@@ -83,6 +83,7 @@
 "SHIP","HOG","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","COSG","NaN","NaN",0.8,27,157,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fGOLD$","NaN","NaN",3.4,50,483,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"PGOLD","HOG","NaN","NaN",0.5,0,21,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "COSG","POW","NaN","NaN",6,2,97,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ASASTATS","POW","NaN","NaN",8,29,300,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "aVoi","POW","NaN","NaN",4.9,14,174,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "META","WETH","NaN","NaN",0.8,2,22,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "BLAPU","COOP","NaN","NaN",0.2,0,1,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","OPUL","NaN","NaN",4.8,9,104,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"HOG","CORVID","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
