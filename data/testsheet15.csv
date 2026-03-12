@@ -113,6 +113,7 @@
 "goETH","WETH","NaN","NaN",0.8,7,285,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "WAVAX","MIST","NaN","NaN",2.3,4,60,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","ALPHA","NaN","NaN",3.6,39,104,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"WOOP","POW","NaN","NaN",6.6,0,3,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goBTC","HOG","NaN","NaN",1.4,4,38,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GOLD$","TKN","NaN","NaN",0.2,1,6,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SILVER$","TKN","NaN","NaN",0.7,0,17,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "GLIZZY","$BONER","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ARBZ","POW","NaN","NaN",3.2,0,20,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "HOG","CORVID","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"fALGO","fWAVAX","NaN","NaN",0.8,1,25,"PactFi","https://app.pact.fi/add-liquidity/NaN"
