@@ -1,4 +1,5 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
+"COMPX","U","NaN","NaN",39.7,1626,20715,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "HIVE","AETF","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","USDC","NaN","NaN",3.4,18694,115629,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","USDC","NaN","NaN",4.8,17080,103277,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -65,7 +66,6 @@
 "ALGO","VEST","NaN","NaN",1.4,30,214,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "NIKO","POW","NaN","NaN",0.6,13,112,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","goUSD","NaN","NaN",0.1,53,474,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"COMPX","U","NaN","NaN",39.7,1626,20715,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "fALGO","fgALGO","NaN","NaN",0.1,23,203,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "DOD","CORN","NaN","NaN",0,0,18,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GOLD$","goUSD","NaN","NaN",1.2,43,332,"PactFi","https://app.pact.fi/add-liquidity/NaN"
