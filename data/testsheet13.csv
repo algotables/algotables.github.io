@@ -8,7 +8,7 @@
 "STKE","ALGO",511484048,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=511484048&asset_2=0"
 "xROO","ALGO",575358142,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=575358142&asset_2=0"
 "INLOVE","ALGO",777747959,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=777747959&asset_2=0"
-"Finite","ALGO",400593267,0,0.8,1,6,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=400593267&asset_2=0"
+"Finite","ALGO",400593267,0,0.8,0,6,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=400593267&asset_2=0"
 "USDC","USDt",31566704,312769,1,107,1015,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=31566704&asset_2=312769"
 "goBTC","ALGO",386192725,0,2.9,49,643,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=386192725&asset_2=0"
 "TLP","USDt",987374809,312769,0.7,7,72,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=987374809&asset_2=312769"
