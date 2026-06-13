@@ -1,5 +1,5 @@
 "Unit 1 Name","Unit 2 Name","Unit ID 1","Unit ID 2","Weekly APR","Daily Volume (USD)","Weekly Volume (USD)","AMM","URL"
-"USDC","ALGO",31566704,0,4.2,2195,25891,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=31566704&asset_2=0"
+"USDC","ALGO",31566704,0,4.2,2195,25821,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=31566704&asset_2=0"
 "gALGO","USDC",793124631,31566704,2.1,25,389,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=793124631&asset_2=31566704"
 "goETH","ALGO",386195940,0,1.1,5,94,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=386195940&asset_2=0"
 "Choice","ALGO",297995609,0,0.3,1,11,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=297995609&asset_2=0"
