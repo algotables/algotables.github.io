@@ -171,6 +171,7 @@
 "ALGO","Max","NaN","NaN",2.1,0,15,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "GEMS","PEPE","NaN","NaN",0.1,0,4,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","$jUSD","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"LTBX","HOG","NaN","NaN",0,1,5,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","SELL","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","xUSD","NaN","NaN",0.5,2,13,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","USDC","NaN","NaN",3.3,3,22,"PactFi","https://app.pact.fi/add-liquidity/NaN"
@@ -184,4 +185,3 @@
 "PHEZZIES","HOG","NaN","NaN",0.1,2,11,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "Finite","CORN","NaN","NaN",0.4,0,2,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "MOOJ","HOG","NaN","NaN",0.1,4,43,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"WOOD","ORA","NaN","NaN",0.6,0,4,"PactFi","https://app.pact.fi/add-liquidity/NaN"
