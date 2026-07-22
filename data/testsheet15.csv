@@ -66,7 +66,7 @@
 "MCAU","GOLD$","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "SILVER$","goUSD","NaN","NaN",0.3,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","Tacos","NaN","NaN",0.2,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"ALGO","COSG","NaN","NaN",0.1,0,18,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"ALGO","COSG","NaN","NaN",0.2,0,18,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","SILVER$","NaN","NaN",0.6,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","GARD","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goMINT","goUSD","NaN","NaN",1,0,5,"PactFi","https://app.pact.fi/add-liquidity/NaN"
