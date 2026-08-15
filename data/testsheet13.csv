@@ -90,7 +90,7 @@
 "BUY","ALGO",137020565,0,0,6,355,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=137020565&asset_2=0"
 "BIRDS","CRSD",478549868,435335235,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=478549868&asset_2=435335235"
 "gALGO","USDC",793124631,31566704,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=793124631&asset_2=31566704"
-"BIRDS","ALGO",478549868,0,0.2,0,10,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=478549868&asset_2=0"
+"BIRDS","ALGO",478549868,0,0.1,0,10,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=478549868&asset_2=0"
 "Nekos","ALGO",404044168,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=404044168&asset_2=0"
 "goBTC","USDC",386192725,31566704,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=386192725&asset_2=31566704"
 "VETS","ALGO",610886011,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=610886011&asset_2=0"
