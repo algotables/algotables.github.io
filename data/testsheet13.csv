@@ -24,7 +24,7 @@
 "TLP","USDt",987374809,312769,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=987374809&asset_2=312769"
 "TWINK","ALGO",790465979,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=790465979&asset_2=0"
 "LUNAR","ALGO",416737271,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=416737271&asset_2=0"
-"ALCH","ALGO",310014962,0,0,1,1,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=310014962&asset_2=0"
+"ALCH","ALGO",310014962,0,0.3,0,1,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=310014962&asset_2=0"
 "ALGF","ALGO",463554836,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=463554836&asset_2=0"
 "chip","ALGO",388592191,0,0.1,0,1,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=388592191&asset_2=0"
 "CRSD","ALGO",435335235,0,0.2,0,1,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=435335235&asset_2=0"
