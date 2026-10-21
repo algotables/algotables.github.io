@@ -202,7 +202,7 @@
 "USDC","goUSD","NaN","NaN",0.3,63,899,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "ALGO","gALGO","NaN","NaN",0.3,24,2250,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDC","xUSD","NaN","NaN",0.1,0,2,"PactFi","https://app.pact.fi/add-liquidity/NaN"
-"USDt","USDC","NaN","NaN",1.8,60,645,"PactFi","https://app.pact.fi/add-liquidity/NaN"
+"USDt","USDC","NaN","NaN",1.8,58,645,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goBTC","WBTC","NaN","NaN",2.3,22,527,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "goETH","WETH","NaN","NaN",4.2,3,603,"PactFi","https://app.pact.fi/add-liquidity/NaN"
 "USDt","goUSD","NaN","NaN",0,0,0,"PactFi","https://app.pact.fi/add-liquidity/NaN"
