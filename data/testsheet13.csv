@@ -76,7 +76,7 @@
 "LUNAR","ALGO",416737271,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=416737271&asset_2=0"
 "STKE","ALGO",511484048,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=511484048&asset_2=0"
 "Doggo","ALGO",352658929,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=352658929&asset_2=0"
-"XET","YLDY",283820866,226701642,1,1,4,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=283820866&asset_2=226701642"
+"XET","YLDY",283820866,226701642,0.9,1,4,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=283820866&asset_2=226701642"
 "$MNTS","ALGO",714976897,0,0,0,0,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=714976897&asset_2=0"
 "BIRDS","CRSD",478549868,435335235,0,0,1,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=478549868&asset_2=435335235"
 "STBL","ALGO",465865291,0,1.4,17,307,"Tinyman","https://app.tinyman.org/#/pool/add-liquidity?asset_1=465865291&asset_2=0"
