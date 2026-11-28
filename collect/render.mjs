@@ -182,7 +182,7 @@ ${tile(`Suspensions for absenteeism, last ${s.windowDays.d90} days`, n0(s.suspen
 <h2>Done well elsewhere</h2>
 <ul class="elsewhere">
 <li><a href="https://allo.info">Allo</a> and <a href="https://explorer.perawallet.app">Pera Explorer</a> for accounts, assets and transactions; <a href="https://lora.algokit.io">Lora</a> for developers</li>
-<li><a href="https://vestige.fi">Vestige</a> for prices, charts and swaps</li>
+<li><a href="https://hay.app">Haystack</a> for prices and swaps; <a href="https://dexscreener.com/algorand">DEX Screener</a> for charts</li>
 <li><a href="https://defillama.com/chain/algorand">DefiLlama</a> for DeFi TVL and fees</li>
 <li><a href="https://www.asastats.com">ASA Stats</a> for portfolios</li>
 </ul>`;
