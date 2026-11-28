@@ -285,8 +285,27 @@ export function buildTokens(T, today, { top = 500 } = {}) {
     rows.forEach((r, i) => (r.rank = i + 1));
     out.windows[w] = { coverage, total, tokens: rows.length, rows: rows.slice(0, top) };
   }
+  // Every window side by side for each token on any leaderboard (zero where it didn't move).
+  const ids = [...new Set(WINDOWS.flatMap((w) => out.windows[w].rows.map((r) => String(r.id))))];
+  out.table = ids
+    .map((id) => {
+      const entry = { id: Number(id), name: T.meta[id]?.n ?? null, unit: T.meta[id]?.u ?? null };
+      for (const w of WINDOWS) {
+        entry[`transfers_${w}`] = raw[w].transfers[id] ?? 0;
+        entry[`wallets_${w}`] = Number((raw[w].wallets[id] ?? 0).toFixed(2));
+      }
+      return entry;
+    })
+    .sort((a, b) => b['transfers_24h'] - a['transfers_24h'] || b['transfers_30d'] - a['transfers_30d'] || a.id - b.id);
   return out;
 }
 
-// Token IDs worth naming: everything on any leaderboard.
-export const leaderboardIds = (built) => [...new Set(Object.values(built?.windows ?? {}).flatMap((w) => w.rows.map((r) => String(r.id))))];
+// Token IDs worth naming: everything on any leaderboard, best-ranked first, so the top of every
+// list gets its name before the long tail does.
+export function leaderboardIds(built) {
+  const lists = Object.values(built?.windows ?? {}).map((w) => w.rows);
+  const ids = new Set();
+  const longest = Math.max(0, ...lists.map((rows) => rows.length));
+  for (let i = 0; i < longest; i++) for (const rows of lists) if (rows[i]) ids.add(String(rows[i].id));
+  return [...ids];
+}

@@ -352,7 +352,7 @@ ${tile('Tokens that moved', n0(W.tokens))}
 <label class="search-label" for="token-search">Find a token</label>
 <input id="token-search" class="search" type="search" placeholder="Name, unit or asset ID" data-filter="token-table" autocomplete="off">
 ${table('token-table', tokenColumns(w), W.rows.slice(0, 500), { sorted: { key: 'transfers', dir: 'descending' } })}
-<p class="downloads">${W.tokens > 500 ? `The top 500 of ${n0(W.tokens)} tokens. ` : ''}Every token, every window: <a href="${r}data/tokens.csv">CSV</a> · <a href="${r}data/tokens.json">JSON</a></p>`;
+<p class="downloads">${W.tokens > 500 ? `The top 500 of ${n0(W.tokens)} tokens. ` : ''}Download the leaderboards, every window side by side: <a href="${r}data/tokens.csv">CSV</a> · <a href="${r}data/tokens.json">JSON</a></p>`;
   return page({ title: `Tokens, ${WINDOW_SHORT[w]} · ALGO Tables`, description: `The most active Algorand tokens ${WINDOW_PHRASE[w]}, by transfers and active wallets.`, depth, active: 'Tokens', body, meta });
 }
 
@@ -363,19 +363,8 @@ function tokensPendingPage({ meta }) {
   return page({ title: 'Tokens · ALGO Tables', description: 'The most active Algorand tokens, by transfers and active wallets.', depth: 1, active: 'Tokens', body, meta });
 }
 
-// One row per token, every window side by side.
-function tokensCSV(tokens) {
-  const byId = new Map();
-  for (const w of WINDOWS) {
-    for (const row of tokens.windows[w].rows) {
-      const entry = byId.get(row.id) ?? byId.set(row.id, { id: row.id, name: row.name, unit: row.unit }).get(row.id);
-      entry[`transfers_${w}`] = row.transfers;
-      entry[`wallets_${w}`] = Number(row.wallets.toFixed(2));
-    }
-  }
-  const rows = [...byId.values()].sort((a, b) => (b.transfers_24h ?? 0) - (a.transfers_24h ?? 0) || (b.transfers_30d ?? 0) - (a.transfers_30d ?? 0));
-  return toCSV(rows, ['id', 'name', 'unit', ...WINDOWS.flatMap((w) => [`transfers_${w}`, `wallets_${w}`])]);
-}
+// One row per token on any leaderboard, every window side by side.
+const tokensCSV = (tokens) => toCSV(tokens.table, ['id', 'name', 'unit', ...WINDOWS.flatMap((w) => [`transfers_${w}`, `wallets_${w}`])]);
 
 function methodologyPage({ meta }) {
   const body = `
