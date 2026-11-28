@@ -39,7 +39,8 @@ for (const input of document.querySelectorAll('input[data-filter]')) {
   input.addEventListener('input', () => {
     const query = input.value.trim().toLowerCase();
     for (const row of table.tBodies[0].rows) {
-      const haystack = `${row.dataset.k ?? ''} ${row.textContent}`.toLowerCase();
+      const link = row.querySelector('a[href]');
+      const haystack = `${link ? link.getAttribute('href') : ''} ${row.textContent}`.toLowerCase();
       row.hidden = query !== '' && !haystack.includes(query);
     }
   });

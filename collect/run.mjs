@@ -48,9 +48,9 @@ await step('price', async () => {
   return `$${price.usd}`;
 });
 const recent = proposersSince(S, addDays(today, -89));
-await step('accounts', () => refreshAccounts(accounts, recent, nowSec, 400, 4 * 60_000));
+await step('accounts', () => refreshAccounts(accounts, recent, nowSec, 2500, 4 * 60_000));
 await step('names', async () => {
-  await refreshNames(names, recent, nowSec, 40, 4 * 60_000);
+  await refreshNames(names, recent, nowSec, 125, 4 * 60_000);
   return `${Object.values(names).filter((n) => n.name).length} named`;
 });
 await step('history', () => ingestBackfill(S, trackFrom, 90_000));

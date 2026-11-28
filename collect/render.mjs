@@ -30,7 +30,7 @@ const short = (address) => `${address.slice(0, 5)}…${address.slice(-4)}`;
 const monthLabel = (key) => `${MONTHS[Number(key.slice(5, 7)) - 1]} '${key.slice(2, 4)}`;
 const utc = (sec) => new Date(sec * 1000).toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
 const accountLink = (address, name) =>
-  `<a class="addr" href="https://allo.info/account/${address}" title="${address}">${name ? esc(name) : short(address)}</a>${name ? ` <span class="addr muted">${short(address)}</span>` : ''}`;
+  `<a class="addr" href="https://allo.info/account/${address}">${name ? esc(name) : short(address)}</a>${name ? ` <span class="addr muted">${short(address)}</span>` : ''}`;
 
 function page({ title, description, depth, active, body, meta, root }) {
   const r = root ?? '../'.repeat(depth);
@@ -283,7 +283,7 @@ ${tile(`Suspensions for absenteeism, last ${s.windowDays.d90} days`, n0(s.suspen
 </div>
 <label class="search-label" for="stake-search">Find an account</label>
 <input id="stake-search" class="search" type="search" placeholder="Address or NFD name" data-filter="stake-table" autocomplete="off">
-${table('stake-table', columns, rows, { rowKey: (r) => `${r.address} ${r.name ?? ''}` })}
+${table('stake-table', columns, rows)}
 <p class="downloads">Download: <a href="../data/stake.csv">CSV</a> · <a href="../data/stake.json">JSON</a></p>`;
   return page({ title: 'Stake · ALGO Tables', description: 'Every Algorand account that proposed a block in the last 90 days, with blocks against stake.', depth: 1, active: 'Stake', body, meta });
 }
