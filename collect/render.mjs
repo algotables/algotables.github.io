@@ -1,6 +1,7 @@
 // Static HTML for every page, plus the data files. No framework: plain strings, escaped.
 import { cp } from 'node:fs/promises';
 import { writeOut, toCSV } from './lib.mjs';
+import { WINDOWS } from './tokens.mjs';
 
 const GA_ID = 'G-06STK04RPZ';
 const REPO = 'https://github.com/algotables/algotables.github.io';
@@ -20,6 +21,7 @@ const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&
 const ok = (v) => v != null && Number.isFinite(v);
 const fmt = (digits) => new Intl.NumberFormat('en-US', { maximumFractionDigits: digits, minimumFractionDigits: 0 });
 const n0 = (v) => (ok(v) ? fmt(0).format(v) : '—');
+const n1 = (v) => (ok(v) ? fmt(1).format(v) : '—');
 const n2 = (v) => (ok(v) ? fmt(2).format(v) : '—');
 const n4 = (v) => (ok(v) ? fmt(4).format(v) : '—');
 const compactFmt = new Intl.NumberFormat('en-US', { notation: 'compact', maximumFractionDigits: 2 });
@@ -41,6 +43,7 @@ function page({ title, description, depth, active, body, meta, root }) {
     ['index.html', 'Home'],
     ['security-budget/index.html', 'Security Budget'],
     ['stake/index.html', 'Stake'],
+    ['tokens/index.html', 'Tokens'],
     ['methodology/index.html', 'Method'],
   ]
     .map(([href, label]) => `<a href="${r}${href}"${label === active ? ' aria-current="page"' : ''}>${label}</a>`)
@@ -68,7 +71,7 @@ function page({ title, description, depth, active, body, meta, root }) {
 ${stale}${body}
 </main>
 <footer class="wrap foot">
-<p>Chain data through round ${n0(meta.round)}${meta.lastTime ? ` (${utc(meta.lastTime)})` : ''}, refreshed about every 15 minutes from Algorand block headers via Nodely's free API. <a href="${r}methodology/index.html">How the numbers are made</a> · <a href="${r}data/manifest.json">Data status</a> · <a href="${REPO}">Code</a></p>
+<p>Chain data through round ${n0(meta.round)}${meta.lastTime ? ` (${utc(meta.lastTime)})` : ''}, refreshed about every 15 minutes from Algorand blocks and asset transfers via Nodely's free API. <a href="${r}methodology/index.html">How the numbers are made</a> · <a href="${r}data/manifest.json">Data status</a> · <a href="${REPO}">Code</a></p>
 <p>ALGO Tables is independent and free. Tips go to <a href="https://allo.info/account/${TIP_ADDRESS}">algotables.algo</a>.</p>
 </footer>
 </body>
@@ -157,7 +160,7 @@ function coverageNote(meta) {
   return `<p class="notice">History is still filling in: data now starts ${esc(meta.oldestDay)} and reaches back to January 2025 as the collector works through older blocks (${pct(meta.historyProgress, 0)} done). Totals for earlier periods appear once they're covered.</p>`;
 }
 
-function homePage({ sb, stake, meta }) {
+function homePage({ sb, stake, tokens, meta }) {
   const h = sb.headline;
   const s = stake.summary;
   const body = `
@@ -179,10 +182,13 @@ ${tile(`Accounts proposing, last ${s.windowDays.d30} days`, n0(s.proposers30))}
 ${tile('Largest proposers holding a third of online stake', ok(s.thirdCount) ? n0(s.thirdCount) : '—')}
 ${tile(`Suspensions for absenteeism, last ${s.windowDays.d90} days`, n0(s.suspensions90))}
 </div>
+<h2><a href="tokens/index.html">Tokens</a></h2>
+<p>The most active tokens by transfers, from the last hour to the year so far.</p>
+${tokens ? table('home-tokens', tokenColumns('24h').filter((c) => c.key !== 'share'), tokens.windows['24h'].rows.slice(0, 5), { sorted: { key: 'transfers', dir: 'descending' } }) + `<p class="downloads">Last 24 hours. <a href="tokens/index.html">All tokens and windows</a></p>` : '<p class="muted">Collecting the first day of transfers.</p>'}
 <h2>Coming next</h2>
 <ul>
-<li><strong>ASA Check</strong>: who can freeze or claw back a token, whether they ever have, and who holds it.</li>
-<li><strong>Alive</strong>: which Algorand projects are actually used, measured on-chain.</li>
+<li><strong>Token pages</strong>: holders and activity over time for each token.</li>
+<li><strong>Apps</strong>: which Algorand apps are actually used, measured on-chain.</li>
 </ul>
 <h2>Done well elsewhere</h2>
 <ul class="elsewhere">
@@ -295,6 +301,82 @@ ${table('stake-table', columns, rows, { sorted: { key: 'stake', dir: 'descending
   return page({ title: 'Stake · ALGO Tables', description: 'Every Algorand account that proposed a block in the last 90 days, with blocks against stake.', depth: 1, active: 'Stake', body, meta });
 }
 
+const WINDOW_SHORT = { '1h': '1h', '24h': '24h', '7d': '7d', '30d': '30d', '60d': '60d', '90d': '90d', ytd: 'Year to date' };
+const WINDOW_PHRASE = { '1h': 'in the last hour', '24h': 'in the last 24 hours', '7d': 'over the last 7 days', '30d': 'over the last 30 days', '60d': 'over the last 60 days', '90d': 'over the last 90 days', ytd: 'so far this year' };
+const tokenPath = (w) => (w === '24h' ? 'tokens/index.html' : `tokens/${w}/index.html`);
+const tokenName = (row) => row.name || row.unit || `ASA ${row.id}`;
+const tokenLink = (row) =>
+  `<a class="tok" href="https://allo.info/asset/${row.id}">${esc(tokenName(row))}</a><span class="muted sub">${row.unit && row.name ? `${esc(row.unit)} · ` : ''}${row.id}</span>`;
+const isRolling = (w) => w === '1h' || w === '24h';
+const walletFmt = (w) => (v) => (isRolling(w) || v >= 10 ? n0(v) : n1(v));
+
+function tokenColumns(w) {
+  return [
+    { key: 'rank', label: '#', num: true, fmt: n0 },
+    { key: 'name', label: 'Token', html: tokenLink },
+    { key: 'transfers', label: 'Transfers', num: true, fmt: n0 },
+    { key: 'wallets', label: isRolling(w) ? 'Active wallets' : 'Active wallets per day', num: true, fmt: walletFmt(w) },
+    { key: 'share', label: 'Share of all transfers', num: true, fmt: (v) => pct(v, v >= 0.001 ? 1 : 2) },
+  ];
+}
+
+function tokenCoverage(tokens, w, meta) {
+  const c = tokens.windows[w].coverage;
+  const behind = meta.now - tokens.asOf > 3600;
+  if (isRolling(w)) {
+    if (!c.complete) return `<p class="notice">Still catching up: transfers here run to ${utc(tokens.asOf)}, and this window fills in as the collector reaches the newest blocks.</p>`;
+    return behind ? `<p class="notice">Transfers here run to ${utc(tokens.asOf)}.</p>` : '';
+  }
+  if (c.complete) return '';
+  if (w === 'ytd') return `<p class="notice">Collection started on ${esc(c.from ?? 'today')}, so this year's totals cover ${n0(c.days)} of ${n0(c.of)} days. From January 1 they cover the whole year.</p>`;
+  return `<p class="notice">Collected so far: ${n0(c.days)} of ${n0(c.of)} days${c.from ? ` (${esc(c.from)} to ${esc(c.to)})` : ''}. The rest fills in as the collector works back through older days.</p>`;
+}
+
+function tokensPage({ tokens, w, meta }) {
+  const depth = w === '24h' ? 1 : 2;
+  const r = '../'.repeat(depth);
+  const W = tokens.windows[w];
+  const top = W.rows[0];
+  const switcher = `<nav class="windows" aria-label="Time window">${WINDOWS.map((x) => `<a href="${r}${tokenPath(x)}"${x === w ? ' aria-current="page"' : ''}>${WINDOW_SHORT[x]}</a>`).join('')}</nav>`;
+  const walletsText = top ? (isRolling(w) ? `${n0(top.wallets)} active wallets` : `about ${walletFmt(w)(top.wallets)} active wallets a day`) : '';
+  const body = `
+<h1>Tokens</h1>
+${top ? `<p class="finding">${esc(tokenName(top))} was the most active token ${WINDOW_PHRASE[w]}: ${n0(top.transfers)} transfers, ${pct(top.share, 0)} of all of them, with ${walletsText}.</p>` : ''}
+<p class="lede">Algorand tokens ranked by how often they moved. A transfer is any asset transfer of a non-zero amount, including the ones apps make, such as DEX swaps. Active wallets are the addresses that sent or received the token.</p>
+${switcher}
+${tokenCoverage(tokens, w, meta)}
+<div class="tiles">
+${tile(`Transfers ${WINDOW_PHRASE[w]}`, n0(W.total))}
+${tile('Tokens that moved', n0(W.tokens))}
+</div>
+<label class="search-label" for="token-search">Find a token</label>
+<input id="token-search" class="search" type="search" placeholder="Name, unit or asset ID" data-filter="token-table" autocomplete="off">
+${table('token-table', tokenColumns(w), W.rows.slice(0, 500), { sorted: { key: 'transfers', dir: 'descending' } })}
+<p class="downloads">${W.tokens > 500 ? `The top 500 of ${n0(W.tokens)} tokens. ` : ''}Every token, every window: <a href="${r}data/tokens.csv">CSV</a> · <a href="${r}data/tokens.json">JSON</a></p>`;
+  return page({ title: `Tokens, ${WINDOW_SHORT[w]} · ALGO Tables`, description: `The most active Algorand tokens ${WINDOW_PHRASE[w]}, by transfers and active wallets.`, depth, active: 'Tokens', body, meta });
+}
+
+function tokensPendingPage({ meta }) {
+  const body = `
+<h1>Tokens</h1>
+<p class="lede">The collector is reading its first day of asset transfers. This page fills in within a few runs.</p>`;
+  return page({ title: 'Tokens · ALGO Tables', description: 'The most active Algorand tokens, by transfers and active wallets.', depth: 1, active: 'Tokens', body, meta });
+}
+
+// One row per token, every window side by side.
+function tokensCSV(tokens) {
+  const byId = new Map();
+  for (const w of WINDOWS) {
+    for (const row of tokens.windows[w].rows) {
+      const entry = byId.get(row.id) ?? byId.set(row.id, { id: row.id, name: row.name, unit: row.unit }).get(row.id);
+      entry[`transfers_${w}`] = row.transfers;
+      entry[`wallets_${w}`] = Number(row.wallets.toFixed(2));
+    }
+  }
+  const rows = [...byId.values()].sort((a, b) => (b.transfers_24h ?? 0) - (a.transfers_24h ?? 0) || (b.transfers_30d ?? 0) - (a.transfers_30d ?? 0));
+  return toCSV(rows, ['id', 'name', 'unit', ...WINDOWS.flatMap((w) => [`transfers_${w}`, `wallets_${w}`])]);
+}
+
 function methodologyPage({ meta }) {
   const body = `
 <h1>How the numbers are made</h1>
@@ -323,8 +405,15 @@ function methodologyPage({ meta }) {
 <li><strong>Takes rewards</strong> is the account's incentive eligibility. Accounts that don't take rewards include the Foundation's.</li>
 <li><strong>Suspensions</strong> count the times the account appeared in a block's list of accounts suspended for absenteeism.</li>
 </ul>
+<h2>Tokens</h2>
+<ul>
+<li><strong>Transfers</strong> count asset transfers that move a non-zero amount, including the ones apps make on someone's behalf (inner transactions), such as DEX swaps. Opt-ins and other zero-amount transfers don't count. ALGO itself isn't an asset, so it isn't listed.</li>
+<li><strong>Active wallets</strong> are the distinct addresses that sent or received a token. For the last hour and 24 hours they're counted directly. For longer windows, each day's count is averaged over the days in the window, and a day when the token didn't move counts as zero.</li>
+<li><strong>Windows</strong>: the last hour and 24 hours run up to the newest block collected. 7, 30, 60 and 90 days are whole UTC days up to yesterday, and year to date runs from January 1 to yesterday.</li>
+<li>One-of-one NFTs (a total supply of 1) are left out. Names and unit names are whatever each asset's creator set on-chain and aren't verified, so check the asset ID before trusting a name.</li>
+</ul>
 <h2>Freshness and failures</h2>
-<p>A GitHub Actions job runs about every 15 minutes. Each run picks up new blocks, refreshes a slice of accounts and names, and spends any spare time filling in history. Before publishing, it checks that every round is counted exactly once and that no day pays more than the bonus allows; if a check fails, nothing is published and the site keeps its last good version. If a source is down, the run publishes what it has and lists the problem in <a href="../data/manifest.json">the data status file</a>.</p>
+<p>A GitHub Actions job runs about every 15 minutes. Each run picks up new blocks and asset transfers, refreshes a slice of accounts and names, and spends any spare time filling in history. Before publishing, it checks that every round is counted exactly once and that no day pays more than the bonus allows; if a check fails, nothing is published and the site keeps its last good version. If a source is down, the run publishes what it has and lists the problem in <a href="../data/manifest.json">the data status file</a>.</p>
 <h2>Data and code</h2>
 <p>Every table is available as CSV and JSON under <a href="../data/manifest.json">/data</a>. The collector is plain Node with no dependencies: <a href="${REPO}">${REPO.replace('https://', '')}</a>.</p>`;
   return page({ title: 'Method · ALGO Tables', description: 'How ALGO Tables computes its numbers.', depth: 1, active: 'Method', body, meta });
@@ -335,13 +424,18 @@ function notFoundPage({ meta }) {
   return page({ title: 'Not found · ALGO Tables', description: 'Page not found.', depth: 0, active: '', body, meta, root: '/' });
 }
 
-export async function renderSite(dir, { sb, stake, meta, manifest }) {
+export async function renderSite(dir, { sb, stake, tokens, meta, manifest }) {
   const assets = new URL('./assets/', import.meta.url);
   await cp(assets, `${dir}/assets`, { recursive: true });
   await writeOut(`${dir}/.nojekyll`, '');
-  await writeOut(`${dir}/index.html`, homePage({ sb, stake, meta }));
+  await writeOut(`${dir}/index.html`, homePage({ sb, stake, tokens, meta }));
   await writeOut(`${dir}/security-budget/index.html`, securityPage({ sb, meta }));
   await writeOut(`${dir}/stake/index.html`, stakePage({ stake, meta }));
+  if (tokens) {
+    for (const w of WINDOWS) await writeOut(`${dir}/${tokenPath(w)}`, tokensPage({ tokens, w, meta }));
+  } else {
+    await writeOut(`${dir}/tokens/index.html`, tokensPendingPage({ meta }));
+  }
   await writeOut(`${dir}/methodology/index.html`, methodologyPage({ meta }));
   await writeOut(`${dir}/404.html`, notFoundPage({ meta }));
 
@@ -350,5 +444,9 @@ export async function renderSite(dir, { sb, stake, meta, manifest }) {
   await writeOut(`${dir}/data/security-budget-daily.csv`, toCSV(sb.daily, ['date', 'partial', 'firstRound', 'lastRound', 'blocks', 'paidBlocks', 'payout', 'fees', 'txns', 'bonus', 'suspensions']));
   await writeOut(`${dir}/data/stake.json`, { generatedAt: meta.generatedAt, ...stake });
   await writeOut(`${dir}/data/stake.csv`, toCSV(stake.rows, ['address', 'name', 'stake', 'status', 'eligible', 'blocks7', 'blocks30', 'blocks90', 'expected30', 'ratio30', 'payout30', 'lastProposed', 'hoursSinceProposal', 'suspensions90']));
+  if (tokens) {
+    await writeOut(`${dir}/data/tokens.json`, { generatedAt: meta.generatedAt, ...tokens });
+    await writeOut(`${dir}/data/tokens.csv`, tokensCSV(tokens));
+  }
   await writeOut(`${dir}/data/manifest.json`, JSON.stringify(manifest, null, 2));
 }
