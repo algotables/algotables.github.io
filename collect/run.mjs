@@ -1,12 +1,12 @@
 // One collector run: pick up new blocks, sample the network, refresh accounts and names,
 // spend what's left on history, check everything, then render the site.
 // Usage: node collect/run.mjs <output dir>   (state lives in <dir>/state, the site in <dir>/site)
-import { readFile, rm } from 'node:fs/promises';
+import { readFile, rm, appendFile } from 'node:fs/promises';
 import { ALGOD, budget, getJSON, readState, writeOut, utcDay, addDays } from './lib.mjs';
 import { emptyChain, ingestForward, ingestBackfill, pruneTracking, proposersSince, sampleNetwork, thinSamples, TRACK_DAYS } from './chain.mjs';
 import { refreshAccounts, refreshNames, refreshPrice } from './sources.mjs';
 import { buildSecurityBudget, buildStake } from './build.mjs';
-import { emptyTokens, tokensForward, tokensBackfill, pruneTokenDays, refreshTokenMeta, verifyTokens, buildTokens, leaderboardIds } from './tokens.mjs';
+import { emptyTokens, tokensForward, tokensBackfill, pruneTokenDays, refreshTokenMeta, verifyTokens, buildTokens, leaderboardIds, tokenDaysMissing } from './tokens.mjs';
 import { renderSite } from './render.mjs';
 import { verify } from './verify.mjs';
 
@@ -37,7 +37,7 @@ const accounts = await readState(`${STATE}/accounts.json.gz`, {});
 const names = await readState(`${STATE}/names.json.gz`, {});
 const price = await readState(`${STATE}/price.json`, {});
 let T = (await readState(`${STATE}/tokens.json.gz`, null)) ?? emptyTokens();
-const tokensBefore = { fwd: T.fwd };
+const tokensBefore = { fwd: T.fwd, missing: tokenDaysMissing(T, today), part: T.part ? `${T.part.day}:${T.part.next}` : null };
 const foundation = JSON.parse(await readFile(new URL('../registry/foundation.json', import.meta.url), 'utf8'));
 
 const tip = await step('chain tip', async () => (await getJSON(`${ALGOD}/v2/status`))['last-round']);
@@ -121,4 +121,10 @@ await writeOut(`${STATE}/accounts.json.gz`, accounts);
 await writeOut(`${STATE}/names.json.gz`, names);
 await writeOut(`${STATE}/price.json`, price);
 await writeOut(`${STATE}/tokens.json.gz`, T);
-log(`done: rounds ${S.back}-${S.fwd}, ${days.length} days, ${budget.requests} requests, ${(budget.bytes / 1e6).toFixed(0)} MB, ${errors.length} problems; tokens at round ${T.fwd}, ${Object.keys(T.days).length} days`);
+// While history is still filling, ask for another run straight away (the workflow dispatches it),
+// but only if this run moved something forward, so a broken source can't loop.
+const missing = tokenDaysMissing(T, today);
+const moved = S.back < (before.back ?? Infinity) || missing < tokensBefore.missing || (T.part ? `${T.part.day}:${T.part.next}` : null) !== tokensBefore.part;
+const more = (!meta.historyDone || missing > 0) && moved;
+if (process.env.GITHUB_OUTPUT) await appendFile(process.env.GITHUB_OUTPUT, `more=${more}\n`);
+log(`done: rounds ${S.back}-${S.fwd}, ${days.length} days, ${budget.requests} requests, ${(budget.bytes / 1e6).toFixed(0)} MB, ${errors.length} problems; tokens at round ${T.fwd}, ${Object.keys(T.days).length} days, ${missing} to backfill; another run: ${more}`);

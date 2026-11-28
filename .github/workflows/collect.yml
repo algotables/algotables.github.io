@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write # to start the next run while history is filling
 
 concurrency:
   group: collect
@@ -20,9 +21,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      # Pushes get a longer run so history fills in faster; scheduled runs stay inside 15 minutes.
-      MAX_MINUTES: ${{ github.event_name == 'push' && '22' || '13' }}
-      MAX_MB: ${{ github.event_name == 'push' && '1800' || '1200' }}
+      # Pushes and chained runs get longer so history fills in faster; scheduled runs stay inside 15 minutes.
+      MAX_MINUTES: ${{ github.event_name == 'schedule' && '13' || '22' }}
+      MAX_MB: ${{ github.event_name == 'schedule' && '1200' || '1800' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -33,6 +34,7 @@ jobs:
       - name: Load the previous output
         run: git clone --quiet --depth 1 --branch site "https://github.com/${GITHUB_REPOSITORY}.git" out || mkdir -p out
       - name: Collect and render
+        id: collect
         run: node collect/run.mjs out
       - name: Publish to the site branch
         env:
@@ -49,6 +51,11 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: out/site
+      - name: Start the next run while history is filling
+        if: github.ref == 'refs/heads/main' && steps.collect.outputs.more == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run collect.yml --ref main
 
   deploy:
     if: github.ref == 'refs/heads/main'

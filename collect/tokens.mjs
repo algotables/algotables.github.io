@@ -150,6 +150,14 @@ export async function tokensBackfill(T, chainDays, today, reserveMs) {
   return `${finished} days finished${pending}, ${Object.keys(T.days).length} of ${TOKEN_DAYS} kept`;
 }
 
+// Whole days still to backfill (forward collection covers its start day onward).
+export function tokenDaysMissing(T, today) {
+  if (T.start == null) return TOKEN_DAYS;
+  let missing = 0;
+  for (let day = addDays(T.start, -1); day >= addDays(today, -TOKEN_DAYS); day = addDays(day, -1)) if (!T.days[day]) missing++;
+  return missing;
+}
+
 // Days older than TOKEN_DAYS leave the daily map; this year's are folded into the year-to-date totals.
 export function pruneTokenDays(T, today) {
   const oldest = addDays(today, -TOKEN_DAYS);
