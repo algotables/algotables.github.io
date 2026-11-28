@@ -1,83 +1,49 @@
-// One-off probe of the data sources for the Phase 1 collector.
-// Prints field names, page limits, sizes and one day of payout totals.
+// Second probe: round-range paging, FeeSink inflow search, price and NFD formats.
 const IDX = 'https://mainnet-idx.4160.nodely.dev';
 const ALGOD = 'https://mainnet-api.4160.nodely.dev';
 const HEADERS = { 'User-Agent': 'ALGO-Tables/2 (+https://algotables.github.io)' };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
 async function get(url) {
   const t0 = Date.now();
-  const res = await fetch(url, { headers: HEADERS });
+  const res = await fetch(url, { headers: HEADERS, signal: AbortSignal.timeout(60000) }).catch((e) => ({ status: 'ERR ' + e.message, text: async () => '' }));
   const text = await res.text();
-  let json = null;
-  try { json = JSON.parse(text); } catch {}
+  let json = null; try { json = JSON.parse(text); } catch {}
   return { status: res.status, ms: Date.now() - t0, bytes: text.length, json, text };
 }
+const SINK = 'Y76M3MSY6DKBRHBL7C3NNDXGS5IIMQVQVUAB6MP4XEMMGVF2QWNPL226CA';
 
-const st = await get(`${ALGOD}/v2/status`);
-console.log('algod status', st.status, 'last-round', st.json?.['last-round'], st.ms + 'ms');
-const sup = await get(`${ALGOD}/v2/ledger/supply`);
-console.log('supply', sup.status, sup.text.slice(0, 300));
-
-for (const lim of [1000, 5000]) {
-  const h = await get(`${IDX}/v2/block-headers?limit=${lim}&after-time=2026-08-01T00:00:00Z`);
-  console.log(`headers limit=${lim}`, h.status, h.ms + 'ms', h.bytes + 'B', 'count', h.json?.blocks?.length, 'next', h.json?.['next-token']);
-  if (h.status !== 200) console.log(h.text.slice(0, 500));
+const r1 = await get(`${IDX}/v2/block-headers?min-round=63636660&max-round=63636669&limit=1000`);
+console.log('min/max-round', r1.status, 'count', r1.json?.blocks?.length, 'rounds', r1.json?.blocks?.map((b) => b.round).join(','), r1.text.slice(0, 200));
+await sleep(300);
+const r2 = await get(`${IDX}/v2/block-headers?limit=1&after-time=2025-01-01T00:00:00Z`);
+console.log('2025-01-01 first round', r2.status, r2.json?.blocks?.[0]?.round, 'payout', r2.json?.blocks?.[0]?.['proposer-payout'], 'bonus', r2.json?.blocks?.[0]?.bonus);
+await sleep(300);
+for (const t of ['2025-01-20', '2025-01-23', '2025-01-24', '2025-01-28', '2025-02-05']) {
+  const r = await get(`${IDX}/v2/block-headers?limit=20&after-time=${t}T12:00:00Z`);
+  const bs = r.json?.blocks ?? [];
+  console.log('probe', t, 'round', bs[0]?.round, 'bonus', bs[0]?.bonus, 'payouts>0', bs.filter((b) => (b['proposer-payout'] ?? 0) > 0).length, 'of', bs.length);
   await sleep(300);
 }
-
-const first = await get(`${IDX}/v2/block-headers?limit=3&after-time=2026-08-01T00:00:00Z`);
-const b0 = first.json?.blocks?.[0] ?? {};
-console.log('block keys', Object.keys(b0).join(','));
-console.log('sample', JSON.stringify(b0).slice(0, 3500));
-
-// One full UTC day: 2026-08-01
-let next = null, pages = 0, bytes = 0, blocks = 0, paid = 0, payout = 0, fees = 0, bonus = 0;
-let firstTc = null, lastTc = null, absentEvents = 0, minRound = Infinity, maxRound = 0;
-const proposers = new Set();
-let feeSink = null;
-const t0 = Date.now();
-do {
-  const q = `${IDX}/v2/block-headers?limit=1000&after-time=2026-08-01T00:00:00Z&before-time=2026-08-02T00:00:00Z` + (next ? `&next=${next}` : '');
-  const r = await get(q);
-  if (r.status !== 200) { console.log('page error', r.status, r.text.slice(0, 300)); break; }
-  pages++; bytes += r.bytes;
-  for (const b of r.json.blocks ?? []) {
-    blocks++;
-    minRound = Math.min(minRound, b.round); maxRound = Math.max(maxRound, b.round);
-    const p = b['proposer-payout'] ?? 0;
-    payout += p; if (p > 0) paid++;
-    fees += b['fees-collected'] ?? 0;
-    bonus += b['bonus'] ?? 0;
-    if (b.proposer) proposers.add(b.proposer);
-    const abs = b['participation-updates']?.['absent-participation-accounts'] ?? [];
-    absentEvents += abs.length;
-    const tc = b['txn-counter'];
-    if (tc != null) { if (firstTc == null) firstTc = tc; lastTc = tc; }
-    feeSink ??= b.rewards?.['fee-sink'] ?? null;
-  }
-  next = r.json['next-token'] ?? null;
-  if (!(r.json.blocks ?? []).length) break;
-  await sleep(250);
-} while (next);
-console.log('DAY 2026-08-01', { pages, MB: (bytes / 1e6).toFixed(1), seconds: ((Date.now() - t0) / 1000).toFixed(0), blocks, minRound, maxRound, paidBlocks: paid, proposers: proposers.size, payoutALGO: (payout / 1e6).toFixed(2), feesALGO: (fees / 1e6).toFixed(2), bonusSumALGO: (bonus / 1e6).toFixed(2), txns: lastTc != null ? lastTc - firstTc : null, absentEvents, feeSink });
-console.log('Foundation August 2026 daily average for comparison: ' + (6.74e6 / 31).toFixed(0) + ' ALGO');
-
-if (feeSink) {
-  const acct = await get(`${ALGOD}/v2/accounts/${feeSink}?exclude=all`);
-  console.log('feesink account', acct.status, acct.text.slice(0, 400));
-  const tops = await get(`${IDX}/v2/accounts/${feeSink}/transactions?tx-type=pay&currency-greater-than=100000000000&limit=25`);
-  console.log('feesink big pays', tops.status, tops.bytes + 'B');
-  for (const t of tops.json?.transactions ?? []) {
+const q = [
+  `${IDX}/v2/transactions?address=${SINK}&address-role=receiver&tx-type=pay&currency-greater-than=1000000000000&limit=50`,
+  `${IDX}/v2/transactions?address=${SINK}&address-role=receiver&currency-greater-than=1000000000000&limit=50`,
+  `${IDX}/v2/accounts/${SINK}/transactions?currency-greater-than=1000000000000&limit=50`,
+];
+for (const u of q) {
+  const r = await get(u);
+  console.log('sink search', r.status, r.ms + 'ms', 'n', r.json?.transactions?.length, u.split('?')[1].slice(0, 90), r.status !== 200 ? r.text.slice(0, 200) : '');
+  for (const t of (r.json?.transactions ?? []).slice(0, 60)) {
     const pt = t['payment-transaction'] ?? {};
-    console.log('  ', new Date((t['round-time'] ?? 0) * 1000).toISOString().slice(0, 10), t.sender.slice(0, 8), '->', (pt.receiver ?? '').slice(0, 8), (pt.amount / 1e6).toFixed(0), 'ALGO');
+    if (pt.receiver !== SINK) continue;
+    console.log('   ', new Date((t['round-time'] ?? 0) * 1000).toISOString().slice(0, 10), t['confirmed-round'], t.sender, (pt.amount / 1e6).toFixed(0), 'ALGO');
   }
+  await sleep(500);
 }
-
-const some = [...proposers].slice(0, 5);
-const nfd = await get(`https://api.nf.domains/nfd/lookup?${some.map((a) => 'address=' + a).join('&')}&view=tiny&allowUnverified=true`);
-console.log('nfd lookup', nfd.status, nfd.text.slice(0, 600));
-if (some[0]) {
-  const a = await get(`${ALGOD}/v2/accounts/${some[0]}?exclude=all`);
-  console.log('proposer account', a.status, a.text.slice(0, 800));
-}
+const cg = await get('https://api.coingecko.com/api/v3/simple/price?ids=algorand&vs_currencies=usd');
+console.log('coingecko', cg.status, cg.text.slice(0, 200));
+const nfd = await get('https://api.nf.domains/nfd/lookup?address=AT5FZJ3SMNUA5EBVFB65TJ4T4T6KJZUFTXQFRXITQKXFBIGHJLPETATYUM&address=D6CCE7DL3GSVOCQDPWMNR5V7JEKGXOJACCU4A4K76DLJHZ4H47WRVBPUNY&view=tiny&allowUnverified=true');
+console.log('nfd', nfd.status, nfd.text.slice(0, 500));
+const st = await get(`${ALGOD}/v2/status`);
+console.log('algod last-round', st.json?.['last-round'], 'time-since-last-round', st.json?.['time-since-last-round']);
+const ih = await get(`${IDX}/health`);
+console.log('indexer health', ih.status, ih.text.slice(0, 300));
