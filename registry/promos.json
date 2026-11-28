@@ -1,5 +1,5 @@
 {
-  "label": "Our other projects",
+  "label": "Worth a look",
   "promos": [
     {"name": "Tardly", "text": "no-loss lottery", "url": "https://algotard.io/tardly", "show": true},
     {"name": "Eden Pods", "text": "food forest tracker", "url": "https://edenpods.app", "show": true}

@@ -26,7 +26,7 @@ const assetUrl = (() => {
   }
   return (root, name) => `${root}assets/${name}?v=${versions[name]}`;
 })();
-// Links to our other projects in the header, from registry/promos.json (set "show" to put one up).
+// Recommended links in the header, from registry/promos.json (set "show" to put one up).
 // Only https links are used.
 const PROMOS = JSON.parse(readFileSync(new URL('../registry/promos.json', import.meta.url), 'utf8'));
 function promoBar() {
