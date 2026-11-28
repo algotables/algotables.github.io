@@ -1,9 +1,11 @@
 name: collect
 
 on:
+  schedule:
+    - cron: '4,19,34,49 * * * *'
   push:
-    branches: [reboot/phase-1]
-    paths: ['collect/**', '.github/workflows/collect.yml']
+    branches: [main, reboot/phase-1]
+    paths: ['collect/**', 'registry/**', '.github/workflows/collect.yml']
   workflow_dispatch:
 
 permissions:
@@ -17,12 +19,47 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      # Pushes get a longer run so history fills in faster; scheduled runs stay inside 15 minutes.
+      MAX_MINUTES: ${{ github.event_name == 'push' && '22' || '13' }}
+      MAX_MB: ${{ github.event_name == 'push' && '1800' || '1200' }}
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Probe data sources
-        run: node collect/spike.mjs
+      - name: Smoke test
+        run: node collect/test.mjs
+      - name: Load the previous output
+        run: git clone --quiet --depth 1 --branch site "https://github.com/${GITHUB_REPOSITORY}.git" out || mkdir -p out
+      - name: Collect and render
+        run: node collect/run.mjs out
+      - name: Publish to the site branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd out
+          rm -rf .git
+          git init --quiet --initial-branch site
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit --quiet -m "Tables as of $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --quiet --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" site
+      - name: Package the site for Pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out/site
+
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    needs: collect
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

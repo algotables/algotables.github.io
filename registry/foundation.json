@@ -1,0 +1,19 @@
+{
+  "note": "Copied by hand from the Algorand Foundation's transparency reports and monthly reports, plus Blockworks' H1 2026 report. The reports' tables are in thousands; values here are whole ALGO and USD.",
+  "holdings": [
+    { "date": "2024-12-31", "algo": 1644796000, "usdInvestments": 38189000, "source": "https://algorand.co/hubfs/Website-2024/Transparency%20Reports/Algorand%20Foundation-Transparency%20Report%20Q1%202025-3.pdf" },
+    { "date": "2025-03-31", "algo": 1433822000, "usdInvestments": 38274000, "source": "https://algorand.co/hubfs/Website-2024/Transparency%20Reports/Algorand%20Foundation-Transparency%20Report%20Q1%202025-3.pdf" },
+    { "date": "2025-09-30", "algo": 1175000000, "usdInvestments": null, "note": "rounded to the nearest million in the report", "source": "https://algorand.co/hubfs/Algorand%20Transparency%20Report-Q3-2025_V3%20Final.pdf" },
+    { "date": "2025-12-31", "algo": 1134532000, "usdInvestments": 38301000, "source": "https://algorand.co/hubfs/Algorand%20Transparency%20Report%20Q1-2026.pdf" },
+    { "date": "2026-03-31", "algo": 1078875000, "usdInvestments": 37870000, "source": "https://algorand.co/hubfs/Algorand%20Transparency%20Report%20Q1-2026.pdf" }
+  ],
+  "reported": [
+    { "label": "2025, January to September", "from": "2025-01-01", "to": "2025-09-30", "algo": 49290000, "by": "Foundation Q3 2025 report", "source": "https://algorand.co/hubfs/Algorand%20Transparency%20Report-Q3-2025_V3%20Final.pdf" },
+    { "label": "Q3 2025", "from": "2025-07-01", "to": "2025-09-30", "algo": 19980000, "by": "Foundation Q3 2025 report", "source": "https://algorand.co/hubfs/Algorand%20Transparency%20Report-Q3-2025_V3%20Final.pdf" },
+    { "label": "Q4 2025", "from": "2025-10-01", "to": "2025-12-31", "algo": 20950000, "by": "Foundation Q4 2025 report", "source": "https://algorand.co/hubfs/Website-2024/Transparency%20Reports/Algorand%20-%20Transparency%20Report%20-%20Q4%20-%20V3%20-%20Final.pdf" },
+    { "label": "2025", "from": "2025-01-01", "to": "2025-12-31", "algo": 70240000, "by": "Foundation Q4 2025 report", "source": "https://algorand.co/hubfs/Website-2024/Transparency%20Reports/Algorand%20-%20Transparency%20Report%20-%20Q4%20-%20V3%20-%20Final.pdf" },
+    { "label": "H1 2026", "from": "2026-01-01", "to": "2026-06-30", "algo": 40150000, "by": "Blockworks H1 2026 report", "source": "https://blockworks.com/api/investor-report/algorand-token-holder-report-h1-2026/pdf" },
+    { "label": "August 2026", "from": "2026-08-01", "to": "2026-08-31", "algo": 6740000, "by": "Foundation, August 2026 Algo Insights", "source": "https://algorand.co/blog/august-2026-algo-insights-report" },
+    { "label": "2026, January to August", "from": "2026-01-01", "to": "2026-08-31", "algo": 53630000, "by": "Foundation, August 2026 Algo Insights", "source": "https://algorand.co/blog/august-2026-algo-insights-report" }
+  ]
+}
