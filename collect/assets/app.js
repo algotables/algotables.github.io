@@ -3,7 +3,7 @@ for (const table of document.querySelectorAll('table.sortable')) {
   const headers = [...table.tHead.rows[0].cells];
   headers.forEach((th, index) => {
     th.tabIndex = 0;
-    th.setAttribute('aria-sort', 'none');
+    if (!th.hasAttribute('aria-sort')) th.setAttribute('aria-sort', 'none');
     const sort = () => {
       const direction = th.getAttribute('aria-sort') === 'descending' ? 'ascending' : 'descending';
       headers.forEach((h) => h.setAttribute('aria-sort', 'none'));
@@ -32,6 +32,15 @@ for (const table of document.querySelectorAll('table.sortable')) {
     });
   });
 }
+
+// A table that fits its card keeps its header in view as the page scrolls; one that doesn't
+// (narrow screens) scrolls sideways inside its card instead.
+const cards = [...document.querySelectorAll('.card')];
+const fit = () => {
+  for (const card of cards) card.classList.toggle('fits', card.querySelector('table').offsetWidth <= card.clientWidth + 1);
+};
+fit();
+addEventListener('resize', fit);
 
 for (const input of document.querySelectorAll('input[data-filter]')) {
   const table = document.getElementById(input.dataset.filter);

@@ -71,7 +71,7 @@ for (const file of ['index.html', 'security-budget/index.html', 'stake/index.htm
 }
 const stakeHtml = await readFile(`${dir}/site/stake/index.html`, 'utf8');
 assert(!stakeHtml.includes('<script>.algo'), 'NFD names are escaped');
-assert(stakeHtml.includes('test&lt;script&gt;.algo'), 'escaped name is shown');
+assert(stakeHtml.includes('test&lt;script&gt;.<wbr>algo'), 'escaped name is shown');
 const sbHtml = await readFile(`${dir}/site/security-budget/index.html`, 'utf8');
 assert(sbHtml.includes('<svg viewBox'), 'chart rendered');
 assert(!/style="/.test(sbHtml + stakeHtml), 'no inline styles, so the CSP holds');
