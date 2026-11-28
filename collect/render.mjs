@@ -26,6 +26,14 @@ const assetUrl = (() => {
   }
   return (root, name) => `${root}assets/${name}?v=${versions[name]}`;
 })();
+// Links to our other projects in the header, from registry/promos.json (set "show" to put one up).
+// Only https links are used.
+const PROMOS = JSON.parse(readFileSync(new URL('../registry/promos.json', import.meta.url), 'utf8'));
+function promoBar() {
+  const shown = PROMOS.promos.filter((p) => p.show && /^https:\/\//.test(p.url ?? ''));
+  if (!shown.length) return '';
+  return `<div class="promos"><span class="promo-label">${esc(PROMOS.label)}</span>${shown.map((p) => `<a class="promo" href="${esc(p.url)}"><strong>${esc(p.name)}</strong> ${esc(p.text)}</a>`).join('')}</div>`;
+}
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -77,7 +85,7 @@ function page({ title, description, depth, active, body, meta, root }) {
 <script src="${assetUrl(r, 'app.js')}" defer></script>
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="brand" href="${r}index.html">ALGO Tables</a><nav aria-label="Main">${links}</nav></div></header>
+<header class="top"><div class="wrap"><a class="brand" href="${r}index.html">ALGO Tables</a><nav aria-label="Main">${links}</nav>${promoBar()}</div></header>
 <main class="wrap">
 ${stale}${body}
 </main>

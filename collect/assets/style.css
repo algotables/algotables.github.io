@@ -39,6 +39,12 @@ nav { display: flex; gap: 18px; flex-wrap: wrap; }
 nav a { color: var(--ink-2); text-decoration: none; }
 nav a:hover { color: var(--ink); }
 nav a[aria-current="page"] { color: var(--ink); font-weight: 600; }
+.promos { margin-left: auto; display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.promo-label { color: var(--ink-2); font-size: 0.75rem; }
+.promo { padding: 3px 10px; border: 1px solid var(--rule); border-radius: 999px; background: var(--plane); color: var(--ink-2); font-size: 0.8rem; text-decoration: none; }
+.promo strong { color: var(--ink); font-weight: 600; }
+.promo:hover { border-color: var(--series-1); color: var(--ink); }
+@media (max-width: 640px) { .promos { margin-left: 0; padding-bottom: 10px; } }
 h1 { font-size: 1.8rem; line-height: 1.2; margin: 32px 0 8px; }
 h2 { font-size: 1.2rem; margin: 40px 0 8px; }
 h2 a { color: inherit; }
