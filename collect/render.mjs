@@ -1,5 +1,7 @@
 // Static HTML for every page, plus the data files. No framework: plain strings, escaped.
 import { cp } from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { writeOut, toCSV } from './lib.mjs';
 import { WINDOWS } from './tokens.mjs';
 
@@ -15,6 +17,15 @@ const CSP = [
   "base-uri 'self'",
   "form-action 'none'",
 ].join('; ');
+// Each asset's URL carries a hash of its contents, so a browser holding an old copy fetches the new one
+// as soon as a deploy changes it (GitHub Pages lets browsers cache files for 10 minutes).
+const assetUrl = (() => {
+  const versions = {};
+  for (const name of ['style.css', 'app.js', 'ga.js']) {
+    versions[name] = createHash('sha256').update(readFileSync(new URL(`./assets/${name}`, import.meta.url))).digest('hex').slice(0, 10);
+  }
+  return (root, name) => `${root}assets/${name}?v=${versions[name]}`;
+})();
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -60,10 +71,10 @@ function page({ title, description, depth, active, body, meta, root }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="icon" href="${r}assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="${r}assets/style.css">
+<link rel="stylesheet" href="${assetUrl(r, 'style.css')}">
 <script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
-<script src="${r}assets/ga.js"></script>
-<script src="${r}assets/app.js" defer></script>
+<script src="${assetUrl(r, 'ga.js')}"></script>
+<script src="${assetUrl(r, 'app.js')}" defer></script>
 </head>
 <body>
 <header class="top"><div class="wrap"><a class="brand" href="${r}index.html">ALGO Tables</a><nav aria-label="Main">${links}</nav></div></header>
