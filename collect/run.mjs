@@ -42,7 +42,7 @@ const foundation = JSON.parse(await readFile(new URL('../registry/foundation.jso
 
 const tip = await step('chain tip', async () => (await getJSON(`${ALGOD}/v2/status`))['last-round']);
 if (tip) await step('new blocks', () => ingestForward(S, tip, trackFrom, 60_000));
-if (S.fwd != null) await step('token transfers', () => tokensForward(T, S.days, S.fwd, today, Number(process.env.TOKENS_FWD_MB || 600) * 1e6, 60_000));
+if (S.fwd != null) await step('token transfers', () => tokensForward(T, S.days, S.fwd, today, Number(process.env.TOKENS_FWD_MB || 900) * 1e6, 60_000));
 await step('network sample', async () => {
   const s = await sampleNetwork(S, samples, nowSec);
   return `online stake ${Math.round(s.online / 1e6)} ALGO, FeeSink ${s.sink != null ? Math.round(s.sink / 1e6) : 'unknown'} ALGO`;
@@ -57,11 +57,11 @@ await step('names', async () => {
   await refreshNames(names, recent, nowSec, 125, 4 * 60_000);
   return `${Object.values(names).filter((n) => n.name).length} named`;
 });
+await step('token names', () => refreshTokenMeta(T, leaderboardIds(buildTokens(T, today)), nowSec, 150, 45_000));
 await step('history', () => ingestBackfill(S, trackFrom, 90_000));
 await step('token history', () => tokensBackfill(T, S.days, today, 90_000));
 pruneTracking(S, trackFrom);
 pruneTokenDays(T, today);
-await step('token names', () => refreshTokenMeta(T, leaderboardIds(buildTokens(T, today)), nowSec, 150, 45_000));
 // A failed token check throws away this run's token changes; everything else still publishes.
 const tokensChecked = await step('token checks', () => {
   verifyTokens(T, tokensBefore, S.days);
