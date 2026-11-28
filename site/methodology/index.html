@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; base-uri 'self'; form-action 'none'">
+<title>Method · ALGO Tables</title>
+<meta name="description" content="How ALGO Tables computes its numbers.">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/style.css?v=1a86cb00ab">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-06STK04RPZ"></script>
+<script src="../assets/ga.js?v=defe41422a"></script>
+<script src="../assets/app.js?v=ea0a03d91c" defer></script>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="../index.html">ALGO Tables</a><nav aria-label="Main"><a href="../index.html">Home</a><a href="../security-budget/index.html">Security Budget</a><a href="../stake/index.html">Stake</a><a href="../tokens/index.html">Tokens</a><a href="../methodology/index.html" aria-current="page">Method</a></nav><div class="promos"><span class="promo-label">Worth a look</span><a class="promo" href="https://algotard.io/tardly"><strong>Tardly</strong> no-loss lottery</a><a class="promo" href="https://edenpods.app"><strong>Eden Pods</strong> food forest tracker</a></div></div></header>
+<main class="wrap">
+
+<h1>How the numbers are made</h1>
+<p class="lede">Everything here is computed from public chain data with a method anyone can repeat. ALGO Tables reports numbers and says how it got them; it doesn't take sides.</p>
+<h2>Where the data comes from</h2>
+<ul>
+<li><strong>Block headers</strong> from Nodely's free Algorand indexer: every block's proposer, payout, fees, bonus and the accounts suspended in it, back to the start of staking rewards in January 2025.</li>
+<li><strong>Accounts and supply</strong> from Nodely's free algod API: each proposer's balance, status and reward eligibility, online stake, and the FeeSink balance.</li>
+<li><strong>Names</strong> from the NFD API, verified links only.</li>
+<li><strong>ALGO price</strong> from CoinGecko, used only to show rough dollar figures.</li>
+<li><strong>Foundation holdings and published totals</strong>, copied by hand from the Foundation's transparency reports and monthly reports into <a href="https://github.com/algotables/algotables.github.io/tree/main/registry">a file in the repo</a>.</li>
+</ul>
+<h2>Security Budget</h2>
+<ul>
+<li><strong>Paid to validators</strong> is the sum of each block's proposer payout. A block pays nothing when its proposer isn't eligible for rewards, which is why the share of blocks that pay out stays near the community's share of stake.</li>
+<li><strong>Fees</strong> are the fees collected in each block. All fees go to the FeeSink; half go back out to proposers.</li>
+<li><strong>Fee per transaction that would replace the bonus</strong> is twice the payouts divided by the transactions, because proposers receive half of fees.</li>
+<li><strong>FeeSink runway</strong> is the FeeSink balance divided by its average daily drain (payouts minus fees) over the last 7 full days. It assumes no top-ups.</li>
+<li><strong>Bonus projection</strong> applies the 1% drop per million blocks to today's bonus, at the last 30 days' block time, to the end of January 2028.</li>
+<li><strong>Top-ups</strong> are inferred from the FeeSink balance between updates; only changes above 100,000 ALGO count, and only when both updates were at the chain tip.</li>
+</ul>
+<h2>Stake</h2>
+<ul>
+<li><strong>Expected blocks</strong> are the blocks in the window times the account's current online stake divided by total online stake. The protocol expects an account to propose once every <em>n</em> rounds, where <em>n</em> is total online stake divided by its own, and suspends it after 20<em>n</em> rounds without a block.</li>
+<li>Stake is the account's balance now, not over the whole window, so accounts whose balance changed recently will look lucky or unlucky.</li>
+<li><strong>Takes rewards</strong> is the account's incentive eligibility. Accounts that don't take rewards include the Foundation's.</li>
+<li><strong>Suspensions</strong> count the times the account appeared in a block's list of accounts suspended for absenteeism.</li>
+</ul>
+<h2>Tokens</h2>
+<ul>
+<li><strong>Transfers</strong> count asset transfers that move a non-zero amount, including the ones apps make on someone's behalf (inner transactions), such as DEX swaps. Opt-ins and other zero-amount transfers don't count. ALGO itself isn't an asset, so it isn't listed.</li>
+<li><strong>Active wallets</strong> are the distinct addresses that sent or received a token. For the last hour and 24 hours they're counted directly. For longer windows, each day's count is averaged over the days in the window, and a day when the token didn't move counts as zero.</li>
+<li><strong>Windows</strong>: the last hour and 24 hours run up to the newest block collected. 7, 30, 60 and 90 days are whole UTC days up to yesterday, and year to date runs from January 1 to yesterday.</li>
+<li>One-of-one NFTs (a total supply of 1) are left out. Names and unit names are whatever each asset's creator set on-chain and aren't verified, so check the asset ID before trusting a name.</li>
+</ul>
+<h2>Freshness and failures</h2>
+<p>A GitHub Actions job runs about every 15 minutes. Each run picks up new blocks and asset transfers, refreshes a slice of accounts and names, and spends any spare time filling in history. Before publishing, it checks that every round is counted exactly once and that no day pays more than the bonus allows; if a check fails, nothing is published and the site keeps its last good version. If a source is down, the run publishes what it has and lists the problem in <a href="../data/manifest.json">the data status file</a>.</p>
+<h2>Data and code</h2>
+<p>Every table is available as CSV and JSON under <a href="../data/manifest.json">/data</a>. The collector is plain Node with no dependencies: <a href="https://github.com/algotables/algotables.github.io">github.com/algotables/algotables.github.io</a>.</p>
+</main>
+<footer class="wrap foot">
+<p>Chain data through round 67,389,180 (2026-11-28 17:31 UTC), refreshed about every 15 minutes from Algorand blocks and asset transfers via Nodely's free API. <a href="../methodology/index.html">How the numbers are made</a> · <a href="../data/manifest.json">Data status</a> · <a href="https://github.com/algotables/algotables.github.io">Code</a></p>
+<p>ALGO Tables is independent and free. Tips go to <a href="https://allo.info/account/AT5FZJ3SMNUA5EBVFB65TJ4T4T6KJZUFTXQFRXITQKXFBIGHJLPETATYUM">algotables.algo</a>.</p>
+</footer>
+</body>
+</html>

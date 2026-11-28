@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; base-uri 'self'; form-action 'none'">
+<title>ALGO Tables: independent Algorand data</title>
+<meta name="description" content="Independent tables built from the Algorand chain: who pays validators, how stake performs, and more.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css?v=1a86cb00ab">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-06STK04RPZ"></script>
+<script src="assets/ga.js?v=defe41422a"></script>
+<script src="assets/app.js?v=ea0a03d91c" defer></script>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="index.html">ALGO Tables</a><nav aria-label="Main"><a href="index.html" aria-current="page">Home</a><a href="security-budget/index.html">Security Budget</a><a href="stake/index.html">Stake</a><a href="tokens/index.html">Tokens</a><a href="methodology/index.html">Method</a></nav><div class="promos"><span class="promo-label">Worth a look</span><a class="promo" href="https://algotard.io/tardly"><strong>Tardly</strong> no-loss lottery</a><a class="promo" href="https://edenpods.app"><strong>Eden Pods</strong> food forest tracker</a></div></div></header>
+<main class="wrap">
+
+<h1>ALGO Tables</h1>
+<p class="lede">Independent tables built straight from the Algorand chain and refreshed every 15 minutes. Each page says how its numbers are made, and every table downloads as CSV or JSON.</p>
+<h2><a href="security-budget/index.html">Security Budget</a></h2>
+<p>Who pays Algorand's validators, how much, and for how long.</p>
+<div class="tiles">
+<div class="tile"><div class="label">Paid to validators, last 30 days</div><div class="value">6.33M ALGO</div><div class="note">about $491.5K</div></div>
+<div class="tile"><div class="label">Fees collected, as a share of payouts</div><div class="value">0.50%</div><div class="note">31.49K ALGO over the same days</div></div>
+<div class="tile"><div class="label">FeeSink runway without top-ups</div><div class="value">43 days</div><div class="note">8.85M ALGO in the FeeSink</div></div>
+<div class="tile"><div class="label">Bonus per block</div><div class="value">8.1 ALGO</div><div class="note">about 7.08 by the end of January 2028</div></div>
+</div>
+<h2><a href="stake/index.html">Stake</a></h2>
+<p>Every account that proposed a block in the last 90 days, and how its blocks compare with its stake.</p>
+<div class="tiles">
+<div class="tile"><div class="label">Online stake</div><div class="value">2.03B ALGO</div></div>
+<div class="tile"><div class="label">Accounts proposing, last 30 days</div><div class="value">1,489</div></div>
+<div class="tile"><div class="label">Largest proposers holding a third of online stake</div><div class="value">13</div></div>
+<div class="tile"><div class="label">Suspensions for absenteeism, last 90 days</div><div class="value">759</div></div>
+</div>
+<h2><a href="tokens/index.html">Tokens</a></h2>
+<p>The most active tokens by transfers, from the last hour to the year so far.</p>
+<div class="card"><table id="home-tokens" class="sortable"><thead><tr><th scope="col" class="num" data-type="num">#</th><th scope="col">Token</th><th scope="col" class="num" data-type="num" aria-sort="descending">Transfers</th><th scope="col" class="num" data-type="num">Active wallets</th></tr></thead><tbody>
+<tr><td class="num" data-v="1">1</td><td><a class="tok" href="https://allo.info/asset/849191641">Hesab Afghani</a><span class="muted sub">HAFN · 849191641</span></td><td class="num" data-v="51362">51,362</td><td class="num" data-v="14472">14,472</td></tr>
+<tr><td class="num" data-v="2">2</td><td><a class="tok" href="https://allo.info/asset/3145862805">World Chess Progress Points</a><span class="muted sub">WCPP · 3145862805</span></td><td class="num" data-v="30580">30,580</td><td class="num" data-v="6005">6,005</td></tr>
+<tr><td class="num" data-v="3">3</td><td><a class="tok" href="https://allo.info/asset/31566704">USDC</a><span class="muted sub">USDC · 31566704</span></td><td class="num" data-v="23184">23,184</td><td class="num" data-v="3481">3,481</td></tr>
+<tr><td class="num" data-v="4">4</td><td><a class="tok" href="https://allo.info/asset/3737581431">Nodely Ping</a><span class="muted sub">NDLYPING · 3737581431</span></td><td class="num" data-v="7499">7,499</td><td class="num" data-v="24">24</td></tr>
+<tr><td class="num" data-v="5">5</td><td><a class="tok" href="https://allo.info/asset/1284444444">Orange</a><span class="muted sub">ORA · 1284444444</span></td><td class="num" data-v="6672">6,672</td><td class="num" data-v="42">42</td></tr>
+</tbody></table></div><p class="downloads">Last 24 hours. <a href="tokens/index.html">All tokens and windows</a></p>
+<h2>Coming next</h2>
+<ul>
+<li><strong>Token pages</strong>: holders and activity over time for each token.</li>
+<li><strong>Apps</strong>: which Algorand apps are actually used, measured on-chain.</li>
+</ul>
+<h2>Done well elsewhere</h2>
+<ul class="elsewhere">
+<li><a href="https://allo.info">Allo</a> and <a href="https://explorer.perawallet.app">Pera Explorer</a> for accounts, assets and transactions; <a href="https://lora.algokit.io">Lora</a> for developers</li>
+<li><a href="https://hay.app">Haystack</a> for prices, charts and swaps</li>
+<li><a href="https://defillama.com/chain/algorand">DefiLlama</a> for DeFi TVL and fees</li>
+<li><a href="https://www.asastats.com">ASA Stats</a> for portfolios</li>
+</ul>
+</main>
+<footer class="wrap foot">
+<p>Chain data through round 67,389,180 (2026-11-28 17:31 UTC), refreshed about every 15 minutes from Algorand blocks and asset transfers via Nodely's free API. <a href="methodology/index.html">How the numbers are made</a> · <a href="data/manifest.json">Data status</a> · <a href="https://github.com/algotables/algotables.github.io">Code</a></p>
+<p>ALGO Tables is independent and free. Tips go to <a href="https://allo.info/account/AT5FZJ3SMNUA5EBVFB65TJ4T4T6KJZUFTXQFRXITQKXFBIGHJLPETATYUM">algotables.algo</a>.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-11-28T17:31:14.000Z",
+  "chain": {
+    "fromRound": 46500000,
+    "toRound": 67389180,
+    "fromDay": "2025-01-23",
+    "toDay": "2026-11-28",
+    "newestBlock": "2026-11-28T17:31:12.000Z",
+    "historyComplete": true,
+    "historyProgress": 1
+  },
+  "datasets": {
+    "security-budget": {
+      "months": 23,
+      "days": 675,
+      "files": [
+        "security-budget.json",
+        "security-budget-monthly.csv",
+        "security-budget-daily.csv"
+      ]
+    },
+    "stake": {
+      "accounts": 1662,
+      "files": [
+        "stake.json",
+        "stake.csv"
+      ]
+    },
+    "tokens": {
+      "asOf": "2026-11-28T17:31:12.000Z",
+      "windows": {
+        "1h": {
+          "tokens": 157,
+          "transfers": 4871,
+          "complete": true
+        },
+        "24h": {
+          "tokens": 1461,
+          "transfers": 146342,
+          "complete": true
+        },
+        "7d": {
+          "tokens": 10943,
+          "transfers": 1497106,
+          "complete": true,
+          "days": 7,
+          "of": 7,
+          "from": "2026-11-21",
+          "to": "2026-11-27"
+        },
+        "30d": {
+          "tokens": 32296,
+          "transfers": 7005089,
+          "complete": true,
+          "days": 30,
+          "of": 30,
+          "from": "2026-10-29",
+          "to": "2026-11-27"
+        },
+        "60d": {
+          "tokens": 56003,
+          "transfers": 13588418,
+          "complete": true,
+          "days": 60,
+          "of": 60,
+          "from": "2026-09-29",
+          "to": "2026-11-27"
+        },
+        "90d": {
+          "tokens": 73867,
+          "transfers": 20769275,
+          "complete": true,
+          "days": 90,
+          "of": 90,
+          "from": "2026-08-30",
+          "to": "2026-11-27"
+        },
+        "ytd": {
+          "tokens": 73867,
+          "transfers": 20769275,
+          "complete": false,
+          "days": 90,
+          "of": 331,
+          "from": "2026-08-30",
+          "to": "2026-11-27"
+        }
+      },
+      "files": [
+        "tokens.json",
+        "tokens.csv"
+      ]
+    }
+  },
+  "sources": {
+    "price": "2026-11-28T17:31:14.000Z",
+    "accountsKnown": 1662,
+    "namesKnown": 1662
+  },
+  "run": {
+    "requests": 998,
+    "megabytes": 1145.4,
+    "seconds": 264
+  },
+  "errors": []
+}
