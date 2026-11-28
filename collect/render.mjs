@@ -305,8 +305,9 @@ const WINDOW_SHORT = { '1h': '1h', '24h': '24h', '7d': '7d', '30d': '30d', '60d'
 const WINDOW_PHRASE = { '1h': 'in the last hour', '24h': 'in the last 24 hours', '7d': 'over the last 7 days', '30d': 'over the last 30 days', '60d': 'over the last 60 days', '90d': 'over the last 90 days', ytd: 'so far this year' };
 const tokenPath = (w) => (w === '24h' ? 'tokens/index.html' : `tokens/${w}/index.html`);
 const tokenName = (row) => row.name || row.unit || `ASA ${row.id}`;
+// Name, then unit and asset ID underneath; a token with neither name nor unit shows just its ID.
 const tokenLink = (row) =>
-  `<a class="tok" href="https://allo.info/asset/${row.id}">${esc(tokenName(row))}</a><span class="muted sub">${row.unit && row.name ? `${esc(row.unit)} · ` : ''}${row.id}</span>`;
+  `<a class="tok" href="https://allo.info/asset/${row.id}">${esc(tokenName(row))}</a>${row.name || row.unit ? `<span class="muted sub">${row.unit && row.name ? `${esc(row.unit)} · ` : ''}${row.id}</span>` : ''}`;
 const isRolling = (w) => w === '1h' || w === '24h';
 const walletFmt = (w) => (v) => (isRolling(w) || v >= 10 ? n0(v) : n1(v));
 
@@ -328,7 +329,7 @@ function tokenCoverage(tokens, w, meta) {
     return behind ? `<p class="notice">Transfers here run to ${utc(tokens.asOf)}.</p>` : '';
   }
   if (c.complete) return '';
-  if (w === 'ytd') return `<p class="notice">Collection started on ${esc(c.from ?? 'today')}, so this year's totals cover ${n0(c.days)} of ${n0(c.of)} days. From January 1 they cover the whole year.</p>`;
+  if (w === 'ytd') return `<p class="notice">Data here starts on ${esc(c.from ?? 'today')}, so this year's totals cover ${n0(c.days)} of ${n0(c.of)} days. From January 1 they cover the whole year.</p>`;
   return `<p class="notice">Collected so far: ${n0(c.days)} of ${n0(c.of)} days${c.from ? ` (${esc(c.from)} to ${esc(c.to)})` : ''}. The rest fills in as the collector works back through older days.</p>`;
 }
 
@@ -339,14 +340,16 @@ function tokensPage({ tokens, w, meta }) {
   const top = W.rows[0];
   const switcher = `<nav class="windows" aria-label="Time window">${WINDOWS.map((x) => `<a href="${r}${tokenPath(x)}"${x === w ? ' aria-current="page"' : ''}>${WINDOW_SHORT[x]}</a>`).join('')}</nav>`;
   const walletsText = top ? (isRolling(w) ? `${n0(top.wallets)} active wallets` : `about ${walletFmt(w)(top.wallets)} active wallets a day`) : '';
+  // Until a daily window is fully collected, say what the numbers actually cover.
+  const phrase = isRolling(w) || W.coverage.complete ? WINDOW_PHRASE[w] : `over the ${n0(W.coverage.days)} ${W.coverage.days === 1 ? 'day' : 'days'} collected so far`;
   const body = `
 <h1>Tokens</h1>
-${top ? `<p class="finding">${esc(tokenName(top))} was the most active token ${WINDOW_PHRASE[w]}: ${n0(top.transfers)} transfers, ${pct(top.share, 0)} of all of them, with ${walletsText}.</p>` : ''}
+${top ? `<p class="finding">${esc(tokenName(top))} was the most active token ${phrase}: ${n0(top.transfers)} transfers, ${pct(top.share, 0)} of all of them, with ${walletsText}.</p>` : ''}
 <p class="lede">Algorand tokens ranked by how often they moved. A transfer is any asset transfer of a non-zero amount, including the ones apps make, such as DEX swaps. Active wallets are the addresses that sent or received the token.</p>
 ${switcher}
 ${tokenCoverage(tokens, w, meta)}
 <div class="tiles">
-${tile(`Transfers ${WINDOW_PHRASE[w]}`, n0(W.total))}
+${tile(`Transfers ${phrase}`, n0(W.total))}
 ${tile('Tokens that moved', n0(W.tokens))}
 </div>
 <label class="search-label" for="token-search">Find a token</label>
