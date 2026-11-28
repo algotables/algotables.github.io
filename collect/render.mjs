@@ -226,6 +226,7 @@ function securityPage({ sb, meta }) {
   ], sb.checks);
   const body = `
 <h1>Security Budget</h1>
+${ok(h.payout30) && h.windowDays ? `<p class="finding">In the last ${h.windowDays} days validators were paid ${compact(h.payout30)} ALGO, and fees covered ${pct(h.feeShare30, 2)} of it.</p>` : ''}
 <p class="lede">Every block pays its proposer from the FeeSink: half the block's fees plus a bonus the Foundation funds. The bonus started at 10 ALGO a block in January 2025 and drops 1% every million blocks, and the Foundation has committed to it through January 2028. This page tracks what the bonus costs, how much fees cover, and how long the FeeSink lasts.</p>
 ${coverageNote(meta)}
 <div class="tiles">
@@ -272,6 +273,7 @@ function stakePage({ stake, meta }) {
   const rows = stake.rows.map((r, i) => ({ ...r, rank: i + 1 }));
   const body = `
 <h1>Stake</h1>
+${ok(s.thirdCount) ? `<p class="finding">${n0(s.proposers30)} accounts proposed blocks in the last ${s.windowDays.d30} days; the largest ${n0(s.thirdCount)} of them hold a third of online stake.</p>` : ''}
 <p class="lede">Every account that proposed a block in the last ${s.windowDays.d90} days. "Expected" is what the account's current share of online stake predicts: an account with 1% of the stake should propose about 1% of blocks. Luck matters a lot for small accounts, so the ratio only shows once 5 blocks are expected.</p>
 ${coverageNote(meta)}
 <div class="tiles">

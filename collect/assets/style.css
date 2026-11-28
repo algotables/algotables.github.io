@@ -43,6 +43,7 @@ h1 { font-size: 1.8rem; line-height: 1.2; margin: 32px 0 8px; }
 h2 { font-size: 1.2rem; margin: 40px 0 8px; }
 h2 a { color: inherit; }
 .lede { color: var(--ink-2); max-width: 75ch; }
+.finding { font-size: 1.2rem; line-height: 1.4; max-width: 60ch; margin: 4px 0 12px; text-wrap: balance; }
 .notice { background: var(--notice); border: 1px solid var(--rule); border-radius: 8px; padding: 10px 14px; max-width: 75ch; }
 .muted { color: var(--ink-2); }
 .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin: 20px 0 8px; }
