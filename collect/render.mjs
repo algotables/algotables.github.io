@@ -29,8 +29,11 @@ const pct = (v, digits = 1) => (ok(v) ? `${(v * 100).toFixed(digits)}%` : '—')
 const short = (address) => `${address.slice(0, 5)}…${address.slice(-4)}`;
 const monthLabel = (key) => `${MONTHS[Number(key.slice(5, 7)) - 1]} '${key.slice(2, 4)}`;
 const utc = (sec) => new Date(sec * 1000).toISOString().replace('T', ' ').slice(0, 16) + ' UTC';
+// Long NFD names may break after a dot, so a narrow window can still fit the whole table.
 const accountLink = (address, name) =>
-  `<a class="addr" href="https://allo.info/account/${address}">${name ? esc(name) : short(address)}</a>${name ? ` <span class="addr muted">${short(address)}</span>` : ''}`;
+  name
+    ? `<a class="addr name" href="https://allo.info/account/${address}">${esc(name).replaceAll('.', '.<wbr>')}</a><span class="addr muted sub">${short(address)}</span>`
+    : `<a class="addr" href="https://allo.info/account/${address}">${short(address)}</a>`;
 
 function page({ title, description, depth, active, body, meta, root }) {
   const r = root ?? '../'.repeat(depth);
@@ -76,8 +79,10 @@ ${stale}${body}
 const tile = (label, value, note = '') =>
   `<div class="tile"><div class="label">${esc(label)}</div><div class="value">${value}</div>${note ? `<div class="note">${note}</div>` : ''}</div>`;
 
-function table(id, columns, rows, { rowKey } = {}) {
-  const head = columns.map((c) => `<th scope="col"${c.num ? ' class="num" data-type="num"' : ''}>${esc(c.label)}</th>`).join('');
+function table(id, columns, rows, { rowKey, sorted } = {}) {
+  const head = columns
+    .map((c) => `<th scope="col"${c.num ? ' class="num" data-type="num"' : ''}${sorted?.key === c.key ? ` aria-sort="${sorted.dir}"` : ''}>${esc(c.label)}</th>`)
+    .join('');
   const body = rows
     .map((row) => {
       const cells = columns
@@ -263,12 +268,12 @@ function stakePage({ stake, meta }) {
     { key: 'eligible', label: 'Takes rewards', fmt: (v) => (v == null ? '—' : v ? 'yes' : 'no') },
     { key: 'blocks7', label: 'Blocks, 7 days', num: true, fmt: n0 },
     { key: 'blocks30', label: 'Blocks, 30 days', num: true, fmt: n0 },
-    { key: 'expected30', label: 'Expected, 30 days', num: true, fmt: (v) => (ok(v) ? v.toFixed(1) : '—') },
+    { key: 'expected30', label: 'Expected, 30 days', num: true, fmt: (v) => (ok(v) ? (v >= 100 ? n0(v) : v.toFixed(1)) : '—') },
     { key: 'ratio30', label: 'Actual ÷ expected', num: true, fmt: (v) => (ok(v) ? v.toFixed(2) : '—') },
     { key: 'blocks90', label: 'Blocks, 90 days', num: true, fmt: n0 },
-    { key: 'payout30', label: 'Paid, 30 days (ALGO)', num: true, fmt: n2 },
-    { key: 'hoursSinceProposal', label: 'Last block (hours ago)', num: true, fmt: (v) => (ok(v) ? (v < 10 ? v.toFixed(1) : n0(v)) : '—') },
-    { key: 'suspensions90', label: 'Suspensions, 90 days', num: true, fmt: n0 },
+    { key: 'payout30', label: 'ALGO paid, 30 days', num: true, fmt: n0 },
+    { key: 'hoursSinceProposal', label: 'Since last block', num: true, fmt: (v) => (ok(v) ? (v < 10 ? `${v.toFixed(1)} h` : v < 48 ? `${n0(v)} h` : `${n0(v / 24)} d`) : '—') },
+    { key: 'suspensions90', label: 'Suspended, 90 days', num: true, fmt: n0 },
   ];
   const rows = stake.rows.map((r, i) => ({ ...r, rank: i + 1 }));
   const body = `
@@ -285,7 +290,7 @@ ${tile(`Suspensions for absenteeism, last ${s.windowDays.d90} days`, n0(s.suspen
 </div>
 <label class="search-label" for="stake-search">Find an account</label>
 <input id="stake-search" class="search" type="search" placeholder="Address or NFD name" data-filter="stake-table" autocomplete="off">
-${table('stake-table', columns, rows)}
+${table('stake-table', columns, rows, { sorted: { key: 'stake', dir: 'descending' } })}
 <p class="downloads">Download: <a href="../data/stake.csv">CSV</a> · <a href="../data/stake.json">JSON</a></p>`;
   return page({ title: 'Stake · ALGO Tables', description: 'Every Algorand account that proposed a block in the last 90 days, with blocks against stake.', depth: 1, active: 'Stake', body, meta });
 }
