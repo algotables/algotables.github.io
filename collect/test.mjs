@@ -110,4 +110,5 @@ const tokensHtml = await readFile(`${dir}/site/tokens/index.html`, 'utf8');
 assert(tokensHtml.includes('Test &lt;b&gt;Coin&lt;/b&gt;') && !tokensHtml.includes('<b>Coin'), 'token names are escaped');
 assert(tokensHtml.includes('href="../tokens/7d/index.html"') && (await readFile(`${dir}/site/tokens/7d/index.html`, 'utf8')).includes('href="../../tokens/index.html"'), 'window links resolve from both depths');
 assert(!/style="/.test(sbHtml + stakeHtml + tokensHtml), 'no inline styles, so the CSP holds');
+assert(/href="\.\.\/assets\/style\.css\?v=[0-9a-f]{10}"/.test(tokensHtml) && /assets\/app\.js\?v=[0-9a-f]{10}/.test(tokensHtml), 'asset URLs carry a content hash');
 console.log('all checks passed; output in', dir);
